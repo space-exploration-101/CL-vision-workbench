@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "completed_at_utc": "2026-10-12T13:16:27.167211+00:00",
+  "root": "/data1/ywang/pose21-raw-gray-test500-20261012-v1",
+  "directory_mapping": {
+    "metadata": "1-metadata",
+    "raw": "2-raw",
+    "gray": "3-gray",
+    "net1280": "4-net1280"
+  },
+  "legacy_paths": "relative compatibility symlinks; no duplicate data",
+  "planned_empty_directories": [
+    "5-cam2000",
+    "6-cam2000_bin"
+  ],
+  "generation_graph": [
+    "2-raw -> 3-gray -> 4-net1280 -> PT evaluation",
+    "3-gray -> 5-cam2000 -> 6-cam2000_bin (not executed)"
+  ],
+  "counts": {
+    "2-raw": {
+      "images": 500,
+      "labels": 500
+    },
+    "3-gray": {
+      "images": 500,
+      "labels": 500
+    },
+    "4-net1280": {
+      "images": 500,
+      "labels": 500
+    }
+  },
+  "verified_files": {
+    "baseline": 2007,
+    "net1280": 1004,
+    "results": 1013
+  },
+  "unchanged_sha256": {
+    "SHA256SUMS": "a1c98038c09a00233ad9f455f5f35b7927f8ac0aa3f02c16d03e303c0a113eea",
+    "VERIFIED": "889c5892f7842ea5e2ce08983ca27cbacdeeeb76a629a789a9be0730a5c0b4e5",
+    "metadata/selection.json": "0e50a78880c7c52be9e87cbfe25620ecea4d3f053e4414343b3e1bfba91f75a1",
+    "net1280/SHA256SUMS": "0bbc4fd0ced05953c69ad0f96b4910943b1425362589a0155f8c6ebd63332370",
+    "net1280/VERIFIED": "227281e76d9655fc7942e1e9787dde6e7c6adb8564e1283ca9e9a63ed06be8d2",
+    "results/pt_eval_20261012_v1/SHA256SUMS": "0fa102b38c04b1629a7a32702fb083afd67e7d85f8c66391cf69ef44822358e9",
+    "results/pt_eval_20261012_v1/VERIFIED": "8068753265ea7e40cc0d6dd2d212dddb60ead59d48972ed4b95a29daca60a330",
+    "model.pt": "622cff54db472b61c85db03648b36c119f030eacbd4cd87cf5d2dda67e69d6a7"
+  },
+  "rollback": "Remove only the four compatibility symlinks, rename numbered directories back, remove planned directories only if still empty. Preserve this audit record."
+}

@@ -1,0 +1,55 @@
+task_type: pt_test_bbox_center_evaluation
+run_id: epoch75_strip_bbox_center_eval_20260918_152813
+started_at: "2026-09-18T15:28:13+08:00"
+status: BLOCKED
+authorization:
+  remote_read: true
+  gpu_inference: true
+  nas_write: false
+requested_gpu:
+  physical_index: 0
+  uuid: GPU-a86513cc-4848-d073-b250-2268b9c3458c
+requested_dataset:
+  images: /data3/ywang/yolo-gray1-datasets/pose21-gray1-1280-m-v1/images/test
+  labels: /data3/ywang/yolo-gray1-datasets/pose21-gray1-1280-m-v1/labels/test
+resolved_historical_r_only_dataset:
+  images: /data2/ai-i-chenshiwen/auto_landmark/Dataset/yolo_full/images/test
+  labels: /data2/ai-i-chenshiwen/auto_landmark/Dataset/yolo_full/labels/test
+  image_count: 6600
+  label_count: 6600
+checkpoint:
+  path: /mnt/ywang-nas/0-项目/13-专项/2-数据集/ERA计算试验数据/20260918_21个地标运行结果/epoch75_strip.pt
+  sha256: c03c9f09346009ac5e5913077b0d91b8045d79c38b6560b3c4784665ea1549f9
+  bytes: 199090367
+  task: pose
+  input_channels: 3
+  nc: 22
+  kpt_shape: [1, 3]
+  imgsz: 1024
+runtime:
+  python: "3.12.12"
+  source: historical leo runtime archive
+  ultralytics_source: /data2/ai-i-chenshiwen/auto_landmark/Yolo_fine/ultralytics
+  ultralytics_version: "8.3.98"
+  inference_in_gray1_image: false
+blocking_conditions:
+  - The checkpoint is nc=22, but the requested dataset is nc=21.
+  - The checkpoint class map contains liuniwang at id 9; requested dataset ids 9..20 are shifted relative to the checkpoint.
+  - The checkpoint has kpt_shape=[1,3], while the requested dataset has kpt_shape=[2,3].
+  - The checkpoint records a different historical dataset path: /data1/chenshiwen/landmarks_detect/landmarks22/dataset_r/data.yaml; that path is absent on H200.
+changes:
+  - Created this isolated evaluation directory.
+  - Copied a task-specific evaluator into the evaluation directory.
+  - Extracted the historical leo runtime under the evaluation directory.
+  - Wrote checkpoint inspection artifacts and logs.
+verification:
+  - NAS is mounted as //10.2.26.26/902_data via CIFS.
+  - GPU 0 passed five-sample read-only readiness at preflight, but no inference was started.
+  - Historical source test contains 6600 RGB-container images and 6600 labels.
+  - Historical dataset YAML declares r_channel_only=true.
+  - Checkpoint inspection used historical Ultralytics 8.3.98 source with CUDA disabled.
+remaining:
+  - User must choose the correct 22-class historical test dataset or explicitly authorize a documented 21-to-22 class-id remap.
+  - GPU smoke and full inference have not run.
+  - Center-error metrics and visualizations have not been generated.
+  - NAS backup remains unauthorized and was not attempted.

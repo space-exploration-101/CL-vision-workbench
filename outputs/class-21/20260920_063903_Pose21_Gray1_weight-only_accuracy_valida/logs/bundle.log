@@ -1,0 +1,3 @@
+$ /opt/ywang/yolo-runtime/bin/python3.12 /home/rs/wrs/onnxviewe/quantitize-platform/pipeline/runner/06_bundle.py --job-dir /home/rs/wrs/onnxviewe/quantitize-platform/data/output_data/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida
+cwd=/home/rs/wrs/onnxviewe/quantitize-platform/pipeline/runner
+已打包: /home/rs/wrs/onnxviewe/quantitize-platform/data/output_data/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida_quantized_bundle.zip (354 MB 解压后)

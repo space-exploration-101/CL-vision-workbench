@@ -1,0 +1,41 @@
+{
+  "PT": {
+    "positive_class_hit": 398,
+    "positive_hit_without_other_classes": 392,
+    "positive_hit_with_other_classes": 6,
+    "positive_wrong_only": 5,
+    "positive_no_output": 17,
+    "negative_correct": 77,
+    "negative_false_positive_images": [
+      "211",
+      "232",
+      "238"
+    ]
+  },
+  "Onnx": {
+    "positive_class_hit": 399,
+    "positive_hit_without_other_classes": 392,
+    "positive_hit_with_other_classes": 7,
+    "positive_wrong_only": 4,
+    "positive_no_output": 17,
+    "negative_correct": 77,
+    "negative_false_positive_images": [
+      "211",
+      "232",
+      "238"
+    ]
+  },
+  "FPGA": {
+    "positive_class_hit": 396,
+    "positive_hit_without_other_classes": 391,
+    "positive_hit_with_other_classes": 5,
+    "positive_wrong_only": 6,
+    "positive_no_output": 18,
+    "negative_correct": 77,
+    "negative_false_positive_images": [
+      "211",
+      "232",
+      "238"
+    ]
+  }
+}

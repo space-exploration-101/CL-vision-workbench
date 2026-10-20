@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "prediction_labels": 500,
+  "visualizations_decoded": 500,
+  "same_gt_as_pt": 500,
+  "files_hashed": 1015,
+  "metrics_recomputed": {
+    "tp": 398,
+    "fp": 23,
+    "fn": 22,
+    "strict_correct_images": 463,
+    "strict_correct_positive_images": 386,
+    "correct_negative_images": 77
+  },
+  "summary_sha256": "6e91f157e0d57b142510d30779326b669376f51e702f2ef218a206c4d469b17f",
+  "sha256sums_sha256": "621aba29fe01263b8147c1e6f117a321019518fa25e1102e77bb9125c2ac4576"
+}

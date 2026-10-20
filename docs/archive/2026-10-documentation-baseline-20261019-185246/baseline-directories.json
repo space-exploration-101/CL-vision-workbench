@@ -1,0 +1,1312 @@
+[
+  {
+    "path": ".",
+    "mtime_ns": 1792237683534111300,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp",
+    "mtime_ns": 1792384693299018400,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/baseline380",
+    "mtime_ns": 1792138248718164500,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/baseline380/output",
+    "mtime_ns": 1792138167166640000,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/baseline380/render1",
+    "mtime_ns": 1792138172427508400,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/fpga_correct_only",
+    "mtime_ns": 1792385565829016900,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/fpga_slides",
+    "mtime_ns": 1792131010283933300,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/fpga_slides/output",
+    "mtime_ns": 1792130958700314000,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/iou-explainer",
+    "mtime_ns": 1792384693839904300,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_merge",
+    "mtime_ns": 1792129810102205500,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_merge/render1",
+    "mtime_ns": 1792129446097450000,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_merge/render2",
+    "mtime_ns": 1792129542105308900,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_merge/render3",
+    "mtime_ns": 1792129600320007900,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_merge/render4",
+    "mtime_ns": 1792129747761278000,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_merge/render_final",
+    "mtime_ns": 1792129668950472800,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_merge/render_verified",
+    "mtime_ns": 1792129782245641100,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_plan_table",
+    "mtime_ns": 1792130236158240400,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_plan_table/render",
+    "mtime_ns": 1792130200394210800,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_qa",
+    "mtime_ns": 1792128021819075300,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_qa/render",
+    "mtime_ns": 1792125730361388500,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_qa/render_checked",
+    "mtime_ns": 1792125829028809600,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_qa/render_final",
+    "mtime_ns": 1792125783536831600,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_qa/revision2_render",
+    "mtime_ns": 1792127974930901800,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/optical_qa/revision2_verified",
+    "mtime_ns": 1792128029442911300,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/overall_consistency",
+    "mtime_ns": 1792132163586668100,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/overall_consistency/output",
+    "mtime_ns": 1792132104771538300,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/overall_consistency/render1",
+    "mtime_ns": 1792132072152520100,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration",
+    "mtime_ns": 1792244018667871600,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/.cursor",
+    "mtime_ns": 1792244018598289600,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/.cursor/rules",
+    "mtime_ns": 1792244018598289600,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/.github",
+    "mtime_ns": 1792244018599289900,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/.github/workflows",
+    "mtime_ns": 1792244018599289900,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/apps",
+    "mtime_ns": 1792244018605374200,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/apps/api",
+    "mtime_ns": 1792244018605374200,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/apps/web",
+    "mtime_ns": 1792244018607376200,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/apps/web/static",
+    "mtime_ns": 1792244018606376000,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/apps/web/templates",
+    "mtime_ns": 1792244018609884800,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/data",
+    "mtime_ns": 1792244018610884700,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/data/output_data",
+    "mtime_ns": 1792244018609884800,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/data/shared_data",
+    "mtime_ns": 1792244018610884700,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/deploy",
+    "mtime_ns": 1792244018611885300,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/docs",
+    "mtime_ns": 1792244018623027500,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/docs/agent",
+    "mtime_ns": 1792244018615302700,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/docs/class-21",
+    "mtime_ns": 1792244018617302600,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/docs/evidence",
+    "mtime_ns": 1792244707008498500,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/docs/evidence/backup",
+    "mtime_ns": 1792244018617302600,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/docs/evidence/backup/snapshot-20260902-182606",
+    "mtime_ns": 1792244018619516600,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/docs/evidence/integration",
+    "mtime_ns": 1792244707820089300,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/docs/evidence/performance",
+    "mtime_ns": 1792244018619516600,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/docs/reference",
+    "mtime_ns": 1792244246989973000,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/docs/status",
+    "mtime_ns": 1792244018624033400,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/patches",
+    "mtime_ns": 1792244018624033400,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/patches/onnxruntime",
+    "mtime_ns": 1792244018625032900,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/patches/onnxruntime/quantization",
+    "mtime_ns": 1792244018627032100,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/patches/onnxruntime/quantization/operators",
+    "mtime_ns": 1792244018626031900,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/pipeline",
+    "mtime_ns": 1792244018653627700,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/pipeline/bin_process",
+    "mtime_ns": 1792244018628032200,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/pipeline/engine",
+    "mtime_ns": 1792244018914118600,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/pipeline/runner",
+    "mtime_ns": 1792244018647047000,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/pipeline/runner/_lib",
+    "mtime_ns": 1792244018645043400,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/pipeline/runner/docs",
+    "mtime_ns": 1792244018646046300,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/pipeline/runner/tests",
+    "mtime_ns": 1792244309515707400,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/pipeline/runner/tests/reference",
+    "mtime_ns": 1792244018648046800,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/postprocess",
+    "mtime_ns": 1792244018654627800,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/postprocess/fpga_nms",
+    "mtime_ns": 1792244018654627800,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/postprocess/zynq_nms",
+    "mtime_ns": 1792244018655627700,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/rebuild",
+    "mtime_ns": 1792244018666368100,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/rebuild/manifests",
+    "mtime_ns": 1792244018662897900,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/rebuild/snapshots",
+    "mtime_ns": 1792244018666368100,
+    "attributes": 16
+  },
+  {
+    "path": ".tmp/quantitize-platform-integration/tools",
+    "mtime_ns": 1792244018667871600,
+    "attributes": 16
+  },
+  {
+    "path": "docs",
+    "mtime_ns": 1792400820172616200,
+    "attributes": 16
+  },
+  {
+    "path": "docs/agent",
+    "mtime_ns": 1792257550972656700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/agent/tasks",
+    "mtime_ns": 1792257555744942000,
+    "attributes": 16
+  },
+  {
+    "path": "docs/agent/topics",
+    "mtime_ns": 1792257549393843400,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive",
+    "mtime_ns": 1792400790415031000,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-04-cam2000-prototype",
+    "mtime_ns": 1789746019926479800,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-migration-source-docs",
+    "mtime_ns": 1789955912471180100,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition",
+    "mtime_ns": 1792258046746399100,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5",
+    "mtime_ns": 1791899713378014100,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code",
+    "mtime_ns": 1791899713380018900,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe",
+    "mtime_ns": 1791899713382019100,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize",
+    "mtime_ns": 1791899713383017300,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5",
+    "mtime_ns": 1791899713961015700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L31_s00",
+    "mtime_ns": 1791899713459275900,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L31_s01",
+    "mtime_ns": 1791899713504073600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L31_s02",
+    "mtime_ns": 1791899713533253600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L32_s00",
+    "mtime_ns": 1791899713545941500,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L32_s01",
+    "mtime_ns": 1791899713558452700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L32_s02",
+    "mtime_ns": 1791899713567492100,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L33_s00",
+    "mtime_ns": 1791899713584568900,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L33_s01",
+    "mtime_ns": 1791899713595609700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L33_s02",
+    "mtime_ns": 1791899713604161500,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L34_s00",
+    "mtime_ns": 1791899713614715500,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L34_s01",
+    "mtime_ns": 1791899713625717000,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L34_s02",
+    "mtime_ns": 1791899713634429600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L35_s00",
+    "mtime_ns": 1791899713659382400,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L35_s01",
+    "mtime_ns": 1791899713681578600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L35_s02",
+    "mtime_ns": 1791899713698128600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L36_s00",
+    "mtime_ns": 1791899713712147600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L36_s01",
+    "mtime_ns": 1791899713724721700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L36_s02",
+    "mtime_ns": 1791899713745855900,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L37_s00",
+    "mtime_ns": 1791899713756912700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L37_s01",
+    "mtime_ns": 1791899713768452900,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L37_s02",
+    "mtime_ns": 1791899713784365600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L38_s00",
+    "mtime_ns": 1791899713794898800,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L38_s01",
+    "mtime_ns": 1791899713806017200,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L38_s02",
+    "mtime_ns": 1791899713820744400,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L39_s00",
+    "mtime_ns": 1791899713836169300,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L39_s01",
+    "mtime_ns": 1791899713850689300,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L39_s02",
+    "mtime_ns": 1791899713861761000,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L40_s00",
+    "mtime_ns": 1791899713880684000,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L40_s01",
+    "mtime_ns": 1791899713899250200,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L40_s02",
+    "mtime_ns": 1791899713908884600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L41_s00",
+    "mtime_ns": 1791899713919900700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L41_s01",
+    "mtime_ns": 1791899713928900600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L41_s02",
+    "mtime_ns": 1791899713938455700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L42_s00",
+    "mtime_ns": 1791899713949016600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L42_s01",
+    "mtime_ns": 1791899713958015900,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/T32_L42_s02",
+    "mtime_ns": 1791899713973771900,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-class21-transition/test5/code/onnxviewe/quantitize/test5/extra_layer",
+    "mtime_ns": 1791899713387521000,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-blocked-backup-run",
+    "mtime_ns": 1790097807109103900,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-predictor-test-eval",
+    "mtime_ns": 1789743686762221300,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-predictor-test-eval/raw",
+    "mtime_ns": 1789743647437641600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-predictor-test-eval/raw/legacy-epoch75",
+    "mtime_ns": 1789743600912269700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-predictor-test-eval/raw/predictor-fix",
+    "mtime_ns": 1789743600908254100,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-predictor-test-eval/raw/test-eval",
+    "mtime_ns": 1789743600910258600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env",
+    "mtime_ns": 1789743347498948600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw",
+    "mtime_ns": 1788971559659972800,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw/src",
+    "mtime_ns": 1788961712017502300,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw/src/quantitize-platform",
+    "mtime_ns": 1788961712055076400,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw/src/quantitize-platform/patches",
+    "mtime_ns": 1788346502327652000,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw/src/quantitize-platform/patches/onnxruntime",
+    "mtime_ns": 1788346502341181300,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw/src/quantitize-platform/patches/onnxruntime/quantization",
+    "mtime_ns": 1788346502339181500,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw/src/quantitize-platform/patches/onnxruntime/quantization/operators",
+    "mtime_ns": 1788346502337181900,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw/src/quantitize-platform/pipeline",
+    "mtime_ns": 1788325499324701800,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw/src/quantitize-platform/pipeline/bin_process",
+    "mtime_ns": 1788325750147069600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw/src/quantitize-platform/pipeline/engine",
+    "mtime_ns": 1788325499363586600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw/src/quantitize-platform/pipeline/runner",
+    "mtime_ns": 1788325685271790100,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw/src/quantitize-platform/pipeline/runner/_lib",
+    "mtime_ns": 1788350803865327600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw/src/quantitize-platform/pipeline/runner/docs",
+    "mtime_ns": 1788325499318701700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw/src/quantitize-platform/pipeline/runner/tests",
+    "mtime_ns": 1788351277364578700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-quant-env/raw/src/quantitize-platform/pipeline/runner/tests/reference",
+    "mtime_ns": 1788325499306209700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-step15-checkpoint",
+    "mtime_ns": 1789744984172722700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-training-workflow-history",
+    "mtime_ns": 1790131057458004400,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-gray1-workflow-smoke",
+    "mtime_ns": 1789746529390314000,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-grayprep-performance-step5-14",
+    "mtime_ns": 1789744522051504700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-grayprep-performance-step5-14/raw",
+    "mtime_ns": 1789374710550556300,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-h200-worktree-retirement",
+    "mtime_ns": 1789745105039563500,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-h200-worktree-retirement/raw",
+    "mtime_ns": 1789744969912551600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-h200-worktree-retirement/raw/docs",
+    "mtime_ns": 1789744969912551600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-h200-worktree-retirement/raw/docs/archive",
+    "mtime_ns": 1789744969916087800,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-h200-worktree-retirement/raw/docs/archive/project-root-legacy",
+    "mtime_ns": 1789744969943822800,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-local-artifact-cleanup",
+    "mtime_ns": 1789745761876897800,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-local-artifact-cleanup/documents",
+    "mtime_ns": 1789745664255464400,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-local-artifact-cleanup/evidence",
+    "mtime_ns": 1789745664263581800,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-local-artifact-cleanup/evidence/documents",
+    "mtime_ns": 1789745664312384300,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-local-artifact-cleanup/evidence/fpga",
+    "mtime_ns": 1789745664259468700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-local-artifact-cleanup/evidence/gray1",
+    "mtime_ns": 1789745664294671700,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-local-artifact-cleanup/evidence/gray1/step10",
+    "mtime_ns": 1789745664266085300,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-local-artifact-cleanup/evidence/gray1/step12",
+    "mtime_ns": 1789745664270089500,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-local-artifact-cleanup/evidence/gray1/step13",
+    "mtime_ns": 1789745664286121400,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-local-artifact-cleanup/evidence/gray1/step5",
+    "mtime_ns": 1789745664302727100,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-local-artifact-cleanup/evidence/gray1/step8b",
+    "mtime_ns": 1789745664293638200,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-local-artifact-cleanup/model",
+    "mtime_ns": 1789745664142578600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-migration",
+    "mtime_ns": 1792258041776873200,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-migration/backup",
+    "mtime_ns": 1792257589919571000,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-performance",
+    "mtime_ns": 1792258042604201900,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-sim-train-fpga-doc",
+    "mtime_ns": 1788960494897876600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-sim-train-fpga-doc/_build",
+    "mtime_ns": 1788955325290311100,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-sim-train-fpga-doc/_build/_rels",
+    "mtime_ns": 1788955043179786900,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-sim-train-fpga-doc/_build/word",
+    "mtime_ns": 1788955325290311100,
+    "attributes": 48
+  },
+  {
+    "path": "docs/archive/2026-09-sim-train-fpga-doc/_build/word/_rels",
+    "mtime_ns": 1788955045721847400,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-standardization-work-packages",
+    "mtime_ns": 1789745627755550200,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-standardization-work-packages/design",
+    "mtime_ns": 1789745627759114600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-standardization-work-packages/legacy",
+    "mtime_ns": 1789745627760423300,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-standardization-work-packages/status",
+    "mtime_ns": 1789745627760423300,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-09-standardization-work-packages/wp08a",
+    "mtime_ns": 1789745627761424100,
+    "attributes": 16
+  },
+  {
+    "path": "docs/archive/2026-10-artifact-relocation",
+    "mtime_ns": 1792259514014630300,
+    "attributes": 48
+  },
+  {
+    "path": "docs/archive/2026-10-documentation-consolidation",
+    "mtime_ns": 1792258213207136700,
+    "attributes": 48
+  },
+  {
+    "path": "docs/archive/2026-10-platform-docs",
+    "mtime_ns": 1792401317796185600,
+    "attributes": 48
+  },
+  {
+    "path": "docs/class-21",
+    "mtime_ns": 1792257722193049000,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/architecture",
+    "mtime_ns": 1792257832650951300,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/knowledge",
+    "mtime_ns": 1792400820175624200,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/operations",
+    "mtime_ns": 1792257834231954500,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/operations/prompts",
+    "mtime_ns": 1790134892996578500,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/operations/runs",
+    "mtime_ns": 1792257835814256200,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/operations/runs/backup",
+    "mtime_ns": 1792258141614468400,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/operations/runs/backup/docker-images",
+    "mtime_ns": 1792130695226364100,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/operations/runs/backup/docker-images/20261016",
+    "mtime_ns": 1792130695873799000,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/operations/runs/backup/historical-r-only",
+    "mtime_ns": 1790304836709553600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/operations/runs/backup/historical-r-only/20260925-local-data-cleanup",
+    "mtime_ns": 1790304836709553600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/operations/runs/backup/raw-dataset",
+    "mtime_ns": 1790114121889210600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828",
+    "mtime_ns": 1790130907641509900,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/nas-docs",
+    "mtime_ns": 1790130907642510600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/operations/runs/image-cleanup",
+    "mtime_ns": 1792044832811199300,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/operations/runs/image-cleanup/20261015-h200-intermediate-images",
+    "mtime_ns": 1792049168339529300,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/operations/tools",
+    "mtime_ns": 1790134892997581000,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/reports",
+    "mtime_ns": 1792259277790381900,
+    "attributes": 16
+  },
+  {
+    "path": "docs/class-21/reports/current",
+    "mtime_ns": 1792400820184407600,
+    "attributes": 16
+  },
+  {
+    "path": "docs/platform",
+    "mtime_ns": 1792400965953697000,
+    "attributes": 16
+  },
+  {
+    "path": "docs/reference",
+    "mtime_ns": 1792257725373190900,
+    "attributes": 16
+  },
+  {
+    "path": "docs/reference/backup",
+    "mtime_ns": 1792257727759871300,
+    "attributes": 16
+  },
+  {
+    "path": "outputs",
+    "mtime_ns": 1792380337636894600,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21",
+    "mtime_ns": 1792400820184407600,
+    "attributes": 48
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida",
+    "mtime_ns": 1790555914284497600,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/input",
+    "mtime_ns": 1790555914368550900,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/logs",
+    "mtime_ns": 1790555914368550900,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/results",
+    "mtime_ns": 1791904950310283800,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/results/fpga_input_roundtrip_eval",
+    "mtime_ns": 1790555914564785000,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/results/fpga_input_roundtrip_eval/error_cases",
+    "mtime_ns": 1790555914790994900,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/results/fpga_input_roundtrip_eval/success_cases",
+    "mtime_ns": 1790555914791994500,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/results/layer_trace_agaier_047_view_18",
+    "mtime_ns": 1790555914568300400,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/results/layer_trace_agaier_047_view_18/source",
+    "mtime_ns": 1790555914791994500,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/results/layer_trace_agaier_047_view_18/tensors",
+    "mtime_ns": 1790555914881788200,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/results/layer_trace_agaier_047_view_18_txt",
+    "mtime_ns": 1791942556580575100,
+    "attributes": 48
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/results/onnx_eval",
+    "mtime_ns": 1790555914567300300,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/results/onnx_eval/error_cases",
+    "mtime_ns": 1790555914796502300,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/results/onnx_eval/success_cases",
+    "mtime_ns": 1790555914792994600,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/results/pt_eval",
+    "mtime_ns": 1790555914568300400,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/results/pt_eval/error_cases",
+    "mtime_ns": 1790555914838977200,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/results/pt_eval/success_cases",
+    "mtime_ns": 1790555914840077700,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/20261013_agaier_047_view_18_txt",
+    "mtime_ns": 1791900012823947000,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/FPGA_logs",
+    "mtime_ns": 1792257829472214300,
+    "attributes": 48
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1",
+    "mtime_ns": 1791855223643518700,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/cam2000",
+    "mtime_ns": 1791870055028732800,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/layout-v2",
+    "mtime_ns": 1791852348121196900,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/metadata",
+    "mtime_ns": 1791798009551002100,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/nas-backup-20261013",
+    "mtime_ns": 1791855778366609000,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1",
+    "mtime_ns": 1791852840850612200,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1/predictions",
+    "mtime_ns": 1791852840142821300,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1/predictions/labels",
+    "mtime_ns": 1791852840833566700,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1/visualizations",
+    "mtime_ns": 1791852840127683300,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4",
+    "mtime_ns": 1791810178961848500,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/net1280",
+    "mtime_ns": 1791809919209456100,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1",
+    "mtime_ns": 1791809857800778200,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1/predictions",
+    "mtime_ns": 1791809857082980700,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1/predictions/labels",
+    "mtime_ns": 1791809857782743700,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1/visualizations",
+    "mtime_ns": 1791809857067686600,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/fpga_content1000",
+    "mtime_ns": 1792246201792649800,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/fpga_full500",
+    "mtime_ns": 1792238427621830300,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/fpga_gt_anchored",
+    "mtime_ns": 1792380758506453100,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/fpga_pixel_statistics",
+    "mtime_ns": 1792378591759210500,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/fpga_precision_loss",
+    "mtime_ns": 1792243997725182600,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/fpga_precision_wide",
+    "mtime_ns": 1792244636744799700,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/fpga_preview_001",
+    "mtime_ns": 1792237686501118900,
+    "attributes": 16
+  },
+  {
+    "path": "outputs/fpga_stage_statistics",
+    "mtime_ns": 1792379667227725500,
+    "attributes": 16
+  },
+  {
+    "path": "rebuild",
+    "mtime_ns": 1792401129429441400,
+    "attributes": 16
+  },
+  {
+    "path": "rebuild/legacy",
+    "mtime_ns": 1792257733336188600,
+    "attributes": 16
+  },
+  {
+    "path": "rebuild/legacy/gray1-20260918",
+    "mtime_ns": 1792257734932989000,
+    "attributes": 16
+  },
+  {
+    "path": "rebuild/legacy/pre-gray1-20260902",
+    "mtime_ns": 1792257734131713000,
+    "attributes": 16
+  },
+  {
+    "path": "rebuild/legacy/pre-gray1-20260902/manifests",
+    "mtime_ns": 1788276328118332200,
+    "attributes": 16
+  },
+  {
+    "path": "rebuild/legacy/pre-gray1-20260902/snapshots",
+    "mtime_ns": 1788276033858576500,
+    "attributes": 16
+  },
+  {
+    "path": "task-artifacts",
+    "mtime_ns": 1792257840537204200,
+    "attributes": 16
+  },
+  {
+    "path": "task-artifacts/gray1-20261016",
+    "mtime_ns": 1792127244498879800,
+    "attributes": 16
+  },
+  {
+    "path": "task-artifacts/gray1-20261016/train-repo",
+    "mtime_ns": 1792125985031182700,
+    "attributes": 16
+  },
+  {
+    "path": "task-artifacts/gray1-20261016/train-repo/docker",
+    "mtime_ns": 1792126225313019500,
+    "attributes": 16
+  },
+  {
+    "path": "task-artifacts/gray1-20261016/train-repo/docs",
+    "mtime_ns": 1792125978558994000,
+    "attributes": 16
+  },
+  {
+    "path": "task-artifacts/gray1-20261016/train-repo/docs/agent",
+    "mtime_ns": 1792126182991034200,
+    "attributes": 16
+  },
+  {
+    "path": "task-artifacts/gray1-20261016/train-repo/docs/human",
+    "mtime_ns": 1792126184307244100,
+    "attributes": 16
+  },
+  {
+    "path": "tools",
+    "mtime_ns": 1792258095434320900,
+    "attributes": 16
+  },
+  {
+    "path": "tools/__pycache__",
+    "mtime_ns": 1789751482252304400,
+    "attributes": 48
+  },
+  {
+    "path": "tools/tests",
+    "mtime_ns": 1789750239396173900,
+    "attributes": 16
+  }
+]

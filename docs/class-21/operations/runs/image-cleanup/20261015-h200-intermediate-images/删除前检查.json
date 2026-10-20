@@ -1,0 +1,1203 @@
+{
+  "time": "2026-10-15T14:13:34.737915+08:00",
+  "host": "user-Rack-Server",
+  "candidates": [
+    {
+      "reference": "ywang/yolo-gray1-train:ultralytics-8.3.98-v1-predictor-chfix",
+      "id": "sha256:f2a45df2e7bad0a5742d0763563f983724b626f3edc53aeff22a2acc9b8024dd",
+      "tags": [
+        "ywang/yolo-gray1-train:ultralytics-8.3.98-v1-predictor-chfix"
+      ],
+      "size": 11282971005,
+      "parent": "sha256:c1e36fd398f5946d77f5e92a8fc7ede8a2110cb57b1cc739c247b093fcb97fa9",
+      "layers": [
+        "sha256:39fbf5f8fe523b2ea819cd8eb2bf68807d8eaee383549f7ab80a44503ed6860b",
+        "sha256:03e0df7a8a01c1f09c3eae82ac49da81a06ad75fe7ffb722169d906e5d345c3a",
+        "sha256:fc8a31b553c928937020866cf7c6c7eb843191eccf7f0bd005857dc38d6e3abe",
+        "sha256:e9a0da05f838db6145092023a952de02ecbd580e6cf38fe30a72d69b2d5e7bab",
+        "sha256:053e7ba0009d5092cb616fe2fbbdb122dac92847b8c201fa16ab490da2bbb7a0"
+      ],
+      "labels": {
+        "org.opencontainers.image.base.name": "ywang/yolo-gray1-train:ultralytics-8.3.98-v1",
+        "org.opencontainers.image.title": "ywang YOLO gray1 train runtime with predictor channel warmup",
+        "org.opencontainers.image.version": "ultralytics-8.3.98-v1-predictor-chfix"
+      },
+      "container_refs": [],
+      "children": [],
+      "history": [
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-18T21:06:59+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY file:c225e41b37e2ea33232c052ddc819cde1ca6c61a73e361d665b14327e0de90cc in /workspace/src/Yolo_fine/ultralytics/ultralytics/engine/predictor.py ",
+          "CreatedSince": "3 weeks ago",
+          "ID": "sha256:f2a45df2e7bad0a5742d0763563f983724b626f3edc53aeff22a2acc9b8024dd",
+          "Size": "22.4kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-18T21:06:59+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.title=ywang YOLO gray1 train runtime with predictor channel warmup org.opencontainers.image.version=ultralytics-8.3.98-v1-predictor-chfix org.opencontainers.image.base.name=ywang/yolo-gray1-train:ultralytics-8.3.98-v1",
+          "CreatedSince": "3 weeks ago",
+          "ID": "sha256:c1e36fd398f5946d77f5e92a8fc7ede8a2110cb57b1cc739c247b093fcb97fa9",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-14T16:29:31+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:7a291a40a004767c3d44b781545e8faeb8afe4654f4c191658292829a0959d03",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-14T16:29:31+08:00",
+          "CreatedBy": "/bin/sh -c python -c \"import sys, torch, torchvision, cv2, numpy, albumentations, PIL, yaml, tqdm; assert sys.version.split()[0] == '3.12.12'; assert torch.__version__ == '2.8.0+cu128'; assert torchvision.__version__ == '0.23.0+cu128'; assert cv2.__version__ == '4.11.0'; assert numpy.__version__ == '1.26.4'; assert albumentations.__version__ == '2.0.8'; assert PIL.__version__ == '12.2.0'; assert yaml.__version__ == '6.0.3'; assert tqdm.__version__ == '4.67.3'\"",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:0090a95fa315328219c12e01c711f8419f62b85393a4c1f3adea8e22ebb6e69e",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-14T16:29:28+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) WORKDIR /workspace/src/Yolo_fine",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:a4ac5d1942849fa9e292322023950028c062d81660f027641292cb585373ad2e",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-14T16:29:28+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ENV LANG=C.UTF-8 PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 PYTHONNOUSERSITE=1 CONDA_PREFIX=/opt/ywang/yolo-runtime PATH=/opt/ywang/yolo-runtime/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin PYTHONPATH=/workspace/src/Yolo_fine/ultralytics YOLO_CONFIG_DIR=/tmp/ultralytics MPLCONFIGDIR=/tmp/matplotlib YOLO_INPUT_CHANNELS=1 YOLO_INPUT_SEMANTICS=gray1 YOLO_IMGSZ=1280",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:e378dc8b312ad35d72b0f0fa3c813c7d037074396487866c0b45c89fd614cb17",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-14T16:29:27+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:a38607184d3d3637da9e4a4e206c429c52b734014109c52f0fe844136f930d17 in /workspace/src/Yolo_fine ",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:2faec1c08a6277fe88c9966f72b578453d7a5ef111f6f7b0cb60b17cd5ede79b",
+          "Size": "208MB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-14T16:29:22+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:5b9995ee4233beea710a1c523f4ee84a98b9601f65fe9f491d37f31684522737 in /opt/ywang/yolo-runtime ",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:748ce1281e11239d1ace418c8ba7984116e0e8ffff2fe40a4eb4d0d21eeafa52",
+          "Size": "11GB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:44+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]",
+          "CreatedSince": "6 months ago",
+          "ID": "sha256:714d1a2f39e9830a7c0453dc924ddf849be74811c13e4afaa21c0b9b6ad74af0",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:43+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) ADD file:da2cd86408d9354e8bd817c8a4b8635a1d788cd20d0d70061ce02a173e8cf902 in / ",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "78.1MB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.version=22.04",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ARG RELEASE",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        }
+      ]
+    },
+    {
+      "reference": "ywang/yolo-gray1-train:ultralytics-8.3.98-v1-gray1-stridefix2",
+      "id": "sha256:347e95612afe7ba995df5d6066697ceb054a83a87e75eb359053a939859f21a6",
+      "tags": [
+        "ywang/yolo-gray1-train:ultralytics-8.3.98-v1-gray1-stridefix2"
+      ],
+      "size": 11283091662,
+      "parent": "sha256:7e30597f3c7fe1849f9d1afd4acc07581a1785ad764bef92e3d8f093312d8a4b",
+      "layers": [
+        "sha256:39fbf5f8fe523b2ea819cd8eb2bf68807d8eaee383549f7ab80a44503ed6860b",
+        "sha256:458dc53e08ef36f076556e1abfa1402e29db4ee46343bdf0c4adac181f605b10",
+        "sha256:af0231e87a40bebba3e322fa524844f2c28058f012c5735a55da9c98afa72614",
+        "sha256:c1ba217c79579480d6368afe799e06f82cde9a863974c2b09c66a8680e01985e",
+        "sha256:62639d57e553822a6612d70b97fdf21f34251f62d132267ce479f79d77214f4b",
+        "sha256:720ac8011b2d44730b4074c7ac2506d8ecbbdc65206b50deb7bfc71495f91693",
+        "sha256:fa84ba60935a9e472a0860b314ff4914d0fd3370cb9464244eaba3fdcb2c7216",
+        "sha256:627ffd907315386da7d0637d20ef890c2af82be08302e2b343fe360f8216fe7c"
+      ],
+      "labels": {
+        "org.opencontainers.image.version": "22.04"
+      },
+      "container_refs": [],
+      "children": [],
+      "history": [
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-14T15:46:34+08:00",
+          "CreatedBy": "/bin/sh -c python /tmp/apply_validator_fix.py     && rm -f /tmp/apply_validator_fix.py",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:347e95612afe7ba995df5d6066697ceb054a83a87e75eb359053a939859f21a6",
+          "Size": "17kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-14T15:46:34+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY file:247b5c7f30d6e125fed4b601a2e442331b2e268aba93bfb40f43c73e6380de7d in /tmp/apply_validator_fix.py ",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:7e30597f3c7fe1849f9d1afd4acc07581a1785ad764bef92e3d8f093312d8a4b",
+          "Size": "686B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-14T14:47:59+08:00",
+          "CreatedBy": "/bin/sh -c python /tmp/apply_stride_fix.py     && rm -f /tmp/apply_stride_fix.py",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:a97265d9ddf7367f19b81ce72cc126d2b436a0a59c73480d0847120606d39737",
+          "Size": "122kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-14T14:47:59+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY file:f390a85cb2c198aa2e1cf3cc3e77eac56d740e5d447a5296c2ae5360694735bf in /tmp/apply_stride_fix.py ",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:2210c52216c53e9e3f57714251b2666036cb5053b0cb4cdaf6651c34cdfe4c21",
+          "Size": "917B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T02:06:53+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:a032214530a12689eab891bdb02374e517094a7970f5934abaf50df22d2b07e9",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T02:06:53+08:00",
+          "CreatedBy": "/bin/sh -c python -c \"import sys, torch, torchvision, cv2, numpy, albumentations, PIL, yaml, tqdm; assert sys.version.split()[0] == '3.12.12'; assert torch.__version__ == '2.8.0+cu128'; assert torchvision.__version__ == '0.23.0+cu128'; assert cv2.__version__ == '4.11.0'; assert numpy.__version__ == '1.26.4'; assert albumentations.__version__ == '2.0.8'; assert PIL.__version__ == '12.2.0'; assert yaml.__version__ == '6.0.3'; assert tqdm.__version__ == '4.67.3'\"",
+          "CreatedSince": "5 weeks ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T02:06:49+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) WORKDIR /workspace/src/Yolo_fine",
+          "CreatedSince": "5 weeks ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T02:06:49+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ENV LANG=C.UTF-8 PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 PYTHONNOUSERSITE=1 CONDA_PREFIX=/opt/ywang/yolo-runtime PATH=/opt/ywang/yolo-runtime/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin PYTHONPATH=/workspace/src/Yolo_fine/ultralytics YOLO_CONFIG_DIR=/tmp/ultralytics MPLCONFIGDIR=/tmp/matplotlib YOLO_INPUT_CHANNELS=1 YOLO_INPUT_SEMANTICS=gray1 YOLO_IMGSZ=1280",
+          "CreatedSince": "5 weeks ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T02:06:48+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:e655c99428cc902e63edab2b0893b906af3140d9a7cab86460eddf12c5d0287d in /workspace/src/Yolo_fine ",
+          "CreatedSince": "5 weeks ago",
+          "ID": "<missing>",
+          "Size": "208MB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T02:06:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:4929d5bc47326f2510a7971caf8ee4e86b7bd500cb5401e059a4584498ed810a in /opt/ywang/yolo-runtime ",
+          "CreatedSince": "5 weeks ago",
+          "ID": "<missing>",
+          "Size": "11GB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:44+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:43+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) ADD file:da2cd86408d9354e8bd817c8a4b8635a1d788cd20d0d70061ce02a173e8cf902 in / ",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "78.1MB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.version=22.04",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ARG RELEASE",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        }
+      ]
+    },
+    {
+      "reference": "ywang/yolo-gray1-train:ultralytics-8.3.98-v1-gray1-stridefix1",
+      "id": "sha256:a97265d9ddf7367f19b81ce72cc126d2b436a0a59c73480d0847120606d39737",
+      "tags": [
+        "ywang/yolo-gray1-train:ultralytics-8.3.98-v1-gray1-stridefix1"
+      ],
+      "size": 11283073938,
+      "parent": "sha256:2210c52216c53e9e3f57714251b2666036cb5053b0cb4cdaf6651c34cdfe4c21",
+      "layers": [
+        "sha256:39fbf5f8fe523b2ea819cd8eb2bf68807d8eaee383549f7ab80a44503ed6860b",
+        "sha256:458dc53e08ef36f076556e1abfa1402e29db4ee46343bdf0c4adac181f605b10",
+        "sha256:af0231e87a40bebba3e322fa524844f2c28058f012c5735a55da9c98afa72614",
+        "sha256:c1ba217c79579480d6368afe799e06f82cde9a863974c2b09c66a8680e01985e",
+        "sha256:62639d57e553822a6612d70b97fdf21f34251f62d132267ce479f79d77214f4b",
+        "sha256:720ac8011b2d44730b4074c7ac2506d8ecbbdc65206b50deb7bfc71495f91693"
+      ],
+      "labels": {
+        "org.opencontainers.image.version": "22.04"
+      },
+      "container_refs": [],
+      "children": [
+        {
+          "id": "sha256:7e30597f3c7fe1849f9d1afd4acc07581a1785ad764bef92e3d8f093312d8a4b",
+          "tags": []
+        }
+      ],
+      "history": [
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-14T14:47:59+08:00",
+          "CreatedBy": "/bin/sh -c python /tmp/apply_stride_fix.py     && rm -f /tmp/apply_stride_fix.py",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:a97265d9ddf7367f19b81ce72cc126d2b436a0a59c73480d0847120606d39737",
+          "Size": "122kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-14T14:47:59+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY file:f390a85cb2c198aa2e1cf3cc3e77eac56d740e5d447a5296c2ae5360694735bf in /tmp/apply_stride_fix.py ",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:2210c52216c53e9e3f57714251b2666036cb5053b0cb4cdaf6651c34cdfe4c21",
+          "Size": "917B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T02:06:53+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:a032214530a12689eab891bdb02374e517094a7970f5934abaf50df22d2b07e9",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T02:06:53+08:00",
+          "CreatedBy": "/bin/sh -c python -c \"import sys, torch, torchvision, cv2, numpy, albumentations, PIL, yaml, tqdm; assert sys.version.split()[0] == '3.12.12'; assert torch.__version__ == '2.8.0+cu128'; assert torchvision.__version__ == '0.23.0+cu128'; assert cv2.__version__ == '4.11.0'; assert numpy.__version__ == '1.26.4'; assert albumentations.__version__ == '2.0.8'; assert PIL.__version__ == '12.2.0'; assert yaml.__version__ == '6.0.3'; assert tqdm.__version__ == '4.67.3'\"",
+          "CreatedSince": "5 weeks ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T02:06:49+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) WORKDIR /workspace/src/Yolo_fine",
+          "CreatedSince": "5 weeks ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T02:06:49+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ENV LANG=C.UTF-8 PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 PYTHONNOUSERSITE=1 CONDA_PREFIX=/opt/ywang/yolo-runtime PATH=/opt/ywang/yolo-runtime/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin PYTHONPATH=/workspace/src/Yolo_fine/ultralytics YOLO_CONFIG_DIR=/tmp/ultralytics MPLCONFIGDIR=/tmp/matplotlib YOLO_INPUT_CHANNELS=1 YOLO_INPUT_SEMANTICS=gray1 YOLO_IMGSZ=1280",
+          "CreatedSince": "5 weeks ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T02:06:48+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:e655c99428cc902e63edab2b0893b906af3140d9a7cab86460eddf12c5d0287d in /workspace/src/Yolo_fine ",
+          "CreatedSince": "5 weeks ago",
+          "ID": "<missing>",
+          "Size": "208MB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T02:06:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:4929d5bc47326f2510a7971caf8ee4e86b7bd500cb5401e059a4584498ed810a in /opt/ywang/yolo-runtime ",
+          "CreatedSince": "5 weeks ago",
+          "ID": "<missing>",
+          "Size": "11GB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:44+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:43+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) ADD file:da2cd86408d9354e8bd817c8a4b8635a1d788cd20d0d70061ce02a173e8cf902 in / ",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "78.1MB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.version=22.04",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ARG RELEASE",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        }
+      ]
+    },
+    {
+      "reference": "ywang/yolo-gray1-data-pipeline:0.2.0",
+      "id": "sha256:0bd13869796c7810a6009259e87e0c58cc59d2b05bd1490f9f56ab7d0f69872e",
+      "tags": [
+        "ywang/yolo-gray1-data-pipeline:0.2.0"
+      ],
+      "size": 354909091,
+      "parent": "sha256:1d0e3c79c2a44f7f3812d255fdfde02ea5a68d02453b137a83e027ba018de450",
+      "layers": [
+        "sha256:60e70dddd9ea3b1c77c62fe78be1d9f485706b6fe6052c3d88612bd8f56acd67",
+        "sha256:1b9ade8c8459674182c2680f6a5bb9397cce174c81375ea69850dac147b70be9",
+        "sha256:55ae106bd30cf5dba810b1c376cb4f7ea254f683d53617a2dbf6d92765452c60",
+        "sha256:23648ecf9819b23465acb4cadd96f5d205eb71a4644daff240dbcedcad0c38d9",
+        "sha256:188f03e60447b910f4e5a7a6c09c2fe4ab9505263ae6be69a0e66321843f0659",
+        "sha256:3df69d37c21bf1a33f817bd75dd3d63ab45347c080cb9cbcdd12c59c35642d7b",
+        "sha256:a0769c7a3425ad28cec238c57bf64ec484f5b63ae118c91cf2a6c9fae83d1e39",
+        "sha256:e66cfbeb3197f2f2ba6488145fc0ef4aad9927a6fdb3861fbe1d55a595f04111",
+        "sha256:c17b2e4ea518cb7881d5129758965e5558a2a68396b76131c36203c6590a6a38",
+        "sha256:0553f1929749285f8d1a59284cfa31f3e7b967e2502570c302792f720b4cdc4b"
+      ],
+      "labels": {
+        "org.opencontainers.image.description": "Deterministic gray1 preprocessing for YOLO and FPGA camera inputs",
+        "org.opencontainers.image.revision": "b449e6d8b986d668ba3abedf83b2b41fb35874c7",
+        "org.opencontainers.image.title": "yolo-gray1-data-pipeline",
+        "org.opencontainers.image.version": "0.2.0"
+      },
+      "container_refs": [],
+      "children": [],
+      "history": [
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-17T00:51:19+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  CMD [\"list\"]",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:0bd13869796c7810a6009259e87e0c58cc59d2b05bd1490f9f56ab7d0f69872e",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-17T00:51:19+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ENTRYPOINT [\"python\" \"-m\" \"grayprep.cli\"]",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:1d0e3c79c2a44f7f3812d255fdfde02ea5a68d02453b137a83e027ba018de450",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-17T00:51:19+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  USER 65532:65532",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:151112797573e44bd543399c5ca3e3246ef03e627c60d9df9a24cd0dd59887dd",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-17T00:51:19+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:f2024fbb18bc0370fef7601a2133a09cdf08beb71a6ea6202ec6e24d22e39868 in /app/schemas/ ",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:bc7638bddddbb6664ec435191ccc0409a122e65763588e938b5cabae681e48df",
+          "Size": "8.22kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-17T00:51:19+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:b404ec0c41aa0f38ad53ff09c9b70370fa5db4b1dd784ff32ce7a95b304af336 in /app/configs/ ",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:e27b096575f3df1bfb90879cc8ea04f2e681bf115f5c0d1e6930939d5340c68e",
+          "Size": "1.18kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-17T00:51:19+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:113c23271756d07c9b853d118df0519dccb5cd2ef42af3b74b3b44dea4df1c2c in /app/src/ ",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:047504b7ce0b856199ae318080762f1af871e447c76bb10c20549d500ebe75d9",
+          "Size": "86.7kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-17T00:51:19+08:00",
+          "CreatedBy": "|1 VCS_REF=b449e6d8b986d668ba3abedf83b2b41fb35874c7 /bin/sh -c python -m pip install --no-cache-dir --require-hashes -r /tmp/requirements.lock.txt     && rm -f /tmp/requirements.lock.txt",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:223efbce03e3041b017219f9b320e899b1827f6e59684da62f420063c580f4b2",
+          "Size": "236MB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-17T00:48:24+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY file:9f6c2c1e81e7c7c3bc62a6545046220ec8a0d8668e3884c96e3f154af8420de3 in /tmp/requirements.lock.txt ",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:6737cedef8d7f642ce83a48b23ad0860b06dfa8428cee7d0bb0f333de3801b79",
+          "Size": "1.61kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-17T00:48:24+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) WORKDIR /app",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:b1c84877a7770bc8f7f386ad3192439a336458e39530268401eb06385e7d8e95",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-17T00:48:24+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ENV LANG=C.UTF-8 PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 PYTHONNOUSERSITE=1 PYTHONPATH=/app/src",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:b59764cf84a09fe75f23d20b7c1e2ab4196834d3fd0a67f29da846226bb63357",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-17T00:48:24+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.title=yolo-gray1-data-pipeline org.opencontainers.image.description=Deterministic gray1 preprocessing for YOLO and FPGA camera inputs org.opencontainers.image.version=0.2.0 org.opencontainers.image.revision=b449e6d8b986d668ba3abedf83b2b41fb35874c7",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:a5bd7c498d8076a42e0534b3e661668af932b11e6ab07d1690a59db973958c44",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-10T18:31:27+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ARG VCS_REF=uncommitted",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:7119cb73aef3572eebf4b0adb94d57f9a346d23f82ccf9f6fecde75793f70347",
+          "Size": "0B"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:25:53+08:00",
+          "CreatedBy": "CMD [\"python3\"]",
+          "CreatedSince": "6 months ago",
+          "ID": "sha256:b4acd70b6f4ca3e8fa68f11d4bc6831d141744654e62286f862b3c8ca7bd0467",
+          "Size": "0B"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:25:53+08:00",
+          "CreatedBy": "RUN /bin/sh -c set -eux;  for src in idle3 pip3 pydoc3 python3 python3-config; do   dst=\"$(echo \"$src\" | tr -d 3)\";   [ -s \"/usr/local/bin/$src\" ];   [ ! -e \"/usr/local/bin/$dst\" ];   ln -svT \"$src\" \"/usr/local/bin/$dst\";  done # buildkit",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "36B"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:25:53+08:00",
+          "CreatedBy": "RUN /bin/sh -c set -eux;   savedAptMark=\"$(apt-mark showmanual)\";  apt-get update;  apt-get install -y --no-install-recommends   dpkg-dev   gcc   gnupg   libbluetooth-dev   libbz2-dev   libc6-dev   libdb-dev   libffi-dev   libgdbm-dev   liblzma-dev   libncursesw5-dev   libreadline-dev   libsqlite3-dev   libssl-dev   make   tk-dev   uuid-dev   wget   xz-utils   zlib1g-dev  ;   wget -O python.tar.xz \"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz\";  echo \"$PYTHON_SHA256 *python.tar.xz\" | sha256sum -c -;  wget -O python.tar.xz.asc \"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz.asc\";  GNUPGHOME=\"$(mktemp -d)\"; export GNUPGHOME;  gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$GPG_KEY\";  gpg --batch --verify python.tar.xz.asc python.tar.xz;  gpgconf --kill all;  rm -rf \"$GNUPGHOME\" python.tar.xz.asc;  mkdir -p /usr/src/python;  tar --extract --directory /usr/src/python --strip-components=1 --file python.tar.xz;  rm python.tar.xz;   cd /usr/src/python;  gnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\";  ./configure   --build=\"$gnuArch\"   --enable-loadable-sqlite-extensions   --enable-optimizations   --enable-option-checking=fatal   --enable-shared   $(test \"${gnuArch%%-*}\" != 'riscv64' && echo '--with-lto')   --with-ensurepip  ;  nproc=\"$(nproc)\";  EXTRA_CFLAGS=\"$(dpkg-buildflags --get CFLAGS)\";  LDFLAGS=\"$(dpkg-buildflags --get LDFLAGS)\";  LDFLAGS=\"${LDFLAGS:-} -Wl,--strip-all\";  arch=\"$(dpkg --print-architecture)\"; arch=\"${arch##*-}\";  case \"$arch\" in   amd64|arm64)    EXTRA_CFLAGS=\"${EXTRA_CFLAGS:-} -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer\";    ;;   i386)    ;;   *)    EXTRA_CFLAGS=\"${EXTRA_CFLAGS:-} -fno-omit-frame-pointer\";    ;;  esac;  make -j \"$nproc\"   \"EXTRA_CFLAGS=${EXTRA_CFLAGS:-}\"   \"LDFLAGS=${LDFLAGS:-}\"  ;  rm python;  make -j \"$nproc\"   \"EXTRA_CFLAGS=${EXTRA_CFLAGS:-}\"   \"LDFLAGS=${LDFLAGS:-} -Wl,-rpath='\\$\\$ORIGIN/../lib'\"   python  ;  make install;   cd /;  rm -rf /usr/src/python;   find /usr/local -depth   \\(    \\( -type d -a \\( -name test -o -name tests -o -name idle_test \\) \\)    -o \\( -type f -a \\( -name '*.pyc' -o -name '*.pyo' -o -name 'libpython*.a' \\) \\)   \\) -exec rm -rf '{}' +  ;   ldconfig;   apt-mark auto '.*' > /dev/null;  apt-mark manual $savedAptMark;  find /usr/local -type f -executable -not \\( -name '*tkinter*' \\) -exec ldd '{}' ';'   | awk '/=>/ { so = $(NF-1); if (index(so, \"/usr/local/\") == 1) { next }; gsub(\"^/(usr/)?\", \"\", so); printf \"*%s\\n\", so }'   | sort -u   | xargs -rt dpkg-query --search   | awk 'sub(\":$\", \"\", $1) { print $1 }'   | sort -u   | xargs -r apt-mark manual  ;  apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false;  apt-get dist-clean;   export PYTHONDONTWRITEBYTECODE=1;  python3 --version;  pip3 --version # buildkit",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "36.8MB"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:17:32+08:00",
+          "CreatedBy": "ENV PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:17:32+08:00",
+          "CreatedBy": "ENV PYTHON_VERSION=3.12.13",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:17:32+08:00",
+          "CreatedBy": "ENV GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:17:32+08:00",
+          "CreatedBy": "RUN /bin/sh -c set -eux;  apt-get update;  apt-get install -y --no-install-recommends   ca-certificates   netbase   tzdata  ;  apt-get dist-clean # buildkit",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "3.81MB"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:17:32+08:00",
+          "CreatedBy": "ENV LANG=C.UTF-8",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:17:32+08:00",
+          "CreatedBy": "ENV PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "debuerreotype 0.17",
+          "CreatedAt": "2026-04-06T08:00:00+08:00",
+          "CreatedBy": "# debian.sh --arch 'amd64' out/ 'trixie' '@1775433600'",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "78.6MB"
+        }
+      ]
+    },
+    {
+      "reference": "ywang/yolo-gray1-data-pipeline:0.1.1",
+      "id": "sha256:2f172eb582ba0eb7cb6192cf0449893baef3b0bb88dfb8cc83b9811839b3e3d3",
+      "tags": [
+        "ywang/yolo-gray1-data-pipeline:0.1.1"
+      ],
+      "size": 354869136,
+      "parent": "sha256:7d064e56cae5c48f359609a87dfef239af982024b3d49ac35a93cb34f3bd831d",
+      "layers": [
+        "sha256:60e70dddd9ea3b1c77c62fe78be1d9f485706b6fe6052c3d88612bd8f56acd67",
+        "sha256:1b9ade8c8459674182c2680f6a5bb9397cce174c81375ea69850dac147b70be9",
+        "sha256:55ae106bd30cf5dba810b1c376cb4f7ea254f683d53617a2dbf6d92765452c60",
+        "sha256:23648ecf9819b23465acb4cadd96f5d205eb71a4644daff240dbcedcad0c38d9",
+        "sha256:0a6d2580387b7c26fe8bd27d0fa84cb4751a4b51afbd9b94b300a1611dc0b9fb",
+        "sha256:5227f867c2c164f45cdc4d384588c5fa7a7b16847848e08080be1b686fd343e5",
+        "sha256:e7f07abe1f316be8c851bfd12f60db9691f0acb0b51c9d1157ca6b2bc1bb2220",
+        "sha256:1a410cebf720e5c115581d3f313c90bd9b507c6d8e1abaae4a48fa4b213ac161",
+        "sha256:050dfbba3fc8b465e13d421a21a29ad2afe6d8915ebe6c2e5bc4897710f98dd6",
+        "sha256:f523413d1185edf7834c0a7b8a6d2dae5173d631a339d19ba827bc6e900b0567"
+      ],
+      "labels": {
+        "org.opencontainers.image.description": "Deterministic gray1 preprocessing for YOLO and FPGA camera inputs",
+        "org.opencontainers.image.revision": "5787aa904ff80a71d585a527bc4ad973c288e48a",
+        "org.opencontainers.image.title": "yolo-gray1-data-pipeline",
+        "org.opencontainers.image.version": "0.1.1"
+      },
+      "container_refs": [],
+      "children": [],
+      "history": [
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-10T22:08:53+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  CMD [\"list\"]",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:2f172eb582ba0eb7cb6192cf0449893baef3b0bb88dfb8cc83b9811839b3e3d3",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-10T22:08:53+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ENTRYPOINT [\"python\" \"-m\" \"grayprep.cli\"]",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:7d064e56cae5c48f359609a87dfef239af982024b3d49ac35a93cb34f3bd831d",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-10T22:08:53+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  USER 65532:65532",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:57c5b70bc60298f8d325928bea3ad8d2f9dce1b2d5e0e0706db9d3e765db7acd",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-10T22:08:53+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:7fa5ff08b44636ca2e50a246a1656e5c8b0e16dcc0fd9c80e033d8815062e974 in /app/schemas/ ",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:3d8207f8941773e986139168dc2533c0371e4f94c661e3c96573e58de5a199e3",
+          "Size": "5.74kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-10T22:08:53+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:b404ec0c41aa0f38ad53ff09c9b70370fa5db4b1dd784ff32ce7a95b304af336 in /app/configs/ ",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:45ba97d767c1611004a42b4d492af6ff2acb358ef9a1a7b2fda886861250f9ad",
+          "Size": "1.18kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-10T22:08:53+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:2869cb7a37a00226d62cbd46f79272a92d30148315718243beaf06ef195d83dd in /app/src/ ",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:60a19f6529027ef07906736b658b5029395160e19a5aba95bf32a2aa04e4903a",
+          "Size": "49.2kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-10T22:08:53+08:00",
+          "CreatedBy": "|1 VCS_REF=5787aa904ff80a71d585a527bc4ad973c288e48a /bin/sh -c python -m pip install --no-cache-dir --require-hashes -r /tmp/requirements.lock.txt     && rm -f /tmp/requirements.lock.txt",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:1c349daa0d56253840d58c0d7ad74d2fe6ef4f8eb7e2ccde02c4f0b2cdcc6e61",
+          "Size": "236MB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-10T22:07:00+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY file:9f6c2c1e81e7c7c3bc62a6545046220ec8a0d8668e3884c96e3f154af8420de3 in /tmp/requirements.lock.txt ",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:0b205cdaa9459d48ab4b6fae3c6811537476be504bed4f5386d32a630a907697",
+          "Size": "1.61kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-10T22:07:00+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) WORKDIR /app",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:5226cb8d2aae7e38ccb2d0ce0cf507c34151005715e1dab0587ec5e501a7f13a",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-10T22:07:00+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ENV LANG=C.UTF-8 PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 PYTHONNOUSERSITE=1 PYTHONPATH=/app/src",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:f9aca67311175c4385241ec948d059ab50391c31a1abdd054e6baf63a0fe0b47",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-10T22:07:00+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.title=yolo-gray1-data-pipeline org.opencontainers.image.description=Deterministic gray1 preprocessing for YOLO and FPGA camera inputs org.opencontainers.image.version=0.1.1 org.opencontainers.image.revision=5787aa904ff80a71d585a527bc4ad973c288e48a",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:21ac9d8adfcc346409cd42437e9035463f2404fac0dc0a4fd9d54c3e7b24bbce",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-10T18:31:27+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ARG VCS_REF=uncommitted",
+          "CreatedSince": "4 weeks ago",
+          "ID": "sha256:7119cb73aef3572eebf4b0adb94d57f9a346d23f82ccf9f6fecde75793f70347",
+          "Size": "0B"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:25:53+08:00",
+          "CreatedBy": "CMD [\"python3\"]",
+          "CreatedSince": "6 months ago",
+          "ID": "sha256:b4acd70b6f4ca3e8fa68f11d4bc6831d141744654e62286f862b3c8ca7bd0467",
+          "Size": "0B"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:25:53+08:00",
+          "CreatedBy": "RUN /bin/sh -c set -eux;  for src in idle3 pip3 pydoc3 python3 python3-config; do   dst=\"$(echo \"$src\" | tr -d 3)\";   [ -s \"/usr/local/bin/$src\" ];   [ ! -e \"/usr/local/bin/$dst\" ];   ln -svT \"$src\" \"/usr/local/bin/$dst\";  done # buildkit",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "36B"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:25:53+08:00",
+          "CreatedBy": "RUN /bin/sh -c set -eux;   savedAptMark=\"$(apt-mark showmanual)\";  apt-get update;  apt-get install -y --no-install-recommends   dpkg-dev   gcc   gnupg   libbluetooth-dev   libbz2-dev   libc6-dev   libdb-dev   libffi-dev   libgdbm-dev   liblzma-dev   libncursesw5-dev   libreadline-dev   libsqlite3-dev   libssl-dev   make   tk-dev   uuid-dev   wget   xz-utils   zlib1g-dev  ;   wget -O python.tar.xz \"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz\";  echo \"$PYTHON_SHA256 *python.tar.xz\" | sha256sum -c -;  wget -O python.tar.xz.asc \"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz.asc\";  GNUPGHOME=\"$(mktemp -d)\"; export GNUPGHOME;  gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$GPG_KEY\";  gpg --batch --verify python.tar.xz.asc python.tar.xz;  gpgconf --kill all;  rm -rf \"$GNUPGHOME\" python.tar.xz.asc;  mkdir -p /usr/src/python;  tar --extract --directory /usr/src/python --strip-components=1 --file python.tar.xz;  rm python.tar.xz;   cd /usr/src/python;  gnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\";  ./configure   --build=\"$gnuArch\"   --enable-loadable-sqlite-extensions   --enable-optimizations   --enable-option-checking=fatal   --enable-shared   $(test \"${gnuArch%%-*}\" != 'riscv64' && echo '--with-lto')   --with-ensurepip  ;  nproc=\"$(nproc)\";  EXTRA_CFLAGS=\"$(dpkg-buildflags --get CFLAGS)\";  LDFLAGS=\"$(dpkg-buildflags --get LDFLAGS)\";  LDFLAGS=\"${LDFLAGS:-} -Wl,--strip-all\";  arch=\"$(dpkg --print-architecture)\"; arch=\"${arch##*-}\";  case \"$arch\" in   amd64|arm64)    EXTRA_CFLAGS=\"${EXTRA_CFLAGS:-} -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer\";    ;;   i386)    ;;   *)    EXTRA_CFLAGS=\"${EXTRA_CFLAGS:-} -fno-omit-frame-pointer\";    ;;  esac;  make -j \"$nproc\"   \"EXTRA_CFLAGS=${EXTRA_CFLAGS:-}\"   \"LDFLAGS=${LDFLAGS:-}\"  ;  rm python;  make -j \"$nproc\"   \"EXTRA_CFLAGS=${EXTRA_CFLAGS:-}\"   \"LDFLAGS=${LDFLAGS:-} -Wl,-rpath='\\$\\$ORIGIN/../lib'\"   python  ;  make install;   cd /;  rm -rf /usr/src/python;   find /usr/local -depth   \\(    \\( -type d -a \\( -name test -o -name tests -o -name idle_test \\) \\)    -o \\( -type f -a \\( -name '*.pyc' -o -name '*.pyo' -o -name 'libpython*.a' \\) \\)   \\) -exec rm -rf '{}' +  ;   ldconfig;   apt-mark auto '.*' > /dev/null;  apt-mark manual $savedAptMark;  find /usr/local -type f -executable -not \\( -name '*tkinter*' \\) -exec ldd '{}' ';'   | awk '/=>/ { so = $(NF-1); if (index(so, \"/usr/local/\") == 1) { next }; gsub(\"^/(usr/)?\", \"\", so); printf \"*%s\\n\", so }'   | sort -u   | xargs -rt dpkg-query --search   | awk 'sub(\":$\", \"\", $1) { print $1 }'   | sort -u   | xargs -r apt-mark manual  ;  apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false;  apt-get dist-clean;   export PYTHONDONTWRITEBYTECODE=1;  python3 --version;  pip3 --version # buildkit",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "36.8MB"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:17:32+08:00",
+          "CreatedBy": "ENV PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:17:32+08:00",
+          "CreatedBy": "ENV PYTHON_VERSION=3.12.13",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:17:32+08:00",
+          "CreatedBy": "ENV GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:17:32+08:00",
+          "CreatedBy": "RUN /bin/sh -c set -eux;  apt-get update;  apt-get install -y --no-install-recommends   ca-certificates   netbase   tzdata  ;  apt-get dist-clean # buildkit",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "3.81MB"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:17:32+08:00",
+          "CreatedBy": "ENV LANG=C.UTF-8",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "buildkit.dockerfile.v0",
+          "CreatedAt": "2026-04-07T10:17:32+08:00",
+          "CreatedBy": "ENV PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "debuerreotype 0.17",
+          "CreatedAt": "2026-04-06T08:00:00+08:00",
+          "CreatedBy": "# debian.sh --arch 'amd64' out/ 'trixie' '@1775433600'",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "78.6MB"
+        }
+      ]
+    },
+    {
+      "reference": "sha256:3962e5508560f4c9bb84c6cd72c15dcee57b55caaaf6e08b9c4f929a3e90b6b8",
+      "id": "sha256:3962e5508560f4c9bb84c6cd72c15dcee57b55caaaf6e08b9c4f929a3e90b6b8",
+      "tags": [],
+      "size": 11334588899,
+      "parent": "sha256:62de983745475b50f4e3a242f7d65f186920081275e367b6dfb59958e8d3a36c",
+      "layers": [
+        "sha256:39fbf5f8fe523b2ea819cd8eb2bf68807d8eaee383549f7ab80a44503ed6860b",
+        "sha256:458dc53e08ef36f076556e1abfa1402e29db4ee46343bdf0c4adac181f605b10",
+        "sha256:7d033e57dc5a3b843fd099dfd7fe9994d1f84f750d7c06f8a80a00167e0e63fe",
+        "sha256:5a5895a95796c40cae337e596d51f2a1dd1cbc7ea6151847f40b5ff6ec74f40f",
+        "sha256:88e0cb7c0f35fc21dc4ec2c66e768431cd5fde7ce50e73fa5e2556c218bc25ef",
+        "sha256:d1620c7950c8192ed8afd5d84aa3dcac4eeee95578bf5de8db82262e6c3e112e",
+        "sha256:33f7254cda67787cca0234bfde54675a96311de7f4ca998e6806d443390d5a3e",
+        "sha256:d3ed335fdc07144aa98caef714aa9fc684dc776957006410793045e3f3a2cab8",
+        "sha256:06801096aaab981302e08491bd5f6e17111b3f8f366e91d0a819232812797552"
+      ],
+      "labels": {
+        "io.ywang.yolo.input.channels": "1",
+        "io.ywang.yolo.input.semantics": "gray1",
+        "org.opencontainers.image.base.name": "ywang/yolo-gray1-train:ultralytics-8.3.98-v5",
+        "org.opencontainers.image.title": "ywang YOLO gray1 quantization runtime",
+        "org.opencontainers.image.version": "ultralytics-8.3.98-v1"
+      },
+      "container_refs": [],
+      "children": [],
+      "history": [
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T21:27:30+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) WORKDIR /workspace/quantitize-platform",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:3962e5508560f4c9bb84c6cd72c15dcee57b55caaaf6e08b9c4f929a3e90b6b8",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T21:27:30+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ENV PLATFORM_ROOT=/workspace/quantitize-platform PYTHONPATH=/workspace/src/Yolo_fine/ultralytics:/workspace/quantitize-platform/pipeline:/workspace/quantitize-platform/pipeline/engine YOLO_INPUT_CHANNELS=1 YOLO_INPUT_SEMANTICS=gray1 YOLO_IMGSZ=1280",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:62de983745475b50f4e3a242f7d65f186920081275e367b6dfb59958e8d3a36c",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T21:27:30+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY file:30deccc563f1607f99cf2c57b1adeffae3a29a00e511322deee74c30d9e1b7f9 in /workspace/verify_gray1_quant_runtime.py ",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:c32236e31d16aabd3f1bd581eabbc9d342aa13a08bc15a080f8711f13436bb74",
+          "Size": "1.83kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T21:27:10+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:59e897a8c1365a878750bccdaf4b07aa992549cdd452388e92c3d8b7213247f8 in /workspace/quantitize-platform/patches ",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:9dd0234d6ed21cca261a53b27a0d830d339c1066fe2033b35295928c5cd411dc",
+          "Size": "51.7kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T21:27:10+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:16be05d433379de9b9ceb3395a098b89b5fd564834f672c61125e2b6264feedf in /workspace/quantitize-platform/pipeline ",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:c44960c688e97845c7a409725e80523c085e9bb4cf8c7a65621964cfdf8aa7b5",
+          "Size": "468kB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T21:27:10+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.title=ywang YOLO gray1 quantization runtime org.opencontainers.image.version=ultralytics-8.3.98-v1 org.opencontainers.image.base.name=ywang/yolo-gray1-train:ultralytics-8.3.98-v5 io.ywang.yolo.input.channels=1 io.ywang.yolo.input.semantics=gray1",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:1cb43bb3b480410e459a40371c7a45e39bff5ea1d18d3d9b8fecd8b0e9b3d8b7",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T17:20:58+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:8f3808c04433deb5179b23943b28ed2613bd961785ff00cc477a9a2d9f400336",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T17:20:58+08:00",
+          "CreatedBy": "/bin/sh -c python -c \"import sys, torch, torchvision, cv2, numpy, albumentations, PIL, yaml, tqdm, onnx, onnxruntime; assert sys.version.split()[0] == '3.12.12'; assert torch.__version__ == '2.8.0+cu128'; assert torchvision.__version__ == '0.23.0+cu128'; assert cv2.__version__ == '4.11.0'; assert numpy.__version__ == '1.26.4'; assert albumentations.__version__ == '2.0.8'; assert PIL.__version__ == '12.2.0'; assert yaml.__version__ == '6.0.3'; assert tqdm.__version__ == '4.67.3'; assert onnx.__version__ == '1.17.0'; assert onnxruntime.__version__ == '1.24.3'\"",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:5b9c4ddbea1d88a94a517160f9f81e6d4dc5e6e60fc34e16d89efb23e5725bde",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T17:20:54+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) WORKDIR /workspace/src/Yolo_fine",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:cefff1334cd2971fc37f817b0a81461d9d83f84c99dfd6a992f0300b9bec0467",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T17:20:54+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ENV LANG=C.UTF-8 PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 PYTHONNOUSERSITE=1 CONDA_PREFIX=/opt/ywang/yolo-runtime PATH=/opt/ywang/yolo-runtime/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin PYTHONPATH=/workspace/src/Yolo_fine/ultralytics YOLO_CONFIG_DIR=/tmp/ultralytics MPLCONFIGDIR=/tmp/matplotlib YOLO_INPUT_CHANNELS=1 YOLO_INPUT_SEMANTICS=gray1 YOLO_IMGSZ=1280",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:ab1a350d95a14d32f3b57284cc01e50ac80edb59c61e00e126490608a51657da",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T17:20:54+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:1ccb4c2f1b15b27f166f866db03d1e371600be1eb81ca97740b731e0adbde25b in /workspace/src/Yolo_fine ",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:b63491c980771bdfbb95febf0cf32a3bcc53bcb4a997886e67d0e8b74c0e7bb7",
+          "Size": "208MB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T17:12:08+08:00",
+          "CreatedBy": "/bin/sh -c /opt/ywang/yolo-runtime/bin/python -m pip install --no-deps --force-reinstall         /tmp/wheels/onnx-1.17.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl     && rm -rf /tmp/wheels",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:155e86285aacada2ead1e25c9e5310dafc7c824ab29d96936db28ec31489683c",
+          "Size": "35MB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T17:12:00+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY file:caa15680dcb609b577131d5bd7cb35a96b91cc10d20218a0e5389012655f6967 in /tmp/wheels/ ",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:c4a81eb0150fdfc8317166b8721b44ccb620ef02fea36ff9138b5f03ad9815c2",
+          "Size": "16MB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-09-09T02:06:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) COPY dir:4929d5bc47326f2510a7971caf8ee4e86b7bd500cb5401e059a4584498ed810a in /opt/ywang/yolo-runtime ",
+          "CreatedSince": "5 weeks ago",
+          "ID": "sha256:5f23527fbf3ad1250a02689967d836bc792e3f63b2a848f948847edb0bf43f46",
+          "Size": "11GB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:44+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]",
+          "CreatedSince": "6 months ago",
+          "ID": "sha256:714d1a2f39e9830a7c0453dc924ddf849be74811c13e4afaa21c0b9b6ad74af0",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:43+08:00",
+          "CreatedBy": "/bin/sh -c #(nop) ADD file:da2cd86408d9354e8bd817c8a4b8635a1d788cd20d0d70061ce02a173e8cf902 in / ",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "78.1MB"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.version=22.04",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        },
+        {
+          "Comment": "",
+          "CreatedAt": "2026-04-10T17:47:41+08:00",
+          "CreatedBy": "/bin/sh -c #(nop)  ARG RELEASE",
+          "CreatedSince": "6 months ago",
+          "ID": "<missing>",
+          "Size": "0B"
+        }
+      ]
+    }
+  ],
+  "containers": [
+    {
+      "id": "65c4f5b8f6970a2b93ec5ab0a76d8faeb38f27226d8585a7f5baf3360681ada6",
+      "name": "/quantitize-platform-api",
+      "image": "sha256:f633b01c2f85d1fd39bf01e9b9f556056d03c805529781c8879e3172412e8ed2",
+      "state": "running",
+      "health": "healthy"
+    },
+    {
+      "id": "f60cf6cb71373bb993ee1121ea158798f799aeb678cf2c6b26d4936d094f100d",
+      "name": "/quantitize-platform-web",
+      "image": "sha256:7aef48747d3fc4270f85133382ffbcf83ea0c53e831f06978ac777b48743d9e9",
+      "state": "running",
+      "health": "healthy"
+    },
+    {
+      "id": "df5bcc95337581fd8ba0cfd8173a650d3241a1dd38c396861867f14210bd2ed0",
+      "name": "/angry_wing",
+      "image": "sha256:4d1251fc1c384753d7bb3a2789433be25d8f1ac71ed935eb0d2d2a539bf97e87",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "bfd391e9f1778b7414fd59f7cc1090504b82b68fe2c564044a7ce2d7e0be05e0",
+      "name": "/unruffled_hugle",
+      "image": "sha256:e899dc366313ec4549451c8f84297d13497b230c59461d9a7d26a57c8aa5a9f9",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "16f09267b24c96dfac3263522fa6457389419c70acf6cd9fc93307259c558ad0",
+      "name": "/hopeful_joliot",
+      "image": "sha256:5cd1ff3a90d07b5f4f89b5e1e1ee6ecd6fb33bb0a217abb26b5fae4fd4acbfb4",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "7d538f4189bf105ab60210eaa203b5ee5b308614a707405d1a721a56bc6a5d09",
+      "name": "/compassionate_faraday",
+      "image": "sha256:5cd1ff3a90d07b5f4f89b5e1e1ee6ecd6fb33bb0a217abb26b5fae4fd4acbfb4",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "5a9227bb32177541dbef09871a66a87668ce92a191e84d3b57e8b7e537adcad0",
+      "name": "/interesting_lamarr",
+      "image": "sha256:efb325f895a799c02a845e5e2d5eb735823651f7383018d9733872dc39ba9f34",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "0af54098a5a5fc85e63272175cf3381c8bd56d88caf4bcc237ea4f63cebc8760",
+      "name": "/stoic_perlman",
+      "image": "sha256:a6d096078ee36abb419dc0eb9e87e77b6deb02cf75b3b044da705dfa673940f1",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "201e09e77996ccc4299cb07c4be54962633ea60e9a3f6c5b4af415ebb0841f79",
+      "name": "/awesome_galileo",
+      "image": "sha256:73a49f02da3fece3e778cbb44115be6ed66785ce4a6c555f2095f58e50fedcea",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "1082a6a4ba01b349c765a0d31160cfa6350c3abe36355b79c678eb99bd5c5515",
+      "name": "/dreamy_goldwasser",
+      "image": "sha256:abd1be4283314277f806a0c78bd303ab4e8b9aa37c0095ef9a55277a45d78c29",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "6a9169f5123a360031a03e8da0811360bb563c36f5a2135a6a78d7a36dbfecf0",
+      "name": "/silly_mcclintock",
+      "image": "sha256:c4c3261e798b805de219568fef004d77df56b983d557b5e0ca95e372a4e4495c",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "010f5f6adccf9596865edb21051bf6bb6d10532ef4427dbb884dd32539f7c9b3",
+      "name": "/festive_herschel",
+      "image": "sha256:c4c3261e798b805de219568fef004d77df56b983d557b5e0ca95e372a4e4495c",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "3b2453fb1f7a1d8811e3cc758c116074698613151fa2de66676dd4c2015c0684",
+      "name": "/friendly_dijkstra",
+      "image": "sha256:44eee035eb358497e55000698bc848b3de2c703cf81835e2f86ffefea16f15a3",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "6e963e01af98d246b3270aff9a510ea029f33e823472aad18984a0e850ab3f5e",
+      "name": "/optimistic_swirles",
+      "image": "sha256:44eee035eb358497e55000698bc848b3de2c703cf81835e2f86ffefea16f15a3",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "522adb0f5f0721dc95ba7aaef18c98cf3e7a79b37dd00bf0a7e0f9c8cc90330b",
+      "name": "/nostalgic_mestorf",
+      "image": "sha256:263576626bfaf68ab302dda21be4167df5b694580f74ecd826d08a4b53410965",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "b481815cf9056ddc59f0d53bbd40c3061f83a3b7d42e6debf838781e2cb38926",
+      "name": "/compassionate_hermann",
+      "image": "sha256:263576626bfaf68ab302dda21be4167df5b694580f74ecd826d08a4b53410965",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "8c9e3ca03df680c044555ac4e6ee35f537b58795a7156ab8c2589097a424b37e",
+      "name": "/silly_moore",
+      "image": "sha256:c3104c3b4a6719d321a9184e70ea51c2c09200801d41603ae7f03200531ec60a",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "eb8778b08b57e48ff81ef2ccdb007d6ce904e72ba414ed1d81db0c0a7142b28e",
+      "name": "/bold_borg",
+      "image": "sha256:c3104c3b4a6719d321a9184e70ea51c2c09200801d41603ae7f03200531ec60a",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "1567c10399cf88290c092314763dbf3d59afde5a325dec9525c778ab82738bb6",
+      "name": "/youthful_wiles",
+      "image": "sha256:1b44b5a3e06a9aae883e7bf25e45c100be0bb81a0e01b32de604f3ac44711634",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "e5bd20c198c6dd41a298a62bfa9c4fcfdb02a5ab1f6acd0a816457c65e314351",
+      "name": "/ubuntu_ros_container",
+      "image": "sha256:fa76172f3757ef572379b0febf5e1ead2d6664f18b44a944d1f489f1d7d9aee6",
+      "state": "exited",
+      "health": null
+    }
+  ],
+  "docker_df_before": "TYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE\nImages          223       14        342.7GB   239.6GB (69%)\nContainers      20        2         43.82GB   43.82GB (99%)\nLocal Volumes   2         0         320.5MB   320.5MB (100%)\nBuild Cache     1018      0         105.5GB   100.1GB\n",
+  "source_files": {
+    "/data3/ywang/yolo-gray1-train/docker/Dockerfile.predictor-chfix": "# syntax=docker/dockerfile:1\n# Overlay on the accepted 50e training image. Do not retag or overwrite v1.\n\nFROM ywang/yolo-gray1-train:ultralytics-8.3.98-v1\n\nLABEL org.opencontainers.image.title=\"ywang YOLO gray1 train runtime with predictor channel warmup\" \\\n      org.opencontainers.image.version=\"ultralytics-8.3.98-v1-predictor-chfix\" \\\n      org.opencontainers.image.base.name=\"ywang/yolo-gray1-train:ultralytics-8.3.98-v1\"\n\nCOPY src/Yolo_fine/ultralytics/ultralytics/engine/predictor.py \\\n     /workspace/src/Yolo_fine/ultralytics/ultralytics/engine/predictor.py\n",
+    "/data3/ywang/yolo-gray1-train/docker/Dockerfile.predictor-gray1": "# syntax=docker/dockerfile:1\n# Overlay on the accepted 50e training image. Do not retag or overwrite v1.\n\nFROM ywang/yolo-gray1-train:ultralytics-8.3.98-v1\n\nLABEL org.opencontainers.image.title=\"ywang YOLO gray1 train runtime with predictor gray1 preprocess\" \\\n      org.opencontainers.image.version=\"ultralytics-8.3.98-v1-predictor-gray1\" \\\n      org.opencontainers.image.base.name=\"ywang/yolo-gray1-train:ultralytics-8.3.98-v1\"\n\nCOPY src/Yolo_fine/ultralytics/ultralytics/engine/predictor.py \\\n     /workspace/src/Yolo_fine/ultralytics/ultralytics/engine/predictor.py\n",
+    "/data3/ywang/yolo-gray1-data-pipeline/docker/Dockerfile": "FROM python:3.12-slim@sha256:804ddf3251a60bbf9c92e73b7566c40428d54d0e79d3428194edf40da6521286\n\nARG VCS_REF=uncommitted\nLABEL org.opencontainers.image.title=\"yolo-gray1-data-pipeline\" \\\n      org.opencontainers.image.description=\"Deterministic gray1 preprocessing for YOLO and FPGA camera inputs\" \\\n      org.opencontainers.image.version=\"0.2.1\" \\\n      org.opencontainers.image.revision=\"${VCS_REF}\"\n\nENV LANG=C.UTF-8 \\\n    PYTHONUNBUFFERED=1 \\\n    PYTHONDONTWRITEBYTECODE=1 \\\n    PYTHONNOUSERSITE=1 \\\n    PYTHONPATH=/app/src\n\nWORKDIR /app\n\nCOPY docker/requirements.lock.txt /tmp/requirements.lock.txt\nRUN python -m pip install --no-cache-dir --require-hashes -r /tmp/requirements.lock.txt \\\n    && rm -f /tmp/requirements.lock.txt\n\nCOPY src/ /app/src/\nCOPY configs/ /app/configs/\nCOPY schemas/ /app/schemas/\n\n# Numeric non-root identity; H200 Compose overrides this with ywang's 1012:1012.\nUSER 65532:65532\n\nENTRYPOINT [\"python\", \"-m\", \"grayprep.cli\"]\nCMD [\"list\"]\n"
+  },
+  "protected": [
+    {
+      "id": "sha256:34537dbbb8e1dcce8a7a19847fbb3214be4248c4321170e6377e4e9316a0ed2c",
+      "tags": [
+        "quantitize-platform-api:generate-bin-qdq-20260920",
+        "quantitize-platform-api:pre-weight-only-20260920"
+      ]
+    },
+    {
+      "id": "sha256:4693858842e145daad203dc33bad5be00210f857dc8e5b6d226b67b982cc9685",
+      "tags": [
+        "quantitize-platform-api:pre-generate-bin-qdq-20260920"
+      ]
+    },
+    {
+      "id": "sha256:ae238a8a9099ef31a6c06ef788d964ec9dcc4875f80958cd765c1614b90892db",
+      "tags": [
+        "ywang/yolo-gray1-data-pipeline:0.2.1"
+      ]
+    },
+    {
+      "id": "sha256:7a291a40a004767c3d44b781545e8faeb8afe4654f4c191658292829a0959d03",
+      "tags": [
+        "ywang/yolo-gray1-train:ultralytics-8.3.98-v1"
+      ]
+    },
+    {
+      "id": "sha256:f633b01c2f85d1fd39bf01e9b9f556056d03c805529781c8879e3172412e8ed2",
+      "tags": [
+        "quantitize-platform-api:latest",
+        "quantitize-platform-api:weight-only-20260920"
+      ]
+    },
+    {
+      "id": "sha256:7aef48747d3fc4270f85133382ffbcf83ea0c53e831f06978ac777b48743d9e9",
+      "tags": [
+        "quantitize-platform-web:latest"
+      ]
+    },
+    {
+      "id": "sha256:edaa61047923e708db681416ed99d2d7b657a4c689d9c89f6b4dcdb549f6c68c",
+      "tags": [
+        "ywang/yolo-gray1-train:ultralytics-8.3.98-v1-predictor-gray1"
+      ]
+    }
+  ]
+}

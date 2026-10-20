@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-10-17T17:51:14.143121+00:00",
+  "manifest_sha256": "16f094de56c20557fd1845a5c85eed29dc3c0a1e84e3253883e6bb7206622ee9",
+  "files_checked": 3001,
+  "directories_checked": 77,
+  "bytes_before": 4602955706,
+  "byte_identical_files": 2996,
+  "modified_outer_documents": [
+    {
+      "source": "docs/class-21/reports/history/AGENTS.md",
+      "destination": "docs/archive/2026-09-class21-transition/AGENTS.md",
+      "before_sha256": "2f1ca2d82f615e80f642e25662b824d1ca860bdbcd46d3c4005126d170d4e080",
+      "after_sha256": "4eadc282d3606b9224016584713397241ff23fd973939cb80b90c78d74fad341",
+      "before_bytes": 222,
+      "after_bytes": 439
+    },
+    {
+      "source": "docs/class-21/reports/history/HISTORICAL_TRANSITION_EXPERIMENTS.md",
+      "destination": "docs/archive/2026-09-class21-transition/HISTORICAL_TRANSITION_EXPERIMENTS.md",
+      "before_sha256": "a3fa8a5c35e49dcc75bd2b351e0e4cdee5089d7c4efb62e3b7ac638e4eee2888",
+      "after_sha256": "93aba8469573d6d5e9dcf831206bfd7f5e63c47562001ef70f9388bf4c8fcb7e",
+      "before_bytes": 2784,
+      "after_bytes": 2813
+    },
+    {
+      "source": "docs/class-21/reports/history/README.md",
+      "destination": "docs/archive/2026-09-class21-transition/README.md",
+      "before_sha256": "fe746646f9a534407b9b985ea68f6190445db4982eb797f935186175d309b7e7",
+      "after_sha256": "19bd8795f5bb9eb3385f4613a76aa3709cf0902fa0b592c3537893a9e93a1dac",
+      "before_bytes": 462,
+      "after_bytes": 976
+    },
+    {
+      "source": "docs/class-21/reports/output/AGENTS.md",
+      "destination": "outputs/class-21/AGENTS.md",
+      "before_sha256": "c7c0ca431891c7c9bcf02fda351fa32b7343c69d1efd015804b50ba2ad9fe360",
+      "after_sha256": "cbc6679557c15ec17d4f5fe640b58ab2e86548b87941c3a90a7ba000eaae63e2",
+      "before_bytes": 272,
+      "after_bytes": 532
+    },
+    {
+      "source": "docs/class-21/reports/output/README.md",
+      "destination": "outputs/class-21/README.md",
+      "before_sha256": "daaef7c8c4a595c019fa0beb3c799b63f032ce5a73b8752503f05b3f8c9ddf5c",
+      "after_sha256": "13c8edfa68abcbf610c39c537fb57bf5eb1798a377719feeaef1a7c5657fa023",
+      "before_bytes": 623,
+      "after_bytes": 1803
+    }
+  ],
+  "missing_files": [],
+  "unexpected_files": [],
+  "directory_mapping_matches": true,
+  "old_source_directories_absent": true,
+  "reparse_points_in_moved_trees": 0,
+  "original_document_archive_verified_members": 108,
+  "boundary": "Local relocation only; embedded package manifests and all package files are byte-identical. Remote/NAS manifest completeness and runtime results were not revalidated. work and external dependency targets were not accessed."
+}

@@ -1,0 +1,302 @@
+schema: pose21-gray1-fpga-contract/v1
+document_status: draft
+updated_at: "2026-09-23"
+purpose: >-
+  Machine-readable companion to the Pose21 Gray1 architecture and FPGA
+  migration document. Fields marked unresolved must not be treated as a
+  production hardware contract.
+
+status_vocabulary:
+  verified: Confirmed from the current model, artifact, or implementation.
+  historical: Evidence belongs only to the old WRS/PPT or R-only model.
+  provisional: Used by current software without completed FPGA validation.
+  inferred: Derived from multiple observations but not confirmed by the authority.
+  unresolved: Missing an authoritative definition or validation.
+
+model:
+  task: pose
+  family: YOLOv8x-Pose-P6
+  actual_scale:
+    value: x
+    status: verified
+    note: The run name contains m_50e, but the model YAML selects scale x.
+  weights:
+    path: /data3/ywang/yolo-gray1-train/runs/pose21_gray1_m_50e_20260917_113127/experiments/pose21_gray1_m_50e_20260917_113127/weights/best.pt
+    bytes: 199108106
+    sha256: 622cff54db472b61c85db03648b36c119f030eacbd4cd87cf5d2dda67e69d6a7
+    status: verified
+  model_yaml:
+    path: /data3/ywang/yolo-gray1-train/src/Yolo_fine/configs/yolov8x-pose-p6-gray1.yaml
+    sha256: 2de3a451199884802f740ea713aa01c9d5ade2178f6a0e0146cb231d3db402fb
+    status: verified
+  input:
+    name: images
+    shape: [1, 1, 1280, 1280]
+    dtype: float16
+    layout: NCHW
+    semantics: gray1
+    status: verified
+  classes:
+    count: 21
+    ordered_names:
+      - agaier
+      - aipuha
+      - aituosha
+      - ansainusa
+      - aoerhong
+      - chapala
+      - dibulong
+      - didikaka
+      - kanjialu
+      - lupate
+      - qinghai
+      - rineiwa
+      - sading
+      - saersaer
+      - saleikamei
+      - taihu
+      - taiwan
+      - tana
+      - tekesi
+      - wennibeige
+      - moon
+    status: verified
+  keypoints:
+    shape: [2, 3]
+    fields: [x, y, visibility]
+    status: verified
+
+top_level_layers:
+  - {index: 0, module: Conv, repeats: 1, from: [-1], output_chw: [80, 640, 640]}
+  - {index: 1, module: Conv, repeats: 1, from: [-1], output_chw: [160, 320, 320]}
+  - {index: 2, module: C2f, repeats: 3, from: [-1], output_chw: [160, 320, 320]}
+  - {index: 3, module: Conv, repeats: 1, from: [-1], output_chw: [320, 160, 160]}
+  - {index: 4, module: C2f, repeats: 6, from: [-1], output_chw: [320, 160, 160]}
+  - {index: 5, module: Conv, repeats: 1, from: [-1], output_chw: [640, 80, 80]}
+  - {index: 6, module: C2f, repeats: 6, from: [-1], output_chw: [640, 80, 80]}
+  - {index: 7, module: Conv, repeats: 1, from: [-1], output_chw: [640, 40, 40]}
+  - {index: 8, module: C2f, repeats: 3, from: [-1], output_chw: [640, 40, 40]}
+  - {index: 9, module: Conv, repeats: 1, from: [-1], output_chw: [640, 20, 20]}
+  - {index: 10, module: C2f, repeats: 3, from: [-1], output_chw: [640, 20, 20]}
+  - {index: 11, module: SPPF, repeats: 1, from: [-1], output_chw: [640, 20, 20]}
+  - {index: 12, module: Upsample, repeats: 1, from: [-1], output_chw: [640, 40, 40]}
+  - {index: 13, module: Concat, repeats: 1, from: [-1, 8], output_chw: [1280, 40, 40]}
+  - {index: 14, module: C2, repeats: 3, from: [-1], output_chw: [640, 40, 40]}
+  - {index: 15, module: Upsample, repeats: 1, from: [-1], output_chw: [640, 80, 80]}
+  - {index: 16, module: Concat, repeats: 1, from: [-1, 6], output_chw: [1280, 80, 80]}
+  - {index: 17, module: C2, repeats: 3, from: [-1], output_chw: [640, 80, 80]}
+  - {index: 18, module: Upsample, repeats: 1, from: [-1], output_chw: [640, 160, 160]}
+  - {index: 19, module: Concat, repeats: 1, from: [-1, 4], output_chw: [960, 160, 160]}
+  - {index: 20, module: C2, repeats: 3, from: [-1], output_chw: [320, 160, 160]}
+  - {index: 21, module: Conv, repeats: 1, from: [-1], output_chw: [320, 80, 80]}
+  - {index: 22, module: Concat, repeats: 1, from: [-1, 17], output_chw: [960, 80, 80]}
+  - {index: 23, module: C2, repeats: 3, from: [-1], output_chw: [640, 80, 80]}
+  - {index: 24, module: Conv, repeats: 1, from: [-1], output_chw: [640, 40, 40]}
+  - {index: 25, module: Concat, repeats: 1, from: [-1, 14], output_chw: [1280, 40, 40]}
+  - {index: 26, module: C2, repeats: 3, from: [-1], output_chw: [640, 40, 40]}
+  - {index: 27, module: Conv, repeats: 1, from: [-1], output_chw: [640, 20, 20]}
+  - {index: 28, module: Concat, repeats: 1, from: [-1, 11], output_chw: [1280, 20, 20]}
+  - {index: 29, module: C2, repeats: 3, from: [-1], output_chw: [640, 20, 20]}
+  - {index: 30, module: Pose, repeats: 1, from: [20, 23, 26, 29], output: output0}
+
+head:
+  strides: [8, 16, 32, 64]
+  scales:
+    - {name: P3, input_chw: [320, 160, 160], candidates: 25600}
+    - {name: P4, input_chw: [640, 80, 80], candidates: 6400}
+    - {name: P5, input_chw: [640, 40, 40], candidates: 1600}
+    - {name: P6, input_chw: [640, 20, 20], candidates: 400}
+  total_candidates: 34000
+  raw_channels_per_scale:
+    bbox_dfl: 64
+    classes: 21
+    keypoints: 6
+  decoded_output:
+    name: output0
+    logical_shape: [1, 31, 34000]
+    dtype: float16
+    channel_layout:
+      bbox: [0, 3]
+      classes: [4, 24]
+      keypoints: [25, 30]
+    status: verified
+  fpga_output:
+    physical_layout: [34000, 32]
+    dtype: float16
+    padding_channels: [31]
+    bytes: 2176000
+    status: provisional
+
+onnx:
+  fp16:
+    conv_nodes: 148
+    quantize_linear_nodes: 0
+    dequantize_linear_nodes: 0
+    input_dtype: float16
+    output_dtype: float16
+    first_conv_weight_shape: [80, 1, 3, 3]
+    status: verified
+  current_weight_only:
+    conv_nodes: 148
+    quantize_linear_nodes: 0
+    dequantize_linear_nodes: 148
+    input_dtype: float16
+    output_dtype: float16
+    weight_quant_type: qint8
+    activation_storage_type: float16
+    per_channel_weights: true
+    weight_axis: 0
+    quantized_weight_tensors: 148
+    quantized_activation_tensors: 0
+    task_id: 20260920_063903_Pose21_Gray1_weight-only_accuracy_valida
+    status: verified
+    note: >-
+      This W8A16 weight-only graph is the current delivery baseline. The 148
+      DequantizeLinear nodes apply to convolution weights; activations remain
+      FP16 and have no activation QDQ pairs.
+  historical_activation_qdq:
+    conv_nodes: 148
+    quantize_linear_nodes: 137
+    dequantize_linear_nodes: 285
+    weight_quant_type: qint8
+    activation_quant_type: qint16
+    quantized_activation_tensors: 137
+    requested_calibration: entropy
+    effective_calibration: minmax_likely
+    status: historical
+    accuracy_gate: failed
+    note: >-
+      The 2026-09-19 activation-QDQ diagnostic had a misplaced calibration
+      option and severe accuracy loss. It is retained only as failure evidence.
+
+quantization_results_eval462:
+  pt: {precision_percent: 91.4365, recall_percent: 87.5661, f1_percent: 89.4595, task_map_percent: 81.1800}
+  weight_only_onnx: {precision_percent: 91.4365, recall_percent: 87.5661, f1_percent: 89.4595, task_map_percent: 81.1800}
+  fpga_input_roundtrip: {precision_percent: 90.7357, recall_percent: 88.0952, f1_percent: 89.3960, task_map_percent: 80.9752}
+  historical_activation_qdq: {precision_percent: 47.54, recall_percent: 7.67, f1_percent: 13.21, zero_recall_classes: 16, status: historical}
+
+fpga_numeric_contract:
+  channel_alignment:
+    tin: 32
+    tout: 32
+    status: verified
+  convolution_weights:
+    storage_dtype: int8
+    signed: true
+    status: verified
+  feature_bins:
+    storage_dtype: float16
+    status: verified
+    note: Storage dtype does not prove the FPGA internal activation arithmetic dtype.
+  batchnorm_payload:
+    storage_dtype: float16
+    fields: [bias, scale_times_1000]
+    status: provisional
+  internal_activation_dtype:
+    value: null
+    status: unresolved
+  accumulator_bits:
+    value: null
+    status: unresolved
+  activation_quantization:
+    symmetric: null
+    per_channel: null
+    scale_dtype: null
+    zero_point_supported: null
+    status: unresolved
+  rounding_mode:
+    value: null
+    status: unresolved
+  saturation_rule:
+    value: null
+    status: unresolved
+
+historical_to_current_changes:
+  - id: input_channels
+    historical: 3
+    current: 1
+    affected_components: [preprocess, input_dma, first_layer, onnx, calibration, test_vectors]
+  - id: input_semantics
+    historical: r_only_rgb_container
+    current: gray1
+    affected_components: [camera_pipeline, preprocess, input_roundtrip]
+  - id: classes
+    historical: 2
+    current: 21
+    affected_components: [class_heads, output_offsets, nms, class_table, host_api]
+  - id: raw_bbox_class_channels
+    historical: 66
+    current: 85
+    affected_components: [head_split, buffer_shapes]
+  - id: decoded_output_channels
+    historical: 12
+    current: 31
+    affected_components: [output_dma, padding, nms, host_parser]
+  - id: physical_output_channels
+    historical: 32
+    current: 32
+    affected_components: [padding_semantics]
+    note: Historical output used only 12 valid channels; current output uses 31.
+
+fpga_adaptation_required:
+  - gray1_camera_to_network_preprocess
+  - one_valid_input_lane_in_32_lane_first_layer
+  - regenerated_first_layer_weights
+  - regenerated_current_onnx_layer_map
+  - c2f_and_c2_branch_alignment_rules
+  - current_node_name_independent_bin_extraction
+  - explicit_weight_scale_axis_and_storage
+  - authoritative_activation_and_accumulator_dtypes
+  - authoritative_rounding_and_saturation
+  - 21_class_head_weights_bias_and_scales
+  - 31_to_32_output_padding
+  - updated_dma_sizes_and_offsets
+  - updated_nms_class_and_keypoint_offsets
+  - versioned_manifest_and_cross_version_rejection
+
+unresolved_authority_questions:
+  - Meaning and signedness of the final 8 argument in historical Malloc_Weight calls.
+  - FPGA internal activation dtype for Conv, SiLU, Add, Concat, Resize, and MaxPool.
+  - Accumulator width and overflow behavior.
+  - Exact per-channel scale layout and application point.
+  - Origin and hardware interpretation of batchnorm scale_times_1000.
+  - Exact lane position for the single Gray1 channel in a 32-lane input block.
+  - Complete physical shape rules for C2f and C2 branches before concatenation.
+  - Production RTL and driver version implementing 31 valid output channels plus padding.
+
+evidence:
+  historical_pptx:
+    location: external_user_backup
+    bytes: 1798998
+    sha256: a2f4c9c07971639ea9f09b7b3239c177dd5fa93a7994c3e0f3eda792797f3ce8
+    status: historical
+  model_evolution_doc:
+    path: docs/archive/2026-09-class21-migration-source-docs/00_21类模型从R-only三通道到Gray1单通道演进说明.md
+    status: historical
+  quantization_plan:
+    path: docs/archive/2026-09-class21-migration-source-docs/21类灰度图模型量化与cam2000性能测试计划.md
+    status: historical
+  current_training_and_quantization_report:
+    path: docs/class-21/reports/current/20260920_Pose21_Gray1_训练测试标定与量化完整报告.md
+    status: verified
+  fpga_interface:
+    path: /data3/ywang/quantitize-platform/docs/reference/CLASS21_FPGA.md
+  model_input_contract:
+    path: /data3/ywang/quantitize-platform/docs/reference/MODEL_INPUT.md
+  fp16_onnx:
+    path: /data3/ywang/quantitize-platform/data/output_data/20260918_172417_Pose21_Gray1_50e_cal462/failure_artifacts/workspace/pose21_gray1_50e_cal462_fp16.onnx
+    sha256: a08044d0093ffabcf6cc6fcc2aca6fb465a171510497dc2a9d020363e736ef28
+  historical_activation_qdq_onnx:
+    path: /data3/ywang/quantitize-platform/data/output_data/20260918_172417_Pose21_Gray1_50e_cal462/failure_artifacts/workspace/pose21_gray1_50e_cal462.onnx
+    sha256: 932d5c57521d370d30a74367f513b52b431f1d8f13ad903ce367801abd8bb164
+    status: historical
+  current_weight_only_bundle:
+    path: /data3/ywang/quantitize-platform/data/output_data/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida_quantized_bundle.zip
+    sha256: 4d858c72cf5a81509fe2fa10e500cce8aefb7c7ccd69094859d87e98908fde22
+    status: verified
+  current_weight_only_onnx:
+    archive: current_weight_only_bundle
+    member: workspace/pose21_gray1_weight_only_accuracy_output.onnx
+    bytes: 100121851
+    sha256: 031def2070a1c2183e62ce5713831bc69cd50dee3a22c10d0ffaff6580d91a02
+    status: verified

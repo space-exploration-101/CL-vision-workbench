@@ -1,0 +1,42 @@
+[
+  {
+    "path": "outputs/fpga_content1000/node_modules",
+    "kind": "junction",
+    "target": "\\\\?\\C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules",
+    "directory": true,
+    "reparse_tag": 2684354563,
+    "attributes": 1040
+  },
+  {
+    "path": "outputs/fpga_full500/node_modules",
+    "kind": "junction",
+    "target": "\\\\?\\C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules",
+    "directory": true,
+    "reparse_tag": 2684354563,
+    "attributes": 1040
+  },
+  {
+    "path": "outputs/fpga_precision_loss/node_modules",
+    "kind": "junction",
+    "target": "\\\\?\\C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules",
+    "directory": true,
+    "reparse_tag": 2684354563,
+    "attributes": 1040
+  },
+  {
+    "path": "outputs/fpga_precision_wide/node_modules",
+    "kind": "junction",
+    "target": "\\\\?\\C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules",
+    "directory": true,
+    "reparse_tag": 2684354563,
+    "attributes": 1040
+  },
+  {
+    "path": "outputs/fpga_preview_001/node_modules",
+    "kind": "junction",
+    "target": "\\\\?\\C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules",
+    "directory": true,
+    "reparse_tag": 2684354563,
+    "attributes": 1040
+  }
+]

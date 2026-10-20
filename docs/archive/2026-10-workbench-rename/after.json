@@ -1,0 +1,67 @@
+[
+  {
+    "path": ".gitattributes",
+    "size": 329,
+    "sha256": "47b9ec011354fad36bb047d0b8ced0da55f9592ad7a3919125d2a6b83cb66dd5"
+  },
+  {
+    "path": ".gitignore",
+    "size": 1185,
+    "sha256": "56816fe328acc252c9f1b369b166bd19d8780f3b894fb2678748ff0daa111c1f"
+  },
+  {
+    "path": "AGENTS.md",
+    "size": 3942,
+    "sha256": "e14e1c9c7808853ccc2558374145486b5d1d938a81a7ac7cd0874be12e319541"
+  },
+  {
+    "path": "README.md",
+    "size": 4468,
+    "sha256": "1dd537f2ae862a2c7f1851ad9f882ebedf293a80421d1c2f5d08bd893b3420d2"
+  },
+  {
+    "path": "docs/VERSION_CONTROL.md",
+    "size": 3679,
+    "sha256": "e9a6f0cdf74cfdba0a0d692627c6b32750003db145da2eba58ecce168eda899c"
+  },
+  {
+    "path": "docs/agent/CONTEXT.md",
+    "size": 2183,
+    "sha256": "226454a5a6458a59077334916e31f76e3ab46fedc712161f2a13f5058b382c7f"
+  },
+  {
+    "path": "docs/agent/RUNBOOK.md",
+    "size": 1966,
+    "sha256": "fa46a806f8ed998b05777031edbbc5b6cf0198ca4dfc586286b7ce0e8ec2b40e"
+  },
+  {
+    "path": "docs/agent/topics/HOSTS.md",
+    "size": 1911,
+    "sha256": "04bd0f2c7e1edaf37b303e6a6f64fed6049858613171e563c865172ddb88d170"
+  },
+  {
+    "path": "docs/agent/topics/REPOSITORIES.md",
+    "size": 2376,
+    "sha256": "5e2e2bbce44d359e43b56e740f6694f122f71f5e2a248355bbf5b05846f1a0c3"
+  },
+  {
+    "path": "docs/archive/2026-10-workbench-rename/README.md",
+    "size": 6537,
+    "sha256": "5f95774d7fcda1a019385b01865e702656c6619e7762e978dca1def8c2117a9b"
+  },
+  {
+    "path": "docs/archive/README.md",
+    "size": 7035,
+    "sha256": "53bbc47a7d73bdce88c18eb53a1fc36a82a77523c3b3937cf5a21f2b1ccec38c"
+  },
+  {
+    "path": "docs/platform/01_NAS备份与环境恢复.md",
+    "size": 29485,
+    "sha256": "88268a6579155aae8d0417f357fbc177a28056fef355aa586e92e96ac0ade759"
+  },
+  {
+    "path": "outputs/README.md",
+    "size": 5004,
+    "sha256": "30e8dd42079d95c4284ee4de0b507cc307ed00533161e38d8f59ee614ac866ab"
+  }
+]

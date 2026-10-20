@@ -1,0 +1,98 @@
+{
+  "step": 12,
+  "status": "PASS",
+  "experiment_id": "20260909_133719_gray1_smoke96",
+  "started_at": "2026-09-09T16:21:51+08:00",
+  "finished_at": "2026-09-09T16:37:58+08:00",
+  "accepted_run": "step12_gray1_epoch1_retry2",
+  "container": {
+    "image": "ywang/yolo-gray1-train:ultralytics-8.3.98-v3",
+    "image_id": "sha256:e0ebfcbff5219087722b269fbba85df077bdf11d171a595305d5156561de19bb",
+    "image_size_bytes": 11282980343,
+    "ultralytics": "8.3.98",
+    "python": "3.12.12",
+    "torch": "2.8.0+cu128",
+    "network": "none",
+    "root_filesystem": "read-only",
+    "container_user": "1012:1012"
+  },
+  "gpu": {
+    "host_index": 1,
+    "uuid": "GPU-84d797dc-af48-f191-5d3a-9c34549cc61a",
+    "model": "NVIDIA H200 NVL",
+    "container_index": 0,
+    "peak_memory_reported": "12.4G",
+    "released_after_run": true
+  },
+  "dataset": {
+    "manifest": "/data3/ywang/yolo-pose-experiments/20260909_133719_gray1_smoke96/dataset_manifest.json",
+    "manifest_sha256": "14ab5a6b90bbe893820ac4133ee7aa23c849200c950f086a13ae3f2a3cd53d9c",
+    "train_count": 48,
+    "val_count": 24,
+    "test_count": 24,
+    "classes": 21,
+    "input_channels": 1,
+    "input_semantics": "gray1"
+  },
+  "training": {
+    "initialization": "from_scratch_yaml",
+    "epochs": 1,
+    "imgsz": 1280,
+    "batch": 4,
+    "workers": 4,
+    "amp": true,
+    "cache_images": false,
+    "optimizer": "AdamW(auto)",
+    "duration_seconds_from_results_csv": 12.4273,
+    "first_conv_in_channels": 1,
+    "nc": 21,
+    "kpt_shape": [2, 3]
+  },
+  "metrics": {
+    "box_precision": 0.00003,
+    "box_recall": 0.04762,
+    "box_map50": 0.00005,
+    "box_map50_95": 0.0,
+    "pose_precision": 0.00011,
+    "pose_recall": 0.19048,
+    "pose_map50": 0.00043,
+    "pose_map50_95": 0.00036
+  },
+  "artifacts": {
+    "run_root": "/data3/ywang/yolo-pose-experiments/20260909_133719_gray1_smoke96/runs/step12_gray1_epoch1_retry2",
+    "run_size_bytes": 604869084,
+    "best_pt_sha256": "5f3e7b95db27a694021fa34cee19c01c700be994cddad9a4eb2e384e5463b961",
+    "last_pt_sha256": "beff297c62803dc97375b40b59ae725a908a39c49bdaf11c7e77a54f64e356d7",
+    "args_yaml_sha256": "d3c3d778b6bdc7cc9590bad56ceceba2478ab03bd6657608a7f7f9611d0b24fa",
+    "results_csv_sha256": "66546925bfb9ea34d8dfb9aaf82b0d123f1bfd7356704eb251e421c707b1fee8",
+    "train_log_sha256": "3b9b97f96474969ebbecb49ae1b353c3ac501c1b1cc08d3b0b9d8f6a42365e37",
+    "command_sha256": "95798ff411028026466d707a542f684f2a220d6536154c0d05da005418c02199"
+  },
+  "runtime_patches": {
+    "ultralytics_source_tree_sha256": "8ccbf61b5cb159ad4ca59a9fe5a72245389586a04dd5befa0aafe7c4ca564f2f",
+    "augment_py_sha256": "917f64b55291c19a9705768fa3958eb8d3166c0753adda3207306ff3cce01b18",
+    "validator_py_sha256": "e642072667c3b09be6e76cefe18ac44ee992b502f9b0d3d47a6261d5a75402bc",
+    "tensorboard_py_sha256": "079103bb1b4fe8f3a0217ed5921f43414fe2f11f9369f8eb5ae019df9113a777"
+  },
+  "attempt_history": [
+    {
+      "run": "step12_gray1_epoch1",
+      "status": "FAILED_BEFORE_FIRST_BATCH",
+      "cause": "single-channel channel-axis reversal produced a negative NumPy stride"
+    },
+    {
+      "run": "step12_gray1_epoch1_retry1",
+      "status": "FAILED_AFTER_EPOCH_DURING_FINAL_EVAL",
+      "cause": "validator warmup was hard-coded to three channels"
+    },
+    {
+      "run": "step12_gray1_epoch1_retry2",
+      "status": "PASS",
+      "cause": null
+    }
+  ],
+  "backup": {
+    "nas_backup_completed": false,
+    "policy": "deferred until the complete workflow finishes by user direction"
+  }
+}

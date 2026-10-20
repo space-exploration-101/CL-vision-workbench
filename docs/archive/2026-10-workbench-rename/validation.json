@@ -1,0 +1,31 @@
+{
+  "status": "PARTIAL_COMPLETE_RENAME_BLOCKED_BY_OPEN_HANDLE",
+  "verified_at": "2026-10-20T02:16:20.052761+00:00",
+  "project_name": "CL-vision-workbench",
+  "actual_root": "E:\\codex\\quantitize",
+  "target_root": "E:\\codex\\CL-vision-workbench",
+  "physical_rename_completed": false,
+  "backup": "E:\\codex\\quantitize-backups\\20261020-100158-before-CL-vision-workbench",
+  "baseline_files": 4720,
+  "unchanged_original_files": 4711,
+  "changed_original_documents": 9,
+  "dependency_link_definitions_unchanged": 5,
+  "documentation_validation": "PASS",
+  "remote_reference_validation": "PASS_WITH_ACTUAL_AND_TARGET_PATH_DISTINGUISHED",
+  "git_initialized": true,
+  "git_lfs_initialized": true,
+  "expected_final_index_files": 3396,
+  "commits": 0,
+  "remotes": [],
+  "pushed": false,
+  "remaining": [
+    "Close programs holding the old root and rename from its parent directory",
+    "Verify new root and update explicitly pending local/H200 path notices in a new completion record",
+    "Separately authorize first commit, remote URL, access scope and LFS capacity before pushing"
+  ],
+  "limits": [
+    "No work contents, dependency targets, GPU, NAS or service operations",
+    "No release/privacy certification for opaque archives, binary files or large data",
+    "Six known H200 workspaces only; no whole-server scan"
+  ]
+}

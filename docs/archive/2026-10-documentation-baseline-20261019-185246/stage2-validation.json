@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-10-19T10:58:27.491919+00:00",
+  "backup_metadata_checksums": "PASS",
+  "backup_full_file_verification": "PASS; independently rehashed source and backup before publication",
+  "original_documents_members": 111,
+  "original_documents_zip_readback": "PASS",
+  "source_files_rehashed_after_record_creation": 4638,
+  "source_files_changed": [],
+  "source_file_and_directory_sets_unchanged_except_new_record": true,
+  "source_link_definitions_unchanged": true,
+  "only_project_write_location": "docs/archive/2026-10-documentation-baseline-20261019-185246",
+  "disposition_gate": "AWAITING_SOURCE_CONFIRMATION",
+  "next_stage_started": false,
+  "excluded_access": [
+    "work/",
+    "external link targets",
+    "H200",
+    "NAS",
+    "GPU"
+  ]
+}

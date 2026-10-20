@@ -1,0 +1,362 @@
+{
+  "source_copy": "E:\\codex\\quantitize-backups\\20261018-011353-before-docs-consolidation",
+  "scope": "Original documents selected for consolidation and complete original rebuild materials; work excluded.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 2339,
+      "sha256": "a433dd1f3c013bc2a748dd68845b3f9107ea45bb0bc62845a1aaa80848445875"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2742,
+      "sha256": "1bf05bac662c3eefbba22b97d41ed800c2c976969b4cf63674ce3512b792664e"
+    },
+    {
+      "path": "docs/AGENT_GUIDE.md",
+      "bytes": 5509,
+      "sha256": "ddbb761d4f291f0fc31c70ca12a47dee996dd94b42b3736aee716542f641ee2b"
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "bytes": 11147,
+      "sha256": "8e6ed832c22ed41b446e02cd94a7903092e426562dc7f158e203eef1b8c10d50"
+    },
+    {
+      "path": "docs/agent/CONTEXT.md",
+      "bytes": 18208,
+      "sha256": "96667a161bcdf5b035613cb7c087a5428b66de12e83984a7e332faae61466c54"
+    },
+    {
+      "path": "docs/agent/RUNBOOK.md",
+      "bytes": 6877,
+      "sha256": "046a71490ae3e7d7e7731f23f6fa0d5b3f91c2a2b1cec50b20aa507ba8c38b79"
+    },
+    {
+      "path": "docs/archive/2026-09-gray1-blocked-backup-run/README.md",
+      "bytes": 1482,
+      "sha256": "63dde5de203b832128d2d6d52e24a2b207a2e6f19ada45cfa67bc049f52ef5b4"
+    },
+    {
+      "path": "docs/archive/2026-09-gray1-training-workflow-history/README.md",
+      "bytes": 1637,
+      "sha256": "5c5b7d8947d0323bb65bb6cc61cf2fdf8b1e6e70bd05a066c784f5690c09bcd0"
+    },
+    {
+      "path": "docs/archive/2026-09-gray1-training-workflow-history/SHA256SUMS",
+      "bytes": 547,
+      "sha256": "9b41bc8e75c274581af1f5a1daa3d4128005f8f4197e3bd11708210c81ae87e5"
+    },
+    {
+      "path": "docs/archive/2026-09-gray1-training-workflow-history/agent-plan-chenshiwen-yolo-env-and-remote-data-workflow.md",
+      "bytes": 28844,
+      "sha256": "58d29630e8b5666e2459ce1133399bcf4af0e1a2a2ce69b390f9a607c4248982"
+    },
+    {
+      "path": "docs/archive/2026-09-gray1-training-workflow-history/agent-runbook-ywang-yolo-gray1-training-workflow.md",
+      "bytes": 86994,
+      "sha256": "d5df166927b62279ea1b8ec4ed1261e7f3cd593ece231306dcf0c8881ef89519"
+    },
+    {
+      "path": "docs/archive/README.md",
+      "bytes": 4303,
+      "sha256": "0747d4a9505ff378396c90ff289a21c2865009dd0feb42e1146671b8574d965c"
+    },
+    {
+      "path": "docs/archive/SEPTEMBER_CONTEXT.md",
+      "bytes": 23812,
+      "sha256": "3392fbebd78e0fceec9869aa8f5480cb49be6d049f2efc8bbc8815f376247fe3"
+    },
+    {
+      "path": "docs/class-21/README.md",
+      "bytes": 4800,
+      "sha256": "86742b1488268c1759aa42c65e44931d83141875210f1dbca01ce0ae69e0a063"
+    },
+    {
+      "path": "docs/class-21/architecture/Pose21_Gray1网络结构与FPGA适配说明.md",
+      "bytes": 14896,
+      "sha256": "8e83f81f6f9b34ab92dc773b8dfc12797423c2e1274d50c6f265aa22df18b5dd"
+    },
+    {
+      "path": "docs/class-21/architecture/README.md",
+      "bytes": 457,
+      "sha256": "dfceca28d06938d9b9dd15fc780ebff0831499cac08438c30f84e316ccbee57f"
+    },
+    {
+      "path": "docs/class-21/knowledge/01_YOLO_Gray1与量化基础.md",
+      "bytes": 3457,
+      "sha256": "3f407e66466b33b6480fce490ba18ade6648758e0aad37ad7af4debcbcedb011"
+    },
+    {
+      "path": "docs/class-21/knowledge/02_21类目标数据与输入预处理.md",
+      "bytes": 4894,
+      "sha256": "a89a6dee0f06c91c673842c4e907769fd0c558f6e36869dd72bcd65875260a9c"
+    },
+    {
+      "path": "docs/class-21/knowledge/03_训练评估量化与FPGA流程.md",
+      "bytes": 4224,
+      "sha256": "52709f7d69b55de1d41a3211718d398390fa29d0befa1c7c1b480bdfef3dcaeb"
+    },
+    {
+      "path": "docs/class-21/knowledge/04_NAS备份与环境恢复.md",
+      "bytes": 27306,
+      "sha256": "4319ba56fe58193d267e2e51c6ba74d9d76d58222cc7c1476f307a5d37bc61f5"
+    },
+    {
+      "path": "docs/class-21/knowledge/05_H200训练测试推理与量化运行环境.md",
+      "bytes": 21693,
+      "sha256": "e3b9b8137eed27870d6106a4409abca9d4a820ebb9987bd1a8b73cae4d11066d"
+    },
+    {
+      "path": "docs/class-21/knowledge/06_5090训练测试推理与量化运行环境.md",
+      "bytes": 15898,
+      "sha256": "39c1983e2ab97d90220993ba970fec4de87d48b7574273b844ed603a276e00f5"
+    },
+    {
+      "path": "docs/class-21/knowledge/README.md",
+      "bytes": 1528,
+      "sha256": "8b7e248e96374bd8d301f23fd4f45f553980ea520a93eae7a574b7ebaf0d8647"
+    },
+    {
+      "path": "docs/class-21/operations/README.md",
+      "bytes": 359,
+      "sha256": "84cbbfa75cc5a8ae87aa3a1520a35e4f4bf859a6e7a859388d84e6ca5f0e93bb"
+    },
+    {
+      "path": "docs/class-21/operations/prompts/21类Gray1_NAS归档与恢复资料精简_AGENT提示词.md",
+      "bytes": 14647,
+      "sha256": "f88e6a0d58ec51e15966eb70c1e41a611d6d7233b55e36a5422db19483509054"
+    },
+    {
+      "path": "docs/class-21/operations/prompts/README.md",
+      "bytes": 206,
+      "sha256": "8653d86cde4ea5e5cbe9ada917d5ba328ac51f7847695048be658c8a6f1f9363"
+    },
+    {
+      "path": "docs/class-21/operations/runs/20261017-h200-gray1-main-integration.md",
+      "bytes": 2999,
+      "sha256": "3bb747a3f5ba5ab6456e6677b7bb198d011fcc8cb131636f3d225daeb731535c"
+    },
+    {
+      "path": "docs/class-21/operations/runs/README.md",
+      "bytes": 156,
+      "sha256": "c47482388f95e85465f53b90009443afcbbede659fcde917e1d7ef632a9ea747"
+    },
+    {
+      "path": "docs/class-21/operations/runs/backup/README.md",
+      "bytes": 968,
+      "sha256": "ca1e8bb2c387a4c87eff96a5c962937ab69f0dd8a5df1895383c21e2309ab865"
+    },
+    {
+      "path": "docs/class-21/operations/tools/README.md",
+      "bytes": 162,
+      "sha256": "c414c6fd244332574cef62bcba8ae1cdd5bce012b709e004dc9740f6122736cf"
+    },
+    {
+      "path": "docs/class-21/reports/README.md",
+      "bytes": 208,
+      "sha256": "edab60a1d09be2e377598dec1f9e6c211ce94944c751e7e78d1ecc2ae105843d"
+    },
+    {
+      "path": "docs/class-21/reports/current/README.md",
+      "bytes": 524,
+      "sha256": "05d545d071429de96d0d853505c606834555f7b7eb197773d3b15524890e408d"
+    },
+    {
+      "path": "docs/class-21/reports/history/README.md",
+      "bytes": 209,
+      "sha256": "4e65964389d66598ce1e69689b504d62dfac16d2a01ffd36cb356db2e797b673"
+    },
+    {
+      "path": "docs/reference/PERFORMANCE.md",
+      "bytes": 7276,
+      "sha256": "901185351507b3f5fea17b1288a07701bb74fe9e4078cb469153a2bdf9e3784f"
+    },
+    {
+      "path": "docs/reference/PERFORMANCE_OPTIMIZATION_FINAL_20260903.md",
+      "bytes": 7156,
+      "sha256": "d9c080a61e3891efdbe1ca0ce5aff896cdb043762c6ccae1f33ec12ccf715233"
+    },
+    {
+      "path": "docs/reference/README.md",
+      "bytes": 782,
+      "sha256": "d6586c60c7c25a00b78a50b3afd18ae0c662fee5aef600a003e52b50d346f9ff"
+    },
+    {
+      "path": "docs/reference/RECOVERY.md",
+      "bytes": 5929,
+      "sha256": "e86d18d5cd372126606bd5560a6371a944691c33098ab6f72733c7c597bec2f0"
+    },
+    {
+      "path": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "bytes": 27107,
+      "sha256": "20ec4b1cb6643927bd0c77ddf7b74d78c177e359e85eba8dcdd12b5e12df0d6a"
+    },
+    {
+      "path": "docs/reference/backup/BACKUP_STATUS.md",
+      "bytes": 1149,
+      "sha256": "2bbea962f6f65a559d8465bb294fbbbf6afe3192ea2d75b5a6efa3969796e1dc"
+    },
+    {
+      "path": "rebuild/CURRENT_STATE.md",
+      "bytes": 6421,
+      "sha256": "1d22ec8edb73462cc74bd2beac86decc640d9e079f350e33629489c97cf79a3f"
+    },
+    {
+      "path": "rebuild/README.md",
+      "bytes": 2371,
+      "sha256": "0bb51ea7cfda459bd3a89a56918468b74f102c7557749b5717a637819d42814b"
+    },
+    {
+      "path": "rebuild/REBUILD_GUIDE.md",
+      "bytes": 10208,
+      "sha256": "2635b6b3ea5b9e6dd0e2fc801e498b854cea0467f83fcc36226e921d3ab3f832"
+    },
+    {
+      "path": "rebuild/SHA256SUMS",
+      "bytes": 3057,
+      "sha256": "f21d827bd3daa7c86ed89c89cea127f2156406848f7136c6fecc72ff6f0d82af"
+    },
+    {
+      "path": "rebuild/legacy/pre-gray1-20260902/REBUILD_GUIDE.md",
+      "bytes": 12539,
+      "sha256": "e76a58afcee22051faf3872071bb200a7b7c1dc1daf72bb207b8f9e32bab3411"
+    },
+    {
+      "path": "rebuild/legacy/pre-gray1-20260902/rebuild-manifest.yml",
+      "bytes": 2138,
+      "sha256": "5fa9acd6cb58d4aa1ffe64bbee7f5a38f255322129147d3357b97d74a23373a1"
+    },
+    {
+      "path": "rebuild/legacy/pre-gray1-20260902/verify_host.sh",
+      "bytes": 511,
+      "sha256": "c2de94047e46bcedbae3e7c1c1c098ab94652274f1e20e416d683a433e037c6d"
+    },
+    {
+      "path": "rebuild/legacy/pre-gray1-20260902/verify_runtime.py",
+      "bytes": 2536,
+      "sha256": "a4871f16fb175e5a2b251c6cfc2d10f4af8f03dcc834aafac03bce519a92998a"
+    },
+    {
+      "path": "rebuild/manifests/api-image-apt-manual.txt",
+      "bytes": 1915,
+      "sha256": "5ea9c34c63755fadee7651a5a5eb7714fe830d1117b799ca6d572ef0575a9ae5"
+    },
+    {
+      "path": "rebuild/manifests/api-image-dpkg.txt",
+      "bytes": 6755,
+      "sha256": "6f27f965664aab9f8e3213a028a5f7f97ad526f3595b4bcf51064e2241c38d1e"
+    },
+    {
+      "path": "rebuild/manifests/conda-explicit-linux-64.txt",
+      "bytes": 7808,
+      "sha256": "58438cc9c8c3ce86cce860a5e0b26c45371d61e92094d3a78ff1e92ac6d796bd"
+    },
+    {
+      "path": "rebuild/manifests/environment-from-history.yml",
+      "bytes": 208,
+      "sha256": "e3825acacbf6cc01e2c572a7417473d4e7fc8e95da28a78e4be89958baf72be2"
+    },
+    {
+      "path": "rebuild/manifests/environment-full-linux-64.yml",
+      "bytes": 5878,
+      "sha256": "478be955a05dba834c9a5c13ebc057d6bb07ef9fceb77b8e2c9a4667bbd76a49"
+    },
+    {
+      "path": "rebuild/manifests/pip-freeze-raw-linux-amd64.txt",
+      "bytes": 2855,
+      "sha256": "73efe771683ca79aaa11f196e78856d78d4d592dde5382bfe4499eda3a9245a5"
+    },
+    {
+      "path": "rebuild/manifests/pip-list-linux-amd64.lock.txt",
+      "bytes": 2185,
+      "sha256": "ae5fc009d2a93cb915e650abf7924aa13432277d884171fc135ce34ac1e5b633"
+    },
+    {
+      "path": "rebuild/manifests/pipeline-patches-sha256.txt",
+      "bytes": 6758,
+      "sha256": "b5a532dc58a00f1706428ee8d7f313b19718796f23d593aca4452b672c06be0c"
+    },
+    {
+      "path": "rebuild/manifests/requirements.api.lock.txt",
+      "bytes": 68,
+      "sha256": "dbb3ea9d718415efbd1d7e4e1ca3f06ba562f08290b438c8904ec6ce82db9d1d"
+    },
+    {
+      "path": "rebuild/manifests/requirements.web.lock.txt",
+      "bytes": 96,
+      "sha256": "f438031d091fb141ea803da04edf1a3bad6f3ef35624d1b7aa13bb38ee35bdd2"
+    },
+    {
+      "path": "rebuild/manifests/runtime-import-versions.json",
+      "bytes": 681,
+      "sha256": "a91d42ab9f4a9644414cb1474c10dd0f2f24e897e436646883bfc4cd8bf07b60"
+    },
+    {
+      "path": "rebuild/manifests/source-runtime.json",
+      "bytes": 1839,
+      "sha256": "84f41515afee42017f6c053fc192635d0d1c5d2db4fae970eb725165ab7febe6"
+    },
+    {
+      "path": "rebuild/manifests/web-image-dpkg.txt",
+      "bytes": 3116,
+      "sha256": "0dc393c797e142be7d7aafcb14a7060497aa52a7a4aca26a258059a1a1c1cb3a"
+    },
+    {
+      "path": "rebuild/manifests/web-image-pip.lock.txt",
+      "bytes": 613,
+      "sha256": "fcf6d3912861a869082b4a2c518aa72d16756a7358c1960f695a1e5a69bc4c75"
+    },
+    {
+      "path": "rebuild/rebuild-manifest.yml",
+      "bytes": 5644,
+      "sha256": "fe1ec623876ae3375a3928e8b9fcf3b75de51a1d8db8cecd6f970de41e70b8c8"
+    },
+    {
+      "path": "rebuild/snapshots/Dockerfile.api",
+      "bytes": 2985,
+      "sha256": "403dd21093c5ca265199afb714596e365ebccc37e58d2d239d09948f90dbaf03"
+    },
+    {
+      "path": "rebuild/snapshots/Dockerfile.api.pinned-amd64",
+      "bytes": 3075,
+      "sha256": "923ddb76a2e1437ee2621df4669e6a2759f0a33f8fbd4a573051b79b53d7b280"
+    },
+    {
+      "path": "rebuild/snapshots/Dockerfile.web",
+      "bytes": 679,
+      "sha256": "8aab901e99fb5c47a0afdf664b5a8ca6dfd3d8b2c359a14a0c18586da7b6f6a6"
+    },
+    {
+      "path": "rebuild/snapshots/Dockerfile.web.pinned-amd64",
+      "bytes": 769,
+      "sha256": "0943801c935827e2458de8def8f656a96cafca069226c9769c7a50d785475a71"
+    },
+    {
+      "path": "rebuild/snapshots/docker-compose.yml",
+      "bytes": 2516,
+      "sha256": "6a5528dece5ea61afdc937acd24035b2021921bbedce2635c390ce7deb843671"
+    },
+    {
+      "path": "rebuild/snapshots/requirements.api.original.txt",
+      "bytes": 67,
+      "sha256": "d29740f26898485e815ee2b98bec619d9b726ece24aff2101575e323a45d12c3"
+    },
+    {
+      "path": "rebuild/snapshots/requirements.web.original.txt",
+      "bytes": 95,
+      "sha256": "cf939aa1de494ad1935ad69f9a90bd8c5f7c81fc7b3d6b7bdf5353a5c81e0b7a"
+    },
+    {
+      "path": "rebuild/verify_host.sh",
+      "bytes": 801,
+      "sha256": "146729d69ff5b92ae52110cc65e236694e8a9ad5b2572c03b106667050e61252"
+    },
+    {
+      "path": "rebuild/verify_runtime.py",
+      "bytes": 4366,
+      "sha256": "6e29baabb0e88f7d87c3a7d0e7b56638e80c704931b8236da12768bc87f64a38"
+    }
+  ],
+  "zip_sha256": "28dac594093a5e14101066dfbd1c46001045beb094e9b8f35c35a10d095c05c0"
+}

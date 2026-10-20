@@ -1,0 +1,29 @@
+{
+  "python": "3.12.12",
+  "torch": "2.8.0+cu128",
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "ultralytics": "8.3.98",
+  "ultralytics_path": "/workspace/src/Yolo_fine/ultralytics/ultralytics/__init__.py",
+  "opencv": "4.11.0",
+  "numpy": "1.26.4",
+  "gpu": "NVIDIA H200 NVL",
+  "input_shapes": [
+    [
+      4,
+      1,
+      1280,
+      1280
+    ],
+    [
+      8,
+      1,
+      1280,
+      1280
+    ]
+  ],
+  "image_id": "sha256:edaa61047923e708db681416ed99d2d7b657a4c689d9c89f6b4dcdb549f6c68c",
+  "gpu_uuid": "GPU-1610284d-3afe-6e14-b8cb-bbbe40a1f28b",
+  "precision": "FP32 (predict half=False default)",
+  "torch_num_threads": 4
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "time": "2026-10-12T20:55:29+0800",
+    "gpu_query": "GPU-1610284d-3afe-6e14-b8cb-bbbe40a1f28b, 19, 143138, 0",
+    "compute_processes": "GPU-a86513cc-4848-d073-b250-2268b9c3458c, 1321998, /home/ai-i-heyu/miniconda3/envs/sctl/bin/python, 62366 MiB\nGPU-0e5b75ea-b8e5-eb3e-1811-f48da7e2c080, 1323450, /home/ai-i-heyu/miniconda3/envs/sctl/bin/python, 62366 MiB",
+    "process_owners": "USER         PID     ELAPSED STAT\nai-i-he+ 1321998    04:15:38 SLl+\nai-i-he+ 1323450    04:15:21 RLl+"
+  },
+  {
+    "time": "2026-10-12T20:55:35+0800",
+    "gpu_query": "GPU-1610284d-3afe-6e14-b8cb-bbbe40a1f28b, 19, 143138, 0",
+    "compute_processes": "GPU-a86513cc-4848-d073-b250-2268b9c3458c, 1321998, /home/ai-i-heyu/miniconda3/envs/sctl/bin/python, 62366 MiB\nGPU-0e5b75ea-b8e5-eb3e-1811-f48da7e2c080, 1323450, /home/ai-i-heyu/miniconda3/envs/sctl/bin/python, 62366 MiB",
+    "process_owners": "USER         PID     ELAPSED STAT\nai-i-he+ 1321998    04:15:44 SLl+\nai-i-he+ 1323450    04:15:27 SLl+"
+  },
+  {
+    "time": "2026-10-12T20:55:40+0800",
+    "gpu_query": "GPU-1610284d-3afe-6e14-b8cb-bbbe40a1f28b, 19, 143138, 0",
+    "compute_processes": "GPU-a86513cc-4848-d073-b250-2268b9c3458c, 1321998, /home/ai-i-heyu/miniconda3/envs/sctl/bin/python, 62366 MiB\nGPU-0e5b75ea-b8e5-eb3e-1811-f48da7e2c080, 1323450, /home/ai-i-heyu/miniconda3/envs/sctl/bin/python, 62366 MiB",
+    "process_owners": "USER         PID     ELAPSED STAT\nai-i-he+ 1321998    04:15:49 RLl+\nai-i-he+ 1323450    04:15:32 SLl+"
+  },
+  {
+    "time": "2026-10-12T20:55:45+0800",
+    "gpu_query": "GPU-1610284d-3afe-6e14-b8cb-bbbe40a1f28b, 19, 143138, 0",
+    "compute_processes": "GPU-a86513cc-4848-d073-b250-2268b9c3458c, 1321998, /home/ai-i-heyu/miniconda3/envs/sctl/bin/python, 62366 MiB\nGPU-0e5b75ea-b8e5-eb3e-1811-f48da7e2c080, 1323450, /home/ai-i-heyu/miniconda3/envs/sctl/bin/python, 62366 MiB",
+    "process_owners": "USER         PID     ELAPSED STAT\nai-i-he+ 1321998    04:15:55 SLl+\nai-i-he+ 1323450    04:15:38 SLl+"
+  },
+  {
+    "time": "2026-10-12T20:55:51+0800",
+    "gpu_query": "GPU-1610284d-3afe-6e14-b8cb-bbbe40a1f28b, 19, 143138, 0",
+    "compute_processes": "GPU-a86513cc-4848-d073-b250-2268b9c3458c, 1321998, /home/ai-i-heyu/miniconda3/envs/sctl/bin/python, 62366 MiB\nGPU-0e5b75ea-b8e5-eb3e-1811-f48da7e2c080, 1323450, /home/ai-i-heyu/miniconda3/envs/sctl/bin/python, 62366 MiB",
+    "process_owners": "USER         PID     ELAPSED STAT\nai-i-he+ 1321998    04:16:00 RLl+\nai-i-he+ 1323450    04:15:43 RLl+"
+  },
+  {
+    "time": "2026-10-12T20:55:56+0800",
+    "gpu_query": "GPU-1610284d-3afe-6e14-b8cb-bbbe40a1f28b, 19, 143138, 0",
+    "compute_processes": "GPU-a86513cc-4848-d073-b250-2268b9c3458c, 1321998, /home/ai-i-heyu/miniconda3/envs/sctl/bin/python, 62366 MiB\nGPU-0e5b75ea-b8e5-eb3e-1811-f48da7e2c080, 1323450, /home/ai-i-heyu/miniconda3/envs/sctl/bin/python, 62366 MiB",
+    "process_owners": "USER         PID     ELAPSED STAT\nai-i-he+ 1321998    04:16:06 SLl+\nai-i-he+ 1323450    04:15:49 SLl+"
+  },
+  {
+    "time": "2026-10-12T20:56:02+0800",
+    "gpu_query": "GPU-1610284d-3afe-6e14-b8cb-bbbe40a1f28b, 19, 143138, 0",
+    "compute_processes": "GPU-a86513cc-4848-d073-b250-2268b9c3458c, 1321998, /home/ai-i-heyu/miniconda3/envs/sctl/bin/python, 62366 MiB\nGPU-0e5b75ea-b8e5-eb3e-1811-f48da7e2c080, 1323450, /home/ai-i-heyu/miniconda3/envs/sctl/bin/python, 62366 MiB",
+    "process_owners": "USER         PID     ELAPSED STAT\nai-i-he+ 1321998    04:16:11 RLl+\nai-i-he+ 1323450    04:15:54 RLl+"
+  }
+]

@@ -1,0 +1,14 @@
+status=VERIFIED
+dataset_id=synthetic-pose21-r-only-v1
+verified_at=2026-09-12T21:38:44+08:00
+external_dataset_used=false
+chenshiwen_data_used=false
+raw_images=84
+raw_labels=84
+prepared_images=84
+prepared_labels=84
+cam2000_bins=21
+grayprep_verify=PASS
+partials=0
+inventory=DATASET_INVENTORY.json
+

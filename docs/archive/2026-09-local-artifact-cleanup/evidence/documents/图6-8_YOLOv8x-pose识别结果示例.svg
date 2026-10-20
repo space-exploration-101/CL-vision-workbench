@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7.5" refY="4.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,4.5 L0,9 Z" fill="#777777"/>
+    </marker>
+    <style>
+      .text { font-family: "SimSun", "Microsoft YaHei", sans-serif; fill: #222222; letter-spacing: 0; }
+      .panel-label { font-size: 29px; font-weight: 700; }
+      .box-text { font-size: 25px; font-weight: 700; }
+      .sub-text { font-size: 21px; }
+      .line { fill: none; stroke: #777777; stroke-width: 2.5; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+<rect x="1" y="1" width="1598" height="518" fill="#ffffff"/>
+<rect x="70" y="95" width="390" height="330" fill="#eaf4fa" stroke="#2f75b5" stroke-width="3"/>
+<text class="text panel-label" x="265" y="140" text-anchor="middle">目标识别</text>
+<rect x="125" y="210" width="280" height="100" fill="#f3f8fb" stroke="#4b9bd5" stroke-width="2.5"/>
+<text class="text box-text" x="265" y="251" text-anchor="middle">YOLOv8x-pose</text>
+<text class="text box-text" x="265" y="287" text-anchor="middle">模型推理</text>
+<path class="line" d="M460 260 H540"/>
+<rect x="530" y="65" width="1000" height="390" fill="#faeaf4" stroke="#c84c8c" stroke-width="3"/>
+<text class="text panel-label" x="1030" y="110" text-anchor="middle">统一识别结果</text>
+<rect x="625" y="205" width="360" height="110" fill="#fff4fa" stroke="#ea5aa5" stroke-width="2.5"/>
+<text class="text box-text" x="805" y="251" text-anchor="middle">地标关键点</text>
+<text class="text box-text" x="805" y="287" text-anchor="middle">像素坐标</text>
+<rect x="1075" y="205" width="360" height="110" fill="#fff4fa" stroke="#ea5aa5" stroke-width="2.5"/>
+<text class="text box-text" x="1255" y="251" text-anchor="middle">目标天体质心</text>
+<text class="text box-text" x="1255" y="287" text-anchor="middle">像素坐标</text>
+</svg>

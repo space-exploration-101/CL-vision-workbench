@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "documents": 2,
+  "local_links": 13,
+  "external_links_not_checked": 0,
+  "work_links_not_accessed": 0,
+  "scope": "Only the two new stage-2 entry documents; no assertion about previously frozen historical links.",
+  "failures": []
+}

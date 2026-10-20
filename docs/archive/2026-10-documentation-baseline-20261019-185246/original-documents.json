@@ -1,0 +1,785 @@
+{
+  "status": "PASS",
+  "source": "Verified independent backup, not live files after baseline publication.",
+  "scope": "Conservative current-document and outer-index snapshot, plus rebuild metadata and documentation checker. Not an approved future write list.",
+  "archive_sha256": "964d814a3927af8cd6ba41ac2b360cf1d905044872233a056222777dd6862222",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 3359,
+      "mtime_ns": 1792259345311190400,
+      "attributes": 32,
+      "sha256": "2f9b11a1b2e70fcf432caf9ab603fe04a25637d1adf28be58ab5342e1c3ed47b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3301,
+      "mtime_ns": 1792400969219224400,
+      "attributes": 32,
+      "sha256": "448ea60b10627254646912086eefb07397f5ae51ab2311597931f05e190ce69f"
+    },
+    {
+      "path": "docs/AGENTS.md",
+      "bytes": 1176,
+      "mtime_ns": 1792259346936080900,
+      "attributes": 32,
+      "sha256": "be3778c9253fa5d69ffbfa1aa06e75d38beaae6810f2cb7f3ad5a08d40091fee"
+    },
+    {
+      "path": "docs/AGENT_GUIDE.md",
+      "bytes": 5596,
+      "mtime_ns": 1792400829310342200,
+      "attributes": 32,
+      "sha256": "3686a01f23de23be7370e724a90d5ba9fbc09dd12f7135109ccaef0bce5fa2e2"
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "bytes": 7703,
+      "mtime_ns": 1792400837749299700,
+      "attributes": 32,
+      "sha256": "8de7713dc6518948a59aec9aba3b28e43b99a7bb0d6d03df60f54c400d4aa59b"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 1800,
+      "mtime_ns": 1792400968676139700,
+      "attributes": 32,
+      "sha256": "8606ef8fd7604fd273eb825765eb7ca3e52f72feac94b1196b200b83146bf945"
+    },
+    {
+      "path": "docs/agent/AGENTS.md",
+      "bytes": 419,
+      "mtime_ns": 1792257542281843800,
+      "attributes": 32,
+      "sha256": "d0bce30d4f21e329c35b8138b5a8825f61c832d50e6678c57b031b9f95cb7644"
+    },
+    {
+      "path": "docs/agent/CONTEXT.md",
+      "bytes": 1826,
+      "mtime_ns": 1792259348544429800,
+      "attributes": 32,
+      "sha256": "f32acd1526955bfed4c47284d03a58a30ec4c4a485fe128757f704bbf1bc2005"
+    },
+    {
+      "path": "docs/agent/README.md",
+      "bytes": 543,
+      "mtime_ns": 1792257541490259600,
+      "attributes": 32,
+      "sha256": "931d5f7bde1608afd7674abc28d731df329d2e6c08d0748d3a0e4d9be4c759f7"
+    },
+    {
+      "path": "docs/agent/RUNBOOK.md",
+      "bytes": 1372,
+      "mtime_ns": 1792257543870395800,
+      "attributes": 32,
+      "sha256": "eab8a6020c002ca952f00e2696b41ad4455449cc5aa647b75b1fececfcb49efc"
+    },
+    {
+      "path": "docs/agent/tasks/BACKUP.md",
+      "bytes": 1679,
+      "mtime_ns": 1792400827194790900,
+      "attributes": 32,
+      "sha256": "e69ff3c15be650604a9df1b836c70123a38373f0ba486102656e2eb47424fe9e"
+    },
+    {
+      "path": "docs/agent/tasks/DIAGNOSTICS.md",
+      "bytes": 1885,
+      "mtime_ns": 1792257553347458200,
+      "attributes": 32,
+      "sha256": "ba4506d9377df8c9418a4721cc489035b8f3016ddd9df7507536460342e0e765"
+    },
+    {
+      "path": "docs/agent/tasks/DOCUMENTATION.md",
+      "bytes": 1079,
+      "mtime_ns": 1792257552557691400,
+      "attributes": 32,
+      "sha256": "f83b3389db2d3bb7bc0e8012fabb4fb69c2e10d8f96fbac34f3f2bf5c9153366"
+    },
+    {
+      "path": "docs/agent/tasks/EVALUATION.md",
+      "bytes": 1570,
+      "mtime_ns": 1792257554947630500,
+      "attributes": 32,
+      "sha256": "86abfd10dc4785d4a1b834e01463d018c64e81e771d5179ea642301d1ca4d858"
+    },
+    {
+      "path": "docs/agent/tasks/README.md",
+      "bytes": 243,
+      "mtime_ns": 1792257551768891100,
+      "attributes": 32,
+      "sha256": "30688a2d307bb2c108158104cb81f738e821f6ac0f2418fd5b399f479b714229"
+    },
+    {
+      "path": "docs/agent/tasks/SERVICE.md",
+      "bytes": 1190,
+      "mtime_ns": 1792257554149798100,
+      "attributes": 32,
+      "sha256": "2a2763a29980ce8a4c893f5f4e319c0ca61df090ec4914724acb074e1337baae"
+    },
+    {
+      "path": "docs/agent/topics/BACKUPS.md",
+      "bytes": 2081,
+      "mtime_ns": 1792400827722630200,
+      "attributes": 32,
+      "sha256": "460231d7598d157a9a665effdd1331c2d970872ca28a815123510ca26bcd8b85"
+    },
+    {
+      "path": "docs/agent/topics/HOSTS.md",
+      "bytes": 1715,
+      "mtime_ns": 1792257547025161200,
+      "attributes": 32,
+      "sha256": "998d727bfe0d396293c187415de1813a40767809c84fb40b3695f0ccbf4be1e0"
+    },
+    {
+      "path": "docs/agent/topics/MODEL_BASELINE.md",
+      "bytes": 3289,
+      "mtime_ns": 1792400828254023600,
+      "attributes": 32,
+      "sha256": "bfddf3d346ce0c2f49cbadf7c41c6a81447073cb0d66813e90ff534331788206"
+    },
+    {
+      "path": "docs/agent/topics/README.md",
+      "bytes": 263,
+      "mtime_ns": 1792257546237008800,
+      "attributes": 32,
+      "sha256": "0dce92e4d8080c4f7a32891f10c603d0f5eebac8b60e2d73bcf6b3d8c0fdfb6a"
+    },
+    {
+      "path": "docs/agent/topics/REPOSITORIES.md",
+      "bytes": 1657,
+      "mtime_ns": 1792400828779745300,
+      "attributes": 32,
+      "sha256": "f89c9605eaf10fd0360443034e66ec30dc80a837baa945c427a8065f60217932"
+    },
+    {
+      "path": "docs/archive/2026-04-cam2000-prototype/README.md",
+      "bytes": 1527,
+      "mtime_ns": 1789746002095951600,
+      "attributes": 32,
+      "sha256": "1172422c5d5ad86aa0a9b6cd0ea97d38abac7f3fc270aa11434e5a0e223521a9"
+    },
+    {
+      "path": "docs/archive/2026-09-class21-migration-source-docs/README.md",
+      "bytes": 609,
+      "mtime_ns": 1789955912471180100,
+      "attributes": 32,
+      "sha256": "1a1b6aad1eaac5ba6e6574b1e39a84e0dea42de67ce0f854bd260cbccf5b5f94"
+    },
+    {
+      "path": "docs/archive/2026-09-class21-transition/AGENTS.md",
+      "bytes": 439,
+      "mtime_ns": 1792259356591093200,
+      "attributes": 32,
+      "sha256": "4eadc282d3606b9224016584713397241ff23fd973939cb80b90c78d74fad341"
+    },
+    {
+      "path": "docs/archive/2026-09-class21-transition/README.md",
+      "bytes": 976,
+      "mtime_ns": 1792259355785652100,
+      "attributes": 32,
+      "sha256": "19bd8795f5bb9eb3385f4613a76aa3709cf0902fa0b592c3537893a9e93a1dac"
+    },
+    {
+      "path": "docs/archive/2026-09-gray1-blocked-backup-run/README.md",
+      "bytes": 1476,
+      "mtime_ns": 1792401237115977400,
+      "attributes": 32,
+      "sha256": "bd6dceeb33115f8028411c1001daa4bd52a8baf49472d73df2ba8ff8869ae71b"
+    },
+    {
+      "path": "docs/archive/2026-09-gray1-predictor-test-eval/README.md",
+      "bytes": 4023,
+      "mtime_ns": 1790148873858339100,
+      "attributes": 32,
+      "sha256": "7a9c0e68c27133e2f1a9ea1b1e6c8a08830ced3ad8e816a03e03cb57ba448b2a"
+    },
+    {
+      "path": "docs/archive/2026-09-gray1-quant-env/README.md",
+      "bytes": 4062,
+      "mtime_ns": 1790148873858339100,
+      "attributes": 32,
+      "sha256": "0ea76b57e7801943f0c49710a2e19041d425e36374f037436301651caa66ee51"
+    },
+    {
+      "path": "docs/archive/2026-09-gray1-step15-checkpoint/README.md",
+      "bytes": 1187,
+      "mtime_ns": 1790131057460004800,
+      "attributes": 32,
+      "sha256": "172b7b84698a2a89ec7fe3f10eb2a95aa2e843966cf04e89fcca48762484dc0e"
+    },
+    {
+      "path": "docs/archive/2026-09-gray1-training-workflow-history/README.md",
+      "bytes": 1032,
+      "mtime_ns": 1792258045105252200,
+      "attributes": 32,
+      "sha256": "ad44cb94dcce843c7ab7352f1ba03c387b76769bce3514505c4cf3864dba5865"
+    },
+    {
+      "path": "docs/archive/2026-09-gray1-workflow-smoke/README.md",
+      "bytes": 2893,
+      "mtime_ns": 1789958454942473300,
+      "attributes": 32,
+      "sha256": "448ef290ac1f0cf075b9243430e47649de5bb2fe588837052b9975de91f316cd"
+    },
+    {
+      "path": "docs/archive/2026-09-grayprep-performance-step5-14/README.md",
+      "bytes": 2641,
+      "mtime_ns": 1790148873859845000,
+      "attributes": 32,
+      "sha256": "c92ad6fbf3843bf51a0e2ba566b3ea7144935db0aed633f013d901ac8b36baba"
+    },
+    {
+      "path": "docs/archive/2026-09-h200-worktree-retirement/README.md",
+      "bytes": 776,
+      "mtime_ns": 1789745105039563500,
+      "attributes": 32,
+      "sha256": "726a944abe39dd9f3a5bbb28a78585e904f22e358862b654115f646da62f7541"
+    },
+    {
+      "path": "docs/archive/2026-09-local-artifact-cleanup/README.md",
+      "bytes": 1164,
+      "mtime_ns": 1789745761875887900,
+      "attributes": 32,
+      "sha256": "ff92391941d041aa1dee5713d466472a21f37f17f42b58ce899ebfc8119107f5"
+    },
+    {
+      "path": "docs/archive/2026-09-migration/README.md",
+      "bytes": 542,
+      "mtime_ns": 1792258041777873200,
+      "attributes": 32,
+      "sha256": "0c48f96be746a18b6f12e9a68fb181b89a787ddaf56f672bfdcb362502a15174"
+    },
+    {
+      "path": "docs/archive/2026-09-performance/README.md",
+      "bytes": 581,
+      "mtime_ns": 1792258042604201900,
+      "attributes": 32,
+      "sha256": "caeda27f40cd132566d61f204ec79742dbc1de026a722234142479e1a0cc2bb4"
+    },
+    {
+      "path": "docs/archive/2026-09-sim-train-fpga-doc/README.md",
+      "bytes": 945,
+      "mtime_ns": 1788956698244559800,
+      "attributes": 32,
+      "sha256": "efea1677202c0f4174d5f06fb365a7de38b76f671357e6a7a2354e637ab16265"
+    },
+    {
+      "path": "docs/archive/2026-09-standardization-work-packages/README.md",
+      "bytes": 2705,
+      "mtime_ns": 1789745588984167600,
+      "attributes": 32,
+      "sha256": "95db9ad0d5393670facef94c37365753eb6b6d6fe4c6bdc22a5d5a644eda5028"
+    },
+    {
+      "path": "docs/archive/2026-10-artifact-relocation/AGENTS.md",
+      "bytes": 406,
+      "mtime_ns": 1792259418501086700,
+      "attributes": 32,
+      "sha256": "7cdd1e0883b476fd661634e831265568741ba165047184f03ca8dbbe85981e3d"
+    },
+    {
+      "path": "docs/archive/2026-10-artifact-relocation/README.md",
+      "bytes": 5211,
+      "mtime_ns": 1792259512830999000,
+      "attributes": 32,
+      "sha256": "b6775331ce7d7bfafe80d14cbce31bcecf1bf2ca177f99e2c89e142acb2f5a1b"
+    },
+    {
+      "path": "docs/archive/2026-10-documentation-consolidation/README.md",
+      "bytes": 3178,
+      "mtime_ns": 1792258096245019100,
+      "attributes": 32,
+      "sha256": "8e32d2954ee4c4b2f25ab3ef72932e3d9c15e5d99a7909b2ecaaf3123c4eb408"
+    },
+    {
+      "path": "docs/archive/2026-10-platform-docs/README.md",
+      "bytes": 5621,
+      "mtime_ns": 1792401300920082500,
+      "attributes": 32,
+      "sha256": "f97eea00075359409984f9dcf87bfa86d3791378ed3ab36abad5509253936d4a"
+    },
+    {
+      "path": "docs/archive/AGENTS.md",
+      "bytes": 502,
+      "mtime_ns": 1792258040110343700,
+      "attributes": 32,
+      "sha256": "2c90cecd2a5fbbf5adde2125b7467fbdbab67f15dbadb915e23a694c4df2dce4"
+    },
+    {
+      "path": "docs/archive/OCTOBER_CONTEXT.md",
+      "bytes": 3808,
+      "mtime_ns": 1792400830367923700,
+      "attributes": 32,
+      "sha256": "258f7e901f5871c046d7194d9454424191a87d52c02f050d61e116c33969d12c"
+    },
+    {
+      "path": "docs/archive/README.md",
+      "bytes": 5452,
+      "mtime_ns": 1792401041505454200,
+      "attributes": 32,
+      "sha256": "bcacf10e034721031c0fc9d3563ad3f54d6e8af221354de1d909b86d5ca010c6"
+    },
+    {
+      "path": "docs/archive/SEPTEMBER_CONTEXT.md",
+      "bytes": 4898,
+      "mtime_ns": 1792259384288875600,
+      "attributes": 32,
+      "sha256": "d38a15ad5379d049953cf830a927a30b37efce30e10eb01eec0078748001404b"
+    },
+    {
+      "path": "docs/class-21/AGENTS.md",
+      "bytes": 785,
+      "mtime_ns": 1792259350155029600,
+      "attributes": 32,
+      "sha256": "113b7a88fe8a67bb1103c0d04d8bcc643b9215ac0d746701f8c05bcd21fba526"
+    },
+    {
+      "path": "docs/class-21/README.md",
+      "bytes": 2318,
+      "mtime_ns": 1792400968143321500,
+      "attributes": 32,
+      "sha256": "890e886f230906260aeb5837ca8b208352bfa12a751b0655da5e27489a7719d3"
+    },
+    {
+      "path": "docs/class-21/architecture/AGENTS.md",
+      "bytes": 248,
+      "mtime_ns": 1792257832650951300,
+      "attributes": 32,
+      "sha256": "3cdb0d9a292815da2db29fdc060b3ea538f5220ad0c215ad971beb303b6e6ab0"
+    },
+    {
+      "path": "docs/class-21/architecture/Pose21_Gray1网络结构与FPGA适配说明.md",
+      "bytes": 15089,
+      "mtime_ns": 1792258035847478200,
+      "attributes": 32,
+      "sha256": "44531108c8798f8abb46cd0b8db6b8641a9029407ba3332e740452eea6e9e2cf"
+    },
+    {
+      "path": "docs/class-21/architecture/README.md",
+      "bytes": 735,
+      "mtime_ns": 1792257831860805100,
+      "attributes": 32,
+      "sha256": "d728f349b763ab8aaf9c177300755b5eae0f66a0c5f9a18956b621fe55debde2"
+    },
+    {
+      "path": "docs/class-21/knowledge/01_YOLO_Gray1与量化基础.md",
+      "bytes": 4502,
+      "mtime_ns": 1792258032528756400,
+      "attributes": 32,
+      "sha256": "095e820d9fec3ed4e6450d00b0c590ffc094a687f06ac2334952ce2c74afe4e0"
+    },
+    {
+      "path": "docs/class-21/knowledge/02_21类目标数据与输入预处理.md",
+      "bytes": 5354,
+      "mtime_ns": 1792258033356165300,
+      "attributes": 32,
+      "sha256": "47d62b1a8f8bcded2e5ee245f0a4ed8c9d193aca89b447446a7ba2e7f08ba4da"
+    },
+    {
+      "path": "docs/class-21/knowledge/03_训练评估量化与FPGA流程.md",
+      "bytes": 4034,
+      "mtime_ns": 1792400830891655300,
+      "attributes": 32,
+      "sha256": "91fa63c58d871d314f784d7324f2215b22ca21671e031af8a6b5dad1c1639cd5"
+    },
+    {
+      "path": "docs/class-21/knowledge/AGENTS.md",
+      "bytes": 440,
+      "mtime_ns": 1792400967591556000,
+      "attributes": 32,
+      "sha256": "3dd4d217cdcf192c0217b9f14a33ae6aca17c11ef7a50fa5b23d14113b5a5d6f"
+    },
+    {
+      "path": "docs/class-21/knowledge/README.md",
+      "bytes": 1451,
+      "mtime_ns": 1792400967048223300,
+      "attributes": 32,
+      "sha256": "719e500332b3bf26ce7eb1244d8fdecf2b24503d0a18827a85bd64c9a412c108"
+    },
+    {
+      "path": "docs/class-21/operations/AGENTS.md",
+      "bytes": 404,
+      "mtime_ns": 1792257834231954500,
+      "attributes": 32,
+      "sha256": "9818d9984b7714aa3cc1ee7aea99d31e09fcea4705939bb563d8a681a41ac28a"
+    },
+    {
+      "path": "docs/class-21/operations/README.md",
+      "bytes": 528,
+      "mtime_ns": 1792400834565456800,
+      "attributes": 32,
+      "sha256": "1663585f2d21d6b7c0f82a6691ed10bb5d9d6e8e063e2242267763f26b3186c2"
+    },
+    {
+      "path": "docs/class-21/operations/prompts/21类Gray1_NAS归档与恢复资料精简_AGENT提示词.md",
+      "bytes": 2568,
+      "mtime_ns": 1792400833527089200,
+      "attributes": 32,
+      "sha256": "7828e2d0f23c8e5a544d4f140c4200f113867c9f3df2e09fabc41f86bf0f729e"
+    },
+    {
+      "path": "docs/class-21/operations/prompts/README.md",
+      "bytes": 447,
+      "mtime_ns": 1792400834047817000,
+      "attributes": 32,
+      "sha256": "b7afd5e1749ce5bbb531a0b5862a3b7903c6fc629f792939820c3ba3d90f4f84"
+    },
+    {
+      "path": "docs/class-21/operations/runs/20261017-h200-gray1-main-integration.md",
+      "bytes": 3204,
+      "mtime_ns": 1792258037621293900,
+      "attributes": 32,
+      "sha256": "d065fd7f490775bdbd8b214beda848700e3089c07517cd3415c30d4cfd2ed196"
+    },
+    {
+      "path": "docs/class-21/operations/runs/20261018-h200-main-only.md",
+      "bytes": 2667,
+      "mtime_ns": 1792254747104307600,
+      "attributes": 32,
+      "sha256": "94115c61786ca3fbf9bfe9210c603914c23c9fa4f9049355d1ea41c4c42c4600"
+    },
+    {
+      "path": "docs/class-21/operations/runs/AGENTS.md",
+      "bytes": 276,
+      "mtime_ns": 1792257835814256200,
+      "attributes": 32,
+      "sha256": "7ba15851eb6fee74a731676f3086b4df77e94a54bd186c2f12f146ad7aa84c19"
+    },
+    {
+      "path": "docs/class-21/operations/runs/README.md",
+      "bytes": 923,
+      "mtime_ns": 1792257835026133800,
+      "attributes": 32,
+      "sha256": "d3557c1c5e7cfe7ce13cac91ad77c284f69bb0036de5bf27b75a658882216ea4"
+    },
+    {
+      "path": "docs/class-21/operations/runs/backup/AGENTS.md",
+      "bytes": 494,
+      "mtime_ns": 1792400970847725400,
+      "attributes": 32,
+      "sha256": "17fa31e66595b1e289e3d46b2d44b1e70fb24eed908abd02ddf127cdddccc9d2"
+    },
+    {
+      "path": "docs/class-21/operations/runs/backup/README.md",
+      "bytes": 1277,
+      "mtime_ns": 1792400835619890300,
+      "attributes": 32,
+      "sha256": "ae5fbf9aa2898077c85af961306e3571d5f2e5b0c728808296aba9df9bcc27de"
+    },
+    {
+      "path": "docs/class-21/operations/runs/backup/docker-images/20261016/completion-report.md",
+      "bytes": 3233,
+      "mtime_ns": 1792401237647612400,
+      "attributes": 32,
+      "sha256": "ae0361328244204c7192e3ab6b5e44aefae049a0dfe2a86d8d5bb6ed6ca13e40"
+    },
+    {
+      "path": "docs/class-21/operations/runs/backup/historical-r-only/20260925-local-data-cleanup/completion-report.md",
+      "bytes": 2500,
+      "mtime_ns": 1790304836709553600,
+      "attributes": 32,
+      "sha256": "fe1ab68108acbc9f1c2deb1d2e04336e8c5b417fb4f2d3aa6b16dc1aae109518"
+    },
+    {
+      "path": "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/completion-report.md",
+      "bytes": 4463,
+      "mtime_ns": 1790135104927909200,
+      "attributes": 32,
+      "sha256": "d42007d0c005a1078ba348438ab3d055b80ff8c99873b4ea1cbb7b84ccd63664"
+    },
+    {
+      "path": "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/nas-docs/00_恢复说明_README.md",
+      "bytes": 5901,
+      "mtime_ns": 1790131130000872200,
+      "attributes": 32,
+      "sha256": "ee85ce4550ff148f12864dd7d38e07f75d13fbb7e68561bfdf86bedcd0366dcf"
+    },
+    {
+      "path": "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/nas-docs/01_恢复_AGENT提示词.md",
+      "bytes": 5559,
+      "mtime_ns": 1790130907642510600,
+      "attributes": 32,
+      "sha256": "eea924613f183b6e208c967715f0bf8d1e1197322c6567ab0f63cc490c35dfef"
+    },
+    {
+      "path": "docs/class-21/operations/runs/image-cleanup/20261015-h200-intermediate-images/清理完成报告.md",
+      "bytes": 3721,
+      "mtime_ns": 1792049243713880500,
+      "attributes": 32,
+      "sha256": "4cf5b41b7dcb865d7361701d436b8745ad266b5b7587f81e0579322300b5e90b"
+    },
+    {
+      "path": "docs/class-21/operations/tools/README.md",
+      "bytes": 678,
+      "mtime_ns": 1792401037760260500,
+      "attributes": 32,
+      "sha256": "401f91a3ebdcd18e746939a698a600f88012b685cf55260db6c24b978dbd481d"
+    },
+    {
+      "path": "docs/class-21/reports/AGENTS.md",
+      "bytes": 606,
+      "mtime_ns": 1792259351751928800,
+      "attributes": 32,
+      "sha256": "83cdad9eb0a58083a0bf3e562fbe876a022a91b4ee567af33ba4f9931cdb50b2"
+    },
+    {
+      "path": "docs/class-21/reports/README.md",
+      "bytes": 996,
+      "mtime_ns": 1792259350952384100,
+      "attributes": 32,
+      "sha256": "f580f4fb7452da2b3bc8ebfbe6caea3873b0ba33f14e03294973f9490dc66192"
+    },
+    {
+      "path": "docs/class-21/reports/current/20260920_Pose21_Gray1_训练测试标定与量化完整报告.md",
+      "bytes": 26116,
+      "mtime_ns": 1792046075736865700,
+      "attributes": 32,
+      "sha256": "cee6a059e6e937699cc8c916af447c733b5681411e1343ac6499d2953c56fecf"
+    },
+    {
+      "path": "docs/class-21/reports/current/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+      "bytes": 31525,
+      "mtime_ns": 1792400836155509500,
+      "attributes": 32,
+      "sha256": "f8295383f2dfb14b8046e947440167135f2232b8352b318c5cddfd994e836f02"
+    },
+    {
+      "path": "docs/class-21/reports/current/20261012_Pose21_500张原始测试集生成与测试记录.md",
+      "bytes": 50978,
+      "mtime_ns": 1792400836686087500,
+      "attributes": 32,
+      "sha256": "0fca1c25fdbb799fe1adad8a74c3d3f7d8cf6296bf0ea1328cad63a07725a294"
+    },
+    {
+      "path": "docs/class-21/reports/current/AGENTS.md",
+      "bytes": 335,
+      "mtime_ns": 1792400970310187600,
+      "attributes": 32,
+      "sha256": "e7e317b6c91d05b9aff256fa76a01a2b3d77b96c8daaa32fa3e39ab2e3c8f21d"
+    },
+    {
+      "path": "docs/class-21/reports/current/README.md",
+      "bytes": 1502,
+      "mtime_ns": 1792400969768578800,
+      "attributes": 32,
+      "sha256": "213e5692d5c8b8d021d864602229eda4629c2e5230743d2bf5860b65541a3ec7"
+    },
+    {
+      "path": "docs/platform/04_NAS备份与环境恢复.md",
+      "bytes": 27816,
+      "mtime_ns": 1792400831412936300,
+      "attributes": 32,
+      "sha256": "220109c863793533f56adc3ae7ac659af29360a771c39c43dc7fb2cb769d224d"
+    },
+    {
+      "path": "docs/platform/05_H200训练测试推理与量化运行环境.md",
+      "bytes": 18330,
+      "mtime_ns": 1792400831946698700,
+      "attributes": 32,
+      "sha256": "ada0a8074f979fceeed6162338155fb754e2c437895f6269a566105c7d1fdc56"
+    },
+    {
+      "path": "docs/platform/06_5090训练测试推理与量化运行环境.md",
+      "bytes": 13077,
+      "mtime_ns": 1792400966500830000,
+      "attributes": 32,
+      "sha256": "0edf1da9731579bcd920aed719739cc74b7eaf5495c9a42debd32a95229516ae"
+    },
+    {
+      "path": "docs/platform/AGENTS.md",
+      "bytes": 430,
+      "mtime_ns": 1792400965953697000,
+      "attributes": 32,
+      "sha256": "71bbb7cd4d0e3fc04f1a781da754bdc07dfcf0af79a7ed0cce2978158befaf97"
+    },
+    {
+      "path": "docs/platform/README.md",
+      "bytes": 2423,
+      "mtime_ns": 1792400965408694700,
+      "attributes": 32,
+      "sha256": "a359103116094cf4048977e833fa22514336896c113bd780b106690173d4107d"
+    },
+    {
+      "path": "docs/reference/AGENTS.md",
+      "bytes": 293,
+      "mtime_ns": 1792257725373190900,
+      "attributes": 32,
+      "sha256": "8284cb5dd21c2d10cc839359f6fde42dd88213cfa63a1701cc5aec3759cbbee6"
+    },
+    {
+      "path": "docs/reference/PERFORMANCE.md",
+      "bytes": 1970,
+      "mtime_ns": 1792400838803666700,
+      "attributes": 32,
+      "sha256": "5f1778f56aeaed6e06fcf1a7786c433f6ca7137e72fb91145ab479d05115ef06"
+    },
+    {
+      "path": "docs/reference/README.md",
+      "bytes": 744,
+      "mtime_ns": 1792257724580785200,
+      "attributes": 32,
+      "sha256": "5d4c809f66146cdfe71ad804f2d806152b89e481f08f668fef55ad8e9e97552d"
+    },
+    {
+      "path": "docs/reference/RECOVERY.md",
+      "bytes": 3893,
+      "mtime_ns": 1792400839331692200,
+      "attributes": 32,
+      "sha256": "34d9ffca815f48a7732d2ac8534d8d92a47721184a4166322e33a9197dc0f910"
+    },
+    {
+      "path": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "bytes": 27802,
+      "mtime_ns": 1792258035022769700,
+      "attributes": 32,
+      "sha256": "77064d51f4a91d624c7e2b496ca31458641e03715c55e542bbd24dac0b944f1f"
+    },
+    {
+      "path": "docs/reference/backup/README.md",
+      "bytes": 436,
+      "mtime_ns": 1792400838280900800,
+      "attributes": 32,
+      "sha256": "8a1e293a69c683d98b37e21e56574dbd87d6f05a270348039ac9abf8a47ab35d"
+    },
+    {
+      "path": "outputs/AGENTS.md",
+      "bytes": 501,
+      "mtime_ns": 1792259353358233900,
+      "attributes": 32,
+      "sha256": "ba48e30f58051e149926341f0281b270833a75834a4b4d8a89f5a87c92442e47"
+    },
+    {
+      "path": "outputs/README.md",
+      "bytes": 1558,
+      "mtime_ns": 1792401038829359300,
+      "attributes": 32,
+      "sha256": "c6158490e931564faefdaf043a970d85645ea1e7b057b3747058d25dfdb9e2d8"
+    },
+    {
+      "path": "outputs/class-21/AGENTS.md",
+      "bytes": 532,
+      "mtime_ns": 1792259354979668600,
+      "attributes": 32,
+      "sha256": "cbc6679557c15ec17d4f5fe640b58ab2e86548b87941c3a90a7ba000eaae63e2"
+    },
+    {
+      "path": "outputs/class-21/README.md",
+      "bytes": 2707,
+      "mtime_ns": 1792401039362799300,
+      "attributes": 32,
+      "sha256": "ddc2c0a56eff54d0b38ac1b2cb2304e1dcc33591d0397fe991978b3d2cbfed29"
+    },
+    {
+      "path": "rebuild/AGENTS.md",
+      "bytes": 834,
+      "mtime_ns": 1792401039892411400,
+      "attributes": 32,
+      "sha256": "f9b5fe231c744973b8fa6281db960a263d47c3c04fa6a26f25a754bd3b1ef116"
+    },
+    {
+      "path": "rebuild/CURRENT_STATE.md",
+      "bytes": 1949,
+      "mtime_ns": 1792400839854531900,
+      "attributes": 32,
+      "sha256": "6c7b1200b3a6f3e915ccf82968572e18f940b0c614a4c7658673b6c5ce0f4348"
+    },
+    {
+      "path": "rebuild/README.md",
+      "bytes": 1352,
+      "mtime_ns": 1792401040429454700,
+      "attributes": 32,
+      "sha256": "a52fbd1fdd37c47fb21aa1bce05a4a51f40af7e10a61ee9b09991ed6011467eb"
+    },
+    {
+      "path": "rebuild/REBUILD_GUIDE.md",
+      "bytes": 2366,
+      "mtime_ns": 1792400840912662000,
+      "attributes": 32,
+      "sha256": "142ee62c27cb1f4df7f463968d3005c404b0d832c52d5fbdd048d5f685bc8329"
+    },
+    {
+      "path": "rebuild/SHA256SUMS",
+      "bytes": 4089,
+      "mtime_ns": 1792258174403104200,
+      "attributes": 32,
+      "sha256": "1dd85dac90de5082dd9565b1c74b1f0ee7053077c4aa13fbdc005244e8776e64"
+    },
+    {
+      "path": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "bytes": 4166,
+      "mtime_ns": 1792401129429441400,
+      "attributes": 32,
+      "sha256": "de523d0c3c13cd91f370a4de693a5f9e999a335c0d5b1467fe0d729b26700bf4"
+    },
+    {
+      "path": "rebuild/legacy/AGENTS.md",
+      "bytes": 297,
+      "mtime_ns": 1792257733336188600,
+      "attributes": 32,
+      "sha256": "9906e7c15e2a6ed46faabba63bd5d272a7ed092fb37d29310a81d6888dc5400a"
+    },
+    {
+      "path": "rebuild/legacy/README.md",
+      "bytes": 775,
+      "mtime_ns": 1792257732544465400,
+      "attributes": 32,
+      "sha256": "8d758b6b7e527adcb7057d90aa640586e3f5ce0906bd0da601a4b8763c96b0b5"
+    },
+    {
+      "path": "rebuild/legacy/gray1-20260918/README.md",
+      "bytes": 352,
+      "mtime_ns": 1792257734932989000,
+      "attributes": 32,
+      "sha256": "324a3cfb67520b4e73c77b9791ca3fe6fa06ba519092af7e4ee0ce3988cf477b"
+    },
+    {
+      "path": "rebuild/legacy/pre-gray1-20260902/README.md",
+      "bytes": 370,
+      "mtime_ns": 1792257734131713000,
+      "attributes": 32,
+      "sha256": "40d6b324c176d2d4779bb2e720b07700d8ce4c9f0aff6accbdb9bfb34100d963"
+    },
+    {
+      "path": "rebuild/rebuild-manifest.yml",
+      "bytes": 1106,
+      "mtime_ns": 1792401040971645600,
+      "attributes": 32,
+      "sha256": "ec32017c387728e099bef82c03308203ab71fefe8af0669203f7d6bbce40a5fd"
+    },
+    {
+      "path": "task-artifacts/AGENTS.md",
+      "bytes": 216,
+      "mtime_ns": 1792257840537204200,
+      "attributes": 32,
+      "sha256": "31ad3b4d250bb47478dae89f171e851f0e900caf46c4f5e80bb6c226edb03add"
+    },
+    {
+      "path": "task-artifacts/README.md",
+      "bytes": 1462,
+      "mtime_ns": 1792401038297562900,
+      "attributes": 32,
+      "sha256": "b6e7d4b4baa14de1de47a172069088799bc2bf1c0aa46b973aa00a83555d328a"
+    },
+    {
+      "path": "tools/AGENTS.md",
+      "bytes": 393,
+      "mtime_ns": 1792257838961960500,
+      "attributes": 32,
+      "sha256": "dcd7f1f2277bd5e0524dc9b97cf0d48edb8cc3980b4595a00b020ff222b2676f"
+    },
+    {
+      "path": "tools/README.md",
+      "bytes": 3179,
+      "mtime_ns": 1792401037221694400,
+      "attributes": 32,
+      "sha256": "870e1673d3359790fdd77ceb4fa80aec72a822b5f5ae8c9533d68ec23f2c7583"
+    },
+    {
+      "path": "tools/check_documentation.py",
+      "bytes": 6975,
+      "mtime_ns": 1792259359004321400,
+      "attributes": 32,
+      "sha256": "03cbcb6ade6d4f26fd0f41f25da52e7345abb90d3ccb2e1787404e5f66e1b630"
+    }
+  ]
+}

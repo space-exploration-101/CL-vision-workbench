@@ -1,0 +1,13 @@
+计算单元系统模型研制功能模块技术说明
+功能组成与流程
+pt_eval
+onnx_eval
+fpga_test_pack
+fpga_eval
+generate_bin
+merge_bin
+bundle
+验收准则
+仿真比对
+停止放行
+（以下无正文）

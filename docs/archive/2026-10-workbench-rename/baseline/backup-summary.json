@@ -1,0 +1,13 @@
+{
+  "status": "VERIFIED",
+  "source": "\\\\?\\E:\\codex\\quantitize",
+  "backup": "\\\\?\\E:\\codex\\quantitize-backups\\20261020-100158-before-CL-vision-workbench",
+  "started_at": "2026-10-20T02:01:58.854051+00:00",
+  "completed_at": "2026-10-20T02:03:29.483008+00:00",
+  "files": 4720,
+  "bytes": 6316052916,
+  "directories": 269,
+  "link_definitions": 5,
+  "method": "Independent file copy; per-file partial/readback/publish; final source and copy SHA-256 readback",
+  "limits": "No work, dependency targets, .git, ACL/ADS fidelity or atomic filesystem snapshot; links are definitions only"
+}

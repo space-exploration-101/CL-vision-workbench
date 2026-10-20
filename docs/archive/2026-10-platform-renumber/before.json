@@ -1,0 +1,459 @@
+{
+  "files": {
+    "docs/AGENT_GUIDE.md": {
+      "sha256": "84737e2ccb99d4a6ffe586f40ea1194858fa1867c7e7d49d89913e6c38e1e6fe",
+      "bytes": 6954
+    },
+    "docs/HANDOFF.md": {
+      "sha256": "577ef40dfd77a7e4a1aa93f5907a2c8ce2a2905ba689c27a743931d70f0cbade",
+      "bytes": 4510
+    },
+    "docs/README.md": {
+      "sha256": "0fbef4c6361ee5d77215777a633e066fc1cd7ead5a5ee5e8635b0d5472469d87",
+      "bytes": 2486
+    },
+    "docs/agent/CONTEXT.md": {
+      "sha256": "2f7a3e905f5dc4a1e59ba58c14ca8c7892aaa82e52f03591ce33435aa5a927ce",
+      "bytes": 1885
+    },
+    "docs/agent/tasks/BACKUP.md": {
+      "sha256": "a7cfa47b9f270167d3c562b9c7e7638e441846b852ac8a6b0d18fb2f7856ed2e",
+      "bytes": 2021
+    },
+    "docs/agent/tasks/SERVICE.md": {
+      "sha256": "66b0808c08bfbd35401927ad0cf8f3cdbf465bc74c229236edd63f2b199e0e3c",
+      "bytes": 1508
+    },
+    "docs/agent/topics/BACKUPS.md": {
+      "sha256": "374f43128f6d710fb2f9a491cd8f6b65ce9024b1e83d5cae9de28eae6bb0249d",
+      "bytes": 1114
+    },
+    "docs/agent/topics/REPOSITORIES.md": {
+      "sha256": "f89c9605eaf10fd0360443034e66ec30dc80a837baa945c427a8065f60217932",
+      "bytes": 1657
+    },
+    "docs/archive/2026-04-cam2000-prototype/README.md": {
+      "sha256": "1172422c5d5ad86aa0a9b6cd0ea97d38abac7f3fc270aa11434e5a0e223521a9",
+      "bytes": 1527
+    },
+    "docs/archive/2026-09-class21-migration-source-docs/README.md": {
+      "sha256": "1a1b6aad1eaac5ba6e6574b1e39a84e0dea42de67ce0f854bd260cbccf5b5f94",
+      "bytes": 609
+    },
+    "docs/archive/2026-09-class21-transition/AGENTS.md": {
+      "sha256": "4eadc282d3606b9224016584713397241ff23fd973939cb80b90c78d74fad341",
+      "bytes": 439
+    },
+    "docs/archive/2026-09-class21-transition/HISTORICAL_TRANSITION_EXPERIMENTS.md": {
+      "sha256": "93aba8469573d6d5e9dcf831206bfd7f5e63c47562001ef70f9388bf4c8fcb7e",
+      "bytes": 2813
+    },
+    "docs/archive/2026-09-class21-transition/README.md": {
+      "sha256": "19bd8795f5bb9eb3385f4613a76aa3709cf0902fa0b592c3537893a9e93a1dac",
+      "bytes": 976
+    },
+    "docs/archive/2026-09-gray1-blocked-backup-run/README.md": {
+      "sha256": "bd6dceeb33115f8028411c1001daa4bd52a8baf49472d73df2ba8ff8869ae71b",
+      "bytes": 1476
+    },
+    "docs/archive/2026-09-gray1-predictor-test-eval/README.md": {
+      "sha256": "7a9c0e68c27133e2f1a9ea1b1e6c8a08830ced3ad8e816a03e03cb57ba448b2a",
+      "bytes": 4023
+    },
+    "docs/archive/2026-09-gray1-quant-env/README.md": {
+      "sha256": "0ea76b57e7801943f0c49710a2e19041d425e36374f037436301651caa66ee51",
+      "bytes": 4062
+    },
+    "docs/archive/2026-09-gray1-step15-checkpoint/README.md": {
+      "sha256": "172b7b84698a2a89ec7fe3f10eb2a95aa2e843966cf04e89fcca48762484dc0e",
+      "bytes": 1187
+    },
+    "docs/archive/2026-09-gray1-training-workflow-history/README.md": {
+      "sha256": "ad44cb94dcce843c7ab7352f1ba03c387b76769bce3514505c4cf3864dba5865",
+      "bytes": 1032
+    },
+    "docs/archive/2026-09-gray1-workflow-smoke/README.md": {
+      "sha256": "448ef290ac1f0cf075b9243430e47649de5bb2fe588837052b9975de91f316cd",
+      "bytes": 2893
+    },
+    "docs/archive/2026-09-grayprep-performance-step5-14/README.md": {
+      "sha256": "c92ad6fbf3843bf51a0e2ba566b3ea7144935db0aed633f013d901ac8b36baba",
+      "bytes": 2641
+    },
+    "docs/archive/2026-09-h200-worktree-retirement/README.md": {
+      "sha256": "726a944abe39dd9f3a5bbb28a78585e904f22e358862b654115f646da62f7541",
+      "bytes": 776
+    },
+    "docs/archive/2026-09-local-artifact-cleanup/README.md": {
+      "sha256": "ff92391941d041aa1dee5713d466472a21f37f17f42b58ce899ebfc8119107f5",
+      "bytes": 1164
+    },
+    "docs/archive/2026-09-migration/README.md": {
+      "sha256": "0c48f96be746a18b6f12e9a68fb181b89a787ddaf56f672bfdcb362502a15174",
+      "bytes": 542
+    },
+    "docs/archive/2026-09-performance/README.md": {
+      "sha256": "caeda27f40cd132566d61f204ec79742dbc1de026a722234142479e1a0cc2bb4",
+      "bytes": 581
+    },
+    "docs/archive/2026-09-sim-train-fpga-doc/README.md": {
+      "sha256": "efea1677202c0f4174d5f06fb365a7de38b76f671357e6a7a2354e637ab16265",
+      "bytes": 945
+    },
+    "docs/archive/2026-09-standardization-work-packages/README.md": {
+      "sha256": "95db9ad0d5393670facef94c37365753eb6b6d6fe4c6bdc22a5d5a644eda5028",
+      "bytes": 2705
+    },
+    "docs/archive/2026-10-artifact-relocation/AGENTS.md": {
+      "sha256": "7cdd1e0883b476fd661634e831265568741ba165047184f03ca8dbbe85981e3d",
+      "bytes": 406
+    },
+    "docs/archive/2026-10-artifact-relocation/README.md": {
+      "sha256": "b6775331ce7d7bfafe80d14cbce31bcecf1bf2ca177f99e2c89e142acb2f5a1b",
+      "bytes": 5211
+    },
+    "docs/archive/2026-10-attachment-closeout/README.md": {
+      "sha256": "526203a069603852a539668c90d2d88fef260c4b1f1613093347009637ca8459",
+      "bytes": 6771
+    },
+    "docs/archive/2026-10-current-docs/README.md": {
+      "sha256": "c2e7cb5827b5cfd847faa3424760e2b76f1e7cb17f9caea59ecffaa3bda17ae3",
+      "bytes": 4346
+    },
+    "docs/archive/2026-10-documentation-baseline-20261019-185246/AGENTS.md": {
+      "sha256": "299ccc90a4b11b5fb24b920ce979b76cae08c38c915c3140ef76a8316cfb6008",
+      "bytes": 584
+    },
+    "docs/archive/2026-10-documentation-baseline-20261019-185246/README.md": {
+      "sha256": "975f985ea724c39c2c26b80aceb097f9af004d43afdbad0f99b919bf849348f8",
+      "bytes": 5853
+    },
+    "docs/archive/2026-10-documentation-consolidation/README.md": {
+      "sha256": "8e32d2954ee4c4b2f25ab3ef72932e3d9c15e5d99a7909b2ecaaf3123c4eb408",
+      "bytes": 3178
+    },
+    "docs/archive/2026-10-final-handoff/README.md": {
+      "sha256": "215c19ac1f8f3e67e083d97298267930cc9cf84f4e518178d211ddb53d78d3cb",
+      "bytes": 14308
+    },
+    "docs/archive/2026-10-operations-history/CLOSEOUT.md": {
+      "sha256": "0f4ee2d7c9e59b01761c629eda3350c29b478ee56028bd5566c6db5e5654320d",
+      "bytes": 2189
+    },
+    "docs/archive/2026-10-operations-history/README.md": {
+      "sha256": "cc0a47e5875d5e3b799493ff2eefb7147d875b08a2042891e8d66d2dd03483c7",
+      "bytes": 13775
+    },
+    "docs/archive/2026-10-platform-docs/README.md": {
+      "sha256": "f97eea00075359409984f9dcf87bfa86d3791378ed3ab36abad5509253936d4a",
+      "bytes": 5621
+    },
+    "docs/archive/2026-10-tools-templates/README.md": {
+      "sha256": "1efea0bc3728680579296c841c4c9ba3dd6701c270a7ea54ed6c01dae340c682",
+      "bytes": 4694
+    },
+    "docs/archive/AGENTS.md": {
+      "sha256": "2c90cecd2a5fbbf5adde2125b7467fbdbab67f15dbadb915e23a694c4df2dce4",
+      "bytes": 502
+    },
+    "docs/archive/OCTOBER_CONTEXT.md": {
+      "sha256": "580daa5ee54f02e8f5821edd03389bdad2d4652ce13eb0e9f8ab4943bd090f50",
+      "bytes": 2667
+    },
+    "docs/archive/README.md": {
+      "sha256": "dda13a1623d071a3d575eaf8b0b33516de7d68c0fdeb9b87cd8fbfb9ed2d546a",
+      "bytes": 6756
+    },
+    "docs/archive/SEPTEMBER_CONTEXT.md": {
+      "sha256": "d38a15ad5379d049953cf830a927a30b37efce30e10eb01eec0078748001404b",
+      "bytes": 4898
+    },
+    "docs/class-21/README.md": {
+      "sha256": "3575b78d0f4607d73efef607c7eb76e3f6eeb7742f9027c7ee157bbf2e7efc53",
+      "bytes": 2398
+    },
+    "docs/class-21/knowledge/03_训练评估量化与FPGA流程.md": {
+      "sha256": "916b7c238dfd1b219da4a8733c218e038518f6d85e83c63448ca1519a34e188e",
+      "bytes": 4886
+    },
+    "docs/class-21/knowledge/AGENTS.md": {
+      "sha256": "3dd4d217cdcf192c0217b9f14a33ae6aca17c11ef7a50fa5b23d14113b5a5d6f",
+      "bytes": 440
+    },
+    "docs/class-21/knowledge/README.md": {
+      "sha256": "719e500332b3bf26ce7eb1244d8fdecf2b24503d0a18827a85bd64c9a412c108",
+      "bytes": 1451
+    },
+    "docs/class-21/operations/README.md": {
+      "sha256": "86c966e5e58cd3aa8b15e6bea1b50b16b96f9b0c0efacdd9bcb1ac03d7f986a2",
+      "bytes": 1071
+    },
+    "docs/class-21/operations/prompts/21类Gray1_NAS归档与恢复资料精简_AGENT提示词.md": {
+      "sha256": "6fffb393e8c54b3c7dbf5d30bc0c6008473ee7bf3190daeea3dfe765c7f8f25c",
+      "bytes": 2500
+    },
+    "docs/class-21/operations/prompts/README.md": {
+      "sha256": "7b922b92f4001e665308bd93e130ce091c4cb044c52cb3c597ee125f4860a03d",
+      "bytes": 733
+    },
+    "docs/class-21/operations/runs/20261017-h200-gray1-main-integration.md": {
+      "sha256": "d065fd7f490775bdbd8b214beda848700e3089c07517cd3415c30d4cfd2ed196",
+      "bytes": 3204
+    },
+    "docs/class-21/operations/runs/20261018-h200-main-only.md": {
+      "sha256": "94115c61786ca3fbf9bfe9210c603914c23c9fa4f9049355d1ea41c4c42c4600",
+      "bytes": 2667
+    },
+    "docs/class-21/operations/runs/backup/AGENTS.md": {
+      "sha256": "17fa31e66595b1e289e3d46b2d44b1e70fb24eed908abd02ddf127cdddccc9d2",
+      "bytes": 494
+    },
+    "docs/class-21/operations/runs/backup/README.md": {
+      "sha256": "32365ae0df9a00db3b9f6f5e48f2dfe33ecc20ebd747b07c86b98b007dddac90",
+      "bytes": 1825
+    },
+    "docs/class-21/operations/runs/backup/docker-images/20261016/completion-report.md": {
+      "sha256": "ae0361328244204c7192e3ab6b5e44aefae049a0dfe2a86d8d5bb6ed6ca13e40",
+      "bytes": 3233
+    },
+    "docs/class-21/operations/runs/backup/historical-r-only/20260925-local-data-cleanup/completion-report.md": {
+      "sha256": "fe1ab68108acbc9f1c2deb1d2e04336e8c5b417fb4f2d3aa6b16dc1aae109518",
+      "bytes": 2500
+    },
+    "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/completion-report.md": {
+      "sha256": "d42007d0c005a1078ba348438ab3d055b80ff8c99873b4ea1cbb7b84ccd63664",
+      "bytes": 4463
+    },
+    "docs/class-21/operations/runs/image-cleanup/20261015-h200-intermediate-images/清理完成报告.md": {
+      "sha256": "4cf5b41b7dcb865d7361701d436b8745ad266b5b7587f81e0579322300b5e90b",
+      "bytes": 3721
+    },
+    "docs/class-21/reports/current/20260920_Pose21_Gray1_训练测试标定与量化完整报告.md": {
+      "sha256": "cee6a059e6e937699cc8c916af447c733b5681411e1343ac6499d2953c56fecf",
+      "bytes": 26116
+    },
+    "docs/class-21/reports/current/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md": {
+      "sha256": "f8295383f2dfb14b8046e947440167135f2232b8352b318c5cddfd994e836f02",
+      "bytes": 31525
+    },
+    "docs/class-21/reports/current/20261012_Pose21_500张原始测试集生成与测试记录.md": {
+      "sha256": "0fca1c25fdbb799fe1adad8a74c3d3f7d8cf6296bf0ea1328cad63a07725a294",
+      "bytes": 50978
+    },
+    "docs/operations/README.md": {
+      "sha256": "0fb41645d1aa48334975f00f2cf1d86dd6f4a355ca2278af92d5c579f8cc5b1d",
+      "bytes": 2416
+    },
+    "docs/platform/04_NAS备份与环境恢复.md": {
+      "sha256": "24d57a4d9207fe446b1830a0de4ea4c60ff85d6a046f47239ad4e37a32fbc929",
+      "bytes": 29330
+    },
+    "docs/platform/05_H200训练测试推理与量化运行环境.md": {
+      "sha256": "92017597470b6240f2e2f539ca54ec3e2d1fdede60b47f9153348c0cf320e1d4",
+      "bytes": 13709
+    },
+    "docs/platform/06_5090训练测试推理与量化运行环境.md": {
+      "sha256": "8b36a7e57348312aae04cd13ca54ecffeef4c8607fbc20a04b9fa52cb3bfd6c4",
+      "bytes": 13358
+    },
+    "docs/platform/AGENTS.md": {
+      "sha256": "9f02a9470b5e7c54b700bd65d4170d372935deae457b3ffd8ccf8d640aafea57",
+      "bytes": 504
+    },
+    "docs/platform/OPEN_QUESTIONS.md": {
+      "sha256": "8c9ac8d439e1fb6d09539e04e12ef86c4a1e007e1d819894ff39470037acb6a5",
+      "bytes": 2456
+    },
+    "docs/platform/README.md": {
+      "sha256": "208378fd9cad16fb93eec1f4fb863b3434968c594c1b613d35e033eab2f40590",
+      "bytes": 2227
+    },
+    "docs/platform/SOURCES.md": {
+      "sha256": "04f2b54b8cdd2cef8764adbe1ca1ae76d3a9714edf4afe0969369e0542a7cf07",
+      "bytes": 3373
+    },
+    "docs/reference/PERFORMANCE.md": {
+      "sha256": "5f1778f56aeaed6e06fcf1a7786c433f6ca7137e72fb91145ab479d05115ef06",
+      "bytes": 1970
+    },
+    "docs/reference/README.md": {
+      "sha256": "033ad87ceba649065fd714e188b1b3e1e742890b2c50b8203d8b78446a448e40",
+      "bytes": 1108
+    },
+    "docs/reference/RECOVERY.md": {
+      "sha256": "8d44b96b3d9e20f753c842b73704d7e9b31abcf5e57c5dc8436fee6d0a7a402a",
+      "bytes": 3866
+    },
+    "docs/reference/backup/README.md": {
+      "sha256": "8a1e293a69c683d98b37e21e56574dbd87d6f05a270348039ac9abf8a47ab35d",
+      "bytes": 436
+    },
+    "outputs/class-21/FPGA_logs/README.md": {
+      "sha256": "3bd3cadec28e689b42e811c194184f077402696ccb766425499a5f326ef6cc48",
+      "bytes": 411
+    },
+    "rebuild/AGENTS.md": {
+      "sha256": "a4d90790e75910a1731c71725bedf273bd8e9f543e0307108c7f454adc8d8545",
+      "bytes": 1008
+    },
+    "rebuild/CURRENT_STATE.md": {
+      "sha256": "22d0ae944c29a28501d31865307b8073308307d26d837187cbe745f10d978983",
+      "bytes": 1186
+    },
+    "rebuild/README.md": {
+      "sha256": "a23edd17be9f78b01c2a78ed42428b1edf73277bf538ba07a7a86edd0498d3c5",
+      "bytes": 1758
+    },
+    "rebuild/REBUILD_GUIDE.md": {
+      "sha256": "40515dbd77884b1be7641c37b30ea85c53da9d23ea795a9ba2f2e8f7fb47afa2",
+      "bytes": 2157
+    },
+    "rebuild/SHA256SUMS": {
+      "sha256": "1dd85dac90de5082dd9565b1c74b1f0ee7053077c4aa13fbdc005244e8776e64",
+      "bytes": 4089
+    },
+    "rebuild/SHA256SUMS.20261019-current-docs": {
+      "sha256": "e0b425ab0127a2fe84290aeb3370a64a6b70242474677d8e3cdfe2fadad3dbe6",
+      "bytes": 4266
+    },
+    "rebuild/SHA256SUMS.20261019-platform-docs": {
+      "sha256": "de523d0c3c13cd91f370a4de693a5f9e999a335c0d5b1467fe0d729b26700bf4",
+      "bytes": 4166
+    },
+    "rebuild/legacy/AGENTS.md": {
+      "sha256": "9906e7c15e2a6ed46faabba63bd5d272a7ed092fb37d29310a81d6888dc5400a",
+      "bytes": 297
+    },
+    "rebuild/legacy/README.md": {
+      "sha256": "8d758b6b7e527adcb7057d90aa640586e3f5ce0906bd0da601a4b8763c96b0b5",
+      "bytes": 775
+    },
+    "rebuild/legacy/gray1-20260918/README.md": {
+      "sha256": "324a3cfb67520b4e73c77b9791ca3fe6fa06ba519092af7e4ee0ce3988cf477b",
+      "bytes": 352
+    },
+    "rebuild/legacy/pre-gray1-20260902/README.md": {
+      "sha256": "40d6b324c176d2d4779bb2e720b07700d8ce4c9f0aff6accbdb9bfb34100d963",
+      "bytes": 370
+    },
+    "rebuild/rebuild-manifest.yml": {
+      "sha256": "de117b090409b9b59364010d226a70f5c6633b085fb0ec51a7cac0f6d680a51a",
+      "bytes": 853
+    },
+    "task-artifacts/README.md": {
+      "sha256": "b6e7d4b4baa14de1de47a172069088799bc2bf1c0aa46b973aa00a83555d328a",
+      "bytes": 1462
+    },
+    "tools/README.md": {
+      "sha256": "6e28c8662acc2bd78a81fd25ff5cbdba768aed75a730eb7a91cbdbbd2ff1b99f",
+      "bytes": 7969
+    },
+    "tools/check_documentation_safe.py": {
+      "sha256": "c3ba43bc390f71b53307fa78788a5d778b69b63546ecf425c4e733e254ec4c07",
+      "bytes": 9873
+    },
+    "tools/tests/test_check_documentation_safe.py": {
+      "sha256": "1a34f8d96f5e8570688209c7e1a56d999f1b3c17be724997d14938d24df2f90f",
+      "bytes": 5533
+    }
+  },
+  "editable": [
+    "docs/AGENT_GUIDE.md",
+    "docs/HANDOFF.md",
+    "docs/README.md",
+    "docs/agent/CONTEXT.md",
+    "docs/agent/tasks/BACKUP.md",
+    "docs/agent/tasks/SERVICE.md",
+    "docs/agent/topics/BACKUPS.md",
+    "docs/agent/topics/REPOSITORIES.md",
+    "docs/class-21/README.md",
+    "docs/class-21/knowledge/03_训练评估量化与FPGA流程.md",
+    "docs/class-21/knowledge/AGENTS.md",
+    "docs/class-21/knowledge/README.md",
+    "docs/class-21/operations/README.md",
+    "docs/class-21/operations/prompts/21类Gray1_NAS归档与恢复资料精简_AGENT提示词.md",
+    "docs/class-21/operations/prompts/README.md",
+    "docs/class-21/operations/runs/backup/AGENTS.md",
+    "docs/class-21/operations/runs/backup/README.md",
+    "docs/operations/README.md",
+    "docs/platform/04_NAS备份与环境恢复.md",
+    "docs/platform/05_H200训练测试推理与量化运行环境.md",
+    "docs/platform/06_5090训练测试推理与量化运行环境.md",
+    "docs/platform/AGENTS.md",
+    "docs/platform/OPEN_QUESTIONS.md",
+    "docs/platform/README.md",
+    "docs/platform/SOURCES.md",
+    "docs/reference/PERFORMANCE.md",
+    "docs/reference/README.md",
+    "docs/reference/RECOVERY.md",
+    "docs/reference/backup/README.md",
+    "rebuild/AGENTS.md",
+    "rebuild/CURRENT_STATE.md",
+    "rebuild/README.md",
+    "rebuild/REBUILD_GUIDE.md",
+    "rebuild/rebuild-manifest.yml",
+    "task-artifacts/README.md",
+    "tools/README.md",
+    "tools/check_documentation_safe.py",
+    "tools/tests/test_check_documentation_safe.py"
+  ],
+  "protected": [
+    "docs/archive/2026-04-cam2000-prototype/README.md",
+    "docs/archive/2026-09-class21-migration-source-docs/README.md",
+    "docs/archive/2026-09-class21-transition/AGENTS.md",
+    "docs/archive/2026-09-class21-transition/HISTORICAL_TRANSITION_EXPERIMENTS.md",
+    "docs/archive/2026-09-class21-transition/README.md",
+    "docs/archive/2026-09-gray1-blocked-backup-run/README.md",
+    "docs/archive/2026-09-gray1-predictor-test-eval/README.md",
+    "docs/archive/2026-09-gray1-quant-env/README.md",
+    "docs/archive/2026-09-gray1-step15-checkpoint/README.md",
+    "docs/archive/2026-09-gray1-training-workflow-history/README.md",
+    "docs/archive/2026-09-gray1-workflow-smoke/README.md",
+    "docs/archive/2026-09-grayprep-performance-step5-14/README.md",
+    "docs/archive/2026-09-h200-worktree-retirement/README.md",
+    "docs/archive/2026-09-local-artifact-cleanup/README.md",
+    "docs/archive/2026-09-migration/README.md",
+    "docs/archive/2026-09-performance/README.md",
+    "docs/archive/2026-09-sim-train-fpga-doc/README.md",
+    "docs/archive/2026-09-standardization-work-packages/README.md",
+    "docs/archive/2026-10-artifact-relocation/AGENTS.md",
+    "docs/archive/2026-10-artifact-relocation/README.md",
+    "docs/archive/2026-10-attachment-closeout/README.md",
+    "docs/archive/2026-10-current-docs/README.md",
+    "docs/archive/2026-10-documentation-baseline-20261019-185246/AGENTS.md",
+    "docs/archive/2026-10-documentation-baseline-20261019-185246/README.md",
+    "docs/archive/2026-10-documentation-consolidation/README.md",
+    "docs/archive/2026-10-final-handoff/README.md",
+    "docs/archive/2026-10-operations-history/CLOSEOUT.md",
+    "docs/archive/2026-10-operations-history/README.md",
+    "docs/archive/2026-10-platform-docs/README.md",
+    "docs/archive/2026-10-tools-templates/README.md",
+    "docs/archive/AGENTS.md",
+    "docs/archive/OCTOBER_CONTEXT.md",
+    "docs/archive/README.md",
+    "docs/archive/SEPTEMBER_CONTEXT.md",
+    "docs/class-21/operations/runs/20261017-h200-gray1-main-integration.md",
+    "docs/class-21/operations/runs/20261018-h200-main-only.md",
+    "docs/class-21/operations/runs/backup/docker-images/20261016/completion-report.md",
+    "docs/class-21/operations/runs/backup/historical-r-only/20260925-local-data-cleanup/completion-report.md",
+    "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/completion-report.md",
+    "docs/class-21/operations/runs/image-cleanup/20261015-h200-intermediate-images/清理完成报告.md",
+    "docs/class-21/reports/current/20260920_Pose21_Gray1_训练测试标定与量化完整报告.md",
+    "docs/class-21/reports/current/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+    "docs/class-21/reports/current/20261012_Pose21_500张原始测试集生成与测试记录.md",
+    "outputs/class-21/FPGA_logs/README.md",
+    "rebuild/SHA256SUMS",
+    "rebuild/SHA256SUMS.20261019-current-docs",
+    "rebuild/SHA256SUMS.20261019-platform-docs",
+    "rebuild/legacy/AGENTS.md",
+    "rebuild/legacy/README.md",
+    "rebuild/legacy/gray1-20260918/README.md",
+    "rebuild/legacy/pre-gray1-20260902/README.md"
+  ],
+  "moves": {
+    "docs/platform/04_NAS备份与环境恢复.md": "docs/platform/01_NAS备份与环境恢复.md",
+    "docs/platform/05_H200训练测试推理与量化运行环境.md": "docs/platform/02_H200训练测试推理与量化运行环境.md",
+    "docs/platform/06_5090训练测试推理与量化运行环境.md": "docs/platform/03_5090训练测试推理与量化运行环境.md"
+  },
+  "archive_sha256": "75f4c06b62bf0e10f6c5143a09ed7da727194f5ffd7e03a07d50316c33ef6f41"
+}

@@ -1,0 +1,34 @@
+{
+  "training_image": "ywang/yolo-gray1-train:ultralytics-8.3.98-v1",
+  "training_image_id": "sha256:7a291a40a004767c3d44b781545e8faeb8afe4654f4c191658292829a0959d03",
+  "inference_image": "ywang/yolo-gray1-train:ultralytics-8.3.98-v1-predictor-gray1",
+  "inference_image_id": "sha256:edaa61047923e708db681416ed99d2d7b657a4c689d9c89f6b4dcdb549f6c68c",
+  "training_layers": [
+    "sha256:39fbf5f8fe523b2ea819cd8eb2bf68807d8eaee383549f7ab80a44503ed6860b",
+    "sha256:03e0df7a8a01c1f09c3eae82ac49da81a06ad75fe7ffb722169d906e5d345c3a",
+    "sha256:fc8a31b553c928937020866cf7c6c7eb843191eccf7f0bd005857dc38d6e3abe",
+    "sha256:e9a0da05f838db6145092023a952de02ecbd580e6cf38fe30a72d69b2d5e7bab"
+  ],
+  "inference_layers": [
+    "sha256:39fbf5f8fe523b2ea819cd8eb2bf68807d8eaee383549f7ab80a44503ed6860b",
+    "sha256:03e0df7a8a01c1f09c3eae82ac49da81a06ad75fe7ffb722169d906e5d345c3a",
+    "sha256:fc8a31b553c928937020866cf7c6c7eb843191eccf7f0bd005857dc38d6e3abe",
+    "sha256:e9a0da05f838db6145092023a952de02ecbd580e6cf38fe30a72d69b2d5e7bab",
+    "sha256:1fdfacb7593352fa247737cfb476b3f70736646d27cedea617a7ffd18ed71560"
+  ],
+  "gpu_uuid": "GPU-1610284d-3afe-6e14-b8cb-bbbe40a1f28b",
+  "task_id": "20260920_063903_Pose21_Gray1_weight-only_accuracy_valida",
+  "task_model_sha256": "622cff54db472b61c85db03648b36c119f030eacbd4cd87cf5d2dda67e69d6a7",
+  "scripts_sha256": {
+    "prepare_pose21_net1280.py": "1a27c14c4a863fa2bd130b0d828264718112e0a45bcbfa2645b3ca40648260f4",
+    "eval_pose21_stage4.py": "44e048282f8493de20bc4cbc7a1abb5c3b5deafa4ae84851fabc510c762d0d04",
+    "eval_pose21_reference.py": "a3865cb40c709bf3801dad492fce5f31ce9aa7be64d529085a05387e122514d4",
+    "run_pose21_stage4.py": "c90c6429b1497fde71f5365e8150afd9bb5d023e7b50edcedd33feb73c88ba43"
+  },
+  "preprocessing_code_sha256": {
+    "/data3/ywang/yolo-gray1-data-pipeline/src/grayprep/pipelines/net1280.py": "405bcb55da366f7a8cd24568295cd95bf73ae3b7d705c70413699f400d441b2f",
+    "/data3/ywang/yolo-gray1-data-pipeline/src/grayprep/pipelines/common.py": "a639799ff205b1ec26c7b22900990e12b1d8dd0b6a47269fc9019ae1e90880ea",
+    "/data3/ywang/yolo-gray1-data-pipeline/configs/net1280.yaml": "c71395417c3e3fb6d86abe89ae52ba0336c8767bbd4f6a99551e04cec4588f33"
+  },
+  "source_selection_sha256": "0e50a78880c7c52be9e87cbfe25620ecea4d3f053e4414343b3e1bfba91f75a1"
+}

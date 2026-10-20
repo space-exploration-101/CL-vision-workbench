@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-19T10:55:13.671976+00:00",
+  "backup": "\\\\?\\E:\\codex\\quantitize-backups\\20261018-011353-before-docs-consolidation",
+  "original_coverage_time": "2026-10-18T01:15:00.8023441+08:00",
+  "files_checked": 4539,
+  "bytes": 6294069314,
+  "directories_observed_excluding_root": 248,
+  "links_checked": 5,
+  "metadata_sha256": {
+    "backup-summary.json": "9838e93c5a876c5a9cb74c177680a102af39df5c9c082c1b36eee583ec164396",
+    "SHA256-manifest.csv": "8d01e79bec76a24c249bd593660bd381b1e117a18799b20a2365fce4cef75cc8",
+    "links.json": "fd0ee2e7de85fdade4daadb7794bd8966814f5bb0b024910afd5544d3aa4f9e8",
+    "VERIFIED": "2abaf7a610ee86f3ca7928ef63af9e7cc3b08af0d60ca0545746865b3b972ba2"
+  },
+  "scope": "Old ordinary-file set, sizes and SHA-256 plus link definitions. No work or external link target was accessed; this is the old point in time, not the current baseline.",
+  "failures": []
+}

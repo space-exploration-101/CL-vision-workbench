@@ -1,0 +1,189 @@
+{
+  "source": "/home/rs/wrs/onnxviewe/quantitize-platform/data/output_data/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida",
+  "total_bytes": 553040922,
+  "file_count": 519,
+  "by_top_level": [
+    {
+      "name": "workspace",
+      "bytes": 306069611,
+      "pct": 55.3
+    },
+    {
+      "name": "input",
+      "bytes": 199108106,
+      "pct": 36.0
+    },
+    {
+      "name": "results",
+      "bytes": 47398770,
+      "pct": 8.6
+    },
+    {
+      "name": "logs",
+      "bytes": 464435,
+      "pct": 0.1
+    }
+  ],
+  "largest_files": [
+    {
+      "path": "input/model.pt",
+      "bytes": 199108106
+    },
+    {
+      "path": "workspace/all_bin/ALL_WT.bin",
+      "bytes": 102381568
+    },
+    {
+      "path": "workspace/pose21_gray1_weight_only_accuracy_output.onnx",
+      "bytes": 100121851
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L09_s00_conv_wt.bin",
+      "bytes": 3686400
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L27_s00_conv_wt.bin",
+      "bytes": 3686400
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L07_s00_conv_wt.bin",
+      "bytes": 3686400
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L24_s00_conv_wt.bin",
+      "bytes": 3686400
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L43_WT.bin",
+      "bytes": 2176000
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L38_s00_conv_wt.bin",
+      "bytes": 1843200
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L05_s00_conv_wt.bin",
+      "bytes": 1843200
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L36_s00_conv_wt.bin",
+      "bytes": 1843200
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L37_s00_conv_wt.bin",
+      "bytes": 1843200
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L06_s13_conv_wt.bin",
+      "bytes": 1638400
+    },
+    {
+      "path": "results/fpga_input_roundtrip_eval/per_image.json",
+      "bytes": 1487532
+    },
+    {
+      "path": "results/pt_eval/per_image.json",
+      "bytes": 1487365
+    },
+    {
+      "path": "results/onnx_eval/per_image.json",
+      "bytes": 1487353
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L10_s07_conv_wt.bin",
+      "bytes": 1024000
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L08_s07_conv_wt.bin",
+      "bytes": 1024000
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L21_s00_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L26_s04_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L26_s06_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L29_s05_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L17_s04_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L10_s05_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L26_s01_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L35_s00_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L14_s01_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L08_s02_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L17_s03_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L37_s01_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L29_s03_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L06_s02_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L17_s05_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L23_s05_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L06_s04_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L10_s06_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L06_s12_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L06_s03_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L29_s02_conv_wt.bin",
+      "bytes": 921600
+    },
+    {
+      "path": "workspace/renamed_weights_bin/T32_T32_L14_s04_conv_wt.bin",
+      "bytes": 921600
+    }
+  ]
+}

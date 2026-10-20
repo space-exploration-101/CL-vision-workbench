@@ -1,0 +1,273 @@
+{
+  "time": "2026-10-15T14:14:22.175312+08:00",
+  "deletions": [
+    {
+      "reference": "ywang/yolo-gray1-train:ultralytics-8.3.98-v1-predictor-chfix",
+      "expected_id": "sha256:f2a45df2e7bad0a5742d0763563f983724b626f3edc53aeff22a2acc9b8024dd",
+      "returncode": 0,
+      "stdout": "Untagged: ywang/yolo-gray1-train:ultralytics-8.3.98-v1-predictor-chfix\nDeleted: sha256:f2a45df2e7bad0a5742d0763563f983724b626f3edc53aeff22a2acc9b8024dd\nDeleted: sha256:0cc04e361918bca5ea56b3a71870c23ab68eed029bf6d9a71cdaa7f4b77a624f\nDeleted: sha256:c1e36fd398f5946d77f5e92a8fc7ede8a2110cb57b1cc739c247b093fcb97fa9\n",
+      "stderr": ""
+    },
+    {
+      "reference": "ywang/yolo-gray1-train:ultralytics-8.3.98-v1-gray1-stridefix2",
+      "expected_id": "sha256:347e95612afe7ba995df5d6066697ceb054a83a87e75eb359053a939859f21a6",
+      "returncode": 0,
+      "stdout": "Untagged: ywang/yolo-gray1-train:ultralytics-8.3.98-v1-gray1-stridefix2\nDeleted: sha256:347e95612afe7ba995df5d6066697ceb054a83a87e75eb359053a939859f21a6\nDeleted: sha256:c062bf08c5a18b5ae7661f763dc3887f305959d317ff79e3e1dfa1985463b2ce\nDeleted: sha256:7e30597f3c7fe1849f9d1afd4acc07581a1785ad764bef92e3d8f093312d8a4b\nDeleted: sha256:86abdff8736969d15ef7777b60b60c2ab3cc5aeee72e2688c5215ff37fd442e5\n",
+      "stderr": ""
+    },
+    {
+      "reference": "ywang/yolo-gray1-train:ultralytics-8.3.98-v1-gray1-stridefix1",
+      "expected_id": "sha256:a97265d9ddf7367f19b81ce72cc126d2b436a0a59c73480d0847120606d39737",
+      "returncode": 0,
+      "stdout": "Untagged: ywang/yolo-gray1-train:ultralytics-8.3.98-v1-gray1-stridefix1\nDeleted: sha256:a97265d9ddf7367f19b81ce72cc126d2b436a0a59c73480d0847120606d39737\nDeleted: sha256:2210c52216c53e9e3f57714251b2666036cb5053b0cb4cdaf6651c34cdfe4c21\nDeleted: sha256:a032214530a12689eab891bdb02374e517094a7970f5934abaf50df22d2b07e9\n",
+      "stderr": ""
+    },
+    {
+      "reference": "ywang/yolo-gray1-data-pipeline:0.2.0",
+      "expected_id": "sha256:0bd13869796c7810a6009259e87e0c58cc59d2b05bd1490f9f56ab7d0f69872e",
+      "returncode": 0,
+      "stdout": "Untagged: ywang/yolo-gray1-data-pipeline:0.2.0\nDeleted: sha256:0bd13869796c7810a6009259e87e0c58cc59d2b05bd1490f9f56ab7d0f69872e\nDeleted: sha256:1d0e3c79c2a44f7f3812d255fdfde02ea5a68d02453b137a83e027ba018de450\nDeleted: sha256:151112797573e44bd543399c5ca3e3246ef03e627c60d9df9a24cd0dd59887dd\nDeleted: sha256:bc7638bddddbb6664ec435191ccc0409a122e65763588e938b5cabae681e48df\nDeleted: sha256:145c99fd216e477e965a16cf7b29780c4c17c841cf04e2e6e03aa36862fd63f3\nDeleted: sha256:e27b096575f3df1bfb90879cc8ea04f2e681bf115f5c0d1e6930939d5340c68e\nDeleted: sha256:1d4afa32dd87d58cd03bdaea80e0edd0f7164afaa31ff59da7e3c200dd8ee4a2\nDeleted: sha256:047504b7ce0b856199ae318080762f1af871e447c76bb10c20549d500ebe75d9\nDeleted: sha256:e9a82350284da9ef9bcf81f9fd5a99fb73fcf78d53b6c16c8feda74105ed8529\nDeleted: sha256:223efbce03e3041b017219f9b320e899b1827f6e59684da62f420063c580f4b2\nDeleted: sha256:743be988b17b58a5d91672738b10edf5fd8e0f98ada9008e0d780957770450cf\nDeleted: sha256:6737cedef8d7f642ce83a48b23ad0860b06dfa8428cee7d0bb0f333de3801b79\nDeleted: sha256:98cd772b4ff665ebc9181ba64d917d700b8945de1e4e0af97f1c8530c2dc9ec5\nDeleted: sha256:b1c84877a7770bc8f7f386ad3192439a336458e39530268401eb06385e7d8e95\nDeleted: sha256:191eb070e511570214a7d2c96f5d9cdd3af950536e58e761c6a88348899ad10c\nDeleted: sha256:b59764cf84a09fe75f23d20b7c1e2ab4196834d3fd0a67f29da846226bb63357\nDeleted: sha256:a5bd7c498d8076a42e0534b3e661668af932b11e6ab07d1690a59db973958c44\n",
+      "stderr": ""
+    },
+    {
+      "reference": "ywang/yolo-gray1-data-pipeline:0.1.1",
+      "expected_id": "sha256:2f172eb582ba0eb7cb6192cf0449893baef3b0bb88dfb8cc83b9811839b3e3d3",
+      "returncode": 0,
+      "stdout": "Untagged: ywang/yolo-gray1-data-pipeline:0.1.1\nDeleted: sha256:2f172eb582ba0eb7cb6192cf0449893baef3b0bb88dfb8cc83b9811839b3e3d3\nDeleted: sha256:7d064e56cae5c48f359609a87dfef239af982024b3d49ac35a93cb34f3bd831d\nDeleted: sha256:57c5b70bc60298f8d325928bea3ad8d2f9dce1b2d5e0e0706db9d3e765db7acd\nDeleted: sha256:3d8207f8941773e986139168dc2533c0371e4f94c661e3c96573e58de5a199e3\nDeleted: sha256:5d41f0a3ccf24e08959dd3ec1288ca8e083f1e78005de8bc3d5d791a6109ee87\nDeleted: sha256:45ba97d767c1611004a42b4d492af6ff2acb358ef9a1a7b2fda886861250f9ad\nDeleted: sha256:2fcd3249d791847fc7a4b5a6c0cdc28f377f30d0bcfedb90c49b193b92086d93\nDeleted: sha256:60a19f6529027ef07906736b658b5029395160e19a5aba95bf32a2aa04e4903a\nDeleted: sha256:7534f91de410a7c7ca793a9c5bbfa6ed1ddd4b5e7ae42c8e09798bc6c0e86b35\nDeleted: sha256:1c349daa0d56253840d58c0d7ad74d2fe6ef4f8eb7e2ccde02c4f0b2cdcc6e61\nDeleted: sha256:8eef21d1776c05f4e751f099d5f3a1ef0bdefa75957ad018be0bef788ea918be\nDeleted: sha256:0b205cdaa9459d48ab4b6fae3c6811537476be504bed4f5386d32a630a907697\nDeleted: sha256:f522284862ffcdd7045bacf31c198a923c1d3d09164f078f5ef5ded06b3c9843\nDeleted: sha256:5226cb8d2aae7e38ccb2d0ce0cf507c34151005715e1dab0587ec5e501a7f13a\nDeleted: sha256:71b52e89c99f924b6e146f022e542603fb3cc93e9bd238f27590ce12e034baa6\nDeleted: sha256:f9aca67311175c4385241ec948d059ab50391c31a1abdd054e6baf63a0fe0b47\nDeleted: sha256:21ac9d8adfcc346409cd42437e9035463f2404fac0dc0a4fd9d54c3e7b24bbce\n",
+      "stderr": ""
+    },
+    {
+      "reference": "sha256:3962e5508560f4c9bb84c6cd72c15dcee57b55caaaf6e08b9c4f929a3e90b6b8",
+      "expected_id": "sha256:3962e5508560f4c9bb84c6cd72c15dcee57b55caaaf6e08b9c4f929a3e90b6b8",
+      "returncode": 0,
+      "stdout": "Deleted: sha256:3962e5508560f4c9bb84c6cd72c15dcee57b55caaaf6e08b9c4f929a3e90b6b8\nDeleted: sha256:62de983745475b50f4e3a242f7d65f186920081275e367b6dfb59958e8d3a36c\nDeleted: sha256:c32236e31d16aabd3f1bd581eabbc9d342aa13a08bc15a080f8711f13436bb74\nDeleted: sha256:19199dfb8ce9b3061e7134cd3e2e4e7a4f562815e9718f2e9a1723465d64c672\nDeleted: sha256:9dd0234d6ed21cca261a53b27a0d830d339c1066fe2033b35295928c5cd411dc\nDeleted: sha256:716b7a0414bd6e55b7f31f79e99774c970bb85d31a5dcc0e49e92906e8ae1dd2\nDeleted: sha256:c44960c688e97845c7a409725e80523c085e9bb4cf8c7a65621964cfdf8aa7b5\nDeleted: sha256:a5a87cfd009662ba6d04a8fbd706c38b8515eb5c0b4c702a67806dedb31b08a4\nDeleted: sha256:1cb43bb3b480410e459a40371c7a45e39bff5ea1d18d3d9b8fecd8b0e9b3d8b7\n",
+      "stderr": ""
+    }
+  ],
+  "protected": [
+    {
+      "id": "sha256:34537dbbb8e1dcce8a7a19847fbb3214be4248c4321170e6377e4e9316a0ed2c",
+      "tags": [
+        "quantitize-platform-api:generate-bin-qdq-20260920",
+        "quantitize-platform-api:pre-weight-only-20260920"
+      ]
+    },
+    {
+      "id": "sha256:4693858842e145daad203dc33bad5be00210f857dc8e5b6d226b67b982cc9685",
+      "tags": [
+        "quantitize-platform-api:pre-generate-bin-qdq-20260920"
+      ]
+    },
+    {
+      "id": "sha256:ae238a8a9099ef31a6c06ef788d964ec9dcc4875f80958cd765c1614b90892db",
+      "tags": [
+        "ywang/yolo-gray1-data-pipeline:0.2.1"
+      ]
+    },
+    {
+      "id": "sha256:7a291a40a004767c3d44b781545e8faeb8afe4654f4c191658292829a0959d03",
+      "tags": [
+        "ywang/yolo-gray1-train:ultralytics-8.3.98-v1"
+      ]
+    },
+    {
+      "id": "sha256:f633b01c2f85d1fd39bf01e9b9f556056d03c805529781c8879e3172412e8ed2",
+      "tags": [
+        "quantitize-platform-api:latest",
+        "quantitize-platform-api:weight-only-20260920"
+      ]
+    },
+    {
+      "id": "sha256:7aef48747d3fc4270f85133382ffbcf83ea0c53e831f06978ac777b48743d9e9",
+      "tags": [
+        "quantitize-platform-web:latest"
+      ]
+    },
+    {
+      "id": "sha256:edaa61047923e708db681416ed99d2d7b657a4c689d9c89f6b4dcdb549f6c68c",
+      "tags": [
+        "ywang/yolo-gray1-train:ultralytics-8.3.98-v1-predictor-gray1"
+      ]
+    }
+  ],
+  "removed_image_ids_including_unused_ancestors": [
+    "sha256:047504b7ce0b856199ae318080762f1af871e447c76bb10c20549d500ebe75d9",
+    "sha256:0b205cdaa9459d48ab4b6fae3c6811537476be504bed4f5386d32a630a907697",
+    "sha256:0bd13869796c7810a6009259e87e0c58cc59d2b05bd1490f9f56ab7d0f69872e",
+    "sha256:151112797573e44bd543399c5ca3e3246ef03e627c60d9df9a24cd0dd59887dd",
+    "sha256:1c349daa0d56253840d58c0d7ad74d2fe6ef4f8eb7e2ccde02c4f0b2cdcc6e61",
+    "sha256:1cb43bb3b480410e459a40371c7a45e39bff5ea1d18d3d9b8fecd8b0e9b3d8b7",
+    "sha256:1d0e3c79c2a44f7f3812d255fdfde02ea5a68d02453b137a83e027ba018de450",
+    "sha256:21ac9d8adfcc346409cd42437e9035463f2404fac0dc0a4fd9d54c3e7b24bbce",
+    "sha256:2210c52216c53e9e3f57714251b2666036cb5053b0cb4cdaf6651c34cdfe4c21",
+    "sha256:223efbce03e3041b017219f9b320e899b1827f6e59684da62f420063c580f4b2",
+    "sha256:2f172eb582ba0eb7cb6192cf0449893baef3b0bb88dfb8cc83b9811839b3e3d3",
+    "sha256:347e95612afe7ba995df5d6066697ceb054a83a87e75eb359053a939859f21a6",
+    "sha256:3962e5508560f4c9bb84c6cd72c15dcee57b55caaaf6e08b9c4f929a3e90b6b8",
+    "sha256:3d8207f8941773e986139168dc2533c0371e4f94c661e3c96573e58de5a199e3",
+    "sha256:45ba97d767c1611004a42b4d492af6ff2acb358ef9a1a7b2fda886861250f9ad",
+    "sha256:5226cb8d2aae7e38ccb2d0ce0cf507c34151005715e1dab0587ec5e501a7f13a",
+    "sha256:57c5b70bc60298f8d325928bea3ad8d2f9dce1b2d5e0e0706db9d3e765db7acd",
+    "sha256:60a19f6529027ef07906736b658b5029395160e19a5aba95bf32a2aa04e4903a",
+    "sha256:62de983745475b50f4e3a242f7d65f186920081275e367b6dfb59958e8d3a36c",
+    "sha256:6737cedef8d7f642ce83a48b23ad0860b06dfa8428cee7d0bb0f333de3801b79",
+    "sha256:7d064e56cae5c48f359609a87dfef239af982024b3d49ac35a93cb34f3bd831d",
+    "sha256:7e30597f3c7fe1849f9d1afd4acc07581a1785ad764bef92e3d8f093312d8a4b",
+    "sha256:9dd0234d6ed21cca261a53b27a0d830d339c1066fe2033b35295928c5cd411dc",
+    "sha256:a032214530a12689eab891bdb02374e517094a7970f5934abaf50df22d2b07e9",
+    "sha256:a5bd7c498d8076a42e0534b3e661668af932b11e6ab07d1690a59db973958c44",
+    "sha256:a97265d9ddf7367f19b81ce72cc126d2b436a0a59c73480d0847120606d39737",
+    "sha256:b1c84877a7770bc8f7f386ad3192439a336458e39530268401eb06385e7d8e95",
+    "sha256:b59764cf84a09fe75f23d20b7c1e2ab4196834d3fd0a67f29da846226bb63357",
+    "sha256:bc7638bddddbb6664ec435191ccc0409a122e65763588e938b5cabae681e48df",
+    "sha256:c1e36fd398f5946d77f5e92a8fc7ede8a2110cb57b1cc739c247b093fcb97fa9",
+    "sha256:c32236e31d16aabd3f1bd581eabbc9d342aa13a08bc15a080f8711f13436bb74",
+    "sha256:c44960c688e97845c7a409725e80523c085e9bb4cf8c7a65621964cfdf8aa7b5",
+    "sha256:e27b096575f3df1bfb90879cc8ea04f2e681bf115f5c0d1e6930939d5340c68e",
+    "sha256:f2a45df2e7bad0a5742d0763563f983724b626f3edc53aeff22a2acc9b8024dd",
+    "sha256:f9aca67311175c4385241ec948d059ab50391c31a1abdd054e6baf63a0fe0b47"
+  ],
+  "containers": [
+    {
+      "id": "65c4f5b8f6970a2b93ec5ab0a76d8faeb38f27226d8585a7f5baf3360681ada6",
+      "name": "/quantitize-platform-api",
+      "image": "sha256:f633b01c2f85d1fd39bf01e9b9f556056d03c805529781c8879e3172412e8ed2",
+      "state": "running",
+      "health": "healthy"
+    },
+    {
+      "id": "f60cf6cb71373bb993ee1121ea158798f799aeb678cf2c6b26d4936d094f100d",
+      "name": "/quantitize-platform-web",
+      "image": "sha256:7aef48747d3fc4270f85133382ffbcf83ea0c53e831f06978ac777b48743d9e9",
+      "state": "running",
+      "health": "healthy"
+    },
+    {
+      "id": "df5bcc95337581fd8ba0cfd8173a650d3241a1dd38c396861867f14210bd2ed0",
+      "name": "/angry_wing",
+      "image": "sha256:4d1251fc1c384753d7bb3a2789433be25d8f1ac71ed935eb0d2d2a539bf97e87",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "bfd391e9f1778b7414fd59f7cc1090504b82b68fe2c564044a7ce2d7e0be05e0",
+      "name": "/unruffled_hugle",
+      "image": "sha256:e899dc366313ec4549451c8f84297d13497b230c59461d9a7d26a57c8aa5a9f9",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "16f09267b24c96dfac3263522fa6457389419c70acf6cd9fc93307259c558ad0",
+      "name": "/hopeful_joliot",
+      "image": "sha256:5cd1ff3a90d07b5f4f89b5e1e1ee6ecd6fb33bb0a217abb26b5fae4fd4acbfb4",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "7d538f4189bf105ab60210eaa203b5ee5b308614a707405d1a721a56bc6a5d09",
+      "name": "/compassionate_faraday",
+      "image": "sha256:5cd1ff3a90d07b5f4f89b5e1e1ee6ecd6fb33bb0a217abb26b5fae4fd4acbfb4",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "5a9227bb32177541dbef09871a66a87668ce92a191e84d3b57e8b7e537adcad0",
+      "name": "/interesting_lamarr",
+      "image": "sha256:efb325f895a799c02a845e5e2d5eb735823651f7383018d9733872dc39ba9f34",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "0af54098a5a5fc85e63272175cf3381c8bd56d88caf4bcc237ea4f63cebc8760",
+      "name": "/stoic_perlman",
+      "image": "sha256:a6d096078ee36abb419dc0eb9e87e77b6deb02cf75b3b044da705dfa673940f1",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "201e09e77996ccc4299cb07c4be54962633ea60e9a3f6c5b4af415ebb0841f79",
+      "name": "/awesome_galileo",
+      "image": "sha256:73a49f02da3fece3e778cbb44115be6ed66785ce4a6c555f2095f58e50fedcea",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "1082a6a4ba01b349c765a0d31160cfa6350c3abe36355b79c678eb99bd5c5515",
+      "name": "/dreamy_goldwasser",
+      "image": "sha256:abd1be4283314277f806a0c78bd303ab4e8b9aa37c0095ef9a55277a45d78c29",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "6a9169f5123a360031a03e8da0811360bb563c36f5a2135a6a78d7a36dbfecf0",
+      "name": "/silly_mcclintock",
+      "image": "sha256:c4c3261e798b805de219568fef004d77df56b983d557b5e0ca95e372a4e4495c",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "010f5f6adccf9596865edb21051bf6bb6d10532ef4427dbb884dd32539f7c9b3",
+      "name": "/festive_herschel",
+      "image": "sha256:c4c3261e798b805de219568fef004d77df56b983d557b5e0ca95e372a4e4495c",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "3b2453fb1f7a1d8811e3cc758c116074698613151fa2de66676dd4c2015c0684",
+      "name": "/friendly_dijkstra",
+      "image": "sha256:44eee035eb358497e55000698bc848b3de2c703cf81835e2f86ffefea16f15a3",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "6e963e01af98d246b3270aff9a510ea029f33e823472aad18984a0e850ab3f5e",
+      "name": "/optimistic_swirles",
+      "image": "sha256:44eee035eb358497e55000698bc848b3de2c703cf81835e2f86ffefea16f15a3",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "522adb0f5f0721dc95ba7aaef18c98cf3e7a79b37dd00bf0a7e0f9c8cc90330b",
+      "name": "/nostalgic_mestorf",
+      "image": "sha256:263576626bfaf68ab302dda21be4167df5b694580f74ecd826d08a4b53410965",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "b481815cf9056ddc59f0d53bbd40c3061f83a3b7d42e6debf838781e2cb38926",
+      "name": "/compassionate_hermann",
+      "image": "sha256:263576626bfaf68ab302dda21be4167df5b694580f74ecd826d08a4b53410965",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "8c9e3ca03df680c044555ac4e6ee35f537b58795a7156ab8c2589097a424b37e",
+      "name": "/silly_moore",
+      "image": "sha256:c3104c3b4a6719d321a9184e70ea51c2c09200801d41603ae7f03200531ec60a",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "eb8778b08b57e48ff81ef2ccdb007d6ce904e72ba414ed1d81db0c0a7142b28e",
+      "name": "/bold_borg",
+      "image": "sha256:c3104c3b4a6719d321a9184e70ea51c2c09200801d41603ae7f03200531ec60a",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "1567c10399cf88290c092314763dbf3d59afde5a325dec9525c778ab82738bb6",
+      "name": "/youthful_wiles",
+      "image": "sha256:1b44b5a3e06a9aae883e7bf25e45c100be0bb81a0e01b32de604f3ac44711634",
+      "state": "exited",
+      "health": null
+    },
+    {
+      "id": "e5bd20c198c6dd41a298a62bfa9c4fcfdb02a5ab1f6acd0a816457c65e314351",
+      "name": "/ubuntu_ros_container",
+      "image": "sha256:fa76172f3757ef572379b0febf5e1ead2d6664f18b44a944d1f489f1d7d9aee6",
+      "state": "exited",
+      "health": null
+    }
+  ],
+  "docker_df_after": "TYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE\nImages          217       14        342.1GB   239GB (69%)\nContainers      20        2         43.82GB   43.82GB (99%)\nLocal Volumes   2         0         320.5MB   320.5MB (100%)\nBuild Cache     1018      0         105.5GB   100.1GB\n"
+}

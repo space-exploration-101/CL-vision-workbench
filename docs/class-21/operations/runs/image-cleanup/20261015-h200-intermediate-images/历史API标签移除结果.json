@@ -1,0 +1,87 @@
+{
+  "time": "2026-10-15T15:23:41.251749+08:00",
+  "results": [
+    {
+      "tag": "quantitize-platform-api:generate-bin-qdq-20260920",
+      "image_id": "sha256:34537dbbb8e1dcce8a7a19847fbb3214be4248c4321170e6377e4e9316a0ed2c",
+      "returncode": 0,
+      "stdout": "Untagged: quantitize-platform-api:generate-bin-qdq-20260920\n",
+      "stderr": "",
+      "tag_absent": true
+    },
+    {
+      "tag": "quantitize-platform-api:pre-weight-only-20260920",
+      "image_id": "sha256:34537dbbb8e1dcce8a7a19847fbb3214be4248c4321170e6377e4e9316a0ed2c",
+      "returncode": 0,
+      "stdout": "Untagged: quantitize-platform-api:pre-weight-only-20260920\n",
+      "stderr": "",
+      "tag_absent": true
+    },
+    {
+      "tag": "quantitize-platform-api:pre-generate-bin-qdq-20260920",
+      "image_id": "sha256:4693858842e145daad203dc33bad5be00210f857dc8e5b6d226b67b982cc9685",
+      "returncode": 0,
+      "stdout": "Untagged: quantitize-platform-api:pre-generate-bin-qdq-20260920\n",
+      "stderr": "",
+      "tag_absent": true
+    }
+  ],
+  "remaining_named_images": [
+    {
+      "repository": "quantitize-platform-api",
+      "tag": "latest",
+      "id": "sha256:f633b01c2f85d1fd39bf01e9b9f556056d03c805529781c8879e3172412e8ed2",
+      "size": "11.6GB"
+    },
+    {
+      "repository": "ywang/yolo-gray1-train",
+      "tag": "ultralytics-8.3.98-v1-predictor-gray1",
+      "id": "sha256:edaa61047923e708db681416ed99d2d7b657a4c689d9c89f6b4dcdb549f6c68c",
+      "size": "11.3GB"
+    },
+    {
+      "repository": "ywang/yolo-gray1-data-pipeline",
+      "tag": "0.2.1",
+      "id": "sha256:ae238a8a9099ef31a6c06ef788d964ec9dcc4875f80958cd765c1614b90892db",
+      "size": "355MB"
+    },
+    {
+      "repository": "ywang/yolo-gray1-train",
+      "tag": "ultralytics-8.3.98-v1",
+      "id": "sha256:7a291a40a004767c3d44b781545e8faeb8afe4654f4c191658292829a0959d03",
+      "size": "11.3GB"
+    },
+    {
+      "repository": "quantitize-platform-web",
+      "tag": "latest",
+      "id": "sha256:7aef48747d3fc4270f85133382ffbcf83ea0c53e831f06978ac777b48743d9e9",
+      "size": "185MB"
+    }
+  ],
+  "container_unchanged": true,
+  "health": {
+    "http://127.0.0.1:8000/health": {
+      "status": 200,
+      "body": {
+        "ok": true,
+        "busy": false,
+        "worker_status": "idle",
+        "current_job": null
+      }
+    },
+    "http://127.0.0.1:8088/health": {
+      "status": 200,
+      "body": {
+        "web": "ok",
+        "demo": false,
+        "api": {
+          "ok": true,
+          "busy": false,
+          "worker_status": "idle",
+          "current_job": null
+        },
+        "api_base": "http://quantitize-api:8000"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stage": 2,
+  "backup_status": "VERIFIED",
+  "disposition_confirmation": "AWAITING_SOURCE_CONFIRMATION",
+  "user_statement": "Stage 1 disposition table has been confirmed, but the standalone table or its exact reference was not supplied in this turn.",
+  "available_evidence": {
+    "source": "docs/archive/2026-10-platform-docs/README.md",
+    "source_sha256": "f97eea00075359409984f9dcf87bfa86d3791378ed3ab36abad5509253936d4a",
+    "snapshot_member": "docs/archive/2026-10-platform-docs/README.md",
+    "snapshot_archive": "original-documents.zip",
+    "meaning": "Already-applied changes; not a new execution plan.",
+    "completed_mappings": {
+      "docs/class-21/knowledge/04_NAS备份与环境恢复.md": "docs/platform/04_NAS备份与环境恢复.md",
+      "docs/class-21/knowledge/05_H200训练测试推理与量化运行环境.md": "docs/platform/05_H200训练测试推理与量化运行环境.md",
+      "docs/class-21/knowledge/06_5090训练测试推理与量化运行环境.md": "docs/platform/06_5090训练测试推理与量化运行环境.md",
+      "docs/class-21/reports/current/20260928_Pose21_Gray1_逐层输出与PPT页码对照.csv": "outputs/class-21/20260928_Pose21_Gray1_逐层输出与PPT页码对照.csv",
+      "docs/class-21/reports/current/FPGA_logs/file_mapping.md": "outputs/class-21/FPGA_logs/file_mapping.md",
+      "docs/class-21/reports/current/FPGA_logs/output.dat": "outputs/class-21/FPGA_logs/output.dat",
+      "docs/class-21/reports/current/FPGA_logs/README.md": "outputs/class-21/FPGA_logs/README.md",
+      "docs/class-21/reports/current/FPGA_logs/summary.csv": "outputs/class-21/FPGA_logs/summary.csv",
+      "docs/class-21/reports/current/FPGA_logs/summary_preview_001.xlsx": "outputs/class-21/FPGA_logs/summary_preview_001.xlsx",
+      "docs/class-21/reports/current/FPGA_logs/summary_with_mapping.csv": "outputs/class-21/FPGA_logs/summary_with_mapping.csv",
+      "docs/class-21/reports/current/FPGA_logs/summary_with_mapping.xlsx": "outputs/class-21/FPGA_logs/summary_with_mapping.xlsx"
+    },
+    "mapping_source_sha256": "a5b7a85014edc18a94d5c76b41823d3ea60a2eca51e0627d0dfbdb3d9a374d72"
+  },
+  "source_modification_allowlist_this_stage": [],
+  "protected_default": "All pre-existing baseline files; future modification allowlist must be explicitly established.",
+  "protected_categories": [
+    "original task packages",
+    "models and tensors",
+    "BIN, CSV and XLSX data",
+    "frozen scripts",
+    "historical reports and checksum manifests",
+    "all previous backup and consolidation records"
+  ],
+  "excluded": [
+    "work/",
+    "external reparse-point targets"
+  ],
+  "next_stage_authorized": false
+}

@@ -1,0 +1,12 @@
+﻿{
+    "status":  "VERIFIED_PENDING_RENAME",
+    "source":  "/data3/ywang/quantitize-platform/docs/agent/CONTEXT.md",
+    "backup":  "/data3/ywang/documentation-backups/20261020-CL-vision-workbench/pending-path-correction/CONTEXT.md",
+    "before_sha256":  "afdd1157ab875ca83b5208914c2a0c1c553942c8f8f0e6263f97d524b5b010b7",
+    "after_sha256":  "4eebda8816adeb21984982086f4723717e72de587485fd6142cf73b6e9d26cc1",
+    "bytes":  5684,
+    "actual_windows_root":  "E:\\codex\\quantitize",
+    "target_windows_root":  "E:\\codex\\CL-vision-workbench",
+    "reason":  "Windows directory rename blocked by open handle; documented actual and target paths instead of claiming completion",
+    "verified_at":  "2026-10-20T02:13:19.013955+00:00"
+}

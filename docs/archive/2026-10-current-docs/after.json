@@ -1,0 +1,217 @@
+{
+  "modified_files": [
+    {
+      "path": "docs/agent/AGENTS.md",
+      "before_sha256": "d0bce30d4f21e329c35b8138b5a8825f61c832d50e6678c57b031b9f95cb7644",
+      "after_sha256": "444216ca6252060713b548f98b70dbcc53bf340539266ea24347c49ae64b411c"
+    },
+    {
+      "path": "docs/agent/CONTEXT.md",
+      "before_sha256": "f32acd1526955bfed4c47284d03a58a30ec4c4a485fe128757f704bbf1bc2005",
+      "after_sha256": "2f7a3e905f5dc4a1e59ba58c14ca8c7892aaa82e52f03591ce33435aa5a927ce"
+    },
+    {
+      "path": "docs/agent/RUNBOOK.md",
+      "before_sha256": "eab8a6020c002ca952f00e2696b41ad4455449cc5aa647b75b1fececfcb49efc",
+      "after_sha256": "a939d227f665a175d796ebe0767ecab53716d8966b1d8929d282b35233917625"
+    },
+    {
+      "path": "docs/agent/tasks/BACKUP.md",
+      "before_sha256": "e69ff3c15be650604a9df1b836c70123a38373f0ba486102656e2eb47424fe9e",
+      "after_sha256": "a7cfa47b9f270167d3c562b9c7e7638e441846b852ac8a6b0d18fb2f7856ed2e"
+    },
+    {
+      "path": "docs/agent/tasks/DIAGNOSTICS.md",
+      "before_sha256": "ba4506d9377df8c9418a4721cc489035b8f3016ddd9df7507536460342e0e765",
+      "after_sha256": "5bcf80f138cca17955069b1d4577ffab88397f601f4654e68adfc4e08ec29795"
+    },
+    {
+      "path": "docs/agent/tasks/DOCUMENTATION.md",
+      "before_sha256": "f83b3389db2d3bb7bc0e8012fabb4fb69c2e10d8f96fbac34f3f2bf5c9153366",
+      "after_sha256": "52581de0957963dad29d201d51212f0ff92510cb01cae2113ff305a031ea6c20"
+    },
+    {
+      "path": "docs/agent/tasks/EVALUATION.md",
+      "before_sha256": "86abfd10dc4785d4a1b834e01463d018c64e81e771d5179ea642301d1ca4d858",
+      "after_sha256": "327b4cf6a21c6e917892804af538ce29fcc09abc249ae36c2e655fc6dc2d2f70"
+    },
+    {
+      "path": "docs/agent/tasks/SERVICE.md",
+      "before_sha256": "2a2763a29980ce8a4c893f5f4e319c0ca61df090ec4914724acb074e1337baae",
+      "after_sha256": "66b0808c08bfbd35401927ad0cf8f3cdbf465bc74c229236edd63f2b199e0e3c"
+    },
+    {
+      "path": "docs/agent/topics/BACKUPS.md",
+      "before_sha256": "460231d7598d157a9a665effdd1331c2d970872ca28a815123510ca26bcd8b85",
+      "after_sha256": "374f43128f6d710fb2f9a491cd8f6b65ce9024b1e83d5cae9de28eae6bb0249d"
+    },
+    {
+      "path": "docs/agent/topics/MODEL_BASELINE.md",
+      "before_sha256": "bfddf3d346ce0c2f49cbadf7c41c6a81447073cb0d66813e90ff534331788206",
+      "after_sha256": "eedeebf1b10ae1af22493338f15abda8140e678aebac4c9a92996050ccc30088"
+    },
+    {
+      "path": "docs/agent/topics/README.md",
+      "before_sha256": "0dce92e4d8080c4f7a32891f10c603d0f5eebac8b60e2d73bcf6b3d8c0fdfb6a",
+      "after_sha256": "c7e1cbcd3ea130ca1b36de6b56cfecae260ad8a7439f2b9bb14027d5b93176f8"
+    },
+    {
+      "path": "docs/AGENTS.md",
+      "before_sha256": "be3778c9253fa5d69ffbfa1aa06e75d38beaae6810f2cb7f3ad5a08d40091fee",
+      "after_sha256": "fbede927e71252a49c1cbba2ce0c054cf0eaaa72e08608a60469c4ac6c1ab106"
+    },
+    {
+      "path": "docs/archive/README.md",
+      "before_sha256": "bcacf10e034721031c0fc9d3563ad3f54d6e8af221354de1d909b86d5ca010c6",
+      "after_sha256": "e6ed9eefeeb418ecf624b0c9c047c11cc1ad5a74282b1599e5f67c69aca2bbc3"
+    },
+    {
+      "path": "docs/class-21/AGENTS.md",
+      "before_sha256": "113b7a88fe8a67bb1103c0d04d8bcc643b9215ac0d746701f8c05bcd21fba526",
+      "after_sha256": "d6a486cc0f3adf95f96389b0c1096851849a43ff45fea01d60a5948b506c6829"
+    },
+    {
+      "path": "docs/class-21/knowledge/03_训练评估量化与FPGA流程.md",
+      "before_sha256": "91fa63c58d871d314f784d7324f2215b22ca21671e031af8a6b5dad1c1639cd5",
+      "after_sha256": "916b7c238dfd1b219da4a8733c218e038518f6d85e83c63448ca1519a34e188e"
+    },
+    {
+      "path": "docs/class-21/operations/AGENTS.md",
+      "before_sha256": "9818d9984b7714aa3cc1ee7aea99d31e09fcea4705939bb563d8a681a41ac28a",
+      "after_sha256": "7fd2a9a4805ba0f11ee7badb77d4a70f1eae5539e40d37f0f0ed3fa16201be2a"
+    },
+    {
+      "path": "docs/class-21/operations/README.md",
+      "before_sha256": "1663585f2d21d6b7c0f82a6691ed10bb5d9d6e8e063e2242267763f26b3186c2",
+      "after_sha256": "114644717afe1b2b6006849f82bd86ff7144e58bdf0efc1647f2b5f37f7bf391"
+    },
+    {
+      "path": "docs/class-21/README.md",
+      "before_sha256": "890e886f230906260aeb5837ca8b208352bfa12a751b0655da5e27489a7719d3",
+      "after_sha256": "3575b78d0f4607d73efef607c7eb76e3f6eeb7742f9027c7ee157bbf2e7efc53"
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "before_sha256": "8de7713dc6518948a59aec9aba3b28e43b99a7bb0d6d03df60f54c400d4aa59b",
+      "after_sha256": "577ef40dfd77a7e4a1aa93f5907a2c8ce2a2905ba689c27a743931d70f0cbade"
+    },
+    {
+      "path": "docs/platform/04_NAS备份与环境恢复.md",
+      "before_sha256": "220109c863793533f56adc3ae7ac659af29360a771c39c43dc7fb2cb769d224d",
+      "after_sha256": "24d57a4d9207fe446b1830a0de4ea4c60ff85d6a046f47239ad4e37a32fbc929"
+    },
+    {
+      "path": "docs/platform/05_H200训练测试推理与量化运行环境.md",
+      "before_sha256": "ada0a8074f979fceeed6162338155fb754e2c437895f6269a566105c7d1fdc56",
+      "after_sha256": "92017597470b6240f2e2f539ca54ec3e2d1fdede60b47f9153348c0cf320e1d4"
+    },
+    {
+      "path": "docs/platform/06_5090训练测试推理与量化运行环境.md",
+      "before_sha256": "0edf1da9731579bcd920aed719739cc74b7eaf5495c9a42debd32a95229516ae",
+      "after_sha256": "8b36a7e57348312aae04cd13ca54ecffeef4c8607fbc20a04b9fa52cb3bfd6c4"
+    },
+    {
+      "path": "docs/platform/AGENTS.md",
+      "before_sha256": "71bbb7cd4d0e3fc04f1a781da754bdc07dfcf0af79a7ed0cce2978158befaf97",
+      "after_sha256": "9f02a9470b5e7c54b700bd65d4170d372935deae457b3ffd8ccf8d640aafea57"
+    },
+    {
+      "path": "docs/platform/README.md",
+      "before_sha256": "a359103116094cf4048977e833fa22514336896c113bd780b106690173d4107d",
+      "after_sha256": "208378fd9cad16fb93eec1f4fb863b3434968c594c1b613d35e033eab2f40590"
+    },
+    {
+      "path": "docs/README.md",
+      "before_sha256": "8606ef8fd7604fd273eb825765eb7ca3e52f72feac94b1196b200b83146bf945",
+      "after_sha256": "443b8236263ba200667df10d35787574eca5a78599ce7cf39d1f8850716f3407"
+    },
+    {
+      "path": "docs/reference/AGENTS.md",
+      "before_sha256": "8284cb5dd21c2d10cc839359f6fde42dd88213cfa63a1701cc5aec3759cbbee6",
+      "after_sha256": "95e2d628e309d383314fdec5e247932b7b8c9cdb54b804eb696acedfa3f7bed7"
+    },
+    {
+      "path": "docs/reference/README.md",
+      "before_sha256": "5d4c809f66146cdfe71ad804f2d806152b89e481f08f668fef55ad8e9e97552d",
+      "after_sha256": "033ad87ceba649065fd714e188b1b3e1e742890b2c50b8203d8b78446a448e40"
+    },
+    {
+      "path": "docs/reference/RECOVERY.md",
+      "before_sha256": "34d9ffca815f48a7732d2ac8534d8d92a47721184a4166322e33a9197dc0f910",
+      "after_sha256": "8d44b96b3d9e20f753c842b73704d7e9b31abcf5e57c5dc8436fee6d0a7a402a"
+    },
+    {
+      "path": "README.md",
+      "before_sha256": "448ea60b10627254646912086eefb07397f5ae51ab2311597931f05e190ce69f",
+      "after_sha256": "85a340c2b508092afdb8c0e6d5d16d2b048b0d1507ada6afc3229a7b252f75cd"
+    },
+    {
+      "path": "rebuild/AGENTS.md",
+      "before_sha256": "f9b5fe231c744973b8fa6281db960a263d47c3c04fa6a26f25a754bd3b1ef116",
+      "after_sha256": "a4d90790e75910a1731c71725bedf273bd8e9f543e0307108c7f454adc8d8545"
+    },
+    {
+      "path": "rebuild/CURRENT_STATE.md",
+      "before_sha256": "6c7b1200b3a6f3e915ccf82968572e18f940b0c614a4c7658673b6c5ce0f4348",
+      "after_sha256": "22d0ae944c29a28501d31865307b8073308307d26d837187cbe745f10d978983"
+    },
+    {
+      "path": "rebuild/README.md",
+      "before_sha256": "a52fbd1fdd37c47fb21aa1bce05a4a51f40af7e10a61ee9b09991ed6011467eb",
+      "after_sha256": "a23edd17be9f78b01c2a78ed42428b1edf73277bf538ba07a7a86edd0498d3c5"
+    },
+    {
+      "path": "rebuild/rebuild-manifest.yml",
+      "before_sha256": "ec32017c387728e099bef82c03308203ab71fefe8af0669203f7d6bbce40a5fd",
+      "after_sha256": "de117b090409b9b59364010d226a70f5c6633b085fb0ec51a7cac0f6d680a51a"
+    },
+    {
+      "path": "rebuild/REBUILD_GUIDE.md",
+      "before_sha256": "142ee62c27cb1f4df7f463968d3005c404b0d832c52d5fbdd048d5f685bc8329",
+      "after_sha256": "40515dbd77884b1be7641c37b30ea85c53da9d23ea795a9ba2f2e8f7fb47afa2"
+    }
+  ],
+  "new_files": [
+    {
+      "path": "docs/archive/2026-10-current-docs/README.md",
+      "sha256": "c2e7cb5827b5cfd847faa3424760e2b76f1e7cb17f9caea59ecffaa3bda17ae3"
+    },
+    {
+      "path": "docs/archive/2026-10-current-docs/audit_stage3.py",
+      "sha256": "5bedff4e6ccb135e118c36b7ffef2283f257c9b89ce4c5f72f6c720f82af8e04"
+    },
+    {
+      "path": "docs/archive/2026-10-current-docs/before.json",
+      "sha256": "22515b369ab4ab115e52bbbf1bb6b31fb9d8cc2dc1dcc12709bcede1b9ab7f2b"
+    },
+    {
+      "path": "docs/archive/2026-10-current-docs/before.zip",
+      "sha256": "65e0fb7efff19be29da58dd76aab8b9ed6b84014310dbc2302fa17caf7832aae"
+    },
+    {
+      "path": "docs/operations/AGENTS.md",
+      "sha256": "ca11452307fdcc155ef287cd2beaa9239ce51046ece98874c963c5d6dc915b22"
+    },
+    {
+      "path": "docs/operations/README.md",
+      "sha256": "31ec3dcf67a9a6525aa4ff7897f275e6e8bf3df3e01f7ed5227860458e083a36"
+    },
+    {
+      "path": "docs/platform/OPEN_QUESTIONS.md",
+      "sha256": "8c9ac8d439e1fb6d09539e04e12ef86c4a1e007e1d819894ff39470037acb6a5"
+    },
+    {
+      "path": "docs/platform/SOURCES.md",
+      "sha256": "04f2b54b8cdd2cef8764adbe1ca1ae76d3a9714edf4afe0969369e0542a7cf07"
+    },
+    {
+      "path": "rebuild/SHA256SUMS.20261019-current-docs",
+      "sha256": "e0b425ab0127a2fe84290aeb3370a64a6b70242474677d8e3cdfe2fadad3dbe6"
+    }
+  ],
+  "generated_records": [
+    "after.json",
+    "validation.json",
+    "SHA256SUMS"
+  ]
+}

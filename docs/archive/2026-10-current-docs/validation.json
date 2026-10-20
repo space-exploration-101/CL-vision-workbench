@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "baseline_files": 221,
+  "modified_files": 34,
+  "protected_files_unchanged": 127,
+  "links": {
+    "status": "PASS",
+    "documents": 108,
+    "local_links": 671,
+    "external_links_not_checked": 20,
+    "work_links_not_accessed": 1,
+    "scope": "Curated local Markdown with stage-2 frozen-link mapping; no work, .tmp, dependency trees or network access.",
+    "failures": [],
+    "inherited_frozen_link_mapping": [
+      {
+        "document": "docs/archive/2026-09-gray1-blocked-backup-run/README.md",
+        "literal_target": "docs/class-21/knowledge/04_NAS备份与环境恢复.md",
+        "mapped_target": "docs/platform/04_NAS备份与环境恢复.md"
+      },
+      {
+        "document": "docs/class-21/operations/runs/backup/docker-images/20261016/completion-report.md",
+        "literal_target": "docs/class-21/knowledge/04_NAS备份与环境恢复.md",
+        "mapped_target": "docs/platform/04_NAS备份与环境恢复.md"
+      },
+      {
+        "document": "outputs/class-21/FPGA_logs/README.md",
+        "literal_target": "outputs/class-21/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+        "mapped_target": "docs/class-21/reports/current/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md"
+      }
+    ]
+  },
+  "rebuild_checksum_entries": 38,
+  "failures": []
+}

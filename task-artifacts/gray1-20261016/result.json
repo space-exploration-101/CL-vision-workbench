@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-16",
+  "host": "H200",
+  "status": "PASS",
+  "image": "yolo-gray1:1280-train-predict-20261016",
+  "image_id": "sha256:79b0086e39b83c8a3bbb76bfe2df1d8683bd443a6bef19ee7d2e69f096033635",
+  "image_size_bytes": 11280770529,
+  "source_commit": "5b3caca445874b3567c0ad0b425c02c8d6c920e2",
+  "build_definition": "/data3/ywang/yolo-gray1-train/docker/Dockerfile",
+  "runtime_archive_sha256": "e1e2f5eb38d40ab81c8075ef45624da04d24420e42807f78c5e9f8903e8af683",
+  "remote_evidence_directory": "/data3/ywang/image-validation/gray1-20261016",
+  "runtime": {"python": "3.12.12", "torch": "2.8.0+cu128", "cuda": "12.8", "ultralytics": "8.3.98"},
+  "training": {
+    "status": "PASS",
+    "gpu_uuid": "GPU-1610284d-3afe-6e14-b8cb-bbbe40a1f28b",
+    "gpu_name": "NVIDIA H200 NVL",
+    "dataset": "/data3/ywang/yolo-gray1-datasets/pose21-gray1-1280-m-v1",
+    "subset": {"train": 8, "val": 4},
+    "epochs": 1,
+    "batch_size": 2,
+    "observed_input": [2, 1, 1280, 1280],
+    "cuda_forward_batches": 4,
+    "peak_torch_allocated_bytes": 7577967104,
+    "checkpoint": "training/smoke/weights/best.pt",
+    "finite_training_metrics": true
+  },
+  "prediction": {
+    "cpu": "PASS",
+    "cuda": "PASS",
+    "weights": "training/smoke/weights/best.pt",
+    "observed_input": [1, 1, 1280, 1280],
+    "observed_warmup": [1, 1, 1280, 1280],
+    "note": "Ultralytics speed summary prints a hard-coded 3-channel shape; forward hooks verified actual tensors have one channel."
+  },
+  "isolation": {
+    "network": "none",
+    "container_root": "read-only",
+    "host_source_mounted": false,
+    "host_python_environment_mounted": false,
+    "dataset_source": "read-only",
+    "old_images_and_services_changed": false,
+    "gpu_released": true,
+    "api_health": "ok",
+    "web_health": "ok"
+  },
+  "limitations": [
+    "Functional smoke test only; no accuracy acceptance or full training run.",
+    "Smoke checkpoint is randomly initialized then trained for one epoch; no detections are expected and it is not a production model.",
+    "Historical dataset is used only to validate the runtime, not as a new training-data recommendation.",
+    "Image remains local to H200; no registry push, image archive export, NAS backup or default Compose change was performed."
+  ]
+}

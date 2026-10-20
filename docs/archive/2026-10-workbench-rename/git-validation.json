@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checkpoint_index_files": 3393,
+  "ordinary_index_blobs_verified_against_worktree": 2696,
+  "lfs_pointer_files": 697,
+  "unique_lfs_objects_readback": 661,
+  "lfs_worktree_bytes": 4542664377,
+  "unhandled_files_at_least_50_mib": [],
+  "scripts_or_blocked_paths_tracked": [],
+  "commits": 0,
+  "remotes": [],
+  "expected_final_index_files": 3396,
+  "retained_baseline_format": [
+    {
+      "path": "docs/platform/01_NAS备份与环境恢复.md",
+      "lines": [
+        3,
+        4
+      ],
+      "reason": "Unchanged Markdown two-space hard breaks; initial staging checks the whole original document"
+    }
+  ],
+  "checkpoint_scope": "Before adding git-validation.json, validation.json and SHA256SUMS; final stage verifies exact candidate set and no unstaged changes"
+}

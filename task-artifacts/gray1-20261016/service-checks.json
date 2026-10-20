@@ -1,0 +1,45 @@
+{
+  "http://127.0.0.1:8000/health": {
+    "http_status": 200,
+    "body": {
+      "ok": true,
+      "busy": false,
+      "worker_status": "idle",
+      "current_job": null
+    }
+  },
+  "http://127.0.0.1:8000/ready": {
+    "http_status": 503,
+    "body": {
+      "ok": false,
+      "gpu": {
+        "ready": false,
+        "reason": "GPU query failed",
+        "required": true,
+        "min_free_mib": 32768,
+        "max_utilization_percent": 100,
+        "index": null,
+        "uuid": null,
+        "name": null,
+        "memory_total_mib": null,
+        "memory_free_mib": null,
+        "utilization_percent": null,
+        "error": "Failed to initialize NVML: Unknown Error"
+      }
+    }
+  },
+  "http://127.0.0.1:8088/health": {
+    "http_status": 200,
+    "body": {
+      "web": "ok",
+      "demo": false,
+      "api": {
+        "ok": true,
+        "busy": false,
+        "worker_status": "idle",
+        "current_job": null
+      },
+      "api_base": "http://quantitize-api:8000"
+    }
+  }
+}

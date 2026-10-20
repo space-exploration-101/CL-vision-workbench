@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "same_selection_items": 500,
+  "unchanged_historical_file_hashes": 3006,
+  "root_symlinks": 0,
+  "all_root_directories_numbered": true,
+  "model_pt_unchanged": true
+}

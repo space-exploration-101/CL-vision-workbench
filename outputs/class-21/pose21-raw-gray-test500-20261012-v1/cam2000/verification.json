@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "completed_at_utc": "2026-10-12T13:31:17.486374+00:00",
+  "png_count": 500,
+  "bin_count": 500,
+  "labels_created": 0,
+  "png_shape": [
+    2000,
+    2000
+  ],
+  "png_dtype": "uint8",
+  "channels": 1,
+  "source": "3-gray/images",
+  "interpolation": "INTER_LINEAR",
+  "padding_added_to_png": false,
+  "protocol": {
+    "pipeline": "cam2000",
+    "width": 2000,
+    "height": 2000,
+    "bit_depth": 12,
+    "bytes_per_row": 4096,
+    "active_bytes_per_row": 3000,
+    "padding_bytes_per_row": 1096,
+    "active_bytes_total": 6000000,
+    "padding_bytes_total": 2192000,
+    "expected_file_bytes": 8192000,
+    "sample_packing": "u12_pair_3byte_p0lo_p0hi-p1lo_p1hi",
+    "byte_order": "custom_nibble_packed",
+    "uint8_to_uint12": "round(v*4095/255)",
+    "row_tail_value": 0,
+    "header_bytes": 0,
+    "trailer_bytes": 0,
+    "coordinate_semantics": "continuous_xy_float_no_rounding"
+  },
+  "selection_sha256": "0e50a78880c7c52be9e87cbfe25620ecea4d3f053e4414343b3e1bfba91f75a1",
+  "source_code_sha256": {
+    "/grayprep/configs/cam2000.yaml": "a79b1aee1a72c7e418f7ec7abb2881adf9c4e4b80bfd549c6a188a7fd97da757",
+    "/grayprep/docs/CAMERA_BIN_ABI.md": "475bb5edc6d335b0944fb22815207e490ac00894debfe34b2fe90513c1e17c95",
+    "/grayprep/src/grayprep/pipelines/cam2000.py": "f94daa3bf4581575f19540325fdebd441a23d89eb7bf6e8d4c3917f9efba8952",
+    "/grayprep/src/grayprep/pipelines/common.py": "a639799ff205b1ec26c7b22900990e12b1d8dd0b6a47269fc9019ae1e90880ea"
+  },
+  "opencv": "4.11.0",
+  "numpy": "1.26.4",
+  "elapsed_generation_verification_seconds": 234.141,
+  "bin_total_bytes": 4096000000,
+  "png_total_bytes": 1097779132,
+  "checks": [
+    "source SHA256",
+    "PNG pixels versus direct INTER_LINEAR resize",
+    "BIN exact size",
+    "zero row tails",
+    "independent integer u12 decode",
+    "u12 to u8 exact roundtrip",
+    "BC3A12 known packing vector",
+    "all 256 uint8 conversion values"
+  ],
+  "board_test": "not performed",
+  "gpu_used": false,
+  "layout_change": "6-cam2000_bin moved into 5-cam2000/bin; PNG in 5-cam2000/png"
+}

@@ -1,0 +1,282 @@
+{
+  "status": "FAIL",
+  "documents": 118,
+  "document_paths": [
+    "AGENTS.md",
+    "docs/agent/AGENTS.md",
+    "docs/agent/CONTEXT.md",
+    "docs/agent/README.md",
+    "docs/agent/RUNBOOK.md",
+    "docs/agent/tasks/BACKUP.md",
+    "docs/agent/tasks/DIAGNOSTICS.md",
+    "docs/agent/tasks/DOCUMENTATION.md",
+    "docs/agent/tasks/EVALUATION.md",
+    "docs/agent/tasks/README.md",
+    "docs/agent/tasks/SERVICE.md",
+    "docs/agent/topics/BACKUPS.md",
+    "docs/agent/topics/HOSTS.md",
+    "docs/agent/topics/MODEL_BASELINE.md",
+    "docs/agent/topics/README.md",
+    "docs/agent/topics/REPOSITORIES.md",
+    "docs/AGENT_GUIDE.md",
+    "docs/AGENTS.md",
+    "docs/archive/2026-04-cam2000-prototype/README.md",
+    "docs/archive/2026-09-class21-migration-source-docs/README.md",
+    "docs/archive/2026-09-class21-transition/AGENTS.md",
+    "docs/archive/2026-09-class21-transition/HISTORICAL_TRANSITION_EXPERIMENTS.md",
+    "docs/archive/2026-09-class21-transition/README.md",
+    "docs/archive/2026-09-gray1-blocked-backup-run/README.md",
+    "docs/archive/2026-09-gray1-predictor-test-eval/README.md",
+    "docs/archive/2026-09-gray1-quant-env/README.md",
+    "docs/archive/2026-09-gray1-step15-checkpoint/README.md",
+    "docs/archive/2026-09-gray1-training-workflow-history/README.md",
+    "docs/archive/2026-09-gray1-workflow-smoke/README.md",
+    "docs/archive/2026-09-grayprep-performance-step5-14/README.md",
+    "docs/archive/2026-09-h200-worktree-retirement/README.md",
+    "docs/archive/2026-09-local-artifact-cleanup/README.md",
+    "docs/archive/2026-09-migration/README.md",
+    "docs/archive/2026-09-performance/README.md",
+    "docs/archive/2026-09-sim-train-fpga-doc/README.md",
+    "docs/archive/2026-09-standardization-work-packages/README.md",
+    "docs/archive/2026-10-artifact-relocation/AGENTS.md",
+    "docs/archive/2026-10-artifact-relocation/README.md",
+    "docs/archive/2026-10-attachment-closeout/README.md",
+    "docs/archive/2026-10-current-docs/README.md",
+    "docs/archive/2026-10-documentation-baseline-20261019-185246/AGENTS.md",
+    "docs/archive/2026-10-documentation-baseline-20261019-185246/README.md",
+    "docs/archive/2026-10-documentation-consolidation/README.md",
+    "docs/archive/2026-10-operations-history/CLOSEOUT.md",
+    "docs/archive/2026-10-operations-history/README.md",
+    "docs/archive/2026-10-platform-docs/README.md",
+    "docs/archive/2026-10-tools-templates/README.md",
+    "docs/archive/AGENTS.md",
+    "docs/archive/OCTOBER_CONTEXT.md",
+    "docs/archive/README.md",
+    "docs/archive/SEPTEMBER_CONTEXT.md",
+    "docs/class-21/AGENTS.md",
+    "docs/class-21/architecture/AGENTS.md",
+    "docs/class-21/architecture/Pose21_Gray1网络结构与FPGA适配说明.md",
+    "docs/class-21/architecture/README.md",
+    "docs/class-21/knowledge/01_YOLO_Gray1与量化基础.md",
+    "docs/class-21/knowledge/02_21类目标数据与输入预处理.md",
+    "docs/class-21/knowledge/03_训练评估量化与FPGA流程.md",
+    "docs/class-21/knowledge/AGENTS.md",
+    "docs/class-21/knowledge/README.md",
+    "docs/class-21/operations/AGENTS.md",
+    "docs/class-21/operations/prompts/21类Gray1_NAS归档与恢复资料精简_AGENT提示词.md",
+    "docs/class-21/operations/prompts/README.md",
+    "docs/class-21/operations/README.md",
+    "docs/class-21/operations/runs/20261017-h200-gray1-main-integration.md",
+    "docs/class-21/operations/runs/20261018-h200-main-only.md",
+    "docs/class-21/operations/runs/AGENTS.md",
+    "docs/class-21/operations/runs/backup/AGENTS.md",
+    "docs/class-21/operations/runs/backup/docker-images/20261016/completion-report.md",
+    "docs/class-21/operations/runs/backup/historical-r-only/20260925-local-data-cleanup/completion-report.md",
+    "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/completion-report.md",
+    "docs/class-21/operations/runs/backup/README.md",
+    "docs/class-21/operations/runs/image-cleanup/20261015-h200-intermediate-images/清理完成报告.md",
+    "docs/class-21/operations/runs/README.md",
+    "docs/class-21/operations/tools/README.md",
+    "docs/class-21/README.md",
+    "docs/class-21/reports/AGENTS.md",
+    "docs/class-21/reports/current/20260920_Pose21_Gray1_训练测试标定与量化完整报告.md",
+    "docs/class-21/reports/current/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+    "docs/class-21/reports/current/20261012_Pose21_500张原始测试集生成与测试记录.md",
+    "docs/class-21/reports/current/AGENTS.md",
+    "docs/class-21/reports/current/README.md",
+    "docs/class-21/reports/README.md",
+    "docs/HANDOFF.md",
+    "docs/operations/AGENTS.md",
+    "docs/operations/README.md",
+    "docs/platform/04_NAS备份与环境恢复.md",
+    "docs/platform/05_H200训练测试推理与量化运行环境.md",
+    "docs/platform/06_5090训练测试推理与量化运行环境.md",
+    "docs/platform/AGENTS.md",
+    "docs/platform/OPEN_QUESTIONS.md",
+    "docs/platform/README.md",
+    "docs/platform/SOURCES.md",
+    "docs/README.md",
+    "docs/reference/AGENTS.md",
+    "docs/reference/backup/README.md",
+    "docs/reference/PERFORMANCE.md",
+    "docs/reference/README.md",
+    "docs/reference/RECOVERY.md",
+    "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+    "outputs/AGENTS.md",
+    "outputs/class-21/AGENTS.md",
+    "outputs/class-21/FPGA_logs/README.md",
+    "outputs/class-21/README.md",
+    "outputs/README.md",
+    "README.md",
+    "rebuild/AGENTS.md",
+    "rebuild/CURRENT_STATE.md",
+    "rebuild/legacy/AGENTS.md",
+    "rebuild/legacy/gray1-20260918/README.md",
+    "rebuild/legacy/pre-gray1-20260902/README.md",
+    "rebuild/legacy/README.md",
+    "rebuild/README.md",
+    "rebuild/REBUILD_GUIDE.md",
+    "task-artifacts/AGENTS.md",
+    "task-artifacts/README.md",
+    "tools/AGENTS.md",
+    "tools/README.md"
+  ],
+  "direct_links": {
+    "active": 639,
+    "frozen": 186
+  },
+  "frozen_mapped_links": [
+    {
+      "document": "docs/archive/2026-09-gray1-blocked-backup-run/README.md",
+      "line": 37,
+      "original_reference": "../../class-21/knowledge/04_NAS备份与环境恢复.md",
+      "literal_target": "docs/class-21/knowledge/04_NAS备份与环境恢复.md",
+      "mapped_target": "docs/platform/04_NAS备份与环境恢复.md",
+      "basis": "docs/archive/2026-10-platform-docs/validation.json",
+      "original_link_repaired": false
+    },
+    {
+      "document": "docs/class-21/operations/runs/backup/docker-images/20261016/completion-report.md",
+      "line": 29,
+      "original_reference": "../../../../../knowledge/04_NAS备份与环境恢复.md#34-2026-10-16-预处理apiweb-镜像与总索引",
+      "literal_target": "docs/class-21/knowledge/04_NAS备份与环境恢复.md",
+      "mapped_target": "docs/platform/04_NAS备份与环境恢复.md",
+      "basis": "docs/archive/2026-10-platform-docs/validation.json",
+      "original_link_repaired": false
+    },
+    {
+      "document": "outputs/class-21/FPGA_logs/README.md",
+      "line": 3,
+      "original_reference": "../20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+      "literal_target": "outputs/class-21/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+      "mapped_target": "docs/class-21/reports/current/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+      "basis": "docs/archive/2026-10-platform-docs/validation.json",
+      "original_link_repaired": false
+    }
+  ],
+  "external_links_not_checked": [
+    {
+      "document": "docs/class-21/reports/current/20261012_Pose21_500张原始测试集生成与测试记录.md",
+      "line": 177,
+      "target": "http://10.2.29.180:8088/tasks/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 744,
+      "target": "https://www.3blue1brown.com/topics/neural-networks"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 745,
+      "target": "https://cs231n.github.io/convolutional-networks/"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 746,
+      "target": "https://poloclub.github.io/cnn-explainer/"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 747,
+      "target": "https://distill.pub/2017/feature-visualization/"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 751,
+      "target": "https://doi.org/10.1007/BF00344251"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 752,
+      "target": "https://doi.org/10.1109/5.726791"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 753,
+      "target": "https://arxiv.org/abs/1207.0580"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 754,
+      "target": "https://arxiv.org/abs/1512.03385"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 758,
+      "target": "https://arxiv.org/abs/1506.02640"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 759,
+      "target": "https://arxiv.org/abs/1512.02325"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 760,
+      "target": "https://arxiv.org/abs/1505.04597"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 761,
+      "target": "https://arxiv.org/abs/1612.03144"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 762,
+      "target": "https://arxiv.org/abs/1803.01534"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 763,
+      "target": "https://arxiv.org/abs/2006.04388"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 764,
+      "target": "https://docs.ultralytics.com/models/yolov8/"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 768,
+      "target": "https://arxiv.org/abs/1712.05877"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 769,
+      "target": "https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 770,
+      "target": "https://onnx.ai/onnx/operators/onnx__QuantizeLinear.html"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 770,
+      "target": "https://onnx.ai/onnx/operators/onnx__DequantizeLinear.html"
+    }
+  ],
+  "excluded_scan_entries": [
+    {
+      "path": ".tmp",
+      "reason": "Excluded name; not inspected"
+    },
+    {
+      "path": "work",
+      "reason": "Excluded name; not inspected"
+    },
+    {
+      "path": "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/nas-docs",
+      "reason": "Frozen source copies; no recursive reading"
+    }
+  ],
+  "failures": [
+    {
+      "document": "README.md",
+      "line": 43,
+      "target": ".tmp/README.md",
+      "reason": "Excluded directory"
+    }
+  ],
+  "scope": "Curated local Markdown only; no recursive artifact/archive/raw/dependency reading; mappings are exact document+target exceptions, not repaired links."
+}

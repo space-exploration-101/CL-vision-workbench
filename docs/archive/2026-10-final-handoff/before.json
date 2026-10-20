@@ -1,0 +1,33 @@
+{
+  "files": {
+    "README.md": {
+      "sha256": "85a340c2b508092afdb8c0e6d5d16d2b048b0d1507ada6afc3229a7b252f75cd",
+      "bytes": 3634
+    },
+    "docs/README.md": {
+      "sha256": "443b8236263ba200667df10d35787574eca5a78599ce7cf39d1f8850716f3407",
+      "bytes": 2357
+    },
+    "docs/archive/README.md": {
+      "sha256": "e2e9c49e21f4bc0d610851d32dfa3d67033f128595ad8bec2a2bcdb70649fc4b",
+      "bytes": 6512
+    },
+    "docs/agent/tasks/DOCUMENTATION.md": {
+      "sha256": "52581de0957963dad29d201d51212f0ff92510cb01cae2113ff305a031ea6c20",
+      "bytes": 1758
+    },
+    "tools/README.md": {
+      "sha256": "77827e2bf3167cf1218ffbcc91bcd81c8a625ac30621c58e43d72c5d6256b523",
+      "bytes": 7267
+    },
+    "tools/AGENTS.md": {
+      "sha256": "eb91041f96e8f7993f25a33e9e63b82ba159e6726bfa9106e197230af50e67a1",
+      "bytes": 635
+    },
+    "tools/check_documentation.py": {
+      "sha256": "03cbcb6ade6d4f26fd0f41f25da52e7345abb90d3ccb2e1787404e5f66e1b630",
+      "bytes": 6975
+    }
+  },
+  "archive_sha256": "30f04ee325190b063f9fd0f3aecae3a115c8fbb926d0096d567709b2ebadc8e9"
+}

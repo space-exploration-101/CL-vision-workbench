@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><w:body>
+<w:p><w:pPr><w:pStyle w:val="MetaLine"/></w:pPr><w:r><w:t>文档编号：QP-TS-2026-001　　　　密级：内部</w:t></w:r></w:p>
+<w:p><w:pPr><w:pStyle w:val="DocTitle"/></w:pPr><w:r><w:t>计算单元系统模型研制功能模块技术说明</w:t></w:r></w:p>
+<w:p><w:pPr><w:pStyle w:val="MetaLine"/></w:pPr><w:r><w:t>版本：V2.1　　　　日期：2026-09-09</w:t></w:r></w:p>
+<w:p><w:pPr><w:pStyle w:val="MetaLine"/></w:pPr><w:r><w:t>本版说明：删除引用文件章，改为文档内自洽表述；V1.0、V2.0同目录归档</w:t></w:r></w:p>
+<w:p><w:pPr><w:pStyle w:val="MetaLine"/></w:pPr><w:r><w:t>编写：平台维护组　　　审核：＿＿＿＿＿＿　　　批准：＿＿＿＿＿＿</w:t></w:r></w:p>
+<w:p><w:pPr><w:pStyle w:val="Heading1"/></w:pPr><w:r><w:t>1 范围</w:t></w:r></w:p>
+<w:p><w:r><w:t>本文件规定计算单元系统软件功能模块之一——模型研制模块的功能组成、工作流程、技术要求与验收准则。该模块覆盖仿真数据生成、模型训练、模型量化与FPGA测试，最终产出FPGA可加载的bin文件及任务包（bundle），供计算单元上板运行。</w:t></w:r></w:p>
+<w:p><w:r><w:t>本文件为技术说明，面向不熟悉算法、量化与FPGA的工程人员，用于理解模块的功能与边界；本文件描述各环节应满足的要求，不规定具体操作方法。</w:t></w:r></w:p>
+<w:p><w:pPr><w:pStyle w:val="Heading1"/></w:pPr><w:r><w:t>2 功能组成与流程</w:t></w:r></w:p>
+<w:p><w:r><w:t>本模块按下列顺序工作。任一环节未通过验证不得进入后续环节；任一环节变更后，自该环节起全部后续环节重新验证：</w:t></w:r></w:p>
+<w:p><w:pPr><w:pStyle w:val="Mono"/></w:pPr><w:r><w:t>仿真数据生成 ─→ 模型训练（pt_eval基准评测）─→ 模型量化（onnx_eval复测）─→ FPGA测试 ─→ bundle交付</w:t></w:r></w:p>
+<w:p><w:pPr><w:pStyle w:val="Caption"/></w:pPr><w:r><w:t>图 2-1 模块总体流程</w:t></w:r></w:p>
+<w:p><w:pPr><w:pStyle w:val="Caption"/></w:pPr><w:r><w:t>表 2-1 环节职责</w:t></w:r></w:p>
+<w:tbl><w:tblPr><w:tblStyle w:val="TableGrid"/><w:tblW w:w="5000" w:type="pct"/></w:tblPr><w:tblGrid><w:gridCol w:w="2000"/><w:gridCol w:w="4000"/><w:gridCol w:w="2765"/></w:tblGrid>
+<w:tr><w:tc><w:tcPr><w:tcW w:w="2000" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="D9D9D9"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="THead"/></w:pPr><w:r><w:t>环节</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="4000" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="D9D9D9"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="THead"/></w:pPr><w:r><w:t>主要工作</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="2765" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="D9D9D9"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="THead"/></w:pPr><w:r><w:t>产出</w:t></w:r></w:p></w:tc></w:tr>
+<w:tr><w:tc><w:tcPr><w:tcW w:w="2000" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>仿真数据生成</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>渲染图像并自动标注；切分训练、校准、测试三集</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="2765" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>三套数据集与固化的预处理规则</w:t></w:r></w:p></w:tc></w:tr>
+<w:tr><w:tc><w:tcPr><w:tcW w:w="2000" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>模型训练</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>反复喂图修正权重；在测试集上完成基准评测</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="2765" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>.pt权重与基准指标</w:t></w:r></w:p></w:tc></w:tr>
+<w:tr><w:tc><w:tcPr><w:tcW w:w="2000" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>模型量化</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>小数运算压缩为整数（int8）运算；复测精度</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="2765" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>int8模型与指标报告</w:t></w:r></w:p></w:tc></w:tr>
+<w:tr><w:tc><w:tcPr><w:tcW w:w="2000" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>FPGA测试</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>仿真比对芯片行为；生成并合并芯片文件</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="2765" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>单个bin文件</w:t></w:r></w:p></w:tc></w:tr>
+<w:tr><w:tc><w:tcPr><w:tcW w:w="2000" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>bundle交付</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="4000" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>汇总全流程产物打包</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="2765" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>任务包（zip）</w:t></w:r></w:p></w:tc></w:tr>
+</w:tbl>
+<w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr></w:p>
+<w:p><w:pPr><w:pStyle w:val="Heading1"/></w:pPr><w:r><w:t>3 技术要求</w:t></w:r></w:p>
+<w:p><w:r><w:t>a) 数据集：训练集、校准集、测试集一次性切分并固化，严禁重叠或交叉使用；测试集不得参与任何形式的训练或调参。</w:t></w:r></w:p>
+<w:p><w:r><w:t>b) 预处理：输入尺寸、通道处理与归一化规则在数据阶段一次性固化并随任务归档，训练、校准、上板全流程使用同一套规则；预处理不一致是精度问题的最常见原因。规则一经变更即视为新模型，全流程应重新验证。</w:t></w:r></w:p>
+<w:p><w:r><w:t>c) 训练：训练过程中在验证集上周期评测；交付版本以验证结果择优，不以末轮结果直接交付。出现过拟合（训练分数高、新图表现差）时，先补充场景数据，后调整训练参数。</w:t></w:r></w:p>
+<w:p><w:r><w:t>d) 量化：校准集应与实际使用场景同分布（典型规模数百张）；量化后相对基准评测（pt_eval）的指标降幅须在任务约定范围内，超差时先排查校准数据覆盖与预处理一致性，不得放宽判据迁就交付。</w:t></w:r></w:p>
+<w:p><w:r><w:t>e) FPGA测试：按fpga_test_pack（测试包生成）、fpga_eval（仿真评测）、generate_bin／merge_bin（芯片文件生成与合并）顺序分级实施，上一级未通过验证不得进入下一级。</w:t></w:r></w:p>
+<w:p><w:r><w:t>f) 仿真比对：与软件侧结果按框位置、类别、置信度逐项比对；个别像素级偏差属数值舍入差异，可接受；框整体偏移、成批漏检或类别错位须停止放行，修正后重测。</w:t></w:r></w:p>
+<w:p><w:r><w:t>g) bin交付：分片文件先校验后合并，合并后核验顺序与完整性；严禁以未校验的中间产物交付。</w:t></w:r></w:p>
+<w:p><w:pPr><w:pStyle w:val="Heading1"/></w:pPr><w:r><w:t>4 验收准则</w:t></w:r></w:p>
+<w:p><w:r><w:t>上板验收应在板上运行bundle中的bin文件，并以测试集图片复测；复测结果与仿真一致时方为通过。验收准则见表 4-1。</w:t></w:r></w:p>
+<w:p><w:pPr><w:pStyle w:val="Caption"/></w:pPr><w:r><w:t>表 4-1 验收准则</w:t></w:r></w:p>
+<w:tbl><w:tblPr><w:tblStyle w:val="TableGrid"/><w:tblW w:w="5000" w:type="pct"/></w:tblPr><w:tblGrid><w:gridCol w:w="1800"/><w:gridCol w:w="6965"/></w:tblGrid>
+<w:tr><w:tc><w:tcPr><w:tcW w:w="1800" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="D9D9D9"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="THead"/></w:pPr><w:r><w:t>类别</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6965" w:type="dxa"/><w:shd w:val="clear" w:color="auto" w:fill="D9D9D9"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="THead"/></w:pPr><w:r><w:t>准则</w:t></w:r></w:p></w:tc></w:tr>
+<w:tr><w:tc><w:tcPr><w:tcW w:w="1800" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>任务级</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6965" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>各阶段全部一次通过、无错误、bundle已生成</w:t></w:r></w:p></w:tc></w:tr>
+<w:tr><w:tc><w:tcPr><w:tcW w:w="1800" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>指标级</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6965" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>量化后相对基准评测的降幅在约定范围内</w:t></w:r></w:p></w:tc></w:tr>
+<w:tr><w:tc><w:tcPr><w:tcW w:w="1800" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>一致性级</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6965" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>FPGA仿真与软件侧结果在容差内一致</w:t></w:r></w:p></w:tc></w:tr>
+<w:tr><w:tc><w:tcPr><w:tcW w:w="1800" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>交付级</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6965" w:type="dxa"/></w:tcPr><w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr><w:r><w:t>上板以测试集复测，结果与仿真一致</w:t></w:r></w:p></w:tc></w:tr>
+</w:tbl>
+<w:p><w:pPr><w:pStyle w:val="TCell"/></w:pPr></w:p>
+<w:p><w:pPr><w:pStyle w:val="EndMark"/></w:pPr><w:r><w:t>（以下无正文）</w:t></w:r></w:p>
+<w:sectPr><w:footerReference w:type="default" r:id="rId2"/><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1701" w:header="851" w:footer="992" w:gutter="0"/><w:docGrid w:type="lines" w:linePitch="312"/></w:sectPr>
+</w:body></w:document>

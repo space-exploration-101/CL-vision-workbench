@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "png_verified": 500,
+  "bin_verified": 500,
+  "files_hashed": 1005,
+  "source_images_rehashed": 500,
+  "labels_created": 0,
+  "old_bin_directory_absent": true,
+  "partial_files_absent": true,
+  "manifest_sha256": "67c4f1b56643e5db8d78c413348136a05229645a3b13c49126d8e5bdc18ecc97",
+  "sha256sums_sha256": "301ae19de383f5bad40fa3d4dabe06efa9649230bdbbf3b1cd1ab7f12123e6b6",
+  "board_test": "not performed"
+}

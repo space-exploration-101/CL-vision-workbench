@@ -1,0 +1,19 @@
+{
+  "job_root": "/home/rs/wrs/onnxviewe/quantitize-platform/data/output_data/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida",
+  "job_id": "20260920_063903_Pose21_Gray1_weight-only_accuracy_valida",
+  "onnx_name": "pose21_gray1_weight_only_accuracy",
+  "display_name": "Pose21 Gray1 weight-only accuracy validation",
+  "nc": 21,
+  "imgsz": 1280,
+  "conf": 0.25,
+  "iou": 0.7,
+  "max_det": 300,
+  "min_test_images": 462,
+  "min_cali_images": 462,
+  "cali_dataset_id": "pose21_gray1_50e_cal462_v1",
+  "test_dataset_id": "pose21_gray1_50e_eval462_v2",
+  "preprocess_mode": "passthrough",
+  "input_channels": 1,
+  "input_semantics": "gray1",
+  "use_scratch": true
+}

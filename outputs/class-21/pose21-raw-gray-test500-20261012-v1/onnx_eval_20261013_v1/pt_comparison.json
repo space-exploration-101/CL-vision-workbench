@@ -1,0 +1,57 @@
+{
+  "tp": {
+    "pt": 397,
+    "onnx": 398,
+    "onnx_minus_pt": 1
+  },
+  "fp": {
+    "pt": 22,
+    "onnx": 23,
+    "onnx_minus_pt": 1
+  },
+  "fn": {
+    "pt": 23,
+    "onnx": 22,
+    "onnx_minus_pt": -1
+  },
+  "precision": {
+    "pt": 0.9474940334128878,
+    "onnx": 0.9453681710213777,
+    "onnx_minus_pt": -0.002125862391510136
+  },
+  "recall": {
+    "pt": 0.9452380952380952,
+    "onnx": 0.9476190476190476,
+    "onnx_minus_pt": 0.0023809523809523725
+  },
+  "f1": {
+    "pt": 0.9463647199046484,
+    "onnx": 0.9464922711058263,
+    "onnx_minus_pt": 0.0001275512011779112
+  },
+  "strict_image_accuracy": {
+    "pt": 0.928,
+    "onnx": 0.926,
+    "onnx_minus_pt": -0.0020000000000000018
+  },
+  "negative_false_positive_image_rate": {
+    "pt": 0.0375,
+    "onnx": 0.0375,
+    "onnx_minus_pt": 0.0
+  },
+  "bbox_center_net1280_px": {
+    "pt_mean": 4.468325656354288,
+    "onnx_mean": 4.459659601997897,
+    "difference_of_means": -0.008666054356391228,
+    "note": "Each mean is over that model matched targets, not a paired per-target displacement."
+  },
+  "keypoint_net1280_px": {
+    "pt_mean": 5.331031297035415,
+    "onnx_mean": 5.255106753768602,
+    "difference_of_means": -0.07592454326681342,
+    "note": "Each mean is over that model matched targets, not a paired per-target displacement."
+  },
+  "same_gt_images": 500,
+  "pt_correct_onnx_wrong": 1,
+  "pt_wrong_onnx_correct": 0
+}

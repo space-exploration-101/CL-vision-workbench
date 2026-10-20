@@ -1,0 +1,50 @@
+[
+  {
+    "document": "docs/archive/2026-10-final-handoff/README.md",
+    "literal_target": "docs/platform/04_NAS备份与环境恢复.md",
+    "mapped_target": "docs/platform/01_NAS备份与环境恢复.md",
+    "basis": "docs/archive/2026-10-platform-renumber/README.md"
+  },
+  {
+    "document": "docs/archive/2026-10-operations-history/README.md",
+    "literal_target": "docs/platform/05_H200训练测试推理与量化运行环境.md",
+    "mapped_target": "docs/platform/02_H200训练测试推理与量化运行环境.md",
+    "basis": "docs/archive/2026-10-platform-renumber/README.md"
+  },
+  {
+    "document": "docs/archive/2026-10-operations-history/README.md",
+    "literal_target": "docs/platform/04_NAS备份与环境恢复.md",
+    "mapped_target": "docs/platform/01_NAS备份与环境恢复.md",
+    "basis": "docs/archive/2026-10-platform-renumber/README.md"
+  },
+  {
+    "document": "docs/archive/OCTOBER_CONTEXT.md",
+    "literal_target": "docs/platform/05_H200训练测试推理与量化运行环境.md",
+    "mapped_target": "docs/platform/02_H200训练测试推理与量化运行环境.md",
+    "basis": "docs/archive/2026-10-platform-renumber/README.md"
+  },
+  {
+    "document": "docs/archive/OCTOBER_CONTEXT.md",
+    "literal_target": "docs/platform/04_NAS备份与环境恢复.md",
+    "mapped_target": "docs/platform/01_NAS备份与环境恢复.md",
+    "basis": "docs/archive/2026-10-platform-renumber/README.md"
+  },
+  {
+    "document": "docs/archive/2026-09-gray1-blocked-backup-run/README.md",
+    "literal_target": "docs/class-21/knowledge/04_NAS备份与环境恢复.md",
+    "mapped_target": "docs/platform/01_NAS备份与环境恢复.md",
+    "basis": [
+      "docs/archive/2026-10-platform-docs/validation.json",
+      "docs/archive/2026-10-platform-renumber/README.md"
+    ]
+  },
+  {
+    "document": "docs/class-21/operations/runs/backup/docker-images/20261016/completion-report.md",
+    "literal_target": "docs/class-21/knowledge/04_NAS备份与环境恢复.md",
+    "mapped_target": "docs/platform/01_NAS备份与环境恢复.md",
+    "basis": [
+      "docs/archive/2026-10-platform-docs/validation.json",
+      "docs/archive/2026-10-platform-renumber/README.md"
+    ]
+  }
+]

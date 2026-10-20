@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "documents": 106,
+  "local_links": 457,
+  "external_links_not_checked": 24,
+  "work_links_not_accessed": 0,
+  "scope": "Active Markdown and archive/legacy entry indexes; excludes raw historical documents, artifact internals, work and network access.",
+  "failures": []
+}

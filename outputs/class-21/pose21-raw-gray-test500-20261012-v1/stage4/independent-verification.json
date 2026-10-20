@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "net1280_files_hashed": 1004,
+  "result_files_hashed": 1013,
+  "visualizations_decoded": 500,
+  "matching_records_verified": 397,
+  "gt": 420,
+  "predictions": 419,
+  "tp": 397,
+  "fp": 22,
+  "fn": 23,
+  "strict_correct_images": 464,
+  "base_manifest_unchanged": true,
+  "analysis_summary_sha256": "252bdf66be6d66d8b32d4c1c3c08701cfcc234b37c88fcce99b7973f34e84b4c",
+  "net1280_manifest_sha256": "86ad5bda7fd231d4f49c5f77526263b61043f1e00e95da6c49094933bdf69891",
+  "results_sha256sums_sha256": "0fa102b38c04b1629a7a32702fb083afd67e7d85f8c66391cf69ef44822358e9"
+}

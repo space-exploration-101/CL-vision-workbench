@@ -1,0 +1,913 @@
+﻿[
+  {
+    "root": "/data3/ywang/quantitize-platform",
+    "head": "b1ac5ea84e0374d9bfa2be2c9214e07e950a0a79",
+    "status": "",
+    "files": [
+      {
+        "path": "AGENTS.md",
+        "size": 1758,
+        "sha256": "f94dcf8791348e978b17fc3d034d594612af4c1a15b47aa624bcd9eb94302992",
+        "old_local_path": false
+      },
+      {
+        "path": "README.md",
+        "size": 1953,
+        "sha256": "85eb414bf82dcb642336d09db31cbaf1a2eefa5f6649e8f7a45cd7795ec7ad9b",
+        "old_local_path": false
+      },
+      {
+        "path": "tools/prepare_pose21_quant_set.py",
+        "size": 55620,
+        "sha256": "551d8ea137d927df021a08f437f0582cba621ae4f3ef5304d72af3aad4a7d638",
+        "old_local_path": false
+      },
+      {
+        "path": "tools/tests/test_prepare_pose21_quant_set.py",
+        "size": 14605,
+        "sha256": "b7f0cce957d3eb5bd75e977278da3a29a9189789355b884019d6576cb978d55d",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/CHANGELOG.md",
+        "size": 3981,
+        "sha256": "de7dce91192ace458274f86ba172e5e415526e23e6a2b794e6fe46a8476b60bd",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/GENERATE_BIN_QDQ_INCIDENT_20260918.md",
+        "size": 6270,
+        "sha256": "d347c25eac52b89fca83983d20737f83c7ca0d0ab81bc2c825e5e8f63a5cc497",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/README.md",
+        "size": 697,
+        "sha256": "65f61aaf9de63babf836a734e1139f8ccc01987396f084211823537f51b5d67f",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/WEIGHT_ONLY_QUANTIZATION_RESTORE_20260920.md",
+        "size": 5136,
+        "sha256": "f41e0f105602948ae6abaa011a1854daae3d35ed883ad2dd69a7ee4d331a2cea",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/MODEL_INPUT.md",
+        "size": 2832,
+        "sha256": "ff4d999229bff14a50d4868ba7a91d1c350f67808d4e7cfc2afd7b24816249eb",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/RECOVERY.md",
+        "size": 3423,
+        "sha256": "d58d61865a43dacd98b9c79c6baef6e7c6274295032ce497fc86618f5fdc5e38",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/CLASS21_FPGA.md",
+        "size": 3057,
+        "sha256": "7a1656b15bb99038f5672bd466498a7a74ea0fe74dea8a29c0b04bff14476153",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/PERFORMANCE.md",
+        "size": 2623,
+        "sha256": "5d54cc9630b07ead17329d3b97d27b45da59f51755cde6463c1fb82b532e281e",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/LAYER_TRACE_EXPORT.md",
+        "size": 2017,
+        "sha256": "671f90ac30ea020e31f39c346c5e3646159d5e4398cd679cd6bb471bb3a451e8",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/backup/BACKUP_CONTENTS.txt",
+        "size": 817,
+        "sha256": "7d90193d47e88d8e1790d9e6be021b699bfbafafdadad4a651fb002bf6039af5",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/backup/BACKUP_STATUS.md",
+        "size": 1149,
+        "sha256": "2bbea962f6f65a559d8465bb294fbbbf6afe3192ea2d75b5a6efa3969796e1dc",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/backup/LATEST.txt",
+        "size": 294,
+        "sha256": "47110f73ba4c5ca3f8c27910c0492deada1d4825a42bba1ce0546e9cf1589e9d",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/CONTEXT.md",
+        "size": 5235,
+        "sha256": "21357b59ad279dadb4f285c928d329817b81e4514adae96bb1620fa01d67a842",
+        "old_local_path": true
+      },
+      {
+        "path": "docs/agent/RUNBOOK.md",
+        "size": 5351,
+        "sha256": "c8fa2dd4c4280466fd9abc4c509fa113af860d1705299e90a2770e85a3b6f8af",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/verify_host.sh",
+        "size": 511,
+        "sha256": "c2de94047e46bcedbae3e7c1c1c098ab94652274f1e20e416d683a433e037c6d",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/REBUILD_GUIDE.md",
+        "size": 4154,
+        "sha256": "110b805c7b1626a81b58fac142b8f3582427401c6fc8ebff637947dda1b5c731",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/README.md",
+        "size": 1234,
+        "sha256": "dedd40d21ee3b6604747701bf4516bdf2b971aa649e67617b3ba4761b02f3301",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/verify_runtime.py",
+        "size": 2536,
+        "sha256": "a4871f16fb175e5a2b251c6cfc2d10f4af8f03dcc834aafac03bce519a92998a",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/rebuild-manifest.yml",
+        "size": 2138,
+        "sha256": "5fa9acd6cb58d4aa1ffe64bbee7f5a38f255322129147d3357b97d74a23373a1",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/snapshots/docker-compose.yml",
+        "size": 2516,
+        "sha256": "6a5528dece5ea61afdc937acd24035b2021921bbedce2635c390ce7deb843671",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/snapshots/requirements.api.original.txt",
+        "size": 67,
+        "sha256": "d29740f26898485e815ee2b98bec619d9b726ece24aff2101575e323a45d12c3",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/snapshots/requirements.web.original.txt",
+        "size": 95,
+        "sha256": "cf939aa1de494ad1935ad69f9a90bd8c5f7c81fc7b3d6b7bdf5353a5c81e0b7a",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/pip-list-linux-amd64.lock.txt",
+        "size": 2185,
+        "sha256": "ae5fc009d2a93cb915e650abf7924aa13432277d884171fc135ce34ac1e5b633",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/api-image-dpkg.txt",
+        "size": 6755,
+        "sha256": "6f27f965664aab9f8e3213a028a5f7f97ad526f3595b4bcf51064e2241c38d1e",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/pip-freeze-raw-linux-amd64.txt",
+        "size": 2855,
+        "sha256": "73efe771683ca79aaa11f196e78856d78d4d592dde5382bfe4499eda3a9245a5",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/pipeline-patches-sha256.txt",
+        "size": 6758,
+        "sha256": "b5a532dc58a00f1706428ee8d7f313b19718796f23d593aca4452b672c06be0c",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/runtime-import-versions.json",
+        "size": 681,
+        "sha256": "a91d42ab9f4a9644414cb1474c10dd0f2f24e897e436646883bfc4cd8bf07b60",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/web-image-dpkg.txt",
+        "size": 3116,
+        "sha256": "0dc393c797e142be7d7aafcb14a7060497aa52a7a4aca26a258059a1a1c1cb3a",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/source-runtime.json",
+        "size": 1839,
+        "sha256": "84f41515afee42017f6c053fc192635d0d1c5d2db4fae970eb725165ab7febe6",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/requirements.api.lock.txt",
+        "size": 68,
+        "sha256": "dbb3ea9d718415efbd1d7e4e1ca3f06ba562f08290b438c8904ec6ce82db9d1d",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/web-image-pip.lock.txt",
+        "size": 613,
+        "sha256": "fcf6d3912861a869082b4a2c518aa72d16756a7358c1960f695a1e5a69bc4c75",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/conda-explicit-linux-64.txt",
+        "size": 7808,
+        "sha256": "58438cc9c8c3ce86cce860a5e0b26c45371d61e92094d3a78ff1e92ac6d796bd",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/environment-from-history.yml",
+        "size": 208,
+        "sha256": "e3825acacbf6cc01e2c572a7417473d4e7fc8e95da28a78e4be89958baf72be2",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/environment-full-linux-64.yml",
+        "size": 5878,
+        "sha256": "478be955a05dba834c9a5c13ebc057d6bb07ef9fceb77b8e2c9a4667bbd76a49",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/api-image-apt-manual.txt",
+        "size": 1915,
+        "sha256": "5ea9c34c63755fadee7651a5a5eb7714fe830d1117b799ca6d572ef0575a9ae5",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/requirements.web.lock.txt",
+        "size": 96,
+        "sha256": "f438031d091fb141ea803da04edf1a3bad6f3ef35624d1b7aa13bb38ee35bdd2",
+        "old_local_path": false
+      },
+      {
+        "path": "deploy/README.md",
+        "size": 3279,
+        "sha256": "e8175cfde74eb568f2cd91a55b4c5ec6e38573fa4f7a67cfdbf904febbd8fc0b",
+        "old_local_path": false
+      },
+      {
+        "path": "deploy/docker-compose.yml",
+        "size": 3054,
+        "sha256": "048c119e459b37178b561bb105cd001ecb27bd2c9ea0b7867f77f49023c6b218",
+        "old_local_path": false
+      },
+      {
+        "path": "deploy/docker-compose.web.yml",
+        "size": 531,
+        "sha256": "c50e928f4c8c3e4f1555c084ad6c06653277870b038a5ece3725799dd2f610bd",
+        "old_local_path": false
+      }
+    ],
+    "excluded": [
+      ".dockerignore",
+      ".codex-backups",
+      ".git",
+      ".cursor",
+      "data",
+      ".gitattributes",
+      ".gitignore",
+      "tools/__pycache__",
+      "deploy/.env.bak-20260919-013419-gpu3-direct",
+      "deploy/.env"
+    ]
+  },
+  {
+    "root": "/data3/ywang/yolo-gray1-train",
+    "head": "c981f5b8a7a4f3c8a111c63812d0c74f5fe8b5f2",
+    "status": "",
+    "files": [
+      {
+        "path": "README.md",
+        "size": 1264,
+        "sha256": "64da7ba5a7b59b5a8dd794f456abf0dbb27b88c1229879c9fb7e91380f159001",
+        "old_local_path": false
+      },
+      {
+        "path": "run-gray1-training-smoke.sh",
+        "size": 4076,
+        "sha256": "b981d5c60ebd389a6aed63df039187198a44fecc95351eec52e04129c2e751c8",
+        "old_local_path": false
+      },
+      {
+        "path": "AGENT.md",
+        "size": 2391,
+        "sha256": "f46f948f142f353fdb1dd11b740617f0b694676891990eabca87a69193fc03fd",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/human/02_RUN_TRAINING.md",
+        "size": 4446,
+        "sha256": "dc354a4a30ce855de4dfcbab9759e01638649056c6e9521036ffca876d7ee415",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/human/04_RESTORE_ENVIRONMENT.md",
+        "size": 2958,
+        "sha256": "10de6b4e5c57a8d36dc20f7f36fd8caf56cda1cf85f60d542bc8fe31a16b6a4b",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/human/01_DATA_PREPARATION.md",
+        "size": 5412,
+        "sha256": "ce3717987a4640ee73ef070a6f342ce52e059ae6d3f2f5faf93e61dd89dcffc4",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/human/03_TRAINING_CONFIGURATION.md",
+        "size": 4559,
+        "sha256": "fceb8110cfab6eef6b64a406e077172741f515a8eb47de8085f76b05c48596ff",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/human/05_BUILD_IMAGE.md",
+        "size": 4327,
+        "sha256": "9fa34b12c0b5594ffc22c04c1891e1ba516faa2eee1b6b04d6fd1cb7baeda972",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/runtime-packages-ultralytics-8.3.98-v1.json",
+        "size": 247,
+        "sha256": "1f7fb6ecae3b42c18c9dea5b35b87d5a931f731e4175c958f6c3a61b8ee43170",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/WHERE_TO_FIND_THINGS.md",
+        "size": 1790,
+        "sha256": "b202b3cfa57b5bedbb930e5df08989f06667d09de816a446ca485f1754e5992a",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/TRAINING_INTERFACE.md",
+        "size": 2012,
+        "sha256": "a59fc972aaea9050dcbc6a775999484446bf2bb464d5af4f6f7aa48d2d4ba813",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/BACKUP_LOCATIONS.md",
+        "size": 2048,
+        "sha256": "b4318cb321429adfa9c30a7f47b0f83c12ac955b0d28323409cd36268e33b1eb",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/RELEASE_CHECKLIST.md",
+        "size": 2032,
+        "sha256": "4635718eb8338482bcc3751a8827a1dd502b756bb801edd2e3cf3c0a25ed6673",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/DATASET_CONTRACT.md",
+        "size": 1530,
+        "sha256": "a75d8476634cca1faa63eadb40e7585105a504c0b0cf6cb55d1668a1029f9210",
+        "old_local_path": false
+      }
+    ],
+    "excluded": [
+      ".dockerignore",
+      ".git",
+      "runs",
+      ".gitignore"
+    ]
+  },
+  {
+    "root": "/data3/ywang/yolo-gray1-data-pipeline",
+    "head": "f147cee93c83876348205ca268eb930010192116",
+    "status": "",
+    "files": [
+      {
+        "path": "pyproject.toml",
+        "size": 691,
+        "sha256": "65027c42c62d228bcb8723ffc4c6fbbd960d9612a3384cfcbe77133c8f71b5c9",
+        "old_local_path": false
+      },
+      {
+        "path": "README.md",
+        "size": 7861,
+        "sha256": "ecbbb22f7cd4ad26af6bbdbb1adfbbd626dfd657928099ecff4627c2d0f3428d",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent.md",
+        "size": 463,
+        "sha256": "59797eb14b1f093cf2f7badc53a3c31d19561dc0de33b6e9685e6b0ad6decded",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/CAMERA_BIN_ABI.md",
+        "size": 949,
+        "sha256": "475bb5edc6d335b0944fb22815207e490ac00894debfe34b2fe90513c1e17c95",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/RESTORE.md",
+        "size": 2341,
+        "sha256": "d3a99f2fe224e75042ae4a93f82d92047f415abe1cd2c3f625e756b97e0a52d3",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/perf_test/PERFORMANCE_REPORT.md",
+        "size": 2105,
+        "sha256": "2f1bcf1d79d9085a150fbccae155ad8665eb7a914a150c2c74fcd68ab7290de9",
+        "old_local_path": false
+      },
+      {
+        "path": "scripts/check_git_contents.py",
+        "size": 2080,
+        "sha256": "417cbab361b699f4a9ad40ae4b08cb6dece0cf96c7921b6725ffa092ce6f4220",
+        "old_local_path": false
+      },
+      {
+        "path": "configs/cam2000.yaml",
+        "size": 631,
+        "sha256": "a79b1aee1a72c7e418f7ec7abb2881adf9c4e4b80bfd549c6a188a7fd97da757",
+        "old_local_path": false
+      },
+      {
+        "path": "configs/net1280.yaml",
+        "size": 549,
+        "sha256": "c71395417c3e3fb6d86abe89ae52ba0336c8767bbd4f6a99551e04cec4588f33",
+        "old_local_path": false
+      }
+    ],
+    "excluded": [
+      ".dockerignore",
+      ".github",
+      ".git",
+      ".pytest_cache",
+      ".gitignore",
+      "docs/perf_test/experiments/data"
+    ]
+  },
+  {
+    "root": "/data3/ywang/main-worktrees/quantitize-platform",
+    "head": "d206ea6f184ca1773ce10e4c0c0b90204d07a7c0",
+    "status": "",
+    "files": [
+      {
+        "path": "AGENTS.md",
+        "size": 2308,
+        "sha256": "e46140485a2e48e6963245f49df81409bb1dab0ee878db4ee89eb1ffdd108dee",
+        "old_local_path": false
+      },
+      {
+        "path": "README.md",
+        "size": 2177,
+        "sha256": "756ad7e71b12af1bd0c8c27bf02b9c0e49623b9ea6c655cc9d32974d9c198ca6",
+        "old_local_path": false
+      },
+      {
+        "path": "tools/update_docs.py",
+        "size": 4537,
+        "sha256": "757a7f744994a33ed858c063c0a5b7e00bbe98fa9c6fb3e1753f017a6b124b63",
+        "old_local_path": false
+      },
+      {
+        "path": "tools/doc_impact.py",
+        "size": 2230,
+        "sha256": "9344fafdd2bef8d547a5f2bc4629c48bc0bdd3b89dfb52fd19738215b77946d5",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/DOCUMENTATION.md",
+        "size": 3256,
+        "sha256": "d2d80d0b1103ad0e0ff76d01fdc839b6898444cd5a4cbd435481f055e68960d1",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/AGENT_GUIDE.md",
+        "size": 5978,
+        "sha256": "dcfad03c350ad556f3bc9cf0123e2e6bf72b515c88f0c27c9af01e1baca1bf45",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/HANDOFF.md",
+        "size": 9534,
+        "sha256": "7ed0e1d91fcf68792d375b6b46fb65bed6585a020339af8f2b3130b3b180bcfa",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/GENERATE_BIN_QDQ_INCIDENT_20260918.md",
+        "size": 6270,
+        "sha256": "d347c25eac52b89fca83983d20737f83c7ca0d0ab81bc2c825e5e8f63a5cc497",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/README.md",
+        "size": 560,
+        "sha256": "2b9e0325eabd719f44f0ee55d6e6b07fa4f54c557ae0c0a727cee1784922533d",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/WEIGHT_ONLY_QUANTIZATION_RESTORE_20260920.md",
+        "size": 5136,
+        "sha256": "f41e0f105602948ae6abaa011a1854daae3d35ed883ad2dd69a7ee4d331a2cea",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/RECOVERY.md",
+        "size": 6060,
+        "sha256": "0a980ccfb98dc4114e43efb3cfbc91d9fa88c02aa6ad9173dfae982e466b9079",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/PERFORMANCE.md",
+        "size": 1606,
+        "sha256": "141c547ede135af975dcf1a96bd123ae1aaf037dc1a2de708040d9fcc49ca010",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/reference/LAYER_TRACE_EXPORT.md",
+        "size": 1953,
+        "sha256": "04a4b4628a5e7204aff789082e178cc7a04cc8e540710b0073ff90cee6ff995e",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/class-21/02_AGENT执行规格_21类模型适配.md",
+        "size": 15511,
+        "sha256": "8a7135922c8d1bb5d6c2284bcccae31691c79115374e41c3142a8c8f305a94d6",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/class-21/05_2026-09-04_FPGA网络结构对比_21类_vs_2类.md",
+        "size": 16250,
+        "sha256": "cb24455693d83b5b6c0aabec6e1d8ebb480902b0314df0ae940fb41a4ac61645",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/class-21/06_2026-09-04_H200测试21类FPGA后处理.md",
+        "size": 6431,
+        "sha256": "6dc81468a2bddc3dc52b8d33938fe6715383712e7ef0a83969be5160935ebde0",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/class-21/01_人类阅读_21类模型适配分析与计划.md",
+        "size": 20159,
+        "sha256": "f25bdbe784ab4c2f251a6e1f1658aaf9254fa77982ba1ce7ddf12d8ea715f7c3",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/status/README.md",
+        "size": 338,
+        "sha256": "2f86878b0d24234f9d71e22e7715896d785fefd8a0a7728c8a1e5a4097d9896f",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/status/CURRENT.md",
+        "size": 2612,
+        "sha256": "c1f9653aaaacee7e74c58a54415e3b654fc931255ae5130317d02c36c6449d0e",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/status/platform.json",
+        "size": 2668,
+        "sha256": "03c3e2128092640ead69cd8ed6ccccffb94a7619cb18ba0905de601de2b5512e",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/CONTEXT.md",
+        "size": 1965,
+        "sha256": "b4b9fb6f4fc4fb9e10bc0d4575a9f415b18ce279aaf09480380cdb35639fffad",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/RUNBOOK.md",
+        "size": 6764,
+        "sha256": "9fd525612932e30911b59144e093910780ad2a9ea6bd831ccb6981fdd60b95e0",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/YOLO_GRAY1_TRAINING_LEFTOVERS.md",
+        "size": 964,
+        "sha256": "d6adcda217e0d6169e3dc5894e9181b7ee9de141f3f9c0c4194f9021d7439831",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/verify_host.sh",
+        "size": 511,
+        "sha256": "c2de94047e46bcedbae3e7c1c1c098ab94652274f1e20e416d683a433e037c6d",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/REBUILD_GUIDE.md",
+        "size": 12515,
+        "sha256": "b13588ce1f69c06a0aea574f11a5c06748967b0508a469d877b90ac0e35d2e24",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/README.md",
+        "size": 2405,
+        "sha256": "9eb4fe3905f09f13049ebda6763919e5467404102975d6b8607a47de361bcc17",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/verify_runtime.py",
+        "size": 2536,
+        "sha256": "a4871f16fb175e5a2b251c6cfc2d10f4af8f03dcc834aafac03bce519a92998a",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/rebuild-manifest.yml",
+        "size": 2138,
+        "sha256": "5fa9acd6cb58d4aa1ffe64bbee7f5a38f255322129147d3357b97d74a23373a1",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/snapshots/docker-compose.yml",
+        "size": 2516,
+        "sha256": "6a5528dece5ea61afdc937acd24035b2021921bbedce2635c390ce7deb843671",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/snapshots/requirements.api.original.txt",
+        "size": 67,
+        "sha256": "d29740f26898485e815ee2b98bec619d9b726ece24aff2101575e323a45d12c3",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/snapshots/requirements.web.original.txt",
+        "size": 95,
+        "sha256": "cf939aa1de494ad1935ad69f9a90bd8c5f7c81fc7b3d6b7bdf5353a5c81e0b7a",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/pip-list-linux-amd64.lock.txt",
+        "size": 2185,
+        "sha256": "ae5fc009d2a93cb915e650abf7924aa13432277d884171fc135ce34ac1e5b633",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/api-image-dpkg.txt",
+        "size": 6755,
+        "sha256": "6f27f965664aab9f8e3213a028a5f7f97ad526f3595b4bcf51064e2241c38d1e",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/pip-freeze-raw-linux-amd64.txt",
+        "size": 2855,
+        "sha256": "73efe771683ca79aaa11f196e78856d78d4d592dde5382bfe4499eda3a9245a5",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/pipeline-patches-sha256.txt",
+        "size": 6758,
+        "sha256": "b5a532dc58a00f1706428ee8d7f313b19718796f23d593aca4452b672c06be0c",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/runtime-import-versions.json",
+        "size": 681,
+        "sha256": "a91d42ab9f4a9644414cb1474c10dd0f2f24e897e436646883bfc4cd8bf07b60",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/web-image-dpkg.txt",
+        "size": 3116,
+        "sha256": "0dc393c797e142be7d7aafcb14a7060497aa52a7a4aca26a258059a1a1c1cb3a",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/source-runtime.json",
+        "size": 1839,
+        "sha256": "84f41515afee42017f6c053fc192635d0d1c5d2db4fae970eb725165ab7febe6",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/requirements.api.lock.txt",
+        "size": 68,
+        "sha256": "dbb3ea9d718415efbd1d7e4e1ca3f06ba562f08290b438c8904ec6ce82db9d1d",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/web-image-pip.lock.txt",
+        "size": 613,
+        "sha256": "fcf6d3912861a869082b4a2c518aa72d16756a7358c1960f695a1e5a69bc4c75",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/conda-explicit-linux-64.txt",
+        "size": 7808,
+        "sha256": "58438cc9c8c3ce86cce860a5e0b26c45371d61e92094d3a78ff1e92ac6d796bd",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/environment-from-history.yml",
+        "size": 208,
+        "sha256": "e3825acacbf6cc01e2c572a7417473d4e7fc8e95da28a78e4be89958baf72be2",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/environment-full-linux-64.yml",
+        "size": 5878,
+        "sha256": "478be955a05dba834c9a5c13ebc057d6bb07ef9fceb77b8e2c9a4667bbd76a49",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/api-image-apt-manual.txt",
+        "size": 1915,
+        "sha256": "5ea9c34c63755fadee7651a5a5eb7714fe830d1117b799ca6d572ef0575a9ae5",
+        "old_local_path": false
+      },
+      {
+        "path": "rebuild/manifests/requirements.web.lock.txt",
+        "size": 96,
+        "sha256": "f438031d091fb141ea803da04edf1a3bad6f3ef35624d1b7aa13bb38ee35bdd2",
+        "old_local_path": false
+      },
+      {
+        "path": "deploy/README.md",
+        "size": 4050,
+        "sha256": "cd00ca79917839a5b565543fffeb5545687694df8160672ec0cb1e134971b75d",
+        "old_local_path": false
+      },
+      {
+        "path": "deploy/docker-compose.yml",
+        "size": 3054,
+        "sha256": "048c119e459b37178b561bb105cd001ecb27bd2c9ea0b7867f77f49023c6b218",
+        "old_local_path": false
+      },
+      {
+        "path": "deploy/docker-compose.web.yml",
+        "size": 514,
+        "sha256": "7782181472366d64a7366936e70d6c138f624415eadfe5c037e2ef66ce10b9fb",
+        "old_local_path": false
+      }
+    ],
+    "excluded": [
+      ".dockerignore",
+      ".github",
+      ".git",
+      ".cursor",
+      "data",
+      ".gitattributes",
+      ".gitignore",
+      "docs/evidence"
+    ]
+  },
+  {
+    "root": "/data3/ywang/main-worktrees/yolo-gray1-train",
+    "head": "232dfeb1229a67a4f2dd6cd8c2b173041fe7814e",
+    "status": "",
+    "files": [
+      {
+        "path": "README.md",
+        "size": 1264,
+        "sha256": "64da7ba5a7b59b5a8dd794f456abf0dbb27b88c1229879c9fb7e91380f159001",
+        "old_local_path": false
+      },
+      {
+        "path": "run-gray1-training-smoke.sh",
+        "size": 4076,
+        "sha256": "b981d5c60ebd389a6aed63df039187198a44fecc95351eec52e04129c2e751c8",
+        "old_local_path": false
+      },
+      {
+        "path": "AGENT.md",
+        "size": 2391,
+        "sha256": "f46f948f142f353fdb1dd11b740617f0b694676891990eabca87a69193fc03fd",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/human/02_RUN_TRAINING.md",
+        "size": 4446,
+        "sha256": "dc354a4a30ce855de4dfcbab9759e01638649056c6e9521036ffca876d7ee415",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/human/04_RESTORE_ENVIRONMENT.md",
+        "size": 2958,
+        "sha256": "10de6b4e5c57a8d36dc20f7f36fd8caf56cda1cf85f60d542bc8fe31a16b6a4b",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/human/01_DATA_PREPARATION.md",
+        "size": 5412,
+        "sha256": "ce3717987a4640ee73ef070a6f342ce52e059ae6d3f2f5faf93e61dd89dcffc4",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/human/03_TRAINING_CONFIGURATION.md",
+        "size": 4559,
+        "sha256": "fceb8110cfab6eef6b64a406e077172741f515a8eb47de8085f76b05c48596ff",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/human/05_BUILD_IMAGE.md",
+        "size": 4327,
+        "sha256": "9fa34b12c0b5594ffc22c04c1891e1ba516faa2eee1b6b04d6fd1cb7baeda972",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/runtime-packages-ultralytics-8.3.98-v1.json",
+        "size": 247,
+        "sha256": "1f7fb6ecae3b42c18c9dea5b35b87d5a931f731e4175c958f6c3a61b8ee43170",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/WHERE_TO_FIND_THINGS.md",
+        "size": 1790,
+        "sha256": "b202b3cfa57b5bedbb930e5df08989f06667d09de816a446ca485f1754e5992a",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/TRAINING_INTERFACE.md",
+        "size": 2012,
+        "sha256": "a59fc972aaea9050dcbc6a775999484446bf2bb464d5af4f6f7aa48d2d4ba813",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/BACKUP_LOCATIONS.md",
+        "size": 2048,
+        "sha256": "b4318cb321429adfa9c30a7f47b0f83c12ac955b0d28323409cd36268e33b1eb",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/RELEASE_CHECKLIST.md",
+        "size": 2032,
+        "sha256": "4635718eb8338482bcc3751a8827a1dd502b756bb801edd2e3cf3c0a25ed6673",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent/DATASET_CONTRACT.md",
+        "size": 1530,
+        "sha256": "a75d8476634cca1faa63eadb40e7585105a504c0b0cf6cb55d1668a1029f9210",
+        "old_local_path": false
+      }
+    ],
+    "excluded": [
+      ".dockerignore",
+      ".git",
+      ".gitignore"
+    ]
+  },
+  {
+    "root": "/data3/ywang/main-worktrees/yolo-gray1-data-pipeline",
+    "head": "f147cee93c83876348205ca268eb930010192116",
+    "status": "",
+    "files": [
+      {
+        "path": "pyproject.toml",
+        "size": 691,
+        "sha256": "65027c42c62d228bcb8723ffc4c6fbbd960d9612a3384cfcbe77133c8f71b5c9",
+        "old_local_path": false
+      },
+      {
+        "path": "README.md",
+        "size": 7861,
+        "sha256": "ecbbb22f7cd4ad26af6bbdbb1adfbbd626dfd657928099ecff4627c2d0f3428d",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/agent.md",
+        "size": 463,
+        "sha256": "59797eb14b1f093cf2f7badc53a3c31d19561dc0de33b6e9685e6b0ad6decded",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/CAMERA_BIN_ABI.md",
+        "size": 949,
+        "sha256": "475bb5edc6d335b0944fb22815207e490ac00894debfe34b2fe90513c1e17c95",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/RESTORE.md",
+        "size": 2341,
+        "sha256": "d3a99f2fe224e75042ae4a93f82d92047f415abe1cd2c3f625e756b97e0a52d3",
+        "old_local_path": false
+      },
+      {
+        "path": "docs/perf_test/PERFORMANCE_REPORT.md",
+        "size": 2105,
+        "sha256": "2f1bcf1d79d9085a150fbccae155ad8665eb7a914a150c2c74fcd68ab7290de9",
+        "old_local_path": false
+      },
+      {
+        "path": "scripts/check_git_contents.py",
+        "size": 2080,
+        "sha256": "417cbab361b699f4a9ad40ae4b08cb6dece0cf96c7921b6725ffa092ce6f4220",
+        "old_local_path": false
+      },
+      {
+        "path": "configs/cam2000.yaml",
+        "size": 631,
+        "sha256": "a79b1aee1a72c7e418f7ec7abb2881adf9c4e4b80bfd549c6a188a7fd97da757",
+        "old_local_path": false
+      },
+      {
+        "path": "configs/net1280.yaml",
+        "size": 549,
+        "sha256": "c71395417c3e3fb6d86abe89ae52ba0336c8767bbd4f6a99551e04cec4588f33",
+        "old_local_path": false
+      }
+    ],
+    "excluded": [
+      ".dockerignore",
+      ".github",
+      ".git",
+      ".gitignore"
+    ]
+  }
+]

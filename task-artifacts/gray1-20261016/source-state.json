@@ -1,0 +1,8 @@
+{
+  "built_from": "5b3caca445874b3567c0ad0b425c02c8d6c920e2",
+  "published_commit": "c981f5b8a7a4f3c8a111c63812d0c74f5fe8b5f2",
+  "remote_refs": "dd70691faa8eb276301717d3d182b624cb653d14\trefs/heads/main\nc981f5b8a7a4f3c8a111c63812d0c74f5fe8b5f2\trefs/heads/publish/h200-gray1-20261015",
+  "worktree_status_excluded_unknown_files": "?? docker/Dockerfile.predictor-chfix\n?? docker/smoke_predictor_warmup.py",
+  "archive_scope": "Tracked source and complete Git history; unknown diagnostic files excluded",
+  "image_id": "sha256:79b0086e39b83c8a3bbb76bfe2df1d8683bd443a6bef19ee7d2e69f096033635"
+}

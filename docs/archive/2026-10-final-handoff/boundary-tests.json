@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "command": "python -B tools/tests/test_check_documentation_safe.py",
+  "tests_run": 15,
+  "failures": 0,
+  "business_tests_discovered_or_run": false,
+  "coverage": ["excluded names before filesystem access", "excluded component before normalization", "workspace escape", "mocked Windows junction stops at link", "mocked symbolic file", "URL-encoded excluded path", "file URI and UNC rejection", "external URL not accessed", "exclusive-create report", "dependency report rejection", "existing dependency name rejected without target access", "duplicate anchors and fences", "collection excludes names before stat", "collection skips reparse metadata", "exact mapping does not apply to another document"],
+  "limits": "Static isolated tests; no concurrent hostile directory replacement test; no business scripts or real work fixture created."
+}

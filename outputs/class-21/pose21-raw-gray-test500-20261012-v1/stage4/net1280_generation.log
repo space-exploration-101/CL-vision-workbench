@@ -1,0 +1,29 @@
+net1280 verified 50/500
+net1280 verified 100/500
+net1280 verified 150/500
+net1280 verified 200/500
+net1280 verified 250/500
+net1280 verified 300/500
+net1280 verified 350/500
+net1280 verified 400/500
+net1280 verified 450/500
+net1280 verified 500/500
+{
+  "status": "PASS",
+  "images": 500,
+  "labels": 500,
+  "positive": 420,
+  "negative": 80,
+  "all_gt_keypoints_visible": true,
+  "shape": [
+    1280,
+    1280
+  ],
+  "dtype": "uint8",
+  "channels": 1,
+  "profile_sha256": "c71395417c3e3fb6d86abe89ae52ba0336c8767bbd4f6a99551e04cec4588f33",
+  "source_selection_sha256": "0e50a78880c7c52be9e87cbfe25620ecea4d3f053e4414343b3e1bfba91f75a1",
+  "opencv": "4.11.0",
+  "numpy": "1.26.4",
+  "elapsed_seconds": 129.254
+}

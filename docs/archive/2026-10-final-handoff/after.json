@@ -1,0 +1,40 @@
+{
+  "modified_files": [
+    {
+      "path": "README.md",
+      "before_sha256": "85a340c2b508092afdb8c0e6d5d16d2b048b0d1507ada6afc3229a7b252f75cd",
+      "after_sha256": "7085c43eb5483e0c6cca292012fb9690efe843831f3c63c6080dac945085e701"
+    },
+    {
+      "path": "docs/README.md",
+      "before_sha256": "443b8236263ba200667df10d35787574eca5a78599ce7cf39d1f8850716f3407",
+      "after_sha256": "0fbef4c6361ee5d77215777a633e066fc1cd7ead5a5ee5e8635b0d5472469d87"
+    },
+    {
+      "path": "docs/agent/tasks/DOCUMENTATION.md",
+      "before_sha256": "52581de0957963dad29d201d51212f0ff92510cb01cae2113ff305a031ea6c20",
+      "after_sha256": "740be160d8c46f234567d2bd6c77ba41726eb69e6f0eab65497df9676e946d7d"
+    },
+    {
+      "path": "docs/archive/README.md",
+      "before_sha256": "e2e9c49e21f4bc0d610851d32dfa3d67033f128595ad8bec2a2bcdb70649fc4b",
+      "after_sha256": "dda13a1623d071a3d575eaf8b0b33516de7d68c0fdeb9b87cd8fbfb9ed2d546a"
+    },
+    {
+      "path": "tools/AGENTS.md",
+      "before_sha256": "eb91041f96e8f7993f25a33e9e63b82ba159e6726bfa9106e197230af50e67a1",
+      "after_sha256": "adba2987141b6e06854b556cf74298a5a83e39fe4136d83dfc4c763c8fd388c6"
+    },
+    {
+      "path": "tools/README.md",
+      "before_sha256": "77827e2bf3167cf1218ffbcc91bcd81c8a625ac30621c58e43d72c5d6256b523",
+      "after_sha256": "6e28c8662acc2bd78a81fd25ff5cbdba768aed75a730eb7a91cbdbbd2ff1b99f"
+    }
+  ],
+  "new_maintenance_files": [
+    "tools/check_documentation_safe.py",
+    "tools/tests/test_check_documentation_safe.py"
+  ],
+  "final_audit_directory": "docs/archive/2026-10-final-handoff",
+  "moves": []
+}

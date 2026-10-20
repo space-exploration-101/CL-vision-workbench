@@ -1,0 +1,60 @@
+{
+  "modified_files": [
+    {
+      "path": "outputs/README.md",
+      "before_sha256": "c6158490e931564faefdaf043a970d85645ea1e7b057b3747058d25dfdb9e2d8",
+      "after_sha256": "5f411372680569202815d41b5f498a11f1f1e671d2b4566691dada0705a88311"
+    },
+    {
+      "path": "outputs/AGENTS.md",
+      "before_sha256": "ba48e30f58051e149926341f0281b270833a75834a4b4d8a89f5a87c92442e47",
+      "after_sha256": "15d41a4f2612c6bf386367652767397b868965e0fc4a1eacb1223679e6275571"
+    },
+    {
+      "path": "outputs/class-21/README.md",
+      "before_sha256": "ddc2c0a56eff54d0b38ac1b2cb2304e1dcc33591d0397fe991978b3d2cbfed29",
+      "after_sha256": "5f3e35dd1ac8f8c283e893412f7ae79e46640d6be09fd98b9489da67450ea03d"
+    },
+    {
+      "path": "outputs/class-21/AGENTS.md",
+      "before_sha256": "cbc6679557c15ec17d4f5fe640b58ab2e86548b87941c3a90a7ba000eaae63e2",
+      "after_sha256": "1847983b3705848e99727160bd6e635f686f8f245490dbe78041f5f51cde609c"
+    },
+    {
+      "path": "docs/class-21/reports/current/README.md",
+      "before_sha256": "213e5692d5c8b8d021d864602229eda4629c2e5230743d2bf5860b65541a3ec7",
+      "after_sha256": "05e75b2cdb6ddb2a65339f21a688ff87912e9870c479ee7c646d93f3e646e4d4"
+    }
+  ],
+  "new_files": [
+    {
+      "path": "docs/archive/2026-10-attachment-closeout/attachment-identities.json",
+      "sha256": "f401d81477d56e6bf35a17a60901e05eba01aefcb174dabab25283ba1a65828e"
+    },
+    {
+      "path": "docs/archive/2026-10-attachment-closeout/audit_stage6.py",
+      "sha256": "41fc56c17d29e929ae6ac3a5bcbd5983be9d2a5349f02ef1d6c20fc5c56c99fa"
+    },
+    {
+      "path": "docs/archive/2026-10-attachment-closeout/before.json",
+      "sha256": "58be37fef74825ad366baf4a4638656d3169f28d1ed0095e3b1f277cced27eef"
+    },
+    {
+      "path": "docs/archive/2026-10-attachment-closeout/before.zip",
+      "sha256": "77cbcf4e23442f3e73cfe7b028f6069059ca1f07af0b274fa36a70210a6e80b7"
+    },
+    {
+      "path": "docs/archive/2026-10-attachment-closeout/material-inventory.json",
+      "sha256": "d72d06365611352fc5141ed0e8d753315ad8602093260a015c12891954ab8ab2"
+    },
+    {
+      "path": "docs/archive/2026-10-attachment-closeout/README.md",
+      "sha256": "526203a069603852a539668c90d2d88fef260c4b1f1613093347009637ca8459"
+    }
+  ],
+  "generated_records": [
+    "after.json",
+    "validation.json",
+    "SHA256SUMS"
+  ]
+}

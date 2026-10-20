@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-10-20T10:37:45+08:00",
+  "scope": "Physical Windows root rename, seven active local path notices, and one H200 control-path document",
+  "local": {
+    "root": "E:\\codex\\CL-vision-workbench",
+    "old_root": "E:\\codex\\quantitize",
+    "old_root_exists": false,
+    "git_toplevel": "E:/codex/CL-vision-workbench",
+    "git_index_paths": 3396,
+    "head_exists": false,
+    "remotes": [],
+    "original_after_manifest": "docs/archive/2026-10-workbench-rename/after.json",
+    "original_manifest_hash_matches_before_edit": 8,
+    "sealed_rename_readme_sha256": "5f95774d7fcda1a019385b01865e702656c6619e7762e978dca1def8c2117a9b",
+    "changed_documents": [
+      {
+        "path": "AGENTS.md",
+        "sha256": "22e5d0b40d905dac0e437837d470f3079afb4d414706144687ce91d936171e6a"
+      },
+      {
+        "path": "README.md",
+        "sha256": "d614e447658751f9b14059cb5128f8d6e7c1bf7eb201389ff23fd478c5c321b7"
+      },
+      {
+        "path": "docs/VERSION_CONTROL.md",
+        "sha256": "1f019eeb7a496cdb60dbb9dec6df6f6e757de324733a1a98c6eb412e96de7a16"
+      },
+      {
+        "path": "docs/agent/CONTEXT.md",
+        "sha256": "c8ceee3b3aaf621129b07de0b14195ba16d9300c15780ec12b63e3dcb0ef10f3"
+      },
+      {
+        "path": "docs/agent/topics/HOSTS.md",
+        "sha256": "900d35ad5c1a72781f4241fac1a49031a38089de5edf4b7acf60814d333630a8"
+      },
+      {
+        "path": "docs/agent/topics/REPOSITORIES.md",
+        "sha256": "a2e387f34616c0620ac4e1af23e7aa04659e4f9bbeb89a574d2bca455826acbc"
+      },
+      {
+        "path": "docs/archive/README.md",
+        "sha256": "2cb578b31b3a78fc839bf171619d80611ac05b5e217b1e84d88bc1d386afd902"
+      }
+    ],
+    "completion_record": {
+      "path": "docs/archive/2026-10-workbench-rename/RENAME_COMPLETION.md",
+      "sha256": "d97dd2bd511878eeef192cc69b9c7f2c79c4c889c08bd1486c528b7a8116847f"
+    }
+  },
+  "h200": {
+    "source": "/data3/ywang/quantitize-platform/docs/agent/CONTEXT.md",
+    "before_sha256": "4eebda8816adeb21984982086f4723717e72de587485fd6142cf73b6e9d26cc1",
+    "after_sha256": "04bd4f364dc9822cba62fb5fc6e88024634e3c99fa92e4b1c924951968bb7873",
+    "rollback_copy": "/data3/ywang/documentation-backups/20261020-CL-vision-workbench/physical-rename-completion/CONTEXT.md",
+    "rollback_sha256": "4eebda8816adeb21984982086f4723717e72de587485fd6142cf73b6e9d26cc1",
+    "head": "b1ac5ea84e0374d9bfa2be2c9214e07e950a0a79",
+    "change_committed": false,
+    "partial_exists": false
+  },
+  "checks": {
+    "git_diff_check": "PASS",
+    "documentation_command": "python -B tools/check_documentation_safe.py",
+    "documentation_status": "PASS",
+    "documents": 122,
+    "active_direct_links": 665,
+    "frozen_direct_links": 213,
+    "frozen_mapped_links": 9,
+    "failures": 0,
+    "external_links_not_checked": 20
+  },
+  "limits": [
+    "No whole-tree post-rename hash audit",
+    "No GPU, NAS, service, or full H200 state check"
+  ]
+}

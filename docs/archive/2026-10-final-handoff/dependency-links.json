@@ -1,0 +1,27 @@
+[
+  {
+    "path": "outputs/fpga_content1000/node_modules",
+    "definition_unchanged": true,
+    "target_followed": false
+  },
+  {
+    "path": "outputs/fpga_full500/node_modules",
+    "definition_unchanged": true,
+    "target_followed": false
+  },
+  {
+    "path": "outputs/fpga_precision_loss/node_modules",
+    "definition_unchanged": true,
+    "target_followed": false
+  },
+  {
+    "path": "outputs/fpga_precision_wide/node_modules",
+    "definition_unchanged": true,
+    "target_followed": false
+  },
+  {
+    "path": "outputs/fpga_preview_001/node_modules",
+    "definition_unchanged": true,
+    "target_followed": false
+  }
+]

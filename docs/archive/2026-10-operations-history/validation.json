@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "baseline_files": 19,
+  "modified_files": 5,
+  "protected_originals_unchanged": 14,
+  "links": {
+    "status": "PASS",
+    "documents": 6,
+    "local_links": 89,
+    "external_links_not_checked": 0,
+    "work_links_not_accessed": 0,
+    "scope": "Five edited indexes and new historical summary; literal links and anchors, no network or package-internal rewriting.",
+    "failures": []
+  },
+  "archive_members_verified_before_editing": true,
+  "pending": "Exact move list not supplied; no physical relocation attempted."
+}

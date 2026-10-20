@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "removed_tags": [
+    "ywang/yolo-gray1-train:ultralytics-8.3.98-v1-predictor-gray1",
+    "ywang/yolo-gray1-train:ultralytics-8.3.98-v2",
+    "ywang/yolo-gray1-train:ultralytics-8.3.98-v1"
+  ],
+  "expected_old_ids": {
+    "ywang/yolo-gray1-train:ultralytics-8.3.98-v1-predictor-gray1": "sha256:edaa61047923e708db681416ed99d2d7b657a4c689d9c89f6b4dcdb549f6c68c",
+    "ywang/yolo-gray1-train:ultralytics-8.3.98-v2": "sha256:edaa61047923e708db681416ed99d2d7b657a4c689d9c89f6b4dcdb549f6c68c",
+    "ywang/yolo-gray1-train:ultralytics-8.3.98-v1": "sha256:7a291a40a004767c3d44b781545e8faeb8afe4654f4c191658292829a0959d03"
+  },
+  "remaining_tags": {},
+  "remaining_old_ids": [],
+  "command_returncode": 0,
+  "stdout": "Untagged: ywang/yolo-gray1-train:ultralytics-8.3.98-v1-predictor-gray1\nUntagged: ywang/yolo-gray1-train:ultralytics-8.3.98-v2\nDeleted: sha256:edaa61047923e708db681416ed99d2d7b657a4c689d9c89f6b4dcdb549f6c68c\nDeleted: sha256:feb15fcfa80e9d2a2e1c98528d28f89da35b916ee8d470563560ebc4d62b6d99\nDeleted: sha256:aedd0a959989bf3233d4f6549efef32c171dae9e69c145fb2e7837c77d0eac25\nUntagged: ywang/yolo-gray1-train:ultralytics-8.3.98-v1\nDeleted: sha256:7a291a40a004767c3d44b781545e8faeb8afe4654f4c191658292829a0959d03\nDeleted: sha256:0090a95fa315328219c12e01c711f8419f62b85393a4c1f3adea8e22ebb6e69e\nDeleted: sha256:5ddddad89f70487d3df18134075b9dd05fb44265c1720361fb22a39625d99cd1\nDeleted: sha256:a4ac5d1942849fa9e292322023950028c062d81660f027641292cb585373ad2e\nDeleted: sha256:e378dc8b312ad35d72b0f0fa3c813c7d037074396487866c0b45c89fd614cb17\nDeleted: sha256:2faec1c08a6277fe88c9966f72b578453d7a5ef111f6f7b0cb60b17cd5ede79b\nDeleted: sha256:82af1ff8c003258bf74b57264668d6ff02f8b5b3b92984ef840aa799aa1f46e3\n",
+  "stderr": "",
+  "services_unchanged": {
+    "/quantitize-platform-api": {
+      "id": "65c4f5b8f6970a2b93ec5ab0a76d8faeb38f27226d8585a7f5baf3360681ada6",
+      "image": "sha256:f633b01c2f85d1fd39bf01e9b9f556056d03c805529781c8879e3172412e8ed2",
+      "started": "2026-09-20T06:32:49.524279295Z"
+    },
+    "/quantitize-platform-web": {
+      "id": "f60cf6cb71373bb993ee1121ea158798f799aeb678cf2c6b26d4936d094f100d",
+      "image": "sha256:7aef48747d3fc4270f85133382ffbcf83ea0c53e831f06978ac777b48743d9e9",
+      "started": "2026-09-09T18:06:30.535591592Z"
+    }
+  },
+  "forced": false,
+  "global_prune": false
+}

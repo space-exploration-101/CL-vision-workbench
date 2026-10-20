@@ -1,0 +1,24 @@
+input_semantics: r_only_3ch
+channel_contract:
+  storage: OpenCV BGR image
+  B: 0
+  G: 0
+  R: source intensity
+geometry:
+  source_size_observed: [4096, 4096]
+  inference: letterbox
+  imgsz: 1024
+model_contract_observed:
+  task: pose
+  nc: 22
+  kpt_shape: [1, 3]
+  input_channels: 3
+proposed_inference_parameters:
+  conf: 0.25
+  nms_iou: 0.70
+  match_iou: 0.50
+  max_det: 300
+  half: false
+  augment: false
+matching: confidence_descending_greedy_same_class_iou
+execution_state: not_started_due_to_contract_mismatch

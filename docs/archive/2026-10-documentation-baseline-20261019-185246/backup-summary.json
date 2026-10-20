@@ -1,0 +1,19 @@
+{
+  "status": "VERIFIED",
+  "started_utc": "2026-10-19T10:54:58.437994+00:00",
+  "completed_utc": "2026-10-19T10:56:30.011968+00:00",
+  "source": "\\\\?\\E:\\codex\\quantitize",
+  "destination": "\\\\?\\E:\\codex\\quantitize-backups\\20261019-185246-stage2-baseline",
+  "files": 4638,
+  "directories_excluding_root": 261,
+  "links": 5,
+  "bytes": 6300390752,
+  "excluded": [
+    "work/"
+  ],
+  "kind": "Independent full ordinary-file copy; not incremental and not hard-linked to source or old backup.",
+  "link_policy": "Reparse entries are saved in links.json only. No live links or external target contents are present in content/. Restore link definitions separately after reviewing destinations.",
+  "verification": "Every ordinary file copied via .partial and read back; source and copy rehashed independently; file sets, ordinary directory sets and source link definitions stable.",
+  "limitations": "File bytes, ordinary directories, link definitions and basic timestamps are covered. ACLs, alternate data streams, external dependencies and filesystem-wide atomic snapshot semantics are not certified.",
+  "previous_backup_status": "PASS"
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "stage5_status": "COMPLETE_RETAIN_IN_PLACE",
+  "modified_files": [
+    {
+      "path": "docs/archive/README.md",
+      "before_sha256": "95c0ac0507449b0b4044764da1957ed34a22ce4b4216256c8320fc85e3f6c24f",
+      "after_sha256": "e2e9c49e21f4bc0d610851d32dfa3d67033f128595ad8bec2a2bcdb70649fc4b"
+    },
+    {
+      "path": "docs/class-21/operations/runs/README.md",
+      "before_sha256": "2e66b0deb3cfa869f02bd5877071fa5a21c9c28c98b53e7a4b20ffa55e02ca80",
+      "after_sha256": "5edab9a042a0559205bde97d33e5421f850c03fab2d44cffa878c147b2679b37"
+    }
+  ],
+  "protected_originals_unchanged": 14,
+  "prior_audit_checksums": "PASS",
+  "links": {
+    "status": "PASS",
+    "documents": 3,
+    "local_links": 43,
+    "external_links_not_checked": 0,
+    "work_links_not_accessed": 0,
+    "scope": "Two changed indexes and CLOSEOUT.md only; no network or historical-package traversal.",
+    "failures": []
+  },
+  "moves": [],
+  "pending_moves": []
+}

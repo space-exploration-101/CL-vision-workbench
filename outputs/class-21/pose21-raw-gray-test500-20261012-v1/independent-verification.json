@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "root": "/data1/ywang/pose21-raw-gray-test500-20261012-v1",
+  "checksummed_files": 2007,
+  "counts": {
+    "raw/images": 500,
+    "raw/labels": 500,
+    "gray/images": 500,
+    "gray/labels": 500
+  },
+  "opencv_pixel_checks": 500,
+  "unique_pixel_planes": 500,
+  "inventory_rows": 66006,
+  "bytes_total": 10693312285,
+  "selection_sha256": "0e50a78880c7c52be9e87cbfe25620ecea4d3f053e4414343b3e1bfba91f75a1",
+  "sha256sums_sha256": "a1c98038c09a00233ad9f455f5f35b7927f8ac0aa3f02c16d03e303c0a113eea"
+}

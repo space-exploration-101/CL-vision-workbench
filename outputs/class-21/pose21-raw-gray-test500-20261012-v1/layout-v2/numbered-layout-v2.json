@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "mapping": {
+    "metadata": "1-metadata",
+    "raw": "2-raw",
+    "gray": "3-gray",
+    "net1280": "4-net1280",
+    "results": "6-results",
+    "scripts": "7-scripts"
+  },
+  "archive": "1-metadata/layout-history-20261013.zip",
+  "archive_sha256": "6068687d20cd0b2946f109a63a1828177a859378ca4e08851a0f0c157d75d31e",
+  "checks": {
+    "baseline": 2007,
+    "net1280": 1004,
+    "pt_results": 1013,
+    "cam2000": 1005
+  },
+  "historical_selection_sha256": "0e50a78880c7c52be9e87cbfe25620ecea4d3f053e4414343b3e1bfba91f75a1",
+  "selection_sha256": "a2535bc76a52d5a62a6dfe93a42f9d4d3770498ccc09e5fb16350404ecd5fce7",
+  "net1280_manifest_sha256": "d74485090ed9ecdb88c15e91831a0d4bebf88f004cd8c586905efdd2857f8552",
+  "current_root_sha256sums_sha256": "4ff7236114ee9357d851db3149ff13aa871ad66ea1eaed25900d032def1d452f",
+  "changed_files": [
+    "1-metadata/selection.json",
+    "1-metadata/selection.csv",
+    "4-net1280/manifest.json",
+    "4-net1280/dataset.yaml",
+    "4-net1280/verification.json",
+    "4-net1280/SHA256SUMS",
+    "4-net1280/VERIFIED",
+    "SHA256SUMS",
+    "VERIFIED"
+  ],
+  "images_labels_models_predictions_unchanged": true,
+  "history_note": "Completed evaluation/camera provenance and script snapshots retain historical paths and hashes. Resolve via mapping and byte-exact history ZIP; do not rerun historical generation scripts on this published batch."
+}

@@ -1,0 +1,53 @@
+{
+  "modified_files": [
+    {
+      "path": "docs/archive/OCTOBER_CONTEXT.md",
+      "before_sha256": "258f7e901f5871c046d7194d9454424191a87d52c02f050d61e116c33969d12c",
+      "after_sha256": "580daa5ee54f02e8f5821edd03389bdad2d4652ce13eb0e9f8ab4943bd090f50"
+    },
+    {
+      "path": "docs/archive/README.md",
+      "before_sha256": "eb431004d0c1cf84ed53a83d62688b8d9d52df013c720a27871e1f3ce525294c",
+      "after_sha256": "95c0ac0507449b0b4044764da1957ed34a22ce4b4216256c8320fc85e3f6c24f"
+    },
+    {
+      "path": "docs/class-21/operations/README.md",
+      "before_sha256": "f139ecc72b6a894a23b7f12660f81a34fa55060e30862b8781726a699e548a30",
+      "after_sha256": "86c966e5e58cd3aa8b15e6bea1b50b16b96f9b0c0efacdd9bcb1ac03d7f986a2"
+    },
+    {
+      "path": "docs/class-21/operations/runs/backup/README.md",
+      "before_sha256": "ae5fbf9aa2898077c85af961306e3571d5f2e5b0c728808296aba9df9bcc27de",
+      "after_sha256": "32365ae0df9a00db3b9f6f5e48f2dfe33ecc20ebd747b07c86b98b007dddac90"
+    },
+    {
+      "path": "docs/class-21/operations/runs/README.md",
+      "before_sha256": "d3557c1c5e7cfe7ce13cac91ad77c284f69bb0036de5bf27b75a658882216ea4",
+      "after_sha256": "2e66b0deb3cfa869f02bd5877071fa5a21c9c28c98b53e7a4b20ffa55e02ca80"
+    }
+  ],
+  "new_files": [
+    {
+      "path": "docs/archive/2026-10-operations-history/audit_stage5.py",
+      "sha256": "c1defc3802a1b6035b2cde361c842e0be23ee10fe14bc1d981f5ef253d9968a2"
+    },
+    {
+      "path": "docs/archive/2026-10-operations-history/before.json",
+      "sha256": "758fe57e4a7e209e510ff8b09a5d8a87ad3a2209557021b6c53217caac1123f5"
+    },
+    {
+      "path": "docs/archive/2026-10-operations-history/before.zip",
+      "sha256": "0e2a0ea4f756989036d371698b3e8fd37d8804a15526a4c71a856e6e08b1449f"
+    },
+    {
+      "path": "docs/archive/2026-10-operations-history/README.md",
+      "sha256": "cc0a47e5875d5e3b799493ff2eefb7147d875b08a2042891e8d66d2dd03483c7"
+    }
+  ],
+  "generated_records": [
+    "after.json",
+    "validation.json",
+    "SHA256SUMS"
+  ],
+  "moves": []
+}

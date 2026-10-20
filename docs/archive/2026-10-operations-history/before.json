@@ -1,0 +1,84 @@
+{
+  "files": {
+    "docs/archive/OCTOBER_CONTEXT.md": {
+      "sha256": "258f7e901f5871c046d7194d9454424191a87d52c02f050d61e116c33969d12c",
+      "bytes": 3808
+    },
+    "docs/archive/README.md": {
+      "sha256": "eb431004d0c1cf84ed53a83d62688b8d9d52df013c720a27871e1f3ce525294c",
+      "bytes": 5775
+    },
+    "docs/class-21/operations/README.md": {
+      "sha256": "f139ecc72b6a894a23b7f12660f81a34fa55060e30862b8781726a699e548a30",
+      "bytes": 960
+    },
+    "docs/class-21/operations/runs/20261017-h200-gray1-main-integration.md": {
+      "sha256": "d065fd7f490775bdbd8b214beda848700e3089c07517cd3415c30d4cfd2ed196",
+      "bytes": 3204
+    },
+    "docs/class-21/operations/runs/20261018-h200-main-only.md": {
+      "sha256": "94115c61786ca3fbf9bfe9210c603914c23c9fa4f9049355d1ea41c4c42c4600",
+      "bytes": 2667
+    },
+    "docs/class-21/operations/runs/AGENTS.md": {
+      "sha256": "7ba15851eb6fee74a731676f3086b4df77e94a54bd186c2f12f146ad7aa84c19",
+      "bytes": 276
+    },
+    "docs/class-21/operations/runs/backup/AGENTS.md": {
+      "sha256": "17fa31e66595b1e289e3d46b2d44b1e70fb24eed908abd02ddf127cdddccc9d2",
+      "bytes": 494
+    },
+    "docs/class-21/operations/runs/backup/docker-images/20261016/completion-report.md": {
+      "sha256": "ae0361328244204c7192e3ab6b5e44aefae049a0dfe2a86d8d5bb6ed6ca13e40",
+      "bytes": 3233
+    },
+    "docs/class-21/operations/runs/backup/historical-r-only/20260925-local-data-cleanup/completion-report.md": {
+      "sha256": "fe1ab68108acbc9f1c2deb1d2e04336e8c5b417fb4f2d3aa6b16dc1aae109518",
+      "bytes": 2500
+    },
+    "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/completion-report.md": {
+      "sha256": "d42007d0c005a1078ba348438ab3d055b80ff8c99873b4ea1cbb7b84ccd63664",
+      "bytes": 4463
+    },
+    "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/nas-docs/00_恢复说明_README.md": {
+      "sha256": "ee85ce4550ff148f12864dd7d38e07f75d13fbb7e68561bfdf86bedcd0366dcf",
+      "bytes": 5901
+    },
+    "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/nas-docs/01_恢复_AGENT提示词.md": {
+      "sha256": "eea924613f183b6e208c967715f0bf8d1e1197322c6567ab0f63cc490c35dfef",
+      "bytes": 5559
+    },
+    "docs/class-21/operations/runs/backup/README.md": {
+      "sha256": "ae5fbf9aa2898077c85af961306e3571d5f2e5b0c728808296aba9df9bcc27de",
+      "bytes": 1277
+    },
+    "docs/class-21/operations/runs/image-cleanup/20261015-h200-intermediate-images/API标签整理结果.json": {
+      "sha256": "262bc132a5aa330e24b908a753eb246cf5c671387327da31e24a85801ba4ccc4",
+      "bytes": 1076
+    },
+    "docs/class-21/operations/runs/image-cleanup/20261015-h200-intermediate-images/删除前检查.json": {
+      "sha256": "a8fca9f0e2359ba3a7801defbeeb6a27c98bffe21d9b607146441f474ae14937",
+      "bytes": 63158
+    },
+    "docs/class-21/operations/runs/image-cleanup/20261015-h200-intermediate-images/删除结果.json": {
+      "sha256": "835dd9bdcabd4019051169be53bc183b08e12cd56d7de6e7c10b336797716b23",
+      "bytes": 16067
+    },
+    "docs/class-21/operations/runs/image-cleanup/20261015-h200-intermediate-images/历史API标签移除结果.json": {
+      "sha256": "85a1d62c1d449d1988004af16daa666745306c5a5820938666d5c4f8ce8d9b89",
+      "bytes": 2650
+    },
+    "docs/class-21/operations/runs/image-cleanup/20261015-h200-intermediate-images/清理完成报告.md": {
+      "sha256": "4cf5b41b7dcb865d7361701d436b8745ad266b5b7587f81e0579322300b5e90b",
+      "bytes": 3721
+    },
+    "docs/class-21/operations/runs/README.md": {
+      "sha256": "d3557c1c5e7cfe7ce13cac91ad77c284f69bb0036de5bf27b75a658882216ea4",
+      "bytes": 923
+    }
+  },
+  "prior_baseline_drift": [],
+  "archive_sha256": "0e2a0ea4f756989036d371698b3e8fd37d8804a15526a4c71a856e6e08b1449f",
+  "moves": [],
+  "disposition_limit": "No stage-5 per-file move table found; retain original packages, edit external summaries only."
+}

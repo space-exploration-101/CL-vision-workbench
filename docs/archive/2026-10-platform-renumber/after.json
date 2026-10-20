@@ -1,0 +1,243 @@
+{
+  "modified_or_moved_files": [
+    {
+      "original_path": "docs/AGENT_GUIDE.md",
+      "current_path": "docs/AGENT_GUIDE.md",
+      "before_sha256": "84737e2ccb99d4a6ffe586f40ea1194858fa1867c7e7d49d89913e6c38e1e6fe",
+      "after_sha256": "abd471388c4f374347105ba6a6fbcb98b11ca6af4c9d6463e74ac061ee7c16f8"
+    },
+    {
+      "original_path": "docs/HANDOFF.md",
+      "current_path": "docs/HANDOFF.md",
+      "before_sha256": "577ef40dfd77a7e4a1aa93f5907a2c8ce2a2905ba689c27a743931d70f0cbade",
+      "after_sha256": "5b5461c95d9d78d043b389637e4fa4e700227a3767c30293453f2f46bba49777"
+    },
+    {
+      "original_path": "docs/README.md",
+      "current_path": "docs/README.md",
+      "before_sha256": "0fbef4c6361ee5d77215777a633e066fc1cd7ead5a5ee5e8635b0d5472469d87",
+      "after_sha256": "b99cc76033afa0e6a2024d9735a3ec9d66b33af9c020b2d1ddfeaf1ae5434915"
+    },
+    {
+      "original_path": "docs/agent/CONTEXT.md",
+      "current_path": "docs/agent/CONTEXT.md",
+      "before_sha256": "2f7a3e905f5dc4a1e59ba58c14ca8c7892aaa82e52f03591ce33435aa5a927ce",
+      "after_sha256": "6e1965f7baf01a6bce4003525368ae658a019516bbe9aa1eda8b6e671b18cb13"
+    },
+    {
+      "original_path": "docs/agent/tasks/BACKUP.md",
+      "current_path": "docs/agent/tasks/BACKUP.md",
+      "before_sha256": "a7cfa47b9f270167d3c562b9c7e7638e441846b852ac8a6b0d18fb2f7856ed2e",
+      "after_sha256": "f624e1b33173be3fa9b19d8bd2b2cdd6988a906767ce258a58f217927dc364bc"
+    },
+    {
+      "original_path": "docs/agent/tasks/SERVICE.md",
+      "current_path": "docs/agent/tasks/SERVICE.md",
+      "before_sha256": "66b0808c08bfbd35401927ad0cf8f3cdbf465bc74c229236edd63f2b199e0e3c",
+      "after_sha256": "40d295c7f07ad8d2c5564b6382bd4d4674ef6d194f50a22e4f6f696f69b577e0"
+    },
+    {
+      "original_path": "docs/agent/topics/BACKUPS.md",
+      "current_path": "docs/agent/topics/BACKUPS.md",
+      "before_sha256": "374f43128f6d710fb2f9a491cd8f6b65ce9024b1e83d5cae9de28eae6bb0249d",
+      "after_sha256": "549db13e8d40cf99fefc11f3b0cffadb89ba00825b23ebd237a60df7b005153c"
+    },
+    {
+      "original_path": "docs/agent/topics/REPOSITORIES.md",
+      "current_path": "docs/agent/topics/REPOSITORIES.md",
+      "before_sha256": "f89c9605eaf10fd0360443034e66ec30dc80a837baa945c427a8065f60217932",
+      "after_sha256": "bbd728e53a7861766e4a0c3590f31e3f9b66640005d330201b90be90a0b9b53a"
+    },
+    {
+      "original_path": "docs/class-21/README.md",
+      "current_path": "docs/class-21/README.md",
+      "before_sha256": "3575b78d0f4607d73efef607c7eb76e3f6eeb7742f9027c7ee157bbf2e7efc53",
+      "after_sha256": "af44543438c5451283c95629b85018bbc3ef388e2eea5d4b0b5d0f36971ce22b"
+    },
+    {
+      "original_path": "docs/class-21/knowledge/03_训练评估量化与FPGA流程.md",
+      "current_path": "docs/class-21/knowledge/03_训练评估量化与FPGA流程.md",
+      "before_sha256": "916b7c238dfd1b219da4a8733c218e038518f6d85e83c63448ca1519a34e188e",
+      "after_sha256": "8bffe98dcf2ed2042fac84d8362ce25980a1f9e7184b64f0731b7d609c550875"
+    },
+    {
+      "original_path": "docs/class-21/knowledge/AGENTS.md",
+      "current_path": "docs/class-21/knowledge/AGENTS.md",
+      "before_sha256": "3dd4d217cdcf192c0217b9f14a33ae6aca17c11ef7a50fa5b23d14113b5a5d6f",
+      "after_sha256": "f81dd0970388c40372142ec4fe2df1f9058be584f4a3eea67620da8941db25df"
+    },
+    {
+      "original_path": "docs/class-21/knowledge/README.md",
+      "current_path": "docs/class-21/knowledge/README.md",
+      "before_sha256": "719e500332b3bf26ce7eb1244d8fdecf2b24503d0a18827a85bd64c9a412c108",
+      "after_sha256": "1a4469d6dc23f4ad8aa582bd8b3700f6a3557448a66c84803fe95ba98b9384c9"
+    },
+    {
+      "original_path": "docs/class-21/operations/README.md",
+      "current_path": "docs/class-21/operations/README.md",
+      "before_sha256": "86c966e5e58cd3aa8b15e6bea1b50b16b96f9b0c0efacdd9bcb1ac03d7f986a2",
+      "after_sha256": "d99981465cbbb64260ab42d79c5e3bfc7ab77e1b6f514de070b2904d8febc809"
+    },
+    {
+      "original_path": "docs/class-21/operations/prompts/21类Gray1_NAS归档与恢复资料精简_AGENT提示词.md",
+      "current_path": "docs/class-21/operations/prompts/21类Gray1_NAS归档与恢复资料精简_AGENT提示词.md",
+      "before_sha256": "6fffb393e8c54b3c7dbf5d30bc0c6008473ee7bf3190daeea3dfe765c7f8f25c",
+      "after_sha256": "2e39fad9802074bb436b37ba7034cef2ffe9e791d8f24731f120f02a058f8aca"
+    },
+    {
+      "original_path": "docs/class-21/operations/prompts/README.md",
+      "current_path": "docs/class-21/operations/prompts/README.md",
+      "before_sha256": "7b922b92f4001e665308bd93e130ce091c4cb044c52cb3c597ee125f4860a03d",
+      "after_sha256": "50dcf32e2d98bf727a012475874428797f412380fcda7a08b934918450720545"
+    },
+    {
+      "original_path": "docs/class-21/operations/runs/backup/AGENTS.md",
+      "current_path": "docs/class-21/operations/runs/backup/AGENTS.md",
+      "before_sha256": "17fa31e66595b1e289e3d46b2d44b1e70fb24eed908abd02ddf127cdddccc9d2",
+      "after_sha256": "dc70e85c4e89e795b8661cb9139e9f2f0679ae0c4b9a1f74233d402e03c2ff92"
+    },
+    {
+      "original_path": "docs/class-21/operations/runs/backup/README.md",
+      "current_path": "docs/class-21/operations/runs/backup/README.md",
+      "before_sha256": "32365ae0df9a00db3b9f6f5e48f2dfe33ecc20ebd747b07c86b98b007dddac90",
+      "after_sha256": "7f7c6eae6f9195bb35400c9f1eed6e5750684264009ea3a2e499e21db379b369"
+    },
+    {
+      "original_path": "docs/operations/README.md",
+      "current_path": "docs/operations/README.md",
+      "before_sha256": "0fb41645d1aa48334975f00f2cf1d86dd6f4a355ca2278af92d5c579f8cc5b1d",
+      "after_sha256": "5464fff3974f46540c339df0eaa3f7cc41ec7a2bc909330f131abe63ab4d9320"
+    },
+    {
+      "original_path": "docs/platform/04_NAS备份与环境恢复.md",
+      "current_path": "docs/platform/01_NAS备份与环境恢复.md",
+      "before_sha256": "24d57a4d9207fe446b1830a0de4ea4c60ff85d6a046f47239ad4e37a32fbc929",
+      "after_sha256": "08f837f358bb25d01382b7a8899bbd7765a44ac4d773765fc83d9f6fb2a5f1d2"
+    },
+    {
+      "original_path": "docs/platform/05_H200训练测试推理与量化运行环境.md",
+      "current_path": "docs/platform/02_H200训练测试推理与量化运行环境.md",
+      "before_sha256": "92017597470b6240f2e2f539ca54ec3e2d1fdede60b47f9153348c0cf320e1d4",
+      "after_sha256": "f4fabbcbe7f509964a85c49d550a4bdd101c2726a9209841544dd32636c76dfa"
+    },
+    {
+      "original_path": "docs/platform/06_5090训练测试推理与量化运行环境.md",
+      "current_path": "docs/platform/03_5090训练测试推理与量化运行环境.md",
+      "before_sha256": "8b36a7e57348312aae04cd13ca54ecffeef4c8607fbc20a04b9fa52cb3bfd6c4",
+      "after_sha256": "479abfe13934b26692f0816f48c8543dc74d48c7dae8c3901271d196c0465b54"
+    },
+    {
+      "original_path": "docs/platform/AGENTS.md",
+      "current_path": "docs/platform/AGENTS.md",
+      "before_sha256": "9f02a9470b5e7c54b700bd65d4170d372935deae457b3ffd8ccf8d640aafea57",
+      "after_sha256": "d59b0a3f1cf85abdafa9b447c7b58353aef3c9c4446cab1249aa76bcc0f545f6"
+    },
+    {
+      "original_path": "docs/platform/OPEN_QUESTIONS.md",
+      "current_path": "docs/platform/OPEN_QUESTIONS.md",
+      "before_sha256": "8c9ac8d439e1fb6d09539e04e12ef86c4a1e007e1d819894ff39470037acb6a5",
+      "after_sha256": "6f3fdc7f1b47a7e27f0dacdaeeab3a74d18ac4050683eaba21d17b19819a7d01"
+    },
+    {
+      "original_path": "docs/platform/README.md",
+      "current_path": "docs/platform/README.md",
+      "before_sha256": "208378fd9cad16fb93eec1f4fb863b3434968c594c1b613d35e033eab2f40590",
+      "after_sha256": "015eeca78f83d6465d7adaca05ff51806148f44883694a94ed62b0988955f65f"
+    },
+    {
+      "original_path": "docs/platform/SOURCES.md",
+      "current_path": "docs/platform/SOURCES.md",
+      "before_sha256": "04f2b54b8cdd2cef8764adbe1ca1ae76d3a9714edf4afe0969369e0542a7cf07",
+      "after_sha256": "a28a551b75607072ebd8852c9d87d1f084754073d1477f44c9fee8d203281b99"
+    },
+    {
+      "original_path": "docs/reference/PERFORMANCE.md",
+      "current_path": "docs/reference/PERFORMANCE.md",
+      "before_sha256": "5f1778f56aeaed6e06fcf1a7786c433f6ca7137e72fb91145ab479d05115ef06",
+      "after_sha256": "cc5c7310532ea01fd226b3cab3473f08824cffe88c624e51ada142dae52e3984"
+    },
+    {
+      "original_path": "docs/reference/README.md",
+      "current_path": "docs/reference/README.md",
+      "before_sha256": "033ad87ceba649065fd714e188b1b3e1e742890b2c50b8203d8b78446a448e40",
+      "after_sha256": "12ce59e647a4f8e1955efb93c234b9a284cec00a3367bc4a32ddea779e31a4e2"
+    },
+    {
+      "original_path": "docs/reference/RECOVERY.md",
+      "current_path": "docs/reference/RECOVERY.md",
+      "before_sha256": "8d44b96b3d9e20f753c842b73704d7e9b31abcf5e57c5dc8436fee6d0a7a402a",
+      "after_sha256": "0b202b64fbd046c7c35d88a73cd5c33ebcf82a7ae6d29cf4930e93d31c03eb80"
+    },
+    {
+      "original_path": "docs/reference/backup/README.md",
+      "current_path": "docs/reference/backup/README.md",
+      "before_sha256": "8a1e293a69c683d98b37e21e56574dbd87d6f05a270348039ac9abf8a47ab35d",
+      "after_sha256": "0d571cf739870042809a666fb2a38d8291ce4e9087b9ad1dda01062d739c36be"
+    },
+    {
+      "original_path": "rebuild/AGENTS.md",
+      "current_path": "rebuild/AGENTS.md",
+      "before_sha256": "a4d90790e75910a1731c71725bedf273bd8e9f543e0307108c7f454adc8d8545",
+      "after_sha256": "c6804c6c6a237337ce6afcf0db2d25762a81570dedcd736f0b39ff0d0365089f"
+    },
+    {
+      "original_path": "rebuild/CURRENT_STATE.md",
+      "current_path": "rebuild/CURRENT_STATE.md",
+      "before_sha256": "22d0ae944c29a28501d31865307b8073308307d26d837187cbe745f10d978983",
+      "after_sha256": "643259e5450e2bae44bacdb6e5c3818ab87ccb539325a845d0dc31880f8a9ed8"
+    },
+    {
+      "original_path": "rebuild/README.md",
+      "current_path": "rebuild/README.md",
+      "before_sha256": "a23edd17be9f78b01c2a78ed42428b1edf73277bf538ba07a7a86edd0498d3c5",
+      "after_sha256": "e2b8fed768ee2951172584ddf8d112cde49a91091a7f267fd275e7d7f6415baf"
+    },
+    {
+      "original_path": "rebuild/REBUILD_GUIDE.md",
+      "current_path": "rebuild/REBUILD_GUIDE.md",
+      "before_sha256": "40515dbd77884b1be7641c37b30ea85c53da9d23ea795a9ba2f2e8f7fb47afa2",
+      "after_sha256": "37f6c19b244191e7120c24bdeeeee3e1f1ff59e308921c19fe8703c8f395ced3"
+    },
+    {
+      "original_path": "rebuild/rebuild-manifest.yml",
+      "current_path": "rebuild/rebuild-manifest.yml",
+      "before_sha256": "de117b090409b9b59364010d226a70f5c6633b085fb0ec51a7cac0f6d680a51a",
+      "after_sha256": "b81ddf1ba58573fc2090c5332703ac230fc44510cce8acb8ccf1f86ee490a013"
+    },
+    {
+      "original_path": "task-artifacts/README.md",
+      "current_path": "task-artifacts/README.md",
+      "before_sha256": "b6e7d4b4baa14de1de47a172069088799bc2bf1c0aa46b973aa00a83555d328a",
+      "after_sha256": "a779c0a84878ed5c751bb93b849a505d61c9cee72e9283c3a255614a2bf51918"
+    },
+    {
+      "original_path": "tools/README.md",
+      "current_path": "tools/README.md",
+      "before_sha256": "6e28c8662acc2bd78a81fd25ff5cbdba768aed75a730eb7a91cbdbbd2ff1b99f",
+      "after_sha256": "2899537858fe8fd4f1030d043631b903c78879cdedac8acadc138cae68a10635"
+    },
+    {
+      "original_path": "tools/check_documentation_safe.py",
+      "current_path": "tools/check_documentation_safe.py",
+      "before_sha256": "c3ba43bc390f71b53307fa78788a5d778b69b63546ecf425c4e733e254ec4c07",
+      "after_sha256": "cd5ff1a1d52a53fe79931c6945327ee62a23cb8d4166b8422acdfd5d42c65e4d"
+    },
+    {
+      "original_path": "tools/tests/test_check_documentation_safe.py",
+      "current_path": "tools/tests/test_check_documentation_safe.py",
+      "before_sha256": "1a34f8d96f5e8570688209c7e1a56d999f1b3c17be724997d14938d24df2f90f",
+      "after_sha256": "1c55b5dbe75cff3046e32a43fa450b2357cd1c4460a937ed0f31bff68eefcf1b"
+    }
+  ],
+  "moves": {
+    "docs/platform/04_NAS备份与环境恢复.md": "docs/platform/01_NAS备份与环境恢复.md",
+    "docs/platform/05_H200训练测试推理与量化运行环境.md": "docs/platform/02_H200训练测试推理与量化运行环境.md",
+    "docs/platform/06_5090训练测试推理与量化运行环境.md": "docs/platform/03_5090训练测试推理与量化运行环境.md"
+  },
+  "new_checksum": {
+    "path": "rebuild/SHA256SUMS.20261020-platform-renumber",
+    "sha256": "7d3950a2d1d3dfcfa3afb373fa75d5b2fcbf26a2e187f7642b4bad6f4c57c4de"
+  },
+  "protected_unchanged": 51,
+  "platform_bodies_only_reference_and_number_changes": true
+}

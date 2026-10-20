@@ -1,0 +1,18 @@
+{
+  "image": "yolo-gray1:1280-train-predict-20261016",
+  "image_id": "sha256:79b0086e39b83c8a3bbb76bfe2df1d8683bd443a6bef19ee7d2e69f096033635",
+  "archive": "yolo-gray1_1280-train-predict-20261016.tar",
+  "archive_sha256": "ae6a9919c3204990af34f06918739d3ea97454560d43962365c1c14243d0ccb1",
+  "archive_bytes": 11364463104,
+  "runtime_sha256": "e1e2f5eb38d40ab81c8075ef45624da04d24420e42807f78c5e9f8903e8af683",
+  "runtime_bytes": 5344887926,
+  "checks": [
+    "TAR manifest",
+    "image config SHA-256",
+    "all layer diff IDs",
+    "runtime gzip integrity",
+    "NAS full-file reread SHA-256",
+    "docker load from NAS"
+  ],
+  "clean_room_restore": false
+}

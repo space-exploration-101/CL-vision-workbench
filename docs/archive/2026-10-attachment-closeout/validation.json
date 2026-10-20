@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "prior_manifest_checksums": "PASS",
+  "migrated_files_unchanged": 2826,
+  "original_report_files_unchanged": 3,
+  "material_files_unchanged": 64,
+  "dependency_links_not_followed": 5,
+  "links": {
+    "status": "PASS",
+    "documents": 9,
+    "local_links": 127,
+    "external_links_not_checked": 1,
+    "work_links_not_accessed": 0,
+    "scope": "Five outer documents, three current reports and stage-6 README; literal active links, no package traversal or network.",
+    "failures": []
+  },
+  "frozen_link_mapping": {
+    "document": "outputs/class-21/FPGA_logs/README.md",
+    "literal_target": "outputs/class-21/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+    "mapped_target": "docs/class-21/reports/current/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md"
+  },
+  "moves": []
+}

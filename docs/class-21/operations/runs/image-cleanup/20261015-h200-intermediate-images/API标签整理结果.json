@@ -1,0 +1,40 @@
+{
+  "time": "2026-10-15T14:33:53.472262+08:00",
+  "image_id": "sha256:f633b01c2f85d1fd39bf01e9b9f556056d03c805529781c8879e3172412e8ed2",
+  "before_tags": [
+    "quantitize-platform-api:latest",
+    "quantitize-platform-api:weight-only-20260920"
+  ],
+  "after_tags": [
+    "quantitize-platform-api:latest"
+  ],
+  "docker_output": "Untagged: quantitize-platform-api:weight-only-20260920\n",
+  "container_id": "65c4f5b8f6970a2b93ec5ab0a76d8faeb38f27226d8585a7f5baf3360681ada6",
+  "started_at_unchanged": true,
+  "container_health": "healthy",
+  "health": {
+    "http://127.0.0.1:8000/health": {
+      "status": 200,
+      "body": {
+        "ok": true,
+        "busy": false,
+        "worker_status": "idle",
+        "current_job": null
+      }
+    },
+    "http://127.0.0.1:8088/health": {
+      "status": 200,
+      "body": {
+        "web": "ok",
+        "demo": false,
+        "api": {
+          "ok": true,
+          "busy": false,
+          "worker_status": "idle",
+          "current_job": null
+        },
+        "api_base": "http://quantitize-api:8000"
+      }
+    }
+  }
+}

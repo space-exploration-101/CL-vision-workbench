@@ -1,0 +1,38 @@
+{
+  "files": {
+    "outputs/README.md": {
+      "sha256": "c6158490e931564faefdaf043a970d85645ea1e7b057b3747058d25dfdb9e2d8",
+      "bytes": 1558
+    },
+    "outputs/AGENTS.md": {
+      "sha256": "ba48e30f58051e149926341f0281b270833a75834a4b4d8a89f5a87c92442e47",
+      "bytes": 501
+    },
+    "outputs/class-21/README.md": {
+      "sha256": "ddc2c0a56eff54d0b38ac1b2cb2304e1dcc33591d0397fe991978b3d2cbfed29",
+      "bytes": 2707
+    },
+    "outputs/class-21/AGENTS.md": {
+      "sha256": "cbc6679557c15ec17d4f5fe640b58ab2e86548b87941c3a90a7ba000eaae63e2",
+      "bytes": 532
+    },
+    "docs/class-21/reports/current/README.md": {
+      "sha256": "213e5692d5c8b8d021d864602229eda4629c2e5230743d2bf5860b65541a3ec7",
+      "bytes": 1502
+    },
+    "docs/class-21/reports/current/20260920_Pose21_Gray1_训练测试标定与量化完整报告.md": {
+      "sha256": "cee6a059e6e937699cc8c916af447c733b5681411e1343ac6499d2953c56fecf",
+      "bytes": 26116
+    },
+    "docs/class-21/reports/current/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md": {
+      "sha256": "f8295383f2dfb14b8046e947440167135f2232b8352b318c5cddfd994e836f02",
+      "bytes": 31525
+    },
+    "docs/class-21/reports/current/20261012_Pose21_500张原始测试集生成与测试记录.md": {
+      "sha256": "0fca1c25fdbb799fe1adad8a74c3d3f7d8cf6296bf0ea1328cad63a07725a294",
+      "bytes": 50978
+    }
+  },
+  "drift": [],
+  "archive_sha256": "77cbcf4e23442f3e73cfe7b028f6069059ca1f07af0b274fa36a70210a6e80b7"
+}

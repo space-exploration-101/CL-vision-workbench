@@ -1,0 +1,17 @@
+{
+  "job_root": "/home/rs/wrs/onnxviewe/quantitize-platform/data/output_data/20260903_1040_class21_best_fp16_eval",
+  "job_id": "20260903_1040_class21_best_fp16_eval",
+  "onnx_name": "class21_best",
+  "display_name": "class21_best_fp16_eval",
+  "nc": 21,
+  "imgsz": 1280,
+  "conf": 0.25,
+  "iou": 0.7,
+  "max_det": 300,
+  "min_test_images": 84,
+  "min_cali_images": 400,
+  "cali_dataset_id": "",
+  "test_dataset_id": "",
+  "preprocess_mode": "grayscale_r_channel",
+  "use_scratch": false
+}

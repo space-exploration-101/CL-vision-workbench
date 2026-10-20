@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "original_archive": "before-relocation-documents.zip",
+  "original_document_count": 108,
+  "modified_files": [
+    {
+      "original_path": "AGENTS.md",
+      "current_path": "AGENTS.md",
+      "before_sha256": "c806b9bf15fedc4b1f88a434e35eab7f08a2aec481ddccf85da35b340b6901ca",
+      "after_sha256": "2f9b11a1b2e70fcf432caf9ab603fe04a25637d1adf28be58ab5342e1c3ed47b"
+    },
+    {
+      "original_path": "docs/agent/CONTEXT.md",
+      "current_path": "docs/agent/CONTEXT.md",
+      "before_sha256": "3bde34f9aab6d1c29f700afcc9f7799bf97e0f095d9789593c018b1cac301447",
+      "after_sha256": "f32acd1526955bfed4c47284d03a58a30ec4c4a485fe128757f704bbf1bc2005"
+    },
+    {
+      "original_path": "docs/AGENTS.md",
+      "current_path": "docs/AGENTS.md",
+      "before_sha256": "6305be59d4a8f1d8816a1a6b73e69fb1e2af07f9c5af4340d4d035303a3155d3",
+      "after_sha256": "be3778c9253fa5d69ffbfa1aa06e75d38beaae6810f2cb7f3ad5a08d40091fee"
+    },
+    {
+      "original_path": "docs/archive/README.md",
+      "current_path": "docs/archive/README.md",
+      "before_sha256": "e435e72248a398a5c7d02fc1fed3fe08d3f627aca641ebcb7b6ac26bc7bb8a2a",
+      "after_sha256": "9d01edd90176173ab9889b91c4eec421c7fcc01b0b6ecc38a5c0eed14191a094"
+    },
+    {
+      "original_path": "docs/archive/SEPTEMBER_CONTEXT.md",
+      "current_path": "docs/archive/SEPTEMBER_CONTEXT.md",
+      "before_sha256": "13fe8728c7973a6630ec5e164c9c7e9c430c467014bb5b127db686b0f10ca2a0",
+      "after_sha256": "d38a15ad5379d049953cf830a927a30b37efce30e10eb01eec0078748001404b"
+    },
+    {
+      "original_path": "docs/class-21/AGENTS.md",
+      "current_path": "docs/class-21/AGENTS.md",
+      "before_sha256": "3dbdd406761ac59e7a344a0d9cb32497b009327a8d4ebd8e13a1262cd229789d",
+      "after_sha256": "113b7a88fe8a67bb1103c0d04d8bcc643b9215ac0d746701f8c05bcd21fba526"
+    },
+    {
+      "original_path": "docs/class-21/README.md",
+      "current_path": "docs/class-21/README.md",
+      "before_sha256": "75eba08814b3c5b9201b874b08bd818acce09bdd0de702d0bacfa569dc5cd595",
+      "after_sha256": "f22342c50177a39bdd94e0e67b8827f87a29815ed9e21bd06860fc43cb8a353d"
+    },
+    {
+      "original_path": "docs/class-21/reports/AGENTS.md",
+      "current_path": "docs/class-21/reports/AGENTS.md",
+      "before_sha256": "a92a32d79bc64c2cf530618da31b4501617f4cd0f8f3eb19d65d411034901544",
+      "after_sha256": "83cdad9eb0a58083a0bf3e562fbe876a022a91b4ee567af33ba4f9931cdb50b2"
+    },
+    {
+      "original_path": "docs/class-21/reports/current/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+      "current_path": "docs/class-21/reports/current/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+      "before_sha256": "f8e5cbc12315a3e5c4aaff908f52eb74805696fbec52fc079a9c8f816806f840",
+      "after_sha256": "6bbec5cf3ee3ab6a37c02a6dbce052ff299ad0b20a910ae59e647d6b81b5163b"
+    },
+    {
+      "original_path": "docs/class-21/reports/current/20261012_Pose21_500张原始测试集生成与测试记录.md",
+      "current_path": "docs/class-21/reports/current/20261012_Pose21_500张原始测试集生成与测试记录.md",
+      "before_sha256": "a47e8c7f820c23c3dac6929444a44f2a7ed4c281d21e254b3cf74a0056420674",
+      "after_sha256": "9aba41dfca041447829cebd7b89988d0ea5d2295044baffcf88a1fb3a5708824"
+    },
+    {
+      "original_path": "docs/class-21/reports/current/README.md",
+      "current_path": "docs/class-21/reports/current/README.md",
+      "before_sha256": "efd5f8925402731b5fb70a61469d42ef2196a9d9dacfd1726fc33c684f346990",
+      "after_sha256": "5f9643ddfa37e0ee99c2a3c4d1fa00236392b8208fef89f1ab55cfdf4bf97199"
+    },
+    {
+      "original_path": "docs/class-21/reports/history/AGENTS.md",
+      "current_path": "docs/archive/2026-09-class21-transition/AGENTS.md",
+      "before_sha256": "2f1ca2d82f615e80f642e25662b824d1ca860bdbcd46d3c4005126d170d4e080",
+      "after_sha256": "4eadc282d3606b9224016584713397241ff23fd973939cb80b90c78d74fad341"
+    },
+    {
+      "original_path": "docs/class-21/reports/history/HISTORICAL_TRANSITION_EXPERIMENTS.md",
+      "current_path": "docs/archive/2026-09-class21-transition/HISTORICAL_TRANSITION_EXPERIMENTS.md",
+      "before_sha256": "a3fa8a5c35e49dcc75bd2b351e0e4cdee5089d7c4efb62e3b7ac638e4eee2888",
+      "after_sha256": "93aba8469573d6d5e9dcf831206bfd7f5e63c47562001ef70f9388bf4c8fcb7e"
+    },
+    {
+      "original_path": "docs/class-21/reports/history/README.md",
+      "current_path": "docs/archive/2026-09-class21-transition/README.md",
+      "before_sha256": "fe746646f9a534407b9b985ea68f6190445db4982eb797f935186175d309b7e7",
+      "after_sha256": "19bd8795f5bb9eb3385f4613a76aa3709cf0902fa0b592c3537893a9e93a1dac"
+    },
+    {
+      "original_path": "docs/class-21/reports/output/AGENTS.md",
+      "current_path": "outputs/class-21/AGENTS.md",
+      "before_sha256": "c7c0ca431891c7c9bcf02fda351fa32b7343c69d1efd015804b50ba2ad9fe360",
+      "after_sha256": "cbc6679557c15ec17d4f5fe640b58ab2e86548b87941c3a90a7ba000eaae63e2"
+    },
+    {
+      "original_path": "docs/class-21/reports/output/README.md",
+      "current_path": "outputs/class-21/README.md",
+      "before_sha256": "daaef7c8c4a595c019fa0beb3c799b63f032ce5a73b8752503f05b3f8c9ddf5c",
+      "after_sha256": "13c8edfa68abcbf610c39c537fb57bf5eb1798a377719feeaef1a7c5657fa023"
+    },
+    {
+      "original_path": "docs/class-21/reports/README.md",
+      "current_path": "docs/class-21/reports/README.md",
+      "before_sha256": "a8910e7f82042e6eab100414ed42b5339a275890b329597642f9f3e957c84034",
+      "after_sha256": "f580f4fb7452da2b3bc8ebfbe6caea3873b0ba33f14e03294973f9490dc66192"
+    },
+    {
+      "original_path": "docs/HANDOFF.md",
+      "current_path": "docs/HANDOFF.md",
+      "before_sha256": "0ece730f7c1b10b98d7a1c8f1bf2c9ecec860c2eeebfe8a78866d258178332ec",
+      "after_sha256": "74179ed6e71f6672be45c67294adcc93562ab7926915287b53375f8e05976316"
+    },
+    {
+      "original_path": "docs/README.md",
+      "current_path": "docs/README.md",
+      "before_sha256": "5e27f1b92cb17abeb23d3f6c274b2df1db59554f4eeb60fbe4603d01a2b4caaa",
+      "after_sha256": "8b49431b0a18672364abfc633d7824d56faf54edf857ac1a62ec15b17fb5de49"
+    },
+    {
+      "original_path": "outputs/AGENTS.md",
+      "current_path": "outputs/AGENTS.md",
+      "before_sha256": "37a748d440bfd6eaba97aaf69d833c6175aa82ba8c239b0796c4a6d82cb699f0",
+      "after_sha256": "ba48e30f58051e149926341f0281b270833a75834a4b4d8a89f5a87c92442e47"
+    },
+    {
+      "original_path": "outputs/README.md",
+      "current_path": "outputs/README.md",
+      "before_sha256": "ab40ef21909f96ceab6317ce2de62a3c7840b317ea7c79194247762972b20a76",
+      "after_sha256": "5833aeaa0256a508da776031d0e3985d38b5b6d66e2c7ac8f097900b929dc872"
+    },
+    {
+      "original_path": "README.md",
+      "current_path": "README.md",
+      "before_sha256": "3aecb701667b0bf6833f334257f8dea8623113d399c3fe555408681df1b8de97",
+      "after_sha256": "5b8b78eed100c10079b0c3febaffb5ff19421776be287b6782b5b7ef5031442f"
+    },
+    {
+      "original_path": "tools/check_documentation.py",
+      "current_path": "tools/check_documentation.py",
+      "before_sha256": "c1c45b4c2b6380cd13810d76598221a2da4a1ce7382c6eb375aae43a1c89f9ff",
+      "after_sha256": "03cbcb6ade6d4f26fd0f41f25da52e7345abb90d3ccb2e1787404e5f66e1b630"
+    }
+  ],
+  "new_document_paths": [
+    "docs/archive/2026-10-artifact-relocation/README.md",
+    "docs/archive/2026-10-artifact-relocation/AGENTS.md"
+  ],
+  "report_content_checks": [
+    {
+      "path": "docs/class-21/reports/current/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+      "status": "PASS",
+      "check": "Only the specified local path replacements; experimental text and numerical results unchanged."
+    },
+    {
+      "path": "docs/class-21/reports/current/20261012_Pose21_500张原始测试集生成与测试记录.md",
+      "status": "PASS",
+      "check": "Only the specified local path replacements; experimental text and numerical results unchanged."
+    },
+    {
+      "path": "docs/archive/2026-09-class21-transition/HISTORICAL_TRANSITION_EXPERIMENTS.md",
+      "status": "PASS",
+      "check": "Only the specified local path replacements; experimental text and numerical results unchanged."
+    }
+  ],
+  "checker_python_syntax": "PASS"
+}

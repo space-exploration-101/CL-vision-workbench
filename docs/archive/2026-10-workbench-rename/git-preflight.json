@@ -1,0 +1,7 @@
+{
+  "candidates": 3384,
+  "bytes": 5068884420,
+  "text_files_scanned": 1399,
+  "potential_secrets": [],
+  "limits": "Pattern scan only; binary and large data contents and archive members not inspected. Not a release/privacy certification. No remote push."
+}

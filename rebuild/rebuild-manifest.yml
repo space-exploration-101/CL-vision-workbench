@@ -1,0 +1,20 @@
+schema: quantitize-recovery-index/v4
+document_updated_at: "2026-10-19"
+live_rechecked_during_documentation_update: false
+status_summary: PARTIAL
+evidence_dates:
+  images_and_backups: "2026-10-16"
+  source_worktrees: "2026-10-18"
+purpose: navigation_only_not_an_install_or_asset_manifest
+sources:
+  ownership: ../docs/platform/SOURCES.md
+  assets_and_recovery_gaps: ../docs/platform/01_NAS备份与环境恢复.md
+  runtime_and_build_materials: ../docs/platform/02_H200训练测试推理与量化运行环境.md
+  repositories: ../docs/agent/topics/REPOSITORIES.md
+  unresolved_evidence: ../docs/platform/OPEN_QUESTIONS.md
+routes:
+  everyday_operations: ../docs/operations/README.md
+  recovery_method: ../docs/reference/RECOVERY.md
+  rebuild_steps: REBUILD_GUIDE.md
+historical_materials: legacy/README.md
+local_checksum: SHA256SUMS.20261020-platform-renumber

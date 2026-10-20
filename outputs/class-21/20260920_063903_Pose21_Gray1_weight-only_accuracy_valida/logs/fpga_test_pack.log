@@ -1,0 +1,13 @@
+$ /opt/ywang/yolo-runtime/bin/python3.12 /home/rs/wrs/onnxviewe/quantitize-platform/pipeline/runner/04_generate_fpga_test_pack.py --job-dir /home/rs/wrs/onnxviewe/quantitize-platform/data/output_data/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida
+cwd=/home/rs/wrs/onnxviewe/quantitize-platform/pipeline/runner
+  converted 50/462
+  converted 100/462
+  converted 150/462
+  converted 200/462
+  converted 250/462
+  converted 300/462
+  converted 350/462
+  converted 400/462
+  converted 450/462
+  converted 462/462
+fpga_test_pack 已生成: /scratch/quantitize/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/fpga_test_pack (462 张, workers=8)

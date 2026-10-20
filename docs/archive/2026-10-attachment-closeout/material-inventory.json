@@ -1,0 +1,411 @@
+[
+  {
+    "path": "outputs/fpga_content1000/audit.json",
+    "kind": "regular_file",
+    "bytes": 1440609,
+    "sha256": "8adb3f334de8505e15170517ffd4258290d31e7c78dca8a081a0288d5325d413"
+  },
+  {
+    "path": "outputs/fpga_content1000/before_publish.xlsx",
+    "kind": "regular_file",
+    "bytes": 867314,
+    "sha256": "5f2211f3e6bb23e599c3dd6bb47eafc7e7c7be25c67d1e75075b4086098b1e5b"
+  },
+  {
+    "path": "outputs/fpga_content1000/build.mjs",
+    "kind": "regular_file",
+    "bytes": 11337,
+    "sha256": "413275f0805228a51f8e731512c785ba78a833d0b7142e1626356f4ca0b1feaa"
+  },
+  {
+    "path": "outputs/fpga_content1000/Ground_Truth.png",
+    "kind": "regular_file",
+    "bytes": 57299,
+    "sha256": "2cfc036de9230f78b04e362cc0b08733b7f6efbca8aae6c7fc2dcb87be9e3d56"
+  },
+  {
+    "path": "outputs/fpga_content1000/input.xlsx",
+    "kind": "regular_file",
+    "bytes": 187395,
+    "sha256": "562821c7f1770c5d632e7de8aca4016511dbd9fac47cb0b8505c3e96bfe9a3db"
+  },
+  {
+    "path": "outputs/fpga_content1000/node_modules",
+    "kind": "dependency_link_not_followed",
+    "attributes": 1040
+  },
+  {
+    "path": "outputs/fpga_content1000/Onnx.png",
+    "kind": "regular_file",
+    "bytes": 53376,
+    "sha256": "37affec7f5e67bbc41a262b05cac4fb19804719c870f729bc7f566a5c4b72b99"
+  },
+  {
+    "path": "outputs/fpga_content1000/original.xlsx",
+    "kind": "regular_file",
+    "bytes": 867314,
+    "sha256": "5f2211f3e6bb23e599c3dd6bb47eafc7e7c7be25c67d1e75075b4086098b1e5b"
+  },
+  {
+    "path": "outputs/fpga_content1000/Precision_Loss.png",
+    "kind": "regular_file",
+    "bytes": 38594,
+    "sha256": "399215676a2b7238d15a95607cb982e6f35a8f515eb5d30e23ad3660883cd4cb"
+  },
+  {
+    "path": "outputs/fpga_content1000/prepare.py",
+    "kind": "regular_file",
+    "bytes": 811,
+    "sha256": "92e0a086bb2fd02dba2f0701e8528ecdbad216669c816eac06cc731cf1b39fbf"
+  },
+  {
+    "path": "outputs/fpga_content1000/verify.py",
+    "kind": "regular_file",
+    "bytes": 7099,
+    "sha256": "5eda9e0e0c4dc2c041ce92c408af45ebae775d0bf2b0643cd72cd8e8f6819825"
+  },
+  {
+    "path": "outputs/fpga_full500/build.mjs",
+    "kind": "regular_file",
+    "bytes": 8349,
+    "sha256": "d0eaeb872dd1d45c9f47ed0618630cabd826f33ba0f016bc699574cfd42bc8f0"
+  },
+  {
+    "path": "outputs/fpga_full500/csv_update.json",
+    "kind": "regular_file",
+    "bytes": 139812,
+    "sha256": "ca99436b14941bab92f11015722c6a1053faa1dec92b7ded29290c304ce6f9d7"
+  },
+  {
+    "path": "outputs/fpga_full500/FPGA.png",
+    "kind": "regular_file",
+    "bytes": 54857,
+    "sha256": "74d912aa74ddb6cbee2d1968c8ebd003ab6c0820f8ca5646b04dffded9a75b83"
+  },
+  {
+    "path": "outputs/fpga_full500/Ground_Truth.png",
+    "kind": "regular_file",
+    "bytes": 50927,
+    "sha256": "8071bc8f9e388a94a100efcba00fa55890910d2970e3ce1775f8a1eff96a3c9c"
+  },
+  {
+    "path": "outputs/fpga_full500/node_modules",
+    "kind": "dependency_link_not_followed",
+    "attributes": 1040
+  },
+  {
+    "path": "outputs/fpga_full500/Onnx.png",
+    "kind": "regular_file",
+    "bytes": 45093,
+    "sha256": "a2106a854861852926fb5c2d949c49c23f16267bc8f6995e0cf7a666fd3b85a2"
+  },
+  {
+    "path": "outputs/fpga_full500/PT.png",
+    "kind": "regular_file",
+    "bytes": 53633,
+    "sha256": "2d7adfa59f8000e70b43d83200c508442ecab7ced60eef8b954b84a46f3b3951"
+  },
+  {
+    "path": "outputs/fpga_full500/verification.json",
+    "kind": "regular_file",
+    "bytes": 693389,
+    "sha256": "55389166142d508c20b0008c51b327b7d9de488b6b45c8e64b62fe8733306e4b"
+  },
+  {
+    "path": "outputs/fpga_gt_anchored/add_classification.py",
+    "kind": "regular_file",
+    "bytes": 4901,
+    "sha256": "26f37abdeb8f03b91e64cbaa91a558de5d167d36cadbef286e5412e8ef4f02e5"
+  },
+  {
+    "path": "outputs/fpga_gt_anchored/analyze.py",
+    "kind": "regular_file",
+    "bytes": 4750,
+    "sha256": "fda8810997f7769dc91568897d0936563f7ce28b5ce740dd8701d894decdddc2"
+  },
+  {
+    "path": "outputs/fpga_gt_anchored/build_report.py",
+    "kind": "regular_file",
+    "bytes": 7059,
+    "sha256": "d7339609d9102d3dfe3ef8cc9d35ef0da11ddc0ec240de24d9cafab240b95812"
+  },
+  {
+    "path": "outputs/fpga_gt_anchored/classification_counts.json",
+    "kind": "regular_file",
+    "bytes": 967,
+    "sha256": "57ea42f0c42e17aa021ae53abf7ccb2d7421f439cc1d2ec7ba8180f63429eb76"
+  },
+  {
+    "path": "outputs/fpga_gt_anchored/original_report.md",
+    "kind": "regular_file",
+    "bytes": 51513,
+    "sha256": "c53da847766a8902d57d8bb8d73f3d99060925523938e649cea9a554e8a87312"
+  },
+  {
+    "path": "outputs/fpga_gt_anchored/section.md",
+    "kind": "regular_file",
+    "bytes": 5627,
+    "sha256": "f2887cce0da2abf1847addad20d73ffb55d7a50d5fed9507f21573aaeed02c8a"
+  },
+  {
+    "path": "outputs/fpga_gt_anchored/statistics.json",
+    "kind": "regular_file",
+    "bytes": 853907,
+    "sha256": "028ce904bf129ab769f89d70079e6346c340ce3349ca7d165f32114bb3baa166"
+  },
+  {
+    "path": "outputs/fpga_gt_anchored/verify.py",
+    "kind": "regular_file",
+    "bytes": 5247,
+    "sha256": "7e3942104e14431e1ff6d6719548a7d5eed40716967a6347cfc5449226702dcd"
+  },
+  {
+    "path": "outputs/fpga_pixel_statistics/analyze.py",
+    "kind": "regular_file",
+    "bytes": 8354,
+    "sha256": "bce6d91e13f3aa0927ac344dd36332687c9bfe5a0144c0f1974c6b6e3edeb8ef"
+  },
+  {
+    "path": "outputs/fpga_pixel_statistics/build_report.py",
+    "kind": "regular_file",
+    "bytes": 10586,
+    "sha256": "e62effb848c28804ac2e92655cd5982cabaafd66947a814cb29a4eb0e88edacc"
+  },
+  {
+    "path": "outputs/fpga_pixel_statistics/report_original.md",
+    "kind": "regular_file",
+    "bytes": 40948,
+    "sha256": "65d60394dd98bc33361580b92a3fdab3b48ddbeaf1c82f2532da4ea8b321b92f"
+  },
+  {
+    "path": "outputs/fpga_pixel_statistics/section.md",
+    "kind": "regular_file",
+    "bytes": 25431,
+    "sha256": "be0943aa02de7b88fae1350e14346faea432cf5045359aea8c8101ae2ffcf1fe"
+  },
+  {
+    "path": "outputs/fpga_pixel_statistics/statistics.json",
+    "kind": "regular_file",
+    "bytes": 404662,
+    "sha256": "6094869792e0b371b899b45af49e9a829f3653734e7e46c6b9c8f077c32793eb"
+  },
+  {
+    "path": "outputs/fpga_pixel_statistics/tail_statistics.json",
+    "kind": "regular_file",
+    "bytes": 6372,
+    "sha256": "8dc51b8f13c16feb42efd6b8035403459f361b26dd409e58ecc386e378875e6a"
+  },
+  {
+    "path": "outputs/fpga_pixel_statistics/update_tail_report.py",
+    "kind": "regular_file",
+    "bytes": 6692,
+    "sha256": "551500f6f98b18ab27284c916c356390c55eacbe26b31fe8ee026ac874ab08c2"
+  },
+  {
+    "path": "outputs/fpga_precision_loss/audit.json",
+    "kind": "regular_file",
+    "bytes": 1980547,
+    "sha256": "ec607c5f92e39caf04efdc1814b455391453154b2902a498b72c435b1a3a2cc3"
+  },
+  {
+    "path": "outputs/fpga_precision_loss/before_FPGA.png",
+    "kind": "regular_file",
+    "bytes": 54915,
+    "sha256": "70cc91a73807ec86f7f6b39587a0e09940332d38a0e6bb1c12bf21b227606314"
+  },
+  {
+    "path": "outputs/fpga_precision_loss/before_publish.xlsx",
+    "kind": "regular_file",
+    "bytes": 238481,
+    "sha256": "6c53700ed5baee46552b2cedb9979b189ba28fef94aa6b3fd58141340435a58d"
+  },
+  {
+    "path": "outputs/fpga_precision_loss/build.mjs",
+    "kind": "regular_file",
+    "bytes": 10590,
+    "sha256": "9cd6fa659b0782183719207aeabbfadc7058089bd34d1201a13f21a4f8984c5b"
+  },
+  {
+    "path": "outputs/fpga_precision_loss/node_modules",
+    "kind": "dependency_link_not_followed",
+    "attributes": 1040
+  },
+  {
+    "path": "outputs/fpga_precision_loss/original.xlsx",
+    "kind": "regular_file",
+    "bytes": 238481,
+    "sha256": "6c53700ed5baee46552b2cedb9979b189ba28fef94aa6b3fd58141340435a58d"
+  },
+  {
+    "path": "outputs/fpga_precision_loss/Precision_Loss.png",
+    "kind": "regular_file",
+    "bytes": 128500,
+    "sha256": "f3fa02b8c0972dff1afe32874a59280ae508d42404fdc12ed026ea932710e570"
+  },
+  {
+    "path": "outputs/fpga_precision_loss/Precision_Loss_metrics.png",
+    "kind": "regular_file",
+    "bytes": 43286,
+    "sha256": "8088fba1ddbd9b70210479ba5b3a15b6c4ad01747ebb46a7ad49f619a4dd8ae8"
+  },
+  {
+    "path": "outputs/fpga_precision_loss/verify.py",
+    "kind": "regular_file",
+    "bytes": 7424,
+    "sha256": "ea8b6f4a2a4f9c298915788d6c9810e1c1f53ff28b725db89ad5da7abfc0521a"
+  },
+  {
+    "path": "outputs/fpga_precision_wide/audit.json",
+    "kind": "regular_file",
+    "bytes": 1400486,
+    "sha256": "b0e305348b9874b2a6458f49ac4624c3e593b97a515d5d78fbc3cc81c07be968"
+  },
+  {
+    "path": "outputs/fpga_precision_wide/before.png",
+    "kind": "regular_file",
+    "bytes": 68331,
+    "sha256": "0bedf1060de41f81344b6249590f9db3ef9cd40e8eebb7dae74e52f801c22779"
+  },
+  {
+    "path": "outputs/fpga_precision_wide/before_publish.xlsx",
+    "kind": "regular_file",
+    "bytes": 779147,
+    "sha256": "1c655877c40c5c4e39ee79ac71bda977187daab5fd2a5d8e4f1f993861899713"
+  },
+  {
+    "path": "outputs/fpga_precision_wide/build.mjs",
+    "kind": "regular_file",
+    "bytes": 7782,
+    "sha256": "677693a25f1ef735f88119024a1d54e97df2e27f14c55404230408e246f84b3a"
+  },
+  {
+    "path": "outputs/fpga_precision_wide/expanded_formulas.json",
+    "kind": "regular_file",
+    "bytes": 983692,
+    "sha256": "a47fdfb7f8f2d1196dd1c0dcdeff2595d65d162e348da203c548f49735e57b1b"
+  },
+  {
+    "path": "outputs/fpga_precision_wide/GT_FPGA.png",
+    "kind": "regular_file",
+    "bytes": 46821,
+    "sha256": "dc60161579879780376b6957d6eb28622cd288d1a503242d1da4753ddf956139"
+  },
+  {
+    "path": "outputs/fpga_precision_wide/GT_ONNX.png",
+    "kind": "regular_file",
+    "bytes": 49929,
+    "sha256": "c8767aa19c5b3dba68a51ccee5412e30829cc0351a68eced95d6aad0580906de"
+  },
+  {
+    "path": "outputs/fpga_precision_wide/GT_PT.png",
+    "kind": "regular_file",
+    "bytes": 50238,
+    "sha256": "356752f0d99ce8ec5119c11f49f6332ad4bfbdfa04551ec5ea6c4680135a09e8"
+  },
+  {
+    "path": "outputs/fpga_precision_wide/input_values.xlsx",
+    "kind": "regular_file",
+    "bytes": 455835,
+    "sha256": "92ae2ce48da795f260a9093110d0b08f023f9fe5b738eef5fc2c05a2092d77ba"
+  },
+  {
+    "path": "outputs/fpga_precision_wide/node_modules",
+    "kind": "dependency_link_not_followed",
+    "attributes": 1040
+  },
+  {
+    "path": "outputs/fpga_precision_wide/ONNX_FPGA.png",
+    "kind": "regular_file",
+    "bytes": 44260,
+    "sha256": "c352ed5673766a38657d5a0fca19df49e079e3256e647f0da5add17c80b60332"
+  },
+  {
+    "path": "outputs/fpga_precision_wide/original.xlsx",
+    "kind": "regular_file",
+    "bytes": 779147,
+    "sha256": "1c655877c40c5c4e39ee79ac71bda977187daab5fd2a5d8e4f1f993861899713"
+  },
+  {
+    "path": "outputs/fpga_precision_wide/prepare.py",
+    "kind": "regular_file",
+    "bytes": 2862,
+    "sha256": "830131ad68b9e1c78281cc30951cde7b80a9d475d653b49b73c2205923d59884"
+  },
+  {
+    "path": "outputs/fpga_precision_wide/PT_ONNX.png",
+    "kind": "regular_file",
+    "bytes": 59245,
+    "sha256": "0b7c1db162b00fd051bf2633700c4fd3e487ad0e6633825b04ef689ccc8f3510"
+  },
+  {
+    "path": "outputs/fpga_precision_wide/verify.py",
+    "kind": "regular_file",
+    "bytes": 3329,
+    "sha256": "ca9941269724f56cc7be6f6df6d20a40260a26b7e603224aa0f353e1c482040a"
+  },
+  {
+    "path": "outputs/fpga_preview_001/build.mjs",
+    "kind": "regular_file",
+    "bytes": 8646,
+    "sha256": "acc0243d197e3eee5e4e1604c1b0668f5eee9d4cbb21bd9717b70c53d35060c7"
+  },
+  {
+    "path": "outputs/fpga_preview_001/FPGA.png",
+    "kind": "regular_file",
+    "bytes": 72434,
+    "sha256": "022de9dd1e6b44ce7272e1de18ef26ce7776b059301fe8060eeee99a4ca8f48a"
+  },
+  {
+    "path": "outputs/fpga_preview_001/Ground_Truth.png",
+    "kind": "regular_file",
+    "bytes": 63588,
+    "sha256": "4a8818393848d7d6e7988c62338507295c980a59ee431c163832e267f801428a"
+  },
+  {
+    "path": "outputs/fpga_preview_001/node_modules",
+    "kind": "dependency_link_not_followed",
+    "attributes": 1040
+  },
+  {
+    "path": "outputs/fpga_preview_001/Onnx.png",
+    "kind": "regular_file",
+    "bytes": 74445,
+    "sha256": "fb60c7aecea226bd8ce8adb1c7f1d81e5b443e4806a2f42a3934989e777599c7"
+  },
+  {
+    "path": "outputs/fpga_preview_001/PT.png",
+    "kind": "regular_file",
+    "bytes": 78890,
+    "sha256": "820bce9d9f2eafe5dc535bc5890e209eea0c5e89ba936e9ffec0b299e0ecaee0"
+  },
+  {
+    "path": "outputs/fpga_stage_statistics/analyze.py",
+    "kind": "regular_file",
+    "bytes": 7002,
+    "sha256": "7fdad2785d92efd9ef131d18c9cff06883fbce917b1d702caac1069f56add7dd"
+  },
+  {
+    "path": "outputs/fpga_stage_statistics/build_report.py",
+    "kind": "regular_file",
+    "bytes": 7696,
+    "sha256": "403049d805f2d932ad8debaa5a92d3725460f230863e5224d3ee33216640df3c"
+  },
+  {
+    "path": "outputs/fpga_stage_statistics/original_report.md",
+    "kind": "regular_file",
+    "bytes": 53831,
+    "sha256": "aeb73f889674f4b5c2a90321ecadec5b804b9b0146ed1348314abcce35e2e972"
+  },
+  {
+    "path": "outputs/fpga_stage_statistics/section.md",
+    "kind": "regular_file",
+    "bytes": 6130,
+    "sha256": "e0f5c67fbd40b0c71cca33c17469b765c640c435daa35ef60c5014d76572ba6c"
+  },
+  {
+    "path": "outputs/fpga_stage_statistics/statistics.json",
+    "kind": "regular_file",
+    "bytes": 426183,
+    "sha256": "1351d5b3f7c4d40136494117ba86430053ccca812a4a09e39d5a74bdb82a5575"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "job_root": "/home/rs/wrs/onnxviewe/quantitize-platform/data/output_data/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida",
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "model_pt_bytes": 199108106,
+    "cali_count": 462,
+    "test_image_count": 462,
+    "cali_test_overlap_count": 0,
+    "test_label_paired": 462,
+    "test_image_without_label": 0,
+    "test_label_without_image": 0,
+    "class_counts_in_labels": {
+      "0": 18,
+      "1": 18,
+      "2": 18,
+      "3": 18,
+      "4": 18,
+      "5": 18,
+      "6": 18,
+      "7": 18,
+      "8": 18,
+      "9": 18,
+      "10": 18,
+      "11": 18,
+      "12": 18,
+      "13": 18,
+      "14": 18,
+      "15": 18,
+      "16": 18,
+      "17": 18,
+      "18": 18,
+      "19": 18,
+      "20": 18
+    },
+    "image_sizes_sample": [
+      [
+        1280,
+        1280
+      ]
+    ],
+    "grayscale_sample_ok": 30,
+    "grayscale_sample_warn": 0,
+    "nc": 21,
+    "class_names": {
+      "0": "aus",
+      "1": "lka",
+      "2": "shmeo",
+      "3": "taihu",
+      "4": "vict",
+      "5": "moon"
+    }
+  }
+}

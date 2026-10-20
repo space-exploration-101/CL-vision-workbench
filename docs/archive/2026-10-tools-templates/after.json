@@ -1,0 +1,87 @@
+{
+  "modified_files": [
+    {
+      "path": "docs/agent/AGENTS.md",
+      "before_sha256": "444216ca6252060713b548f98b70dbcc53bf340539266ea24347c49ae64b411c",
+      "after_sha256": "fb09219cb256c04e8e10285769e44c4d8a009b6ae07f930ce057f5a98798695b"
+    },
+    {
+      "path": "docs/agent/RUNBOOK.md",
+      "before_sha256": "a939d227f665a175d796ebe0767ecab53716d8966b1d8929d282b35233917625",
+      "after_sha256": "d7cbf9451a32751053aef2e41463dc256790991b46572e0c48da501cfed988f1"
+    },
+    {
+      "path": "docs/agent/tasks/README.md",
+      "before_sha256": "30688a2d307bb2c108158104cb81f738e821f6ac0f2418fd5b399f479b714229",
+      "after_sha256": "3b49f750d746f330564ebb5fce4a484dba024f9612744ab8f7741858ce3fa578"
+    },
+    {
+      "path": "docs/AGENT_GUIDE.md",
+      "before_sha256": "3686a01f23de23be7370e724a90d5ba9fbc09dd12f7135109ccaef0bce5fa2e2",
+      "after_sha256": "84737e2ccb99d4a6ffe586f40ea1194858fa1867c7e7d49d89913e6c38e1e6fe"
+    },
+    {
+      "path": "docs/archive/README.md",
+      "before_sha256": "e6ed9eefeeb418ecf624b0c9c047c11cc1ad5a74282b1599e5f67c69aca2bbc3",
+      "after_sha256": "eb431004d0c1cf84ed53a83d62688b8d9d52df013c720a27871e1f3ce525294c"
+    },
+    {
+      "path": "docs/class-21/operations/prompts/21类Gray1_NAS归档与恢复资料精简_AGENT提示词.md",
+      "before_sha256": "7828e2d0f23c8e5a544d4f140c4200f113867c9f3df2e09fabc41f86bf0f729e",
+      "after_sha256": "6fffb393e8c54b3c7dbf5d30bc0c6008473ee7bf3190daeea3dfe765c7f8f25c"
+    },
+    {
+      "path": "docs/class-21/operations/prompts/README.md",
+      "before_sha256": "b7afd5e1749ce5bbb531a0b5862a3b7903c6fc629f792939820c3ba3d90f4f84",
+      "after_sha256": "7b922b92f4001e665308bd93e130ce091c4cb044c52cb3c597ee125f4860a03d"
+    },
+    {
+      "path": "docs/class-21/operations/README.md",
+      "before_sha256": "114644717afe1b2b6006849f82bd86ff7144e58bdf0efc1647f2b5f37f7bf391",
+      "after_sha256": "f139ecc72b6a894a23b7f12660f81a34fa55060e30862b8781726a699e548a30"
+    },
+    {
+      "path": "docs/class-21/operations/tools/README.md",
+      "before_sha256": "401f91a3ebdcd18e746939a698a600f88012b685cf55260db6c24b978dbd481d",
+      "after_sha256": "5008ea762270049dd9c1c89a7af1be8adf0e33429607f579c08ebe5c13b1e69f"
+    },
+    {
+      "path": "docs/operations/README.md",
+      "before_sha256": "31ec3dcf67a9a6525aa4ff7897f275e6e8bf3df3e01f7ed5227860458e083a36",
+      "after_sha256": "0fb41645d1aa48334975f00f2cf1d86dd6f4a355ca2278af92d5c579f8cc5b1d"
+    },
+    {
+      "path": "tools/AGENTS.md",
+      "before_sha256": "dcd7f1f2277bd5e0524dc9b97cf0d48edb8cc3980b4595a00b020ff222b2676f",
+      "after_sha256": "eb91041f96e8f7993f25a33e9e63b82ba159e6726bfa9106e197230af50e67a1"
+    },
+    {
+      "path": "tools/README.md",
+      "before_sha256": "870e1673d3359790fdd77ceb4fa80aec72a822b5f5ae8c9533d68ec23f2c7583",
+      "after_sha256": "77827e2bf3167cf1218ffbcc91bcd81c8a625ac30621c58e43d72c5d6256b523"
+    }
+  ],
+  "new_files": [
+    {
+      "path": "docs/archive/2026-10-tools-templates/audit_stage4.py",
+      "sha256": "ae771eb774c674bc8df9caa4e35e8cb9fdcfbcb78b756f7e87eca7bb98ad946d"
+    },
+    {
+      "path": "docs/archive/2026-10-tools-templates/before.json",
+      "sha256": "5fb9b310f7de715bfddb8cfdae17694f1df81e794f4820f9d5cedd527fcabb8c"
+    },
+    {
+      "path": "docs/archive/2026-10-tools-templates/before.zip",
+      "sha256": "ef3d377631e9f72354e7c598d373116b08ff312afc0842ba3bc1b27131940928"
+    },
+    {
+      "path": "docs/archive/2026-10-tools-templates/README.md",
+      "sha256": "1efea0bc3728680579296c841c4c9ba3dd6701c270a7ea54ed6c01dae340c682"
+    }
+  ],
+  "generated_records": [
+    "after.json",
+    "validation.json",
+    "SHA256SUMS"
+  ]
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "path": "README.md",
+    "size": 3767,
+    "sha256": "7085c43eb5483e0c6cca292012fb9690efe843831f3c63c6080dac945085e701",
+    "host": "Windows"
+  },
+  {
+    "path": "AGENTS.md",
+    "size": 3359,
+    "sha256": "2f9b11a1b2e70fcf432caf9ab603fe04a25637d1adf28be58ab5342e1c3ed47b",
+    "host": "Windows"
+  },
+  {
+    "path": "docs/agent/CONTEXT.md",
+    "size": 1885,
+    "sha256": "6e1965f7baf01a6bce4003525368ae658a019516bbe9aa1eda8b6e671b18cb13",
+    "host": "Windows"
+  },
+  {
+    "path": "docs/agent/RUNBOOK.md",
+    "size": 1806,
+    "sha256": "d7cbf9451a32751053aef2e41463dc256790991b46572e0c48da501cfed988f1",
+    "host": "Windows"
+  },
+  {
+    "path": "docs/agent/topics/HOSTS.md",
+    "size": 1715,
+    "sha256": "998d727bfe0d396293c187415de1813a40767809c84fb40b3695f0ccbf4be1e0",
+    "host": "Windows"
+  },
+  {
+    "path": "docs/agent/topics/REPOSITORIES.md",
+    "size": 1657,
+    "sha256": "bbd728e53a7861766e4a0c3590f31e3f9b66640005d330201b90be90a0b9b53a",
+    "host": "Windows"
+  },
+  {
+    "path": "docs/platform/01_NAS备份与环境恢复.md",
+    "size": 29330,
+    "sha256": "08f837f358bb25d01382b7a8899bbd7765a44ac4d773765fc83d9f6fb2a5f1d2",
+    "host": "Windows"
+  },
+  {
+    "path": "docs/archive/README.md",
+    "size": 6756,
+    "sha256": "dda13a1623d071a3d575eaf8b0b33516de7d68c0fdeb9b87cd8fbfb9ed2d546a",
+    "host": "Windows"
+  },
+  {
+    "path": "outputs/README.md",
+    "size": 4631,
+    "sha256": "5f411372680569202815d41b5f498a11f1f1e671d2b4566691dada0705a88311",
+    "host": "Windows"
+  },
+  {
+    "path": "h200/CONTEXT.md",
+    "source": "/data3/ywang/quantitize-platform/docs/agent/CONTEXT.md",
+    "size": 5235,
+    "sha256": "21357b59ad279dadb4f285c928d329817b81e4514adae96bb1620fa01d67a842",
+    "host": "H200"
+  }
+]

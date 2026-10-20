@@ -1,0 +1,2576 @@
+{
+  "created_at": "2026-09-09T05:42:14.797246+00:00",
+  "derived_image_bytes": 796191897,
+  "derived_label_bytes": 6830,
+  "experiment_id": "20260909_133719_gray1_smoke96",
+  "input_contract": {
+    "channels": 1,
+    "conversion": "exact RGB R-channel extraction; G/B verified zero",
+    "derived_png_mode": "L",
+    "imgsz": 1280,
+    "input_semantics": "gray1",
+    "kpt_shape": [
+      2,
+      3
+    ],
+    "nc": 21
+  },
+  "projected_source_image_bytes": 1219878249,
+  "projected_source_label_bytes": 6830,
+  "records": [
+    {
+      "background": true,
+      "class_ids": [],
+      "class_names": [],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/agaier_526_view_05.png",
+      "derived_image_sha256": "ce68715612b8a671858388f38595af7d23662b710cda3bc587a9444631aa5024",
+      "derived_image_size_bytes": 16060652,
+      "derived_label": "labels/test/agaier_526_view_05.txt",
+      "derived_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_label_size_bytes": 0,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/agaier_526_view_05.png",
+      "source_image_sha256": "4824d4154cd9d193db9bcf24dd47dbc17d93b9da89dbbf4644e8931b52fffba7",
+      "source_image_size_bytes": 22224677,
+      "source_label": "labels/test/agaier_526_view_05.txt",
+      "source_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_label_size_bytes": 0,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        0
+      ],
+      "class_names": [
+        "agaier"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/agaier_570_view_33.png",
+      "derived_image_sha256": "116e665d0c7f015df9c454ad73905b15d67d19cbf6373018974c40484b13d60b",
+      "derived_image_size_bytes": 6323383,
+      "derived_label": "labels/test/agaier_570_view_33.txt",
+      "derived_label_sha256": "e5c93a4ecd2ac3b279d247d5de9997fa4323734ec78a14337ed26e10e8b5b9a6",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/agaier_570_view_33.png",
+      "source_image_sha256": "2652b5191556ca70df71012b0b90320fb2e9a2c36ae4e055d8d53d3a8b67e8ae",
+      "source_image_size_bytes": 11343450,
+      "source_label": "labels/test/agaier_570_view_33.txt",
+      "source_label_sha256": "e5c93a4ecd2ac3b279d247d5de9997fa4323734ec78a14337ed26e10e8b5b9a6",
+      "source_label_size_bytes": 78,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        1
+      ],
+      "class_names": [
+        "aipuha"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/aipuha_547_view_38.png",
+      "derived_image_sha256": "a89c544ff8769192acd7ae9b71aae6750f72bfaef010d0267c966e83fdf38270",
+      "derived_image_size_bytes": 7785250,
+      "derived_label": "labels/test/aipuha_547_view_38.txt",
+      "derived_label_sha256": "7d91dc5978bfa9a3c99ae52f34e4050974ac8f0cfce8f1e3a706a415b1337347",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/aipuha_547_view_38.png",
+      "source_image_sha256": "8a6ccf3a19650e34e640fecf503bf7934b90167283a54ffa6daf6575428dc38d",
+      "source_image_size_bytes": 13212773,
+      "source_label": "labels/test/aipuha_547_view_38.txt",
+      "source_label_sha256": "7d91dc5978bfa9a3c99ae52f34e4050974ac8f0cfce8f1e3a706a415b1337347",
+      "source_label_size_bytes": 78,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        2
+      ],
+      "class_names": [
+        "aituosha"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/aituosha_592_view_38.png",
+      "derived_image_sha256": "07c657ae1cbdf0a310dc0fce4008c308a7b5ac59f6d08811be51f6f6cf7a4670",
+      "derived_image_size_bytes": 8556354,
+      "derived_label": "labels/test/aituosha_592_view_38.txt",
+      "derived_label_sha256": "16ddd1829d8d80f0b8d621daa8799ece241247e678b37f9d509427916f3a92d8",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/aituosha_592_view_38.png",
+      "source_image_sha256": "aa9cff9438b3c918cd31462278ee5361c005527fca2740afd659aaf93c34e554",
+      "source_image_size_bytes": 14424567,
+      "source_label": "labels/test/aituosha_592_view_38.txt",
+      "source_label_sha256": "16ddd1829d8d80f0b8d621daa8799ece241247e678b37f9d509427916f3a92d8",
+      "source_label_size_bytes": 78,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        3
+      ],
+      "class_names": [
+        "ansainusa"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/ansainusa_276_view_12.png",
+      "derived_image_sha256": "7cf0e9930de5b30046bc1784c363599ac37c0e277316591688f331d34e35355e",
+      "derived_image_size_bytes": 7076200,
+      "derived_label": "labels/test/ansainusa_276_view_12.txt",
+      "derived_label_sha256": "01fe33debd157253ae96569b130f4817460d3aaf5eb7cab742391014e38cef26",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/ansainusa_276_view_12.png",
+      "source_image_sha256": "f58d0fd4f796fefc1443f7cd501688bdee9c766b39da947c1438d353134c1018",
+      "source_image_size_bytes": 12086404,
+      "source_label": "labels/test/ansainusa_276_view_12.txt",
+      "source_label_sha256": "01fe33debd157253ae96569b130f4817460d3aaf5eb7cab742391014e38cef26",
+      "source_label_size_bytes": 78,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        4
+      ],
+      "class_names": [
+        "aoerhong"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/aoerhong_194_view_07.png",
+      "derived_image_sha256": "1798ebdeee95e0df39770f48f705e559492b9ec927083468cdd78e0847fabec4",
+      "derived_image_size_bytes": 16018932,
+      "derived_label": "labels/test/aoerhong_194_view_07.txt",
+      "derived_label_sha256": "13050eca4102650a63c3e8f16e4e78ba1c16b9eefe107ce283fd5632f76a32b2",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/aoerhong_194_view_07.png",
+      "source_image_sha256": "3bb5efbbc837907b5c8f73e40d35defee89b26e5fb125df248d77a7d1f284387",
+      "source_image_size_bytes": 22307963,
+      "source_label": "labels/test/aoerhong_194_view_07.txt",
+      "source_label_sha256": "13050eca4102650a63c3e8f16e4e78ba1c16b9eefe107ce283fd5632f76a32b2",
+      "source_label_size_bytes": 78,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        5
+      ],
+      "class_names": [
+        "chapala"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/chapala_442_view_17.png",
+      "derived_image_sha256": "066add9055a6dff98ef2c7deabfbb7f4aa3a943a7d1a827e6ded270ea005eb62",
+      "derived_image_size_bytes": 9644821,
+      "derived_label": "labels/test/chapala_442_view_17.txt",
+      "derived_label_sha256": "00f93fd83c91856c7b3c283ccb1c5094bf649789e0b6b919dea70294f22b8c63",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/chapala_442_view_17.png",
+      "source_image_sha256": "62947743dc3418298734520ac9111456b61157f3be2581b1c0beed85254a32fe",
+      "source_image_size_bytes": 15145412,
+      "source_label": "labels/test/chapala_442_view_17.txt",
+      "source_label_sha256": "00f93fd83c91856c7b3c283ccb1c5094bf649789e0b6b919dea70294f22b8c63",
+      "source_label_size_bytes": 78,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": true,
+      "class_ids": [],
+      "class_names": [],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/chapala_775_view_02.png",
+      "derived_image_sha256": "bf754d4a5cfaa0cca9c1b71dfd47fc6d35f715ac0e3ea23be46c49af74e56ed9",
+      "derived_image_size_bytes": 9956067,
+      "derived_label": "labels/test/chapala_775_view_02.txt",
+      "derived_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_label_size_bytes": 0,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/chapala_775_view_02.png",
+      "source_image_sha256": "a2cc911f94719ef25590e3861f6a95a4a2e44c9bf2147f6a7a1d76129d509d17",
+      "source_image_size_bytes": 15900910,
+      "source_label": "labels/test/chapala_775_view_02.txt",
+      "source_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_label_size_bytes": 0,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        6
+      ],
+      "class_names": [
+        "dibulong"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/dibulong_452_view_02.png",
+      "derived_image_sha256": "4603eddc9dca527e420a788dc6f5b317e4c47b0b510650f2dae8b542a378d8c8",
+      "derived_image_size_bytes": 7732533,
+      "derived_label": "labels/test/dibulong_452_view_02.txt",
+      "derived_label_sha256": "55c78df05ef30806535aad0a41fdbf5dea73545dbe571284bcbbb111c6071faf",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/dibulong_452_view_02.png",
+      "source_image_sha256": "e163626978b1ef5b61141f776f57903d6673c87f39eda6b3d2b4e6fd21c5a184",
+      "source_image_size_bytes": 11837265,
+      "source_label": "labels/test/dibulong_452_view_02.txt",
+      "source_label_sha256": "55c78df05ef30806535aad0a41fdbf5dea73545dbe571284bcbbb111c6071faf",
+      "source_label_size_bytes": 78,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        7
+      ],
+      "class_names": [
+        "didikaka"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/didikaka_495_view_11.png",
+      "derived_image_sha256": "58f7fdcc639157492078bdf63f08ebdc37fe44a6d43699c94a9e41109c8f6003",
+      "derived_image_size_bytes": 8350354,
+      "derived_label": "labels/test/didikaka_495_view_11.txt",
+      "derived_label_sha256": "26acd0d49ce92e3cc73c74cecbe4c9d42469d4911307ba14d465c08f534736a4",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/didikaka_495_view_11.png",
+      "source_image_sha256": "4190e096b570dc5542b4397c07aff47af8e24a247d70db6446de4f060b43963c",
+      "source_image_size_bytes": 13678810,
+      "source_label": "labels/test/didikaka_495_view_11.txt",
+      "source_label_sha256": "26acd0d49ce92e3cc73c74cecbe4c9d42469d4911307ba14d465c08f534736a4",
+      "source_label_size_bytes": 78,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        8
+      ],
+      "class_names": [
+        "kanjialu"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/kanjialu_730_view_09.png",
+      "derived_image_sha256": "20b6d05b899045494a5d874196e5dac899bfa4b936a5cdb90a5faeca9d67b256",
+      "derived_image_size_bytes": 15780137,
+      "derived_label": "labels/test/kanjialu_730_view_09.txt",
+      "derived_label_sha256": "2cb180f3f4ff5ea6b9e61a23c843e555d7d8baad5d90392a2cc5c7f157692925",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/kanjialu_730_view_09.png",
+      "source_image_sha256": "e63b51d4d096275ce77a149620088e65d2426f42a631522c6475b02ed7dba00b",
+      "source_image_size_bytes": 22309635,
+      "source_label": "labels/test/kanjialu_730_view_09.txt",
+      "source_label_sha256": "2cb180f3f4ff5ea6b9e61a23c843e555d7d8baad5d90392a2cc5c7f157692925",
+      "source_label_size_bytes": 78,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        9
+      ],
+      "class_names": [
+        "lupate"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/lupate_602_view_23.png",
+      "derived_image_sha256": "2b35ccdf20238195b52db7a681131882a4f5dc06d18e8dc836d2f7335bbe2cee",
+      "derived_image_size_bytes": 5849970,
+      "derived_label": "labels/test/lupate_602_view_23.txt",
+      "derived_label_sha256": "eac0ab03ad3fbfe28b34835d242e7ed69b637114dbd5e4b6288ca8116f79a4cb",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/lupate_602_view_23.png",
+      "source_image_sha256": "c6aca6f552bb22a80e0b44bdebce3ea82322728474ae25dd206ae3d8e664b870",
+      "source_image_size_bytes": 10265173,
+      "source_label": "labels/test/lupate_602_view_23.txt",
+      "source_label_sha256": "eac0ab03ad3fbfe28b34835d242e7ed69b637114dbd5e4b6288ca8116f79a4cb",
+      "source_label_size_bytes": 78,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        20
+      ],
+      "class_names": [
+        "moon"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/moon_test_000148.png",
+      "derived_image_sha256": "f469814e0e9eb349a2e57a3011e18a063566535de0438e17ebc0aff2f3ee3a08",
+      "derived_image_size_bytes": 52994,
+      "derived_label": "labels/test/moon_test_000148.txt",
+      "derived_label_sha256": "48a28ededd72871f4aa161726b90f74f950beaad5c1d8dbc85c9443723f5a7f2",
+      "derived_label_size_bytes": 139,
+      "derived_mode": "L",
+      "height": 2048,
+      "source_image": "images/test/moon_test_000148.png",
+      "source_image_sha256": "e40f7e6dd4a109ba851911d580c46b8d66f75702335c103eac6f4c7513704e02",
+      "source_image_size_bytes": 60749,
+      "source_label": "labels/test/moon_test_000148.txt",
+      "source_label_sha256": "48a28ededd72871f4aa161726b90f74f950beaad5c1d8dbc85c9443723f5a7f2",
+      "source_label_size_bytes": 139,
+      "split": "test",
+      "width": 2048
+    },
+    {
+      "background": false,
+      "class_ids": [
+        10
+      ],
+      "class_names": [
+        "qinghai"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/qinghai_614_view_15.png",
+      "derived_image_sha256": "c4a43c057769fd2e49c6980f3d5f948e473faaef82506dfe80c68c41bea591b9",
+      "derived_image_size_bytes": 6321906,
+      "derived_label": "labels/test/qinghai_614_view_15.txt",
+      "derived_label_sha256": "930ddbfe1661a8d4a60fa513af07e64e1c36223b5761d12f2263aa9903565697",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/qinghai_614_view_15.png",
+      "source_image_sha256": "f4f2ed496b0446d9f141940a4a4df2669aeed393236c83228539ee95ea931407",
+      "source_image_size_bytes": 11640199,
+      "source_label": "labels/test/qinghai_614_view_15.txt",
+      "source_label_sha256": "930ddbfe1661a8d4a60fa513af07e64e1c36223b5761d12f2263aa9903565697",
+      "source_label_size_bytes": 79,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        11
+      ],
+      "class_names": [
+        "rineiwa"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/rineiwa_505_view_13.png",
+      "derived_image_sha256": "8a34ab6c55b2edb86e0375f6cc5e4d63f405201a9f44b05796c3d39297973a6c",
+      "derived_image_size_bytes": 11097693,
+      "derived_label": "labels/test/rineiwa_505_view_13.txt",
+      "derived_label_sha256": "e8460e94f97c4af92141d5cf3fe3a0999a27f49e7c84ee6b3f5c97c0dd2c1b13",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/rineiwa_505_view_13.png",
+      "source_image_sha256": "373f87df571a697d485161cd43791db8a93a7b5de09cb09d6096232b06df6041",
+      "source_image_size_bytes": 17954930,
+      "source_label": "labels/test/rineiwa_505_view_13.txt",
+      "source_label_sha256": "e8460e94f97c4af92141d5cf3fe3a0999a27f49e7c84ee6b3f5c97c0dd2c1b13",
+      "source_label_size_bytes": 79,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        12
+      ],
+      "class_names": [
+        "sading"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/sading_673_view_11.png",
+      "derived_image_sha256": "e3bd470f000d132d0afc298c80278a5b3c4441dc794627f96da9cd1db9c4f0c3",
+      "derived_image_size_bytes": 6763364,
+      "derived_label": "labels/test/sading_673_view_11.txt",
+      "derived_label_sha256": "4cda4e824653bc3fd0a6cba0196820b2ef6801d4a51d9b70b9178e97953b748d",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/sading_673_view_11.png",
+      "source_image_sha256": "43cca8585212b6ee4337427073a1251d0a7ea086fbd020873aed4343532a2bdd",
+      "source_image_size_bytes": 11404996,
+      "source_label": "labels/test/sading_673_view_11.txt",
+      "source_label_sha256": "4cda4e824653bc3fd0a6cba0196820b2ef6801d4a51d9b70b9178e97953b748d",
+      "source_label_size_bytes": 79,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        13
+      ],
+      "class_names": [
+        "saersaer"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/saersaer_515_view_05.png",
+      "derived_image_sha256": "091c821aec5a1ec049318cf4d084e05f2f513559f51672e4c746b407a5a9099d",
+      "derived_image_size_bytes": 8146889,
+      "derived_label": "labels/test/saersaer_515_view_05.txt",
+      "derived_label_sha256": "ec3c0dda3f978ffde1c50b19f7489f1ef23c235214b246b746353741a6deb57b",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/saersaer_515_view_05.png",
+      "source_image_sha256": "ee72813b6a2032a3dcae9c6305dfb2c1aadc09e5ccfcf429ecaeb1c40181a6d1",
+      "source_image_size_bytes": 13162056,
+      "source_label": "labels/test/saersaer_515_view_05.txt",
+      "source_label_sha256": "ec3c0dda3f978ffde1c50b19f7489f1ef23c235214b246b746353741a6deb57b",
+      "source_label_size_bytes": 79,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        14
+      ],
+      "class_names": [
+        "saleikamei"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/saleikamei_431_view_36.png",
+      "derived_image_sha256": "9404543ee159f6250218aaf056a54a9b6f3d4bddc95c13cf0e1a2ce6f3568c31",
+      "derived_image_size_bytes": 7198403,
+      "derived_label": "labels/test/saleikamei_431_view_36.txt",
+      "derived_label_sha256": "5f3dcc290df43ba51376f0798480f81e29a22c78e8b638851aa2b09bf8b2f0b2",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/saleikamei_431_view_36.png",
+      "source_image_sha256": "ad22190898b674615cf0ba97ef7074070e60079b73abfd8380c64e89afefecf3",
+      "source_image_size_bytes": 11262675,
+      "source_label": "labels/test/saleikamei_431_view_36.txt",
+      "source_label_sha256": "5f3dcc290df43ba51376f0798480f81e29a22c78e8b638851aa2b09bf8b2f0b2",
+      "source_label_size_bytes": 79,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        15
+      ],
+      "class_names": [
+        "taihu"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/taihu_638_view_20.png",
+      "derived_image_sha256": "4c5f639f2fdda8b7b5599764c873f76982388870767b6d128d15811805deb595",
+      "derived_image_size_bytes": 5140256,
+      "derived_label": "labels/test/taihu_638_view_20.txt",
+      "derived_label_sha256": "489757792082467d7697874e395695604340d12c20ad07f6ac74c81f1a7957cb",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/taihu_638_view_20.png",
+      "source_image_sha256": "8bd5f9d94f3df6bcae51c715370441de50489bb9c141cc647c59f4a461d7b27d",
+      "source_image_size_bytes": 7366635,
+      "source_label": "labels/test/taihu_638_view_20.txt",
+      "source_label_sha256": "489757792082467d7697874e395695604340d12c20ad07f6ac74c81f1a7957cb",
+      "source_label_size_bytes": 79,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        16
+      ],
+      "class_names": [
+        "taiwan"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/taiwan_353_view_23.png",
+      "derived_image_sha256": "3296ad87dd6c85bd8c21436b3ce792cd2290918d9934b99dea3d3271903e93e2",
+      "derived_image_size_bytes": 3898468,
+      "derived_label": "labels/test/taiwan_353_view_23.txt",
+      "derived_label_sha256": "941e33f48ae4c9c13f5b965b60ca34f0faa0fa1a96d8deba8b1b411e2347e983",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/taiwan_353_view_23.png",
+      "source_image_sha256": "6ac06a02c5accc445084b6d15c5b39640702e2e0660d35c47073b665a69e1f33",
+      "source_image_size_bytes": 5984560,
+      "source_label": "labels/test/taiwan_353_view_23.txt",
+      "source_label_sha256": "941e33f48ae4c9c13f5b965b60ca34f0faa0fa1a96d8deba8b1b411e2347e983",
+      "source_label_size_bytes": 79,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        17
+      ],
+      "class_names": [
+        "tana"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/tana_614_view_38.png",
+      "derived_image_sha256": "b9cb7d37fc029c725e9124c6886e43bd9ad1c3f4662fda6bb50bbac6c706d985",
+      "derived_image_size_bytes": 15281235,
+      "derived_label": "labels/test/tana_614_view_38.txt",
+      "derived_label_sha256": "09144516a2ccd41c89bf0df815a8a98cf1a50aa2808b14d5448b9b1a851bf7ba",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/tana_614_view_38.png",
+      "source_image_sha256": "d76d6237fa6040212a682abb8c029194c30c99caffd805428c9fde166e2a0693",
+      "source_image_size_bytes": 21675815,
+      "source_label": "labels/test/tana_614_view_38.txt",
+      "source_label_sha256": "09144516a2ccd41c89bf0df815a8a98cf1a50aa2808b14d5448b9b1a851bf7ba",
+      "source_label_size_bytes": 79,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        18
+      ],
+      "class_names": [
+        "tekesi"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/tekesi_505_view_30.png",
+      "derived_image_sha256": "725c808ceef726ee06e6d77744d4c60f9f822e6da706638dc36741fbda3ab4f8",
+      "derived_image_size_bytes": 3933321,
+      "derived_label": "labels/test/tekesi_505_view_30.txt",
+      "derived_label_sha256": "78318b365d13cdbd952ba7e2881057eceeda22825ac177dd1096c001ccd853d3",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/tekesi_505_view_30.png",
+      "source_image_sha256": "81dea0eff553de3a31a74142d66403c9d1f41167b3a03d280abf5b483f041672",
+      "source_image_size_bytes": 6974331,
+      "source_label": "labels/test/tekesi_505_view_30.txt",
+      "source_label_sha256": "78318b365d13cdbd952ba7e2881057eceeda22825ac177dd1096c001ccd853d3",
+      "source_label_size_bytes": 79,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": true,
+      "class_ids": [],
+      "class_names": [],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/wennibeige_353_view_15.png",
+      "derived_image_sha256": "eb9a0daecbc882eb80bac9fe6404400dad06a3eafcacb132e940fa7673a66278",
+      "derived_image_size_bytes": 15472324,
+      "derived_label": "labels/test/wennibeige_353_view_15.txt",
+      "derived_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_label_size_bytes": 0,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/wennibeige_353_view_15.png",
+      "source_image_sha256": "c32e1d7040bcd24859e80edb3b6df2daacf9a0218e4bd8234dd71dc5ab8f4e1f",
+      "source_image_size_bytes": 21642052,
+      "source_label": "labels/test/wennibeige_353_view_15.txt",
+      "source_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_label_size_bytes": 0,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        19
+      ],
+      "class_names": [
+        "wennibeige"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/test/wennibeige_442_view_10.png",
+      "derived_image_sha256": "eee3ec7dd8ee44af59a24c3289b31c07a576ba3ee255c744360104b0b69642fb",
+      "derived_image_size_bytes": 10074462,
+      "derived_label": "labels/test/wennibeige_442_view_10.txt",
+      "derived_label_sha256": "7add0676ae89caf49a053ab4ec76e08d41d6a23c2f57c5847b4b48add1e07653",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/test/wennibeige_442_view_10.png",
+      "source_image_sha256": "d147dc9d75ec05b7519724d5c4632813935b3cc2837ba16102506abe0a783622",
+      "source_image_size_bytes": 15821243,
+      "source_label": "labels/test/wennibeige_442_view_10.txt",
+      "source_label_sha256": "7add0676ae89caf49a053ab4ec76e08d41d6a23c2f57c5847b4b48add1e07653",
+      "source_label_size_bytes": 79,
+      "split": "test",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        0
+      ],
+      "class_names": [
+        "agaier"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/agaier_217_view_22.png",
+      "derived_image_sha256": "f44b3548ac5c182dbae159e76bf1b4b4a5cab21d51e15b4ec53ae16cefef7b34",
+      "derived_image_size_bytes": 15703343,
+      "derived_label": "labels/train/agaier_217_view_22.txt",
+      "derived_label_sha256": "2b1a72a014e929d746e991a0e75232eb20dc9e3d231563537d23dd608e98409c",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/agaier_217_view_22.png",
+      "source_image_sha256": "7238b41541bd4e541ddf08a521944528544c763edf7cefc0b95e522e0a1448f1",
+      "source_image_size_bytes": 21707613,
+      "source_label": "labels/train/agaier_217_view_22.txt",
+      "source_label_sha256": "2b1a72a014e929d746e991a0e75232eb20dc9e3d231563537d23dd608e98409c",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        0
+      ],
+      "class_names": [
+        "agaier"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/agaier_340_view_19.png",
+      "derived_image_sha256": "462fe61d9a51bbbb98d439cc687bf7a9a3cbe36daa4d1e4dd3143a01f68d3a23",
+      "derived_image_size_bytes": 7502933,
+      "derived_label": "labels/train/agaier_340_view_19.txt",
+      "derived_label_sha256": "0a07df3cbbca227b7aaf20f42e57e426892e4b102b7dc63c83bf77137bd3f899",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/agaier_340_view_19.png",
+      "source_image_sha256": "f50503d30667a3d624edf8938d410ff97af1a95df87aff892595ec30ac787a5a",
+      "source_image_size_bytes": 13297162,
+      "source_label": "labels/train/agaier_340_view_19.txt",
+      "source_label_sha256": "0a07df3cbbca227b7aaf20f42e57e426892e4b102b7dc63c83bf77137bd3f899",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        1
+      ],
+      "class_names": [
+        "aipuha"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/aipuha_150_view_01.png",
+      "derived_image_sha256": "485ddd27b61a246084f73f1f14a22a56ef5c305e1a590a874eabf983a1e963fa",
+      "derived_image_size_bytes": 8540655,
+      "derived_label": "labels/train/aipuha_150_view_01.txt",
+      "derived_label_sha256": "14464d9c89a16d19079844b370e8aad01fda8cd580837cffd9cf344644e919a3",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/aipuha_150_view_01.png",
+      "source_image_sha256": "b888d64c149c3099e76294bd26cffd80187da58a9c908100422f6ee971830ee3",
+      "source_image_size_bytes": 13643290,
+      "source_label": "labels/train/aipuha_150_view_01.txt",
+      "source_label_sha256": "14464d9c89a16d19079844b370e8aad01fda8cd580837cffd9cf344644e919a3",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        1
+      ],
+      "class_names": [
+        "aipuha"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/aipuha_390_view_36.png",
+      "derived_image_sha256": "f096b9f79dcada3c5a75c6d4d5be2b37a7e8f52a78134e327270776828223f31",
+      "derived_image_size_bytes": 7250169,
+      "derived_label": "labels/train/aipuha_390_view_36.txt",
+      "derived_label_sha256": "67a33e482147bb9f24da48cc79b46fc9eadb3059f1d814048d53309984e3d541",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/aipuha_390_view_36.png",
+      "source_image_sha256": "013c5d39bf8e0c7a167f57efcea4507de88ef2c60a4a5470f3a4f81e134c39ed",
+      "source_image_size_bytes": 11047331,
+      "source_label": "labels/train/aipuha_390_view_36.txt",
+      "source_label_sha256": "67a33e482147bb9f24da48cc79b46fc9eadb3059f1d814048d53309984e3d541",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": true,
+      "class_ids": [],
+      "class_names": [],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/aipuha_526_view_28.png",
+      "derived_image_sha256": "53b525c40c699e894591af6bdf292e7959be7b7325c74cfac9c6b5a3f4e2be6e",
+      "derived_image_size_bytes": 9880451,
+      "derived_label": "labels/train/aipuha_526_view_28.txt",
+      "derived_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_label_size_bytes": 0,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/aipuha_526_view_28.png",
+      "source_image_sha256": "1f88bbe15901fb2c84313a3eb94a8b5a716b45148e84eaed8eb506e6f002279b",
+      "source_image_size_bytes": 15674883,
+      "source_label": "labels/train/aipuha_526_view_28.txt",
+      "source_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_label_size_bytes": 0,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        2
+      ],
+      "class_names": [
+        "aituosha"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/aituosha_231_view_20.png",
+      "derived_image_sha256": "90799f5cf2f4874b426837993d86b73df19d01abbdc59a6c1ed9a9d263fa650a",
+      "derived_image_size_bytes": 6629010,
+      "derived_label": "labels/train/aituosha_231_view_20.txt",
+      "derived_label_sha256": "b2581960600dd2ff030ef22d0a271e5bd0d53530b540bdb649ab93a0bbb861d5",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/aituosha_231_view_20.png",
+      "source_image_sha256": "d19e507ceadbaf6c0018788e17f22fd3eb90e0725c10e2a06baac24be9a8efa4",
+      "source_image_size_bytes": 10231568,
+      "source_label": "labels/train/aituosha_231_view_20.txt",
+      "source_label_sha256": "b2581960600dd2ff030ef22d0a271e5bd0d53530b540bdb649ab93a0bbb861d5",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        2
+      ],
+      "class_names": [
+        "aituosha"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/aituosha_819_view_17.png",
+      "derived_image_sha256": "ff4eaea8763dc3975474687bbef83520aa6c1193143000204dfa45a8b4db07d6",
+      "derived_image_size_bytes": 5760904,
+      "derived_label": "labels/train/aituosha_819_view_17.txt",
+      "derived_label_sha256": "845628e4de56621d4146473802ba7ce209fd5cdde01a2f5ab99e4daafa8549d3",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/aituosha_819_view_17.png",
+      "source_image_sha256": "c901cda8bda11b685fa3d03d41d5a1d3c669d235f791127e472957b3be92cb8a",
+      "source_image_size_bytes": 9065985,
+      "source_label": "labels/train/aituosha_819_view_17.txt",
+      "source_label_sha256": "845628e4de56621d4146473802ba7ce209fd5cdde01a2f5ab99e4daafa8549d3",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        3
+      ],
+      "class_names": [
+        "ansainusa"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/ansainusa_161_view_03.png",
+      "derived_image_sha256": "f6374d36402cab762e3a93426f0ddd1f5f1f5343cf8548d78cf3c887e9a76d5c",
+      "derived_image_size_bytes": 5801082,
+      "derived_label": "labels/train/ansainusa_161_view_03.txt",
+      "derived_label_sha256": "f12c2de514825c865d83765676bbd7e83824a5d108c03e6cf4cceb2f55c64c70",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/ansainusa_161_view_03.png",
+      "source_image_sha256": "0b90b8f527ceb2fa22a920ce7f0d3348b23ee9b4219f3bc8e21685762da90479",
+      "source_image_size_bytes": 9467083,
+      "source_label": "labels/train/ansainusa_161_view_03.txt",
+      "source_label_sha256": "f12c2de514825c865d83765676bbd7e83824a5d108c03e6cf4cceb2f55c64c70",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        3
+      ],
+      "class_names": [
+        "ansainusa"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/ansainusa_485_view_19.png",
+      "derived_image_sha256": "e673189568a93ad954d4926599fe6223236527311f47fe6bb5d075c2c18b2f0d",
+      "derived_image_size_bytes": 6307502,
+      "derived_label": "labels/train/ansainusa_485_view_19.txt",
+      "derived_label_sha256": "0dbd5a4d1b21bc21a472021d23dca7ed04fc254def6dde9afdb9184f125511a3",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/ansainusa_485_view_19.png",
+      "source_image_sha256": "fabc299bed0b769cbee9915d188baf5e3c43fd880b84caa0f1e1df904d923a38",
+      "source_image_size_bytes": 10898452,
+      "source_label": "labels/train/ansainusa_485_view_19.txt",
+      "source_label_sha256": "0dbd5a4d1b21bc21a472021d23dca7ed04fc254def6dde9afdb9184f125511a3",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": true,
+      "class_ids": [],
+      "class_names": [],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/ansainusa_495_view_14.png",
+      "derived_image_sha256": "04e21a9a9702cc6eaac18f42e5544ad9df6a17d8f033c3c36682819ba776ef93",
+      "derived_image_size_bytes": 14587830,
+      "derived_label": "labels/train/ansainusa_495_view_14.txt",
+      "derived_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_label_size_bytes": 0,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/ansainusa_495_view_14.png",
+      "source_image_sha256": "a839537cc2d32dea91b149830b56013246d6d364cb433fc1b9e44edc18142d06",
+      "source_image_size_bytes": 20668550,
+      "source_label": "labels/train/ansainusa_495_view_14.txt",
+      "source_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_label_size_bytes": 0,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        4
+      ],
+      "class_names": [
+        "aoerhong"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/aoerhong_390_view_36.png",
+      "derived_image_sha256": "2f5575caf34fb3b591fe3fd2320ccb3ffb2dc8d49ebc5bd2de442dfcf78a604a",
+      "derived_image_size_bytes": 5562384,
+      "derived_label": "labels/train/aoerhong_390_view_36.txt",
+      "derived_label_sha256": "1446170129b88c8b67ff8a7c1201865f82f784171b8be789983bf321edcacdf3",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/aoerhong_390_view_36.png",
+      "source_image_sha256": "32edd7d36c2c36804c65d9617eec9c5ce23119215545e2375faf6caa5b88ea9f",
+      "source_image_size_bytes": 8864621,
+      "source_label": "labels/train/aoerhong_390_view_36.txt",
+      "source_label_sha256": "1446170129b88c8b67ff8a7c1201865f82f784171b8be789983bf321edcacdf3",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        4
+      ],
+      "class_names": [
+        "aoerhong"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/aoerhong_420_view_08.png",
+      "derived_image_sha256": "947e22ff18cc74efbda139e681255478af2c01673d226ac88cc198c845c0d0e1",
+      "derived_image_size_bytes": 6077478,
+      "derived_label": "labels/train/aoerhong_420_view_08.txt",
+      "derived_label_sha256": "f4202a890f5c02f3e0ddedcdd51be7d000e085935f996a66d28d47f3743fb2e2",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/aoerhong_420_view_08.png",
+      "source_image_sha256": "f5af47a7c85ec742aea3580f8dd814a97c950546927c08fe52cd478dc45c0c87",
+      "source_image_size_bytes": 9151199,
+      "source_label": "labels/train/aoerhong_420_view_08.txt",
+      "source_label_sha256": "f4202a890f5c02f3e0ddedcdd51be7d000e085935f996a66d28d47f3743fb2e2",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": true,
+      "class_ids": [],
+      "class_names": [],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/aoerhong_638_view_32.png",
+      "derived_image_sha256": "cf670acbf9c13002f71600cf8e24911dda59e5bd90ae7977326d0c940323e4b6",
+      "derived_image_size_bytes": 6604193,
+      "derived_label": "labels/train/aoerhong_638_view_32.txt",
+      "derived_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_label_size_bytes": 0,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/aoerhong_638_view_32.png",
+      "source_image_sha256": "8bb30c2b912bd3b370e3d7c7f913a27a1aae7cf5864352b8e4a802b4865cbed1",
+      "source_image_size_bytes": 10477222,
+      "source_label": "labels/train/aoerhong_638_view_32.txt",
+      "source_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_label_size_bytes": 0,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        5
+      ],
+      "class_names": [
+        "chapala"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/chapala_011_view_37.png",
+      "derived_image_sha256": "9cddc8dc31c9865e3236fa137944974c9b055b8ae218e58744b31b3ed86ca76e",
+      "derived_image_size_bytes": 7873271,
+      "derived_label": "labels/train/chapala_011_view_37.txt",
+      "derived_label_sha256": "53278f434694b1a975fa74ff15c060fb23857933e7850fe6ab23a123e38a1ae8",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/chapala_011_view_37.png",
+      "source_image_sha256": "bdddc86cfd69068acae8635462a2184eb3485b48b9e59c5e07fc2f297b68f4d1",
+      "source_image_size_bytes": 12321524,
+      "source_label": "labels/train/chapala_011_view_37.txt",
+      "source_label_sha256": "53278f434694b1a975fa74ff15c060fb23857933e7850fe6ab23a123e38a1ae8",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        5
+      ],
+      "class_names": [
+        "chapala"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/chapala_194_view_16.png",
+      "derived_image_sha256": "66e9c0f40c329349e5bb9da41c96a45025fcf9b5f7e5cc0c6ad6ccbf574d3f83",
+      "derived_image_size_bytes": 7951877,
+      "derived_label": "labels/train/chapala_194_view_16.txt",
+      "derived_label_sha256": "8500929ceb9a6940d776311c7a547f6b746a892c0504d56b43b6378df2d72e12",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/chapala_194_view_16.png",
+      "source_image_sha256": "ee92b9f824d5a1bc65a99494d413cdef54ba3d7e211f6c928488a876aa38e794",
+      "source_image_size_bytes": 14139174,
+      "source_label": "labels/train/chapala_194_view_16.txt",
+      "source_label_sha256": "8500929ceb9a6940d776311c7a547f6b746a892c0504d56b43b6378df2d72e12",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": true,
+      "class_ids": [],
+      "class_names": [],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/chapala_495_view_33.png",
+      "derived_image_sha256": "cf47809aa7ebc4949becb9611886dc07c632e9d775f350fda9178b2e8f4b9356",
+      "derived_image_size_bytes": 7503860,
+      "derived_label": "labels/train/chapala_495_view_33.txt",
+      "derived_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_label_size_bytes": 0,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/chapala_495_view_33.png",
+      "source_image_sha256": "92a6f306282dab3a85de2000cd19e644a0d7a8a0f9f43c8f11ae7b38c9fbc5c9",
+      "source_image_size_bytes": 12464279,
+      "source_label": "labels/train/chapala_495_view_33.txt",
+      "source_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_label_size_bytes": 0,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        6
+      ],
+      "class_names": [
+        "dibulong"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/dibulong_011_view_25.png",
+      "derived_image_sha256": "3bfb9bb5bccf00891a025e2876bab11d9844d01d1251bc971aed9e724d48d192",
+      "derived_image_size_bytes": 4756127,
+      "derived_label": "labels/train/dibulong_011_view_25.txt",
+      "derived_label_sha256": "5795c18ff3eece00ade28542a557c45c5b1e8561e41a7f4a96c356ca887456f1",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/dibulong_011_view_25.png",
+      "source_image_sha256": "0b0c3b8c1cb82cbbb9577f3d172e080dd1787f895613dd49b7d6cc7b6b540e35",
+      "source_image_size_bytes": 6962308,
+      "source_label": "labels/train/dibulong_011_view_25.txt",
+      "source_label_sha256": "5795c18ff3eece00ade28542a557c45c5b1e8561e41a7f4a96c356ca887456f1",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        6
+      ],
+      "class_names": [
+        "dibulong"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/dibulong_161_view_21.png",
+      "derived_image_sha256": "be2334db8ccb525fc9313b210b0f424b477ed4b4bd89e86adfd78745a62f4f5c",
+      "derived_image_size_bytes": 14173356,
+      "derived_label": "labels/train/dibulong_161_view_21.txt",
+      "derived_label_sha256": "615173189ebedc794a619e1b427c82059af94b47cefff6ccb0b10e453096cb55",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/dibulong_161_view_21.png",
+      "source_image_sha256": "c61e9e5b0488b833de6d52f3b32ffe8471082f5dc442f5bf8e5bdc26d7a66716",
+      "source_image_size_bytes": 20287265,
+      "source_label": "labels/train/dibulong_161_view_21.txt",
+      "source_label_sha256": "615173189ebedc794a619e1b427c82059af94b47cefff6ccb0b10e453096cb55",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        7
+      ],
+      "class_names": [
+        "didikaka"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/didikaka_173_view_34.png",
+      "derived_image_sha256": "a004111fb6b1425055ab9f8d0d649797df1a23259cf08232083ce289b120fb99",
+      "derived_image_size_bytes": 14724763,
+      "derived_label": "labels/train/didikaka_173_view_34.txt",
+      "derived_label_sha256": "91e9db904a826f16b564919b0629f9bfd4479ee98ab9a7e64c0e43da77f026a5",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/didikaka_173_view_34.png",
+      "source_image_sha256": "c8ccaf7811d1e224353253fe532ec70a3c9fbdcd73c160784e7fea7f1d590cba",
+      "source_image_size_bytes": 20958766,
+      "source_label": "labels/train/didikaka_173_view_34.txt",
+      "source_label_sha256": "91e9db904a826f16b564919b0629f9bfd4479ee98ab9a7e64c0e43da77f026a5",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        7
+      ],
+      "class_names": [
+        "didikaka"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/didikaka_876_view_25.png",
+      "derived_image_sha256": "743c0e204088000cae3e4ef884cbb14b84a1f323a0a45e9a2ccdc963adee92f9",
+      "derived_image_size_bytes": 5922393,
+      "derived_label": "labels/train/didikaka_876_view_25.txt",
+      "derived_label_sha256": "c88492f7fecdd2e5089d6a41d320bc6244f5305015c068b0c315b275ecc888b8",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/didikaka_876_view_25.png",
+      "source_image_sha256": "9ff5bc6318e88f64bf8dd882eba0f5f4564142ac96c86da0543925ccef43f513",
+      "source_image_size_bytes": 9441335,
+      "source_label": "labels/train/didikaka_876_view_25.txt",
+      "source_label_sha256": "c88492f7fecdd2e5089d6a41d320bc6244f5305015c068b0c315b275ecc888b8",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        8
+      ],
+      "class_names": [
+        "kanjialu"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/kanjialu_254_view_24.png",
+      "derived_image_sha256": "2d6f9ebb213f3082951088ab44863001e3e7fded1553a39de83ae588a918036d",
+      "derived_image_size_bytes": 3896409,
+      "derived_label": "labels/train/kanjialu_254_view_24.txt",
+      "derived_label_sha256": "8c20878a42297fa5bc381e64dd7c23e36b886607910ae26e028b3ff3be5fae2c",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/kanjialu_254_view_24.png",
+      "source_image_sha256": "ffcaafdec3e092109cee453139d0f757615a6b00585ec9e58f03f8c3da8a358a",
+      "source_image_size_bytes": 5958222,
+      "source_label": "labels/train/kanjialu_254_view_24.txt",
+      "source_label_sha256": "8c20878a42297fa5bc381e64dd7c23e36b886607910ae26e028b3ff3be5fae2c",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        8
+      ],
+      "class_names": [
+        "kanjialu"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/kanjialu_592_view_33.png",
+      "derived_image_sha256": "09f1d9eaa3130af9c136f6fe890ab88b42d3972ed18d35dc587934a3083c72dd",
+      "derived_image_size_bytes": 16013285,
+      "derived_label": "labels/train/kanjialu_592_view_33.txt",
+      "derived_label_sha256": "9f84aaed9d07110709138bddb23a74e9a09fe812423e98595393d0db2b1efb19",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/kanjialu_592_view_33.png",
+      "source_image_sha256": "61427d36d964861fd218a113be3ebe984ea595bb6682afb10d2e6d07d26e3ec5",
+      "source_image_size_bytes": 22532924,
+      "source_label": "labels/train/kanjialu_592_view_33.txt",
+      "source_label_sha256": "9f84aaed9d07110709138bddb23a74e9a09fe812423e98595393d0db2b1efb19",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        9
+      ],
+      "class_names": [
+        "lupate"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/lupate_330_view_03.png",
+      "derived_image_sha256": "9e827722d3c3f26d2c7173a68978274ec2f341ddd4cd19ec2e8cd5988391f406",
+      "derived_image_size_bytes": 15447044,
+      "derived_label": "labels/train/lupate_330_view_03.txt",
+      "derived_label_sha256": "4173a98e48fe3d8fb19bc6db2877a301670bbbe20b7a1f68f65fff3ede6670f9",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/lupate_330_view_03.png",
+      "source_image_sha256": "c8a4416d92519e2b6da38ed2465ab86498f273020d8ae1644bc6ffd1e210b459",
+      "source_image_size_bytes": 21752160,
+      "source_label": "labels/train/lupate_330_view_03.txt",
+      "source_label_sha256": "4173a98e48fe3d8fb19bc6db2877a301670bbbe20b7a1f68f65fff3ede6670f9",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        9
+      ],
+      "class_names": [
+        "lupate"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/lupate_638_view_22.png",
+      "derived_image_sha256": "b6bcd6c66fcd2a7be5daedc38bd68dddb6497253c6e845a6d16655eeeae6d59c",
+      "derived_image_size_bytes": 6099857,
+      "derived_label": "labels/train/lupate_638_view_22.txt",
+      "derived_label_sha256": "79a300c6194bb63633d75c13c041885c4675939e08dcc8027dc1c819b6aa5c8d",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/lupate_638_view_22.png",
+      "source_image_sha256": "b74451c479ea64e6d7430f54d07ad064b75c007d76384428991cd68a3025b588",
+      "source_image_size_bytes": 9277360,
+      "source_label": "labels/train/lupate_638_view_22.txt",
+      "source_label_sha256": "79a300c6194bb63633d75c13c041885c4675939e08dcc8027dc1c819b6aa5c8d",
+      "source_label_size_bytes": 78,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": true,
+      "class_ids": [],
+      "class_names": [],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/lupate_649_view_07.png",
+      "derived_image_sha256": "1b4f2d2081d0a15b33701988d04476d97bfa0579a60589446b902ee496e2e4bf",
+      "derived_image_size_bytes": 5505801,
+      "derived_label": "labels/train/lupate_649_view_07.txt",
+      "derived_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_label_size_bytes": 0,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/lupate_649_view_07.png",
+      "source_image_sha256": "03be52e3a272ede94ec3dfd6d5815ae2e3cbac58cc821cb7c28fc33a280f5ff1",
+      "source_image_size_bytes": 9106652,
+      "source_label": "labels/train/lupate_649_view_07.txt",
+      "source_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_label_size_bytes": 0,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        20
+      ],
+      "class_names": [
+        "moon"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/moon_train_000051.png",
+      "derived_image_sha256": "85fa2e11bb3c6629199ea4dfbe785b38b3c506c41285e7d5b190ced4f04e6605",
+      "derived_image_size_bytes": 44446,
+      "derived_label": "labels/train/moon_train_000051.txt",
+      "derived_label_sha256": "7d5fcfc03fcccd7644bf5f43bab490ad253ec40872dd4c7848905010b1453092",
+      "derived_label_size_bytes": 137,
+      "derived_mode": "L",
+      "height": 2048,
+      "source_image": "images/train/moon_train_000051.png",
+      "source_image_sha256": "4da10b988f17c36f4429c2b21fb72c7eaf5521e9337d78f7519a04f7a560edad",
+      "source_image_size_bytes": 48188,
+      "source_label": "labels/train/moon_train_000051.txt",
+      "source_label_sha256": "7d5fcfc03fcccd7644bf5f43bab490ad253ec40872dd4c7848905010b1453092",
+      "source_label_size_bytes": 137,
+      "split": "train",
+      "width": 2048
+    },
+    {
+      "background": false,
+      "class_ids": [
+        20
+      ],
+      "class_names": [
+        "moon"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/moon_train_000082.png",
+      "derived_image_sha256": "3ab6919003498add8db7004879ff90b948e1abfb26953b130a59daf56fa8ef5c",
+      "derived_image_size_bytes": 32941,
+      "derived_label": "labels/train/moon_train_000082.txt",
+      "derived_label_sha256": "67919724c06a428cff29dce9abb61aa5807f588f0f14f64dff9c433e2fc817f0",
+      "derived_label_size_bytes": 139,
+      "derived_mode": "L",
+      "height": 2048,
+      "source_image": "images/train/moon_train_000082.png",
+      "source_image_sha256": "296468ac7aa7e95ca0c76f3324232617e827749890a224cae252e1e14cf90897",
+      "source_image_size_bytes": 33030,
+      "source_label": "labels/train/moon_train_000082.txt",
+      "source_label_sha256": "67919724c06a428cff29dce9abb61aa5807f588f0f14f64dff9c433e2fc817f0",
+      "source_label_size_bytes": 139,
+      "split": "train",
+      "width": 2048
+    },
+    {
+      "background": false,
+      "class_ids": [
+        10
+      ],
+      "class_names": [
+        "qinghai"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/qinghai_079_view_20.png",
+      "derived_image_sha256": "013494fec1c43be328e8dcf3ac984dfc6e615141f7c9343db42556f985050558",
+      "derived_image_size_bytes": 5735645,
+      "derived_label": "labels/train/qinghai_079_view_20.txt",
+      "derived_label_sha256": "87ca6b96488b529aa543697f1a0a2c4b751efd3d2d934947e17829bbd20a0f3b",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/qinghai_079_view_20.png",
+      "source_image_sha256": "52b80ef7cca795c523beb8c8811f87a21e0774e52f61b8177247217b334a0afd",
+      "source_image_size_bytes": 9283802,
+      "source_label": "labels/train/qinghai_079_view_20.txt",
+      "source_label_sha256": "87ca6b96488b529aa543697f1a0a2c4b751efd3d2d934947e17829bbd20a0f3b",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        10
+      ],
+      "class_names": [
+        "qinghai"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/qinghai_888_view_05.png",
+      "derived_image_sha256": "fe6f375ea9a45cda3cb56a1cd11837817dc1c071cb7f33bbcb35501ee40e6ff4",
+      "derived_image_size_bytes": 14100903,
+      "derived_label": "labels/train/qinghai_888_view_05.txt",
+      "derived_label_sha256": "d7eef8d3e5b2ca520ecf64ea4d74ac8c1578637cb4c17f22992218c1693b52d7",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/qinghai_888_view_05.png",
+      "source_image_sha256": "3b29a945ff394c21f9e9943aea2c4ab3e1de0dbcda4c235903304cb3eea396f1",
+      "source_image_size_bytes": 20063798,
+      "source_label": "labels/train/qinghai_888_view_05.txt",
+      "source_label_sha256": "d7eef8d3e5b2ca520ecf64ea4d74ac8c1578637cb4c17f22992218c1693b52d7",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        11
+      ],
+      "class_names": [
+        "rineiwa"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/rineiwa_107_view_21.png",
+      "derived_image_sha256": "08f542a69dba602cb7eeefdd4e33e2844110574de047b92d7c24b63e521493e6",
+      "derived_image_size_bytes": 14335101,
+      "derived_label": "labels/train/rineiwa_107_view_21.txt",
+      "derived_label_sha256": "2ad4608e9b804efa8e7d9e8b6f80eef8837149889d17a4548f49edc1d749d20b",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/rineiwa_107_view_21.png",
+      "source_image_sha256": "5827c6dca91cee97cc7462352e5a95d872e17002d67bb2873db4dcdf520d4009",
+      "source_image_size_bytes": 20344998,
+      "source_label": "labels/train/rineiwa_107_view_21.txt",
+      "source_label_sha256": "2ad4608e9b804efa8e7d9e8b6f80eef8837149889d17a4548f49edc1d749d20b",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        11
+      ],
+      "class_names": [
+        "rineiwa"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/rineiwa_288_view_29.png",
+      "derived_image_sha256": "d044f5a9d8e54f55198b4cacd8030bbdbe507b56c6b30d096d698b7cccf94868",
+      "derived_image_size_bytes": 8249547,
+      "derived_label": "labels/train/rineiwa_288_view_29.txt",
+      "derived_label_sha256": "a4697c6b6783388c52e0e6089867df8d4e986c5dc14073f22692d85a9b013c66",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/rineiwa_288_view_29.png",
+      "source_image_sha256": "bb0f25d9bbee4217e18b3d85a593ae3b6da1b6adaadc250c32104b5434b02bd3",
+      "source_image_size_bytes": 12465924,
+      "source_label": "labels/train/rineiwa_288_view_29.txt",
+      "source_label_sha256": "a4697c6b6783388c52e0e6089867df8d4e986c5dc14073f22692d85a9b013c66",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": true,
+      "class_ids": [],
+      "class_names": [],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/rineiwa_515_view_28.png",
+      "derived_image_sha256": "ad29041bd13e7c191f72952b2238c88c6fdda4b62b2bf22fff10290b6adf7da3",
+      "derived_image_size_bytes": 9591217,
+      "derived_label": "labels/train/rineiwa_515_view_28.txt",
+      "derived_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_label_size_bytes": 0,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/rineiwa_515_view_28.png",
+      "source_image_sha256": "5eacf009a1353131574565eac3af7efe1fa87f7dcdb190fd5c9f7e5e18b453ab",
+      "source_image_size_bytes": 15313574,
+      "source_label": "labels/train/rineiwa_515_view_28.txt",
+      "source_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_label_size_bytes": 0,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        12
+      ],
+      "class_names": [
+        "sading"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/sading_719_view_31.png",
+      "derived_image_sha256": "fde9df81168b44330776ba533b24e15256fa537a3e9774f9d10a174c5563edaf",
+      "derived_image_size_bytes": 15554123,
+      "derived_label": "labels/train/sading_719_view_31.txt",
+      "derived_label_sha256": "c8ca9e7249fa95d28923ae8d2d1b9767c4d7306a7c5fe5549f2834e9170e7f44",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/sading_719_view_31.png",
+      "source_image_sha256": "3f3261b1ed80f94714dc94b06fa57ce4b1343431d1ffb0594a6d6ff9d628e83d",
+      "source_image_size_bytes": 21936217,
+      "source_label": "labels/train/sading_719_view_31.txt",
+      "source_label_sha256": "c8ca9e7249fa95d28923ae8d2d1b9767c4d7306a7c5fe5549f2834e9170e7f44",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        12
+      ],
+      "class_names": [
+        "sading"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/sading_787_view_08.png",
+      "derived_image_sha256": "8da954354b043c2335143122a45da9f3be91c8cf696f9c0671272e4232f97bdc",
+      "derived_image_size_bytes": 4711117,
+      "derived_label": "labels/train/sading_787_view_08.txt",
+      "derived_label_sha256": "2c970290978ce0927d59811ac237769e18340dba6447f04af35df57b33c4d04d",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/sading_787_view_08.png",
+      "source_image_sha256": "fba54bc06f6187d8c5283648f4365a9ce223b1fcac0df838f3a9683dae66fc3e",
+      "source_image_size_bytes": 7469425,
+      "source_label": "labels/train/sading_787_view_08.txt",
+      "source_label_sha256": "2c970290978ce0927d59811ac237769e18340dba6447f04af35df57b33c4d04d",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        13
+      ],
+      "class_names": [
+        "saersaer"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/saersaer_035_view_17.png",
+      "derived_image_sha256": "e4c8aa7c9b747069c51655a05b27540880a23f0851e442ea28300c9e9f937e12",
+      "derived_image_size_bytes": 6530226,
+      "derived_label": "labels/train/saersaer_035_view_17.txt",
+      "derived_label_sha256": "c9ec297fd0618012db49df0a9d6206e3b64efc01c82cd0d251c28ee663292a35",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/saersaer_035_view_17.png",
+      "source_image_sha256": "4e11950c1207eae65a2a2a28a8b23fcec160cdfef0585b9884434125e88b175d",
+      "source_image_size_bytes": 10503059,
+      "source_label": "labels/train/saersaer_035_view_17.txt",
+      "source_label_sha256": "c9ec297fd0618012db49df0a9d6206e3b64efc01c82cd0d251c28ee663292a35",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        13
+      ],
+      "class_names": [
+        "saersaer"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/saersaer_139_view_07.png",
+      "derived_image_sha256": "a1ad8002c62870b4c9293da2a758d02b4eb124bc81935a02ca6a85236f7fae51",
+      "derived_image_size_bytes": 6148813,
+      "derived_label": "labels/train/saersaer_139_view_07.txt",
+      "derived_label_sha256": "edb18246458133aba7d7534d8400b1edf63fe536f795cc501a848993159af099",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/saersaer_139_view_07.png",
+      "source_image_sha256": "c413f21c51d36f54480bb10c901d63921f7fbcb547ce63a743b63bc41353e09f",
+      "source_image_size_bytes": 9538503,
+      "source_label": "labels/train/saersaer_139_view_07.txt",
+      "source_label_sha256": "edb18246458133aba7d7534d8400b1edf63fe536f795cc501a848993159af099",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        14
+      ],
+      "class_names": [
+        "saleikamei"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/saleikamei_217_view_14.png",
+      "derived_image_sha256": "f2e56f1716a5684e66164b3c83932dfbb7e7775ebbf9c43678358f96a02d92bf",
+      "derived_image_size_bytes": 13135950,
+      "derived_label": "labels/train/saleikamei_217_view_14.txt",
+      "derived_label_sha256": "ee5d574f6a1a752e557235437702552ec14ee774f38b33b63e6d943625315164",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/saleikamei_217_view_14.png",
+      "source_image_sha256": "c57c05ad5cd2526201dc3f63eff43c5bfbd95bf7ea05698858436513ce74a641",
+      "source_image_size_bytes": 19059346,
+      "source_label": "labels/train/saleikamei_217_view_14.txt",
+      "source_label_sha256": "ee5d574f6a1a752e557235437702552ec14ee774f38b33b63e6d943625315164",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        14
+      ],
+      "class_names": [
+        "saleikamei"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/saleikamei_276_view_21.png",
+      "derived_image_sha256": "2956ab9dcdbade64c7c5d5a56fd8607c1ae7f119f1a07dea2f248bdbd3186f65",
+      "derived_image_size_bytes": 7183371,
+      "derived_label": "labels/train/saleikamei_276_view_21.txt",
+      "derived_label_sha256": "ee75a4f77b40d9a8adb665335973706cbc48a6c2f4a6bcfbe3c9dbec50d44265",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/saleikamei_276_view_21.png",
+      "source_image_sha256": "c59d394aef4274609048224ff3f78424cec7d26fd65dcce8d571150f992b6368",
+      "source_image_size_bytes": 11178989,
+      "source_label": "labels/train/saleikamei_276_view_21.txt",
+      "source_label_sha256": "ee75a4f77b40d9a8adb665335973706cbc48a6c2f4a6bcfbe3c9dbec50d44265",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        15
+      ],
+      "class_names": [
+        "taihu"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/taihu_288_view_24.png",
+      "derived_image_sha256": "490795b2ade9d26ea5ed8dfacb9417c18db50890ae37d15c4bb2b407e5522c3f",
+      "derived_image_size_bytes": 15311783,
+      "derived_label": "labels/train/taihu_288_view_24.txt",
+      "derived_label_sha256": "994a7721128f44d71b8460cdb89da0ca3d1db15887839ad534f4954db73b8755",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/taihu_288_view_24.png",
+      "source_image_sha256": "9c5da86dd984c0b71f2eddf2f4219f27751609e4f8ad40c4ac50ef3eec6f7b6a",
+      "source_image_size_bytes": 21736234,
+      "source_label": "labels/train/taihu_288_view_24.txt",
+      "source_label_sha256": "994a7721128f44d71b8460cdb89da0ca3d1db15887839ad534f4954db73b8755",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        15
+      ],
+      "class_names": [
+        "taihu"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/taihu_420_view_39.png",
+      "derived_image_sha256": "59a3bf3889c754fa6a118446f207160cf4c2de03c6c78cd8b26a60d81638b241",
+      "derived_image_size_bytes": 8833775,
+      "derived_label": "labels/train/taihu_420_view_39.txt",
+      "derived_label_sha256": "93f48ae67fbec84f079ea00000b98360ced18d62daad4b6aaf9e39a215a4d81f",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/taihu_420_view_39.png",
+      "source_image_sha256": "74e9c092268d014b30207df6093ef3715658ab4db68cfea54a32fb7325c107f1",
+      "source_image_size_bytes": 14814813,
+      "source_label": "labels/train/taihu_420_view_39.txt",
+      "source_label_sha256": "93f48ae67fbec84f079ea00000b98360ced18d62daad4b6aaf9e39a215a4d81f",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        16
+      ],
+      "class_names": [
+        "taiwan"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/taiwan_330_view_28.png",
+      "derived_image_sha256": "86272c458cf925ff2d6e1fd783bf6c9805802c3efb1f2fdb26b218f8adb83980",
+      "derived_image_size_bytes": 4933282,
+      "derived_label": "labels/train/taiwan_330_view_28.txt",
+      "derived_label_sha256": "dbdbb5fa7a5d63b5c17ed1d2e50ce5b1fb9cceb45753a493df0c5826a305192a",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/taiwan_330_view_28.png",
+      "source_image_sha256": "5db47775d0765a15e822182987f38d599b4d7065f51589793b1c95b0b59710ab",
+      "source_image_size_bytes": 7504036,
+      "source_label": "labels/train/taiwan_330_view_28.txt",
+      "source_label_sha256": "dbdbb5fa7a5d63b5c17ed1d2e50ce5b1fb9cceb45753a493df0c5826a305192a",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        16
+      ],
+      "class_names": [
+        "taiwan"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/taiwan_547_view_29.png",
+      "derived_image_sha256": "03cf3d0e8c3a50c121e53abbc6b366f792bd06aac5b1b43e4194fda3945fb612",
+      "derived_image_size_bytes": 5631854,
+      "derived_label": "labels/train/taiwan_547_view_29.txt",
+      "derived_label_sha256": "d626598a947c42afffb97a685a77e3e3a253cda6256ac70cf08d03f2fed7bbc4",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/taiwan_547_view_29.png",
+      "source_image_sha256": "263383e394fb11a146f26785db03b6c2f516c842e2a669145c9c379fd0d1590b",
+      "source_image_size_bytes": 9787473,
+      "source_label": "labels/train/taiwan_547_view_29.txt",
+      "source_label_sha256": "d626598a947c42afffb97a685a77e3e3a253cda6256ac70cf08d03f2fed7bbc4",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        17
+      ],
+      "class_names": [
+        "tana"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/tana_661_view_32.png",
+      "derived_image_sha256": "279fb3a97505e9e0b584be65dd3f53a7ed813e6edb7551cf3085c175fe1dddcf",
+      "derived_image_size_bytes": 8284617,
+      "derived_label": "labels/train/tana_661_view_32.txt",
+      "derived_label_sha256": "75ccd435ca15999ced26c85ee957b8fe6dbc206f3fef6a2c429144760507258a",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/tana_661_view_32.png",
+      "source_image_sha256": "9ef544aaf02e205626d155d476b8748367831746740f1f48382707f86d093b26",
+      "source_image_size_bytes": 13676272,
+      "source_label": "labels/train/tana_661_view_32.txt",
+      "source_label_sha256": "75ccd435ca15999ced26c85ee957b8fe6dbc206f3fef6a2c429144760507258a",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        17
+      ],
+      "class_names": [
+        "tana"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/tana_808_view_34.png",
+      "derived_image_sha256": "a039c1f18711a17af0b30285ac6f4e6b1e3fe6043f0e9ecddb327f4b6126643d",
+      "derived_image_size_bytes": 7157652,
+      "derived_label": "labels/train/tana_808_view_34.txt",
+      "derived_label_sha256": "67795d2488709130774ee3476a6d57bcdb67a7787eec189fb03cc0f6f8785270",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/tana_808_view_34.png",
+      "source_image_sha256": "6d723cdae48219c0d35f84a8f64b792c3f151e37d62d144e92465560510dd500",
+      "source_image_size_bytes": 12392211,
+      "source_label": "labels/train/tana_808_view_34.txt",
+      "source_label_sha256": "67795d2488709130774ee3476a6d57bcdb67a7787eec189fb03cc0f6f8785270",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        18
+      ],
+      "class_names": [
+        "tekesi"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/tekesi_400_view_31.png",
+      "derived_image_sha256": "dcb2f3b54b2e28e7294d023a9a60ed7f18124313880d82e7c6eb2131218a7ab4",
+      "derived_image_size_bytes": 3421712,
+      "derived_label": "labels/train/tekesi_400_view_31.txt",
+      "derived_label_sha256": "00e462549c6123a749edee4aba49eedebf209c1289c00786c147ef387e6e7942",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/tekesi_400_view_31.png",
+      "source_image_sha256": "145219928e65615eaff3e401dbca818b96236729fa9aaa6fb182c66f3a63decc",
+      "source_image_size_bytes": 4794256,
+      "source_label": "labels/train/tekesi_400_view_31.txt",
+      "source_label_sha256": "00e462549c6123a749edee4aba49eedebf209c1289c00786c147ef387e6e7942",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        18
+      ],
+      "class_names": [
+        "tekesi"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/tekesi_495_view_23.png",
+      "derived_image_sha256": "9575d876891c46f50bfb6802ceaeae279e7acc0640f892e08081b328300541cc",
+      "derived_image_size_bytes": 4954319,
+      "derived_label": "labels/train/tekesi_495_view_23.txt",
+      "derived_label_sha256": "e634760edf4f99ff4d59ad427bb2bf9ed03df85db2e4e6867f79a0c8157dcd5e",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/tekesi_495_view_23.png",
+      "source_image_sha256": "ae92a2a166144d3f5bfbacd4dd92d7cd494e4271161e9dbcac699b8da7a85004",
+      "source_image_size_bytes": 7854801,
+      "source_label": "labels/train/tekesi_495_view_23.txt",
+      "source_label_sha256": "e634760edf4f99ff4d59ad427bb2bf9ed03df85db2e4e6867f79a0c8157dcd5e",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        19
+      ],
+      "class_names": [
+        "wennibeige"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/wennibeige_067_view_19.png",
+      "derived_image_sha256": "dd119b612753fb8048ea9c74e2cf0037ba07b5972ab4a8e95a559c83a0ecd40a",
+      "derived_image_size_bytes": 8238766,
+      "derived_label": "labels/train/wennibeige_067_view_19.txt",
+      "derived_label_sha256": "a415c9977e021cb665abe8e033cd40e26f26921f2265985c47e7167a8952fa86",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/wennibeige_067_view_19.png",
+      "source_image_sha256": "1a08abf841c9356c4c382f6cf5c3c314392c1522322edddba0ed14664989e77d",
+      "source_image_size_bytes": 12930681,
+      "source_label": "labels/train/wennibeige_067_view_19.txt",
+      "source_label_sha256": "a415c9977e021cb665abe8e033cd40e26f26921f2265985c47e7167a8952fa86",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        19
+      ],
+      "class_names": [
+        "wennibeige"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/train/wennibeige_602_view_21.png",
+      "derived_image_sha256": "414e66d0e924d74c76b906bc7a251121153c3424457f957dbe3b01c15b7a28b4",
+      "derived_image_size_bytes": 8334803,
+      "derived_label": "labels/train/wennibeige_602_view_21.txt",
+      "derived_label_sha256": "d91b3a4b12267d55f489dca06caff370bd06a2c6c04d8908ef92b39ec89e4bf7",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/train/wennibeige_602_view_21.png",
+      "source_image_sha256": "cb895c9b188b91356e8000ca406169c0b7dd5964ff5dfba22f93ad34285681f0",
+      "source_image_size_bytes": 13889895,
+      "source_label": "labels/train/wennibeige_602_view_21.txt",
+      "source_label_sha256": "d91b3a4b12267d55f489dca06caff370bd06a2c6c04d8908ef92b39ec89e4bf7",
+      "source_label_size_bytes": 79,
+      "split": "train",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        0
+      ],
+      "class_names": [
+        "agaier"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/agaier_602_view_04.png",
+      "derived_image_sha256": "244dfbda856413504e14fb302ba510af763b4e7b6391399209de3d7b427ba396",
+      "derived_image_size_bytes": 14821834,
+      "derived_label": "labels/val/agaier_602_view_04.txt",
+      "derived_label_sha256": "f034871dc330126006d78f2a9b41b99160593586db6b775282c87ee5da08f42f",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/agaier_602_view_04.png",
+      "source_image_sha256": "50752989364daf3655fdb67213c1d66475a90c04d639d62b50a52edc4b84a29a",
+      "source_image_size_bytes": 20992722,
+      "source_label": "labels/val/agaier_602_view_04.txt",
+      "source_label_sha256": "f034871dc330126006d78f2a9b41b99160593586db6b775282c87ee5da08f42f",
+      "source_label_size_bytes": 78,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        1
+      ],
+      "class_names": [
+        "aipuha"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/aipuha_011_view_16.png",
+      "derived_image_sha256": "cd564479691b73337e72f4b701cf7b6800b2a2ecd91b42b5c7e7d018883a629a",
+      "derived_image_size_bytes": 8395792,
+      "derived_label": "labels/val/aipuha_011_view_16.txt",
+      "derived_label_sha256": "81cf788675dbf90a4f1c4b312965a61d379241963cdc96eedb31b9a50f0e0a39",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/aipuha_011_view_16.png",
+      "source_image_sha256": "0529af90f701ccfd18c88c5532573c4aff3e853fe835560d284de49d99216ea6",
+      "source_image_size_bytes": 12970044,
+      "source_label": "labels/val/aipuha_011_view_16.txt",
+      "source_label_sha256": "81cf788675dbf90a4f1c4b312965a61d379241963cdc96eedb31b9a50f0e0a39",
+      "source_label_size_bytes": 78,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        2
+      ],
+      "class_names": [
+        "aituosha"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/aituosha_842_view_30.png",
+      "derived_image_sha256": "a889b89a8c8f083a0295286e237e8552b4631babb42589cecda08372a12f2a47",
+      "derived_image_size_bytes": 7464162,
+      "derived_label": "labels/val/aituosha_842_view_30.txt",
+      "derived_label_sha256": "aac968592430fd215f2b1fad9bdcd55b40a0250519728d45ae888e101fb55a4e",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/aituosha_842_view_30.png",
+      "source_image_sha256": "d6f09a922a61b24a4285cf5d79e7ff611f0f1fe9be661f6f0225e171c582acdc",
+      "source_image_size_bytes": 11155892,
+      "source_label": "labels/val/aituosha_842_view_30.txt",
+      "source_label_sha256": "aac968592430fd215f2b1fad9bdcd55b40a0250519728d45ae888e101fb55a4e",
+      "source_label_size_bytes": 78,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        3
+      ],
+      "class_names": [
+        "ansainusa"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/ansainusa_410_view_31.png",
+      "derived_image_sha256": "3df29e178c7a4b2a623e92b5d0377a60e0db71c3693cf62c1cb767370e119f6d",
+      "derived_image_size_bytes": 4257980,
+      "derived_label": "labels/val/ansainusa_410_view_31.txt",
+      "derived_label_sha256": "b22522f86416b4e2877f9e66b9a4010e482ffde1c43033d1d5b30fb99b86c648",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/ansainusa_410_view_31.png",
+      "source_image_sha256": "bcf70b07f5bfe7400d17cc53a5f709e229d5105358be1025c9d975a697035c21",
+      "source_image_size_bytes": 8498888,
+      "source_label": "labels/val/ansainusa_410_view_31.txt",
+      "source_label_sha256": "b22522f86416b4e2877f9e66b9a4010e482ffde1c43033d1d5b30fb99b86c648",
+      "source_label_size_bytes": 78,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        4
+      ],
+      "class_names": [
+        "aoerhong"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/aoerhong_299_view_24.png",
+      "derived_image_sha256": "98e045b84299a3d86031862f6fb7f70ce18f17f74f4b273290b6100197f55162",
+      "derived_image_size_bytes": 5660453,
+      "derived_label": "labels/val/aoerhong_299_view_24.txt",
+      "derived_label_sha256": "cc9fd10a9c7e66b1ae6e7eb44fd01ea79563e03d4f36850d815f2d9cf421b2e3",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/aoerhong_299_view_24.png",
+      "source_image_sha256": "ceaaf85e43e532c01e17772788f764eed15c7fb3dc69bc815f851b19d6e1656a",
+      "source_image_size_bytes": 8461532,
+      "source_label": "labels/val/aoerhong_299_view_24.txt",
+      "source_label_sha256": "cc9fd10a9c7e66b1ae6e7eb44fd01ea79563e03d4f36850d815f2d9cf421b2e3",
+      "source_label_size_bytes": 78,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        5
+      ],
+      "class_names": [
+        "chapala"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/chapala_819_view_30.png",
+      "derived_image_sha256": "16e644e9f374be379d32310c4cf71118817b89f64f3efe34abcd6018faf8aff3",
+      "derived_image_size_bytes": 15557363,
+      "derived_label": "labels/val/chapala_819_view_30.txt",
+      "derived_label_sha256": "bdcfb5e0fe297688753753901a9dd8dad03f0c9bb2cc0c67b9764b4ca2cc9eb8",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/chapala_819_view_30.png",
+      "source_image_sha256": "f71118f11926b3ad532c8e421cdd69176578caa7acbd6d1112adb2b3e2cb463b",
+      "source_image_size_bytes": 21928871,
+      "source_label": "labels/val/chapala_819_view_30.txt",
+      "source_label_sha256": "bdcfb5e0fe297688753753901a9dd8dad03f0c9bb2cc0c67b9764b4ca2cc9eb8",
+      "source_label_size_bytes": 78,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        6
+      ],
+      "class_names": [
+        "dibulong"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/dibulong_206_view_36.png",
+      "derived_image_sha256": "1381901b0a29f13685ff2305ebedf005fd555867ac1a0b6640f7d81bf222c4a0",
+      "derived_image_size_bytes": 7249229,
+      "derived_label": "labels/val/dibulong_206_view_36.txt",
+      "derived_label_sha256": "9a17f0024ca2d61abbeeb3dcac02f847e58e7eedf7109f7aaa04f61e6b87e286",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/dibulong_206_view_36.png",
+      "source_image_sha256": "2101f2516c4c450033375b1203ebf71f32d25928270713ed688a1c92fda782d2",
+      "source_image_size_bytes": 11208967,
+      "source_label": "labels/val/dibulong_206_view_36.txt",
+      "source_label_sha256": "9a17f0024ca2d61abbeeb3dcac02f847e58e7eedf7109f7aaa04f61e6b87e286",
+      "source_label_size_bytes": 78,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        7
+      ],
+      "class_names": [
+        "didikaka"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/didikaka_184_view_30.png",
+      "derived_image_sha256": "2983c4b796d6be0a5838ca935a308fd00ca063b65004e25b1de65f1bb66dc2ea",
+      "derived_image_size_bytes": 7239301,
+      "derived_label": "labels/val/didikaka_184_view_30.txt",
+      "derived_label_sha256": "6ad20a15530cdbe9a358926f12446773fe97bd4cf09903a0d9d75617e3586cf1",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/didikaka_184_view_30.png",
+      "source_image_sha256": "ab654a4a60d797314ee2040df2ff9827779f9e22fd789ca1343f568ad55cd37d",
+      "source_image_size_bytes": 11770467,
+      "source_label": "labels/val/didikaka_184_view_30.txt",
+      "source_label_sha256": "6ad20a15530cdbe9a358926f12446773fe97bd4cf09903a0d9d75617e3586cf1",
+      "source_label_size_bytes": 78,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": true,
+      "class_ids": [],
+      "class_names": [],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/didikaka_853_view_01.png",
+      "derived_image_sha256": "c328ffe1ecb2b528a64850f0f0c88b81096c2daae1c118c69dc03462bde8f543",
+      "derived_image_size_bytes": 15344314,
+      "derived_label": "labels/val/didikaka_853_view_01.txt",
+      "derived_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_label_size_bytes": 0,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/didikaka_853_view_01.png",
+      "source_image_sha256": "9cb87c1517b3998c6b5a32459df465c4fce9be1eeb35d6a6200cbdc5e5a6cead",
+      "source_image_size_bytes": 21663682,
+      "source_label": "labels/val/didikaka_853_view_01.txt",
+      "source_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_label_size_bytes": 0,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": true,
+      "class_ids": [],
+      "class_names": [],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/kanjialu_173_view_23.png",
+      "derived_image_sha256": "a5781d0f3f6ed90a18098998286de960daad517fd66f4a67e7805fd22e59642c",
+      "derived_image_size_bytes": 1594654,
+      "derived_label": "labels/val/kanjialu_173_view_23.txt",
+      "derived_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_label_size_bytes": 0,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/kanjialu_173_view_23.png",
+      "source_image_sha256": "4a14c01b05a54d799b59a118ae42c369bfe23a07720da3adc2dbcc7819db48b0",
+      "source_image_size_bytes": 2242495,
+      "source_label": "labels/val/kanjialu_173_view_23.txt",
+      "source_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_label_size_bytes": 0,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        8
+      ],
+      "class_names": [
+        "kanjialu"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/kanjialu_364_view_16.png",
+      "derived_image_sha256": "78219f05e551a73b6d073300bf90b5e3fd859e740652b0496c4b707f2b14f818",
+      "derived_image_size_bytes": 5067803,
+      "derived_label": "labels/val/kanjialu_364_view_16.txt",
+      "derived_label_sha256": "30e9f676986115edac6185d96eea103a97870c496d7507b6d06ee47334ef8055",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/kanjialu_364_view_16.png",
+      "source_image_sha256": "bc7186578635314033cafc1d332bb77c62405473870996e239748b3c60a52ab6",
+      "source_image_size_bytes": 8189406,
+      "source_label": "labels/val/kanjialu_364_view_16.txt",
+      "source_label_sha256": "30e9f676986115edac6185d96eea103a97870c496d7507b6d06ee47334ef8055",
+      "source_label_size_bytes": 78,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        9
+      ],
+      "class_names": [
+        "lupate"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/lupate_231_view_17.png",
+      "derived_image_sha256": "3b29871cafaf032ee5916e0bdbfa8793e80379ac212f86296af9df645b947f35",
+      "derived_image_size_bytes": 4737916,
+      "derived_label": "labels/val/lupate_231_view_17.txt",
+      "derived_label_sha256": "5c7d4cac81dfe484cd2d0279178d90ea5c79fc411d124a77778c72d36c0a7b3f",
+      "derived_label_size_bytes": 78,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/lupate_231_view_17.png",
+      "source_image_sha256": "442192f52531a0cd5727ccea55a06e60ab7975be40f2e7b1cfcc5b93c6ce8816",
+      "source_image_size_bytes": 7230061,
+      "source_label": "labels/val/lupate_231_view_17.txt",
+      "source_label_sha256": "5c7d4cac81dfe484cd2d0279178d90ea5c79fc411d124a77778c72d36c0a7b3f",
+      "source_label_size_bytes": 78,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        20
+      ],
+      "class_names": [
+        "moon"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/moon_val_000119.png",
+      "derived_image_sha256": "cfdbd8e4c462cb33891c64f2a01ffd8e6a5284061b7f9e113ee764b2290547e3",
+      "derived_image_size_bytes": 47262,
+      "derived_label": "labels/val/moon_val_000119.txt",
+      "derived_label_sha256": "681a6771fe04c85edcfb92cbb50accef9c79934a0a19639cbf92ec848ae52c1d",
+      "derived_label_size_bytes": 135,
+      "derived_mode": "L",
+      "height": 2048,
+      "source_image": "images/val/moon_val_000119.png",
+      "source_image_sha256": "9650e32217f8333f007c6597c4391b4fa317c49630a20aed1223081a5cdf971c",
+      "source_image_size_bytes": 53765,
+      "source_label": "labels/val/moon_val_000119.txt",
+      "source_label_sha256": "681a6771fe04c85edcfb92cbb50accef9c79934a0a19639cbf92ec848ae52c1d",
+      "source_label_size_bytes": 135,
+      "split": "val",
+      "width": 2048
+    },
+    {
+      "background": false,
+      "class_ids": [
+        10
+      ],
+      "class_names": [
+        "qinghai"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/qinghai_254_view_38.png",
+      "derived_image_sha256": "6ca472ac023375a8a35a3702a600f42f8a2a18f692acdae397edbd4e862ce1d7",
+      "derived_image_size_bytes": 7537679,
+      "derived_label": "labels/val/qinghai_254_view_38.txt",
+      "derived_label_sha256": "dc14eca9d9b9e3d4c70ecc46a68dd147c1c7184402a7c9cd3211305908a9ea63",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/qinghai_254_view_38.png",
+      "source_image_sha256": "11d8c3d32a6ff5d202027f4a7ccac1017b54254fad1dffad22bdd506f44b6d03",
+      "source_image_size_bytes": 12852684,
+      "source_label": "labels/val/qinghai_254_view_38.txt",
+      "source_label_sha256": "dc14eca9d9b9e3d4c70ecc46a68dd147c1c7184402a7c9cd3211305908a9ea63",
+      "source_label_size_bytes": 79,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        11
+      ],
+      "class_names": [
+        "rineiwa"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/rineiwa_390_view_28.png",
+      "derived_image_sha256": "6b63ad7353b1d0b27e075184110351cbdf049dfe39f9348cf53d96fdef51b153",
+      "derived_image_size_bytes": 8575902,
+      "derived_label": "labels/val/rineiwa_390_view_28.txt",
+      "derived_label_sha256": "4282d5fed702a040a692de52c6da833021d8bc1490affb8a75976ed93ae1b887",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/rineiwa_390_view_28.png",
+      "source_image_sha256": "5ea8aaad40f4a083b94e7ea2bff30332dc11c094437f03fd1c90593eb32aef45",
+      "source_image_size_bytes": 13177692,
+      "source_label": "labels/val/rineiwa_390_view_28.txt",
+      "source_label_sha256": "4282d5fed702a040a692de52c6da833021d8bc1490affb8a75976ed93ae1b887",
+      "source_label_size_bytes": 79,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": true,
+      "class_ids": [],
+      "class_names": [],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/rineiwa_696_view_36.png",
+      "derived_image_sha256": "75ec9dc93adaaed7dd4be7d8fc49b602f7151054d7a8e4d7e09b825c9b2fb2db",
+      "derived_image_size_bytes": 9470022,
+      "derived_label": "labels/val/rineiwa_696_view_36.txt",
+      "derived_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_label_size_bytes": 0,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/rineiwa_696_view_36.png",
+      "source_image_sha256": "de5a11f20d3b41230c0abdbd608cf27ba5dabb48c8b81a4fc92428231b9b8da1",
+      "source_image_size_bytes": 15491857,
+      "source_label": "labels/val/rineiwa_696_view_36.txt",
+      "source_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_label_size_bytes": 0,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        12
+      ],
+      "class_names": [
+        "sading"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/sading_638_view_40.png",
+      "derived_image_sha256": "e4b6eb9312b40b71de79c727870685c492934294aa658e232bbad0b26a2a6f85",
+      "derived_image_size_bytes": 4741890,
+      "derived_label": "labels/val/sading_638_view_40.txt",
+      "derived_label_sha256": "6d5373bdce3e2488851fc89715e279f3f58629048e77c7d0d4605122eb0fa541",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/sading_638_view_40.png",
+      "source_image_sha256": "23331119d024f15128aa3562ec869bd164e287117dcbd113e4e2dc6849f0c6ab",
+      "source_image_size_bytes": 7599627,
+      "source_label": "labels/val/sading_638_view_40.txt",
+      "source_label_sha256": "6d5373bdce3e2488851fc89715e279f3f58629048e77c7d0d4605122eb0fa541",
+      "source_label_size_bytes": 79,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        13
+      ],
+      "class_names": [
+        "saersaer"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/saersaer_206_view_30.png",
+      "derived_image_sha256": "e2e4705749d8f2ccaa4909846c8b8e735328119634bee529682958c38f723d91",
+      "derived_image_size_bytes": 15226868,
+      "derived_label": "labels/val/saersaer_206_view_30.txt",
+      "derived_label_sha256": "7933cace0931d9f628a9264eb6408afe0b6ab44de4954fe285b22a94605cd5a4",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/saersaer_206_view_30.png",
+      "source_image_sha256": "c9efba937e1fe3103b2e0f6765648a5fa4f30daa4f5676827e390b18f41e2c1d",
+      "source_image_size_bytes": 21664573,
+      "source_label": "labels/val/saersaer_206_view_30.txt",
+      "source_label_sha256": "7933cace0931d9f628a9264eb6408afe0b6ab44de4954fe285b22a94605cd5a4",
+      "source_label_size_bytes": 79,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        14
+      ],
+      "class_names": [
+        "saleikamei"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/saleikamei_021_view_36.png",
+      "derived_image_sha256": "65c15783469d5086850c8d0586e3e83edae2105c4c11ee58a0785da6328425aa",
+      "derived_image_size_bytes": 6489736,
+      "derived_label": "labels/val/saleikamei_021_view_36.txt",
+      "derived_label_sha256": "252a1169b307ead143a3d467e6a906219c960c7cde2b176dcda196e18a147eb9",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/saleikamei_021_view_36.png",
+      "source_image_sha256": "43033cf0f9515231211c32c75b9ea31f87a8883fefbb265b4eb967185e498229",
+      "source_image_size_bytes": 10085540,
+      "source_label": "labels/val/saleikamei_021_view_36.txt",
+      "source_label_sha256": "252a1169b307ead143a3d467e6a906219c960c7cde2b176dcda196e18a147eb9",
+      "source_label_size_bytes": 79,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        15
+      ],
+      "class_names": [
+        "taihu"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/taihu_547_view_08.png",
+      "derived_image_sha256": "34d7e1dfefca5ba9ecd167c1a0447a69141992f4a7d7cb1dbe73448a51d43e15",
+      "derived_image_size_bytes": 5291280,
+      "derived_label": "labels/val/taihu_547_view_08.txt",
+      "derived_label_sha256": "2d9818ddc9ecf250d72e7255f0d6046f756a8d5a88b4522c4f86202aa072b53b",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/taihu_547_view_08.png",
+      "source_image_sha256": "a4213f4708734955c48f90058f0848fb0af220f62c31ddebce6e35596452347e",
+      "source_image_size_bytes": 7552042,
+      "source_label": "labels/val/taihu_547_view_08.txt",
+      "source_label_sha256": "2d9818ddc9ecf250d72e7255f0d6046f756a8d5a88b4522c4f86202aa072b53b",
+      "source_label_size_bytes": 79,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        16
+      ],
+      "class_names": [
+        "taiwan"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/taiwan_787_view_32.png",
+      "derived_image_sha256": "0258b44cc2f3eaf5d44b3d431fe612760bc890ec3e08f79a7076fe43c5339f9d",
+      "derived_image_size_bytes": 5445818,
+      "derived_label": "labels/val/taiwan_787_view_32.txt",
+      "derived_label_sha256": "87169731171fb22ccbf73f40b34f94c3ffc19a56149aa5e05c77627e2650d78f",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/taiwan_787_view_32.png",
+      "source_image_sha256": "294b9aa4c907039a363f73c0c0ea8c307cb4d7721bcb048a2393a6dc4a537312",
+      "source_image_size_bytes": 8931564,
+      "source_label": "labels/val/taiwan_787_view_32.txt",
+      "source_label_sha256": "87169731171fb22ccbf73f40b34f94c3ffc19a56149aa5e05c77627e2650d78f",
+      "source_label_size_bytes": 79,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        17
+      ],
+      "class_names": [
+        "tana"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/tana_864_view_34.png",
+      "derived_image_sha256": "ee27cc0d64d39efd2f75f31809087e2392cf21bb0be1485754c0c0754ef74732",
+      "derived_image_size_bytes": 5909856,
+      "derived_label": "labels/val/tana_864_view_34.txt",
+      "derived_label_sha256": "ac9952befaa864ad8a1586cb569e95af3325c1c6bd713eb753b872a8d9bb72a4",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/tana_864_view_34.png",
+      "source_image_sha256": "3a32d7cdb7a458f18a9c1856a49577aa450e77b99d9e177ee37d4e35efa48372",
+      "source_image_size_bytes": 10171648,
+      "source_label": "labels/val/tana_864_view_34.txt",
+      "source_label_sha256": "ac9952befaa864ad8a1586cb569e95af3325c1c6bd713eb753b872a8d9bb72a4",
+      "source_label_size_bytes": 79,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        18
+      ],
+      "class_names": [
+        "tekesi"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/tekesi_696_view_36.png",
+      "derived_image_sha256": "577e05e9bbfd02ab5b6cf4cd4b53fcca6b1f2d201f206bf1dbb63c4ddc53b607",
+      "derived_image_size_bytes": 4523738,
+      "derived_label": "labels/val/tekesi_696_view_36.txt",
+      "derived_label_sha256": "c5e2f3056603de93542797c5586b290bd05e93edd66e2a3238f360330fad5184",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/tekesi_696_view_36.png",
+      "source_image_sha256": "e14a6c610a3577f666175561cece48c5b30712f28bc2f4ae00bb9c840724e70d",
+      "source_image_size_bytes": 7419244,
+      "source_label": "labels/val/tekesi_696_view_36.txt",
+      "source_label_sha256": "c5e2f3056603de93542797c5586b290bd05e93edd66e2a3238f360330fad5184",
+      "source_label_size_bytes": 79,
+      "split": "val",
+      "width": 4096
+    },
+    {
+      "background": false,
+      "class_ids": [
+        19
+      ],
+      "class_names": [
+        "wennibeige"
+      ],
+      "conversion": "exact RGB R-channel extraction; G/B verified zero",
+      "derived_image": "images/val/wennibeige_819_view_25.png",
+      "derived_image_sha256": "77695437ea082d13b5b7731559aedefe2dd8268e9ebf8ef07d92c1951ae94e2c",
+      "derived_image_size_bytes": 16493137,
+      "derived_label": "labels/val/wennibeige_819_view_25.txt",
+      "derived_label_sha256": "68c51297ca95b0f58d9f4fab1c17e26b1c4253e1e4f8b625742617c35a3a05c8",
+      "derived_label_size_bytes": 79,
+      "derived_mode": "L",
+      "height": 4096,
+      "source_image": "images/val/wennibeige_819_view_25.png",
+      "source_image_sha256": "ec9f6184b66da26ff88ee5e13c71792671208bbb48442538b9b23e8df95eaea5",
+      "source_image_size_bytes": 22861253,
+      "source_label": "labels/val/wennibeige_819_view_25.txt",
+      "source_label_sha256": "68c51297ca95b0f58d9f4fab1c17e26b1c4253e1e4f8b625742617c35a3a05c8",
+      "source_label_size_bytes": 79,
+      "split": "val",
+      "width": 4096
+    }
+  ],
+  "schema_version": 1,
+  "selection": {
+    "algorithm": "sha256(seed\\0split\\0group\\0relative_image), ascending",
+    "counts": {
+      "test": {
+        "background": 3,
+        "per_class": 1
+      },
+      "train": {
+        "background": 6,
+        "per_class": 2
+      },
+      "val": {
+        "background": 3,
+        "per_class": 1
+      }
+    },
+    "seed": "20260909",
+    "total": 96
+  },
+  "selection_counts": {
+    "test": {
+      "0": 1,
+      "1": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "2": 1,
+      "20": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "background": 3
+    },
+    "train": {
+      "0": 2,
+      "1": 2,
+      "10": 2,
+      "11": 2,
+      "12": 2,
+      "13": 2,
+      "14": 2,
+      "15": 2,
+      "16": 2,
+      "17": 2,
+      "18": 2,
+      "19": 2,
+      "2": 2,
+      "20": 2,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 2,
+      "8": 2,
+      "9": 2,
+      "background": 6
+    },
+    "val": {
+      "0": 1,
+      "1": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "2": 1,
+      "20": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "background": 3
+    }
+  },
+  "source": {
+    "index": "/index/chenshiwen_yolo_full_index.json",
+    "index_sha256": "dc01558a1c09129ec768e531265682f971507f6f64a6a7ec6569dc0dc6c282f4",
+    "owner": "ai-i-chenshiwen:ai-i-chenshiwen",
+    "read_only": true,
+    "root": "/data2/ai-i-chenshiwen/auto_landmark/Dataset/yolo_full"
+  },
+  "split_counts": {
+    "test": 24,
+    "train": 48,
+    "val": 24
+  }
+}

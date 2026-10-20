@@ -1,0 +1,41 @@
+﻿{
+    "status":  "PASS",
+    "unchanged_scanned_files":  136,
+    "changed":  [
+                    "/data3/ywang/quantitize-platform/docs/agent/CONTEXT.md"
+                ],
+    "repositories":  [
+                         {
+                             "root":  "/data3/ywang/quantitize-platform",
+                             "head":  "b1ac5ea84e0374d9bfa2be2c9214e07e950a0a79",
+                             "status":  " M docs/agent/CONTEXT.md\n"
+                         },
+                         {
+                             "root":  "/data3/ywang/yolo-gray1-train",
+                             "head":  "c981f5b8a7a4f3c8a111c63812d0c74f5fe8b5f2",
+                             "status":  ""
+                         },
+                         {
+                             "root":  "/data3/ywang/yolo-gray1-data-pipeline",
+                             "head":  "f147cee93c83876348205ca268eb930010192116",
+                             "status":  ""
+                         },
+                         {
+                             "root":  "/data3/ywang/main-worktrees/quantitize-platform",
+                             "head":  "d206ea6f184ca1773ce10e4c0c0b90204d07a7c0",
+                             "status":  ""
+                         },
+                         {
+                             "root":  "/data3/ywang/main-worktrees/yolo-gray1-train",
+                             "head":  "232dfeb1229a67a4f2dd6cd8c2b173041fe7814e",
+                             "status":  ""
+                         },
+                         {
+                             "root":  "/data3/ywang/main-worktrees/yolo-gray1-data-pipeline",
+                             "head":  "f147cee93c83876348205ca268eb930010192116",
+                             "status":  ""
+                         }
+                     ],
+    "after_sha256":  "4eebda8816adeb21984982086f4723717e72de587485fd6142cf73b6e9d26cc1",
+    "scope":  "Only Windows path clarification; physical Windows rename remains pending; no services, NAS or GPU touched"
+}

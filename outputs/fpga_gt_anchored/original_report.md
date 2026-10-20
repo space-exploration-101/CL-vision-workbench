@@ -1,0 +1,492 @@
+# Pose21 500 张原始测试集生成与测试记录
+
+本组数据用于当前 21 类模型的新增测试及后续 FPGA 相机输入验证。选择 21 类各 20 张正样本，加 80 张负样本，从原始 `yolo_full` 中排除已用记录后抽取；保存原始 R-only 图像，并生成同尺寸 Gray1 图像。该组数据与训练集存在地球地标 group 重叠，不能作为全新场景的独立泛化测试集。
+
+## 当前执行范围
+
+2026-10-12 用户授权本轮执行：记录使用情况和选图原则、生成元数据、复制原图和标签到 H200 `/data1/ywang`，将 R-only 图提取为单通道灰度图。只使用 CPU，不修改源数据。
+
+步骤 1 至 3 已完成，本批原始图、灰度图、标签及元数据已发布，内置验收为 PASS。用户随后授权的步骤 4 也已完成：复制指定量化任务的 PT，生成 500 张 net1280 图像及配套标签，在训练镜像的既有 Gray1 推理修正版中完成推理、500 张可视化和识别及 pixel 偏差分析，独立验收 PASS。步骤 4 使用 GPU，未修改源数据或生产服务。用户进一步授权的步骤 5 已生成 500 张 cam2000 PNG 和 500 个相机 BIN，使用 CPU，不创建 labels；相机目录已合并为 `5-cam2000/png` 与 `5-cam2000/bin`。
+
+2026-10-13 用户新增授权：移除旧目录软链接并将当前引用迁移到编号路径；使用指定量化任务的 weight-only ONNX 对同一份 net1280 数据进行推理，保存预测 labels、可视化和精度及像素偏差统计。目录迁移及 ONNX CPU 评估均已完成，独立验收 PASS，不重新量化、不使用 GPU、不修改生产服务。
+
+## 原始数据及既有使用情况
+
+H200 原始数据根目录：`/data2/ai-i-chenshiwen/auto_landmark/Dataset/yolo_full`。
+
+| 对象 | 数量和用途 |
+|---|---|
+| 原始全集 | 66,006 张，train 52,772、val 6,634、test 6,600 |
+| M 规模数据 | 26,794 张，train 13,560、val 6,634、test 6,600 |
+| M train | 20 个地球地标全部 1,296 个 train group，每组取 10 个视角；moon 取 600 张 |
+| M val | 全部 6,634 张，用于训练验证和权重选择 |
+| M test | 全部 6,600 张，已完成完整 PT 测试 |
+| cal462 | M train 子集，21 类各 20 正样本加 42 负样本 |
+| eval462 | M test 子集，21 类各 18 正样本加 84 负样本，用于量化比较 |
+| 历史二类任务 | `aituosha_moon_840` 的 200 张月球 test 原图与当前全集对应源图 SHA-256 全部相同 |
+
+全集索引和 M 子集索引位于 `/data3/ywang/yolo-gray1-datasets/manifests/`：
+
+| 文件 | SHA-256 |
+|---|---|
+| `yolo-full-index-20260917.json` | `e402eddf3104afc3750e23028fc51f18ea6b4218030425655a287284d62d4eae` |
+| `yolo-medium-index-20260917.json` | `5d2a3268e4e4fa869a81800a5f01fbef60c1d1ac564119fc8dedef7df1b17adb` |
+
+全集索引含原图和标签相对路径、类别、group、split、正负标记、文件大小与标签 SHA-256，但没有逐图图像 SHA-256。本次对选中原图补算哈希。M 索引中的 parent hash 与全集哈希一致；两者 `source_revision` 字符串不同，不能把字符串差异解释为父子关系失效。
+
+既有实验依据见 [训练测试标定与量化完整报告](20260920_Pose21_Gray1_训练测试标定与量化完整报告.md)。本次沿用旧源数据服务于冻结旧模型的工程测试，不改变后续新训练数据集不再使用 `yolo_full` 的约定。
+
+## 排除范围和选图原则
+
+1. 排除 M 集全部 26,794 条，包含所有已选 train、val、test。
+2. 核对 cal462 和 eval462 清单，排除其源身份及可用图像哈希。
+3. 排除 H200 当前可访问的 46 份历史 `input_cali_files.txt`、`input_test_files.txt` 中的图片名称。
+4. 排除当前共享 cali/test 目录中 3,781 张图片的名称及文件哈希。全集文件 stem 无重复，因此用 stem 跨 split、跨后缀进行保守排除。
+5. 对选中原图计算 SHA-256，与已知已用源图和共享输入哈希核对；同批次还检查灰度像素面无完全重复。
+6. 固定 seed 为 `20261012-raw-fpga500-metadata-v1`，按 `SHA256(seed + "|" + source_image)` 排序，按固定类别顺序选择，先正样本、后负样本。
+7. 21 类各取 20 张正样本；80 张负样本来自 20 个地球地标来源各 4 张。负样本保留空标签，来源地标不是其 GT 类别，不人为添加目标。
+8. 整个 500 张集合每 group 只取一张，不根据模型预测是否成功挑图。
+
+清单初筛剩余 38,930 张，全在原始 train split 中，其中正样本 33,134 张、负样本 5,796 张；moon 正样本 332 张。原始目录名 `train` 表示源数据划分，不代表这些文件已进入本次 M 模型训练。
+
+“未使用”仅指不在上述可访问的已用记录和已知文件身份中。未审计已删除或不可访问的历史任务，也不宣称完成所有历史训练的全面追溯或感知相似图去重。
+
+**group 边界：** 20 个地球地标的所有 train group 均已被 M 训练覆盖，因此本组地球图是已见 group 的未用视角。试选的 500 个 group 在本组内互不重复，其中 480 个地球来源 group 与 M 集重叠，20 个 moon group 与 M 集无交集。
+
+## 目录和元数据
+
+已发布目录：`/data1/ywang/pose21-raw-gray-test500-20261012-v1`。同级 `.partial` 目录用于生成，内置验收通过后已原子改名；已有目录不得覆盖。2026-10-13 完成无软链接的编号目录迁移，当前结构如下。
+
+```text
+pose21-raw-gray-test500-20261012-v1/
+  1-metadata/                 冻结选图清单、排除依据、环境和验收记录
+    selection_plan.json
+    selection.json
+    selection.csv
+    usage_inventory.csv
+    exclusion_evidence.json
+    verification.json
+    directory_layout_20261012.json
+  2-raw/images/               500 张原始 R-only PNG
+  2-raw/labels/               500 个原始 YOLO Pose 标签
+  3-gray/images/              500 张同尺寸单通道 PNG
+  3-gray/labels/              500 个相同标签的独立副本
+  4-net1280/                  images、labels 各 500；配置、清单和独立校验标记
+  5-cam2000/
+    png/                     2000×2000 uint8 单通道 PNG
+    bin/                     对应 packed-u12 相机帧
+    sample_index.csv         PNG/BIN 文件名与正负样本身份对照
+    manifest.json            源图与 PNG/BIN 映射及哈希
+    verification.json
+    SHA256SUMS
+    VERIFIED
+  6-results/
+    pt_eval_20261012_v1/      已完成的 PT 结果，内容未变
+    onnx_eval_20261013_v1/    已完成的量化 ONNX 结果，500 份 labels 和可视化
+  7-scripts/                 历史生成快照及当前评估脚本
+    onnx_eval_20261013/       当前编号路径的 ONNX 评估脚本
+  model.pt                   指定量化任务的输入 PT
+  pose21_gray1_weight_only_accuracy_output.onnx
+  SHA256SUMS
+  VERIFIED
+```
+
+编号表示阶段顺序，但不表示每一步都以上一步为输入。实际数据依赖为：
+
+```text
+1-metadata 固定选择与来源
+2-raw -> 3-gray -> 4-net1280 -> 6-results/PT 与 ONNX 验证
+             \-> 5-cam2000/png -> 5-cam2000/bin
+```
+
+`5-cam2000` 必须从无 padding 的 `3-gray` 生成，不能从 `4-net1280` 放大。用户后续授权将原预留的 `6-cam2000_bin` 合并到 `5-cam2000/bin`，相机 PNG 放在 `5-cam2000/png`；不保留独立 BIN 根目录，也不创建相机 labels。2026-10-13 原 `results` 改为 `6-results`，原 `scripts` 改为 `7-scripts`，模型仍在根目录。相机阶段以 `VERIFIED` 存在且校验通过作为发布依据。
+
+2026-10-12 曾以四个旧名软链接兼容历史路径；2026-10-13 已验证目标后仅 unlink 软链接本身，未递归删除目录。当前根目录无软链接，也无旧 `raw`、`gray`、`metadata`、`net1280`、`results`、`scripts` 路径。当前 `selection.json`/CSV 中的输出映射、net1280 manifest 的源路径及 `dataset.yaml` 已改用编号名，Docker 配置现在为 `/dataset/4-net1280`。
+
+本地历史副本不覆盖，以下原有链接及历史表格中的哈希仍表示当时发布的身份。H200 `1-metadata/layout-history-20261013.zip` 保存改写前文件的逐字节副本、历史脚本及结果元数据；历史 PT/cam2000 结果本体未改写，因此其中旧路径和旧 selection 哈希是运行时溯源，不是当前配置。`7-scripts` 中旧生成脚本属于历史快照，不应直接对已发布批次重跑；本次推理使用 `7-scripts/onnx_eval_20261013`，无旧路径依赖。
+
+当前路径版本以 [迁移验收记录](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/layout-v2/numbered-layout-v2.json)、[当前选图 JSON](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/layout-v2/selection.json)、[当前选图 CSV](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/layout-v2/selection.csv)、[当前根校验清单](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/layout-v2/SHA256SUMS) 和 [当前发布标记](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/layout-v2/VERIFIED) 为准。迁移脚本：[migrate_pose21_numbered_layout.py](../../../../tools/migrate_pose21_numbered_layout.py)。发生错误会恢复受影响文件、目录名和软链接；迁移成功后如需回滚，应依迁移记录和历史 ZIP 恢复，不删除实体数据。
+
+本次无软链接迁移验收 **PASS**：原始集 2007、net1280 1004、PT 结果 1013、cam2000 1005，共 5029 个文件校验项通过。选中 500 张图及标签内容未变，仅当前路径元数据和受影响校验文件更新，未重新抽样。
+
+[独立迁移验收](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/layout-v2/independent-verification.json) 另外逐项比较历史 ZIP：500 条 selection 除四个输出路径前缀外完全一致；3006 个未改动文件与历史哈希相同；根目录软链接为 0、所有目录均编号、PT 模型哈希不变。
+
+| 当前路径版本身份 | SHA-256 |
+|---|---|
+| `1-metadata/selection.json` | `a2535bc76a52d5a62a6dfe93a42f9d4d3770498ccc09e5fb16350404ecd5fce7` |
+| `4-net1280/manifest.json` | `d74485090ed9ecdb88c15e91831a0d4bebf88f004cd8c586905efdd2857f8552` |
+| 根 `SHA256SUMS` | `4ff7236114ee9357d851db3149ff13aa871ad66ea1eaed25900d032def1d452f` |
+| 历史 ZIP | `6068687d20cd0b2946f109a63a1828177a859378ca4e08851a0f0c157d75d31e` |
+
+首次编号调整验收为 **PASS**（北京时间 2026-10-12 21:16:27）：原始发布清单 2007 项、net1280 清单 1004 项、推理结果清单 1013 项，共 4024 个文件校验项全部通过；模型、选图清单与既有发布标记哈希未变。2、3、4 三个阶段仍分别有 500 张图和 500 个标签，四个旧名均正确指向编号目录，5、6 在当时确认为空。首次编号操作未使用 GPU、未重新推理或生成相机数据；后续相机生成状态见下节。
+
+`usage_inventory.csv` 覆盖全集 66,006 条，逐项记录其是否属于 M、历史任务输入、共享输入、排除集合、本次选择以及 group 是否被 M 使用。`exclusion_evidence.json` 固定排除依据的路径、清单内容和哈希。
+
+`selection.json` 保存 500 条源路径、类别、正负标记、group、原始 split、原图与标签哈希、raw/gray 输出映射、尺寸、灰度像素哈希和 group 重叠标记。先冻结 `selection_plan.json`，再按该计划复制转换，不边生成边改选。
+
+仓库保留以下与 H200 发布清单哈希一致的元数据副本，图片仍位于 H200：
+
+- [500 张测试图清单 JSON](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/metadata/selection.json)
+- [500 张测试图清单 CSV](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/metadata/selection.csv)
+- [全集使用情况 CSV](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/metadata/usage_inventory.csv)
+- [排除依据和哈希](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/metadata/exclusion_evidence.json)
+- [生成验收结果](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/metadata/verification.json)
+- [文件校验清单](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/SHA256SUMS) 和 [发布标记](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/VERIFIED)
+
+生成脚本：[prepare_pose21_raw500.py](../../../../tools/prepare_pose21_raw500.py)。
+
+生成命令如下，输出目录必须尚不存在；不得在已有批次上重复覆盖执行：
+
+```bash
+python3 prepare_pose21_raw500.py \
+  --source /data2/ai-i-chenshiwen/auto_landmark/Dataset/yolo_full \
+  --full-index /data3/ywang/yolo-gray1-datasets/manifests/yolo-full-index-20260917.json \
+  --medium-index /data3/ywang/yolo-gray1-datasets/manifests/yolo-medium-index-20260917.json \
+  --gray-manifest /data3/ywang/yolo-gray1-datasets/pose21-gray1-1280-m-v1/manifest.json \
+  --platform /data3/ywang/quantitize-platform \
+  --output /data1/ywang/pose21-raw-gray-test500-20261012-v1
+```
+
+独立回读脚本：[verify_pose21_raw500.py](../../../../tools/verify_pose21_raw500.py)。生成使用 Pillow，独立验收使用 OpenCV，按 OpenCV 的 BGR 顺序比较通道 2 与单通道灰度图，并校验清单内所有文件的哈希。该验收不运行模型、不使用 GPU。
+
+## 原始复制和 Gray1 转换
+
+原图实测为 480 张 `4096×4096` 地球来源图和 20 张 `2048×2048` 月球图，PNG 容器是 `RGB uint8`，但只有 R 保存图像值。逐张检查 G/B 为零后提取 `R`，输出 PNG mode `L`。
+
+本阶段不使用 `BGR2GRAY` 或 PIL 的加权灰度转换，不 resize、不 crop、不 padding、不归一化。标签是归一化 YOLO Pose 坐标，图像几何不变，标签逐字节复制，不做坐标变换。
+
+验收包括源大小、源标签哈希、raw 图复制哈希、灰度图逐像素等于原图 R、尺寸/通道、标签配对、类别数、正负数量、group 唯一性、已用身份重叠和全产物 SHA-256。
+
+## net1280 和 PT 测试
+
+**已完成。** 从 `3-gray/images` 派生独立 `4-net1280/images`（生成时旧名分别为 `gray/images`、`net1280/images`），内容 resize 到 `1000×1000`，四边各补 140 像素黑边，得到 `1280×1280 uint8 Gray1`。复用现有 grayprep 的插值和标签实现，并记录 profile 身份。实际 profile 的降采样为 OpenCV `INTER_AREA`，放大为 `INTER_LINEAR`；本批全部为降采样。500 张图及 500 个标签均已生成，像素、padding 和标签映射校验通过。
+
+由原始归一化坐标得到新归一化坐标：
+
+```text
+x_new = (1000 * x_old + 140) / 1280
+y_new = (1000 * y_old + 140) / 1280
+w_new = 1000 * w_old / 1280
+h_new = 1000 * h_old / 1280
+```
+
+bbox 中心和有效关键点使用相同坐标映射；关键点 visibility 保持不变，缺失关键点的零坐标约定按既有转换器处理，不把占位零点变成有效点。负样本标签继续为空。
+
+冻结模型为 `/data3/ywang/yolo-gray1-train/runs/pose21_gray1_m_50e_20260917_113127/experiments/pose21_gray1_m_50e_20260917_113127/weights/best.pt`，已重新核验 SHA-256 为 `622cff54db472b61c85db03648b36c119f030eacbd4cd87cf5d2dda67e69d6a7`。
+
+本次实际复制来源是 [指定量化任务](http://10.2.29.180:8088/tasks/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida) 的 `input/model.pt`，已核验与上述冻结权重 SHA-256 相同。目标文件为本批根目录下的 `model.pt`；该文件是量化任务的原始 PT 输入，不是 weight-only ONNX 或 FPGA 权重 BIN。
+
+Docker 使用 `ywang/yolo-gray1-train:ultralytics-8.3.98-v1-predictor-gray1`，镜像 ID 为 `sha256:edaa61047923e708db681416ed99d2d7b657a4c689d9c89f6b4dcdb549f6c68c`。它继承训练镜像 `sha256:7a291a40a004767c3d44b781545e8faeb8afe4654f4c191658292829a0959d03` 的全部四层，仅增加 `predictor.py` 覆盖，修复单通道 warmup、预处理和 letterbox 后通道维保持；训练权重和依赖环境未换成平台 API 镜像。此前 6,600 张完整 PT 测试也使用这一推理修正版。
+
+本次复用原完整 PT 测试评估器，保留同类、按置信度排序的一对一 IoU 匹配；局部副本修复无匹配图片的 per-image keypoint 均值误引用前序图片的问题，并对关键点误差明确要求 GT 可见。原评估器文件不修改。额外输出全部 500 张 GT/预测叠加图片、逐图预测和匹配数据、逐类检测指标、图像级严格正确率与像素偏差分布。
+
+PT 推理前按 Runbook 核对 GPU 持续利用率、显存、进程 owner 和运行时长。沿用 `conf=0.25`、NMS IoU `0.7`、同类且匹配 IoU 至少 `0.5` 的逐图评估口径；报告 TP/FP/FN、Precision/Recall/F1、负样本误检率、各类结果，以及匹配目标 bbox 中心和关键点像素偏差的 mean/P50/P75/P90/P95/max。分别标注误差是在 net1280、有效 1000 区域还是回映射原图坐标中计算，不能混用。
+
+旧源数据两个关键点彼此重合，且大多与 bbox 中心重合。误差结果只能解释为该旧标注语义下的偏差，不能等同于新地标点的定位质量。未匹配目标应计入漏检，不能通过只报告成功匹配的 pixel 偏差掩盖漏检。
+
+本轮在执行前固定上述匹配和统计阈值，但未设定业务精度通过门槛。执行和产物验收 PASS 不等于业务精度达标，也不自动启动 cam2000。
+
+### 步骤 4 实际结果
+
+运行环境为 Python 3.12.12、Ultralytics 8.3.98、PyTorch 2.8.0+cu128、CUDA 12.8、cuDNN 91002、OpenCV 4.11.0、NumPy 1.26.4。使用 FP32、batch=8，实测输入张量为 `[8,1,1280,1280]`，末批为 `[4,1,1280,1280]`，没有把灰度图扩成三通道。
+
+GPU 3（`GPU-1610284d-3afe-6e14-b8cb-bbbe40a1f28b`）在启动前以 5 秒间隔连续采样 7 次，均为 0% 利用率、143138 MiB 空闲且无计算进程；核对其他 GPU 进程 owner 后未干预其任务。运行结束 GPU 3 为 19 MiB 占用、0% 利用率，本次临时容器均已退出。容器沿用训练依赖、禁用网络、只读根文件系统，只开放本次产物写入目录。
+
+net1280 生成及内置验收耗时 129.254 秒；推理与参考评估耗时 14.362 秒；含分析和可视化、截至汇总写入的评估耗时 24.020 秒，后者不包含最终绘图与哈希发布，不能视为端到端总耗时。
+
+| 识别指标 | 结果 |
+|---|---|
+| 图片 / GT / 预测目标 | 500 / 420 / 419 |
+| TP / FP / FN | 397 / 22 / 23 |
+| Precision / Recall / F1 | 94.7494% / 94.5238% / 94.6365% |
+| 严格图像正确率 | 464/500，92.80% |
+| 正样本严格正确率 | 387/420，92.1429% |
+| 负样本正确率 | 77/80，96.25% |
+| 负样本误检图像率 | 3/80，3.75% |
+
+严格图像正确表示所有 GT 均同类匹配且没有额外预测；负样本必须零预测。22 个 FP 中 3 个来自负样本、19 个来自正样本。本次是固定阈值检测评估，**没有计算 mAP**。
+
+像素偏差为欧氏距离，仅统计成功匹配目标；关键点额外要求 GT 可见且预测置信度至少 0.5。本批匹配目标的 794 个关键点均纳入统计，23 个漏检目标单独计为 FN，不纳入距离平均值。
+
+| net1280 像素偏差 | 数量 | mean | P50 | P75 | P90 | P95 | max |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| bbox 中心 | 397 | 4.4683 | 1.8000 | 3.6196 | 9.6782 | 25.5832 | 69.0619 |
+| 关键点 | 794 | 5.3310 | 2.3082 | 4.9295 | 12.1857 | 23.2488 | 70.8071 |
+
+padding 的平移不改变距离，因此上述 px 与有效 1000 区域的像素距离相同。回映射原图时分别对 x/y 误差乘以原图宽/1000、原图高/1000；原图坐标中 bbox 中心平均偏差为 18.2564 px、关键点为 21.7299 px。2048 与 4096 原图尺度不同，不能用统一倍数解释混合统计。
+
+逐类结果中，`aipuha` 和 `rineiwa` 召回率最低，均为 17/20（85%）；`didikaka` 的 bbox 中心及关键点平均偏差最大，分别为 12.1830 和 11.6389 px；`moon` 为 20/20 TP、无 FP，平均偏差分别为 0.4445 和 1.0278 px。这些是本批观测，不是新场景泛化结论。
+
+### 步骤 4 产物与验收
+
+H200 路径均以 `/data1/ywang/pose21-raw-gray-test500-20261012-v1/` 为根：模型 `model.pt`，转换集 `4-net1280/`，评估结果 `6-results/pt_eval_20261012_v1/`。可视化以绿色表示 GT、品红色表示预测，全部 500 张已保存，本地也保留完整评估结果副本。
+
+- [汇总 JSON](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1/analysis_summary.json)、[逐图结果](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1/analysis_per_image.csv)、[21 类结果](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1/analysis_per_class.csv)。
+- [匹配目标像素误差及原图回映射](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1/analysis_matched_errors.csv)、[漏检](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1/missed_gt.csv)、[误检](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1/false_positives.csv)。
+- [全部可视化](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1/visualizations/)、[大偏差样本](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1/visualizations/didikaka_463_view_24.jpg)、[负样本误检](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1/visualizations/kanjialu_614_view_38.jpg)。图中的 CORRECT 仅表示上述检测匹配正确，不代表像素偏差满足业务门槛。
+- [像素误差分布](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1/pixel_error_histograms.png)、[逐类召回率](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/pt_eval_20261012_v1/per_class_recall.png)。
+- [模型身份](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/stage4_model.json)、[镜像环境](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/stage4_environment.json)、[GPU 门禁](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/stage4_gpu_preflight.json)、[独立验收](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/stage4/independent-verification.json)。
+
+转换脚本为 [prepare_pose21_net1280.py](../../../../tools/prepare_pose21_net1280.py)，运行入口为 [run_pose21_stage4.py](../../../../tools/run_pose21_stage4.py)，评估脚本为 [eval_pose21_stage4.py](../../../../tools/eval_pose21_stage4.py)，只读验收脚本为 [verify_pose21_stage4.py](../../../../tools/verify_pose21_stage4.py)。
+
+独立验收重新核对 net1280 的 1004 个文件哈希及评估结果的 1013 个文件哈希，解码全部 500 张可视化，核对图像尺寸、单通道与黑边，重算 397 条匹配的类别、IoU、一对一关系和距离，重算 TP/FP/FN 与严格正确数，全部 PASS。阶段 4 的 `.partial` 已不存在，原始 selection 与根校验清单身份保持不变。根目录原 `SHA256SUMS`/`VERIFIED` 仍仅覆盖步骤 1 至 3 的 2007 个文件；新增 net1280 和评估结果各有自己的校验清单与发布标记，未改写原清单。
+
+| 步骤 4 身份 | SHA-256 |
+|---|---|
+| net1280 配置文件（非历史规范化 profile hash） | `c71395417c3e3fb6d86abe89ae52ba0336c8767bbd4f6a99551e04cec4588f33` |
+| net1280 manifest | `86ad5bda7fd231d4f49c5f77526263b61043f1e00e95da6c49094933bdf69891` |
+| analysis_summary.json | `252bdf66be6d66d8b32d4c1c3c08701cfcc234b37c88fcce99b7973f34e84b4c` |
+| 评估结果 SHA256SUMS | `0fa102b38c04b1629a7a32702fb083afd67e7d85f8c66391cf69ef44822358e9` |
+
+## 量化 ONNX 的 500 张评估
+
+2026-10-13 对同一份 `4-net1280/images` 和 `4-net1280/labels` 进行量化 ONNX 评估，输出到 `6-results/onnx_eval_20261013_v1`。不是 cam2000 输入回环测试，也不是重新量化。发布前使用同名 `.partial` 目录，不覆盖 PT 结果。
+
+模型为根目录 `pose21_gray1_weight_only_accuracy_output.onnx`，直接从指定任务 `20260920_063903_Pose21_Gray1_weight-only_accuracy_valida` 的交付 ZIP 内 `workspace/pose21_gray1_weight_only_accuracy_output.onnx` 提取。文件 100,121,851 bytes，SHA-256 为 `031def2070a1c2183e62ce5713831bc69cd50dee3a22c10d0ffaff6580d91a02`，与最终量化报告一致。模型包含 148 个 `DequantizeLinear` 和 148 个 `Conv`，为 weight-only 模型；未改写或重新导出 ONNX。详见 [模型输入输出与算子身份](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/layout-v2/onnx-model-20261013.json)。
+
+执行环境：`quantitize-platform-api:weight-only-20260920`，镜像 ID `sha256:f633b01c2f85d1fd39bf01e9b9f556056d03c805529781c8879e3172412e8ed2`；ONNX Runtime 1.24.3、Ultralytics 8.3.98、PyTorch 2.8.0+cu128、OpenCV 4.11.0。当前四张 GPU 均有其他用户进程，因此明确指定 `CPUExecutionProvider`，Docker 不暴露 GPU，限 8 CPU、12 GiB 内存，ORT intra-op 8、inter-op 1。没有启动或修改生产 API 容器。
+
+输入名 `images`，固定形状 `[1,1,1280,1280]`、FP16；图像按 uint8 单通道读取，float32 除以 255 后转 float16，不额外 resize、padding 或 RGB 扩展。仅请求 `output0`，形状 `[1,31,34000]`；31 维为 bbox 4 + 类别 21 + 两个关键点各 3。NMS 使用同版本 Ultralytics，`conf=0.25`、IoU `0.7`、`max_det=300`、`nc=21`；框和关键点限制到图像边界。之后完全复用 PT 的同类、置信度排序、一对一 IoU≥0.5 匹配和关键点置信度≥0.5 误差口径。
+
+结果包含 `predictions/labels`、`predictions.jsonl`、`visualizations`、逐图/逐类 CSV、像素偏差 CSV、统计图、运行环境和校验清单。每张图均有一个预测 TXT，无预测时为空；每行格式为 `class cx cy w h k0x k0y k0conf k1x k1y k1conf detection_conf`，坐标归一化到 1280，置信度字段不应误当成 GT visibility。
+
+入口：[eval_pose21_onnx500.py](../../../../tools/eval_pose21_onnx500.py)。共用评估器仅新增预测流接口并切换当前编号路径，未修改匹配和像素统计公式；历史 PT 运行脚本保留在审计 ZIP 和旧脚本快照中。完整 CPU 推理及参考评估耗时 768.281 秒；含分析和可视化、截至汇总写入为 777.853 秒，不包含最终绘图、哈希发布及后续独立验收。
+
+### ONNX 实际指标与 PT 对比
+
+镜像标签后续整理：2026-10-15 已移除上述运行时使用的 `weight-only-20260920` 别名；相同完整镜像 ID 现仅保留 `quantitize-platform-api:latest`。本报告保留实验当时标签，复现时应使用 latest 并核对完整 ID，不能仅按标签推断版本一致。
+
+| 指标 | PT | 量化 ONNX |
+|---|---:|---:|
+| GT / 预测数 | 420 / 419 | 420 / 421 |
+| TP / FP / FN | 397 / 22 / 23 | 398 / 23 / 22 |
+| Precision | 94.7494% | 94.5368% |
+| Recall | 94.5238% | 94.7619% |
+| F1 | 94.6365% | 94.6492% |
+| 严格图像正确率 | 464/500，92.80% | 463/500，92.60% |
+| 正样本严格正确率 | 387/420，92.1429% | 386/420，91.9048% |
+| 负样本正确率 | 77/80，96.25% | 77/80，96.25% |
+| 负样本误检图像率 | 3/80，3.75% | 3/80，3.75% |
+| bbox 中心平均偏差（net1280 px） | 4.4683 | 4.4597 |
+| 关键点平均偏差（net1280 px） | 5.3310 | 5.2551 |
+
+| ONNX net1280 像素偏差 | 数量 | mean | P50 | P75 | P90 | P95 | max |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| bbox 中心 | 398 | 4.4597 | 1.8719 | 3.4857 | 9.3402 | 25.0623 | 68.8417 |
+| 关键点 | 796 | 5.2551 | 2.3378 | 4.8547 | 12.4773 | 22.3098 | 71.4597 |
+
+ONNX 回映射原图后的均值分别为 bbox 中心 18.2129 px、关键点 21.4190 px，缩放规则与 PT 相同。误差仅统计成功匹配目标，22 个漏检单独计入 FN。两种模型的匹配集合并非完全相同，因此均值之差不是逐目标的 PT→ONNX 坐标漂移。
+
+逐图严格正确性变化：1 张由 PT 正确变为 ONNX 错误，0 张反向变化。该图为 [lupate_463_view_26 可视化](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1/visualizations/lupate_463_view_26.jpg)，两者均有 1 个 TP，但 ONNX 多出 1 个置信度约 0.258 的 FP。整体 F1 基本接近，严格正确率下降 0.20 个百分点；不得据此声称所有逐图预测完全一致。
+
+本次没有计算 mAP，也未设业务精度 PASS 门槛。PT 是 GPU FP32、ONNX 是 CPU 上执行 FP16 输入输出的 weight-only 模型；差异包含导出、精度、运行后端及量化影响，不是隔离变量的纯量化消融。原数据 group 重叠和旧关键点标注语义限制仍然适用。
+
+### ONNX 产物与独立验收
+
+H200 完整目录：`/data1/ywang/pose21-raw-gray-test500-20261012-v1/6-results/onnx_eval_20261013_v1/`。本地同步了完整结果，入口如下：
+
+- [500 份预测 labels](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1/predictions/labels/)、[500 张可视化](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1/visualizations/)。
+- [汇总 JSON](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1/analysis_summary.json)、[逐类指标](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1/analysis_per_class.csv)、[逐图指标](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1/analysis_per_image.csv)。
+- [匹配目标像素偏差](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1/analysis_matched_errors.csv)、[像素误差分布图](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1/pixel_error_histograms.png)。
+- [PT/ONNX 汇总对比](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1/pt_comparison.json)、[逐图对比](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1/pt_comparison_per_image.csv)。
+- [实际运行环境和脚本哈希](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx_eval_20261013_v1/runtime.json)、[独立验收记录](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/onnx-independent-verification-20261013.json)。
+
+独立验收 **PASS**：重算全部 500 张图的同类一对一匹配、TP/FP/FN、严格正确数和逐类计数；核对 bbox/关键点误差的均值与分位数；从标签文件回读 GT，并确认与 PT 的 500 份 GT 一致；逐行检查 500 个预测 TXT 的坐标和置信度与 JSONL 相符；解码全部可视化并检查尺寸和非空；最终 1015 个结果文件哈希通过。本地下载副本的 1015 项哈希也全部通过。独立验收脚本：[verify_pose21_onnx500.py](../../../../tools/verify_pose21_onnx500.py)。
+
+| ONNX 结果身份 | SHA-256 |
+|---|---|
+| `analysis_summary.json` | `6e91f157e0d57b142510d30779326b669376f51e702f2ef218a206c4d469b17f` |
+| 结果 `SHA256SUMS` | `621aba29fe01263b8147c1e6f117a321019518fa25e1102e77bb9125c2ac4576` |
+
+## cam2000 PNG 和 BIN 生成
+
+用户在查看 PT 结果后明确授权生成 cam2000 PNG 和 BIN，且不需要 labels。本阶段只做 CPU 转换与软件回读，不重新推理，也不代表完成 FPGA 上板测试。
+
+从本组无 padding 的 `3-gray/images` 以 `native_gray` 语义直接使用 OpenCV `INTER_LINEAR` resize 到 `2000×2000`，保存为 `5-cam2000/png` 下的 8-bit 单通道 PNG，不追加 padding、不创建标签。特别注意：cam2000 的插值是 `INTER_LINEAR`，不是 net1280 使用的 `INTER_AREA`。
+
+对应 BIN 写入 `5-cam2000/bin`，保持同名 stem。协议为 `u12 = round(u8 * 4095 / 255)`，两像素打包为三字节，每行有效 3000 字节、stride 4096、行尾 1096 字节补零，无文件头尾，每帧 8,192,000 字节。字节顺序为 `P0[7:0]`、`P1[3:0]<<4 | P0[11:8]`、`P1[11:4]`；互认样例 `0xABC,0x123 -> BC 3A 12`。PNG 是 8-bit 图像，BIN 是上述 12-bit packed 帧，不是简单的 uint8 或 uint16 平铺。
+
+复用 H200 `/data3/ywang/yolo-gray1-data-pipeline/src/grayprep/pipelines/cam2000.py` 和 `configs/cam2000.yaml`。协议依据为同项目 `docs/CAMERA_BIN_ABI.md`，软件协议版本和源码哈希写入本次 manifest；板端实际版本仍需后续互认，不能把软件回读 PASS 视为硬件验收。
+
+### 相机生成结果
+
+生成与逐张回读校验于北京时间 2026-10-12 21:31:17 完成，耗时 234.141 秒（不含最终哈希发布和后续独立验收）。在既有 Gray1 Docker 镜像内使用 CPU，限制 4 CPU、4 GiB 内存、OpenCV 2 线程，无网络、无 GPU。OpenCV 4.11.0、NumPy 1.26.4，最终文件归属为 `ywang:ywang`。
+
+| 项目 | 结果 |
+|---|---|
+| PNG | 500 张，2000×2000，uint8 单通道，无新增 padding |
+| BIN | 500 个，每个 8,192,000 bytes |
+| 新增 labels | 0 |
+| PNG 总大小 | 1,097,779,132 bytes |
+| BIN 总大小 | 4,096,000,000 bytes |
+| 源图身份 | 全部 500 张 SHA-256 与冻结清单一致 |
+| PNG 像素 | 与源灰度图直接 INTER_LINEAR resize 逐像素一致 |
+| BIN 回读 | 全部帧长度正确、行尾为零、12-bit 像素与 PNG 映射一致 |
+| 灰度往返 | u8→u12→u8 逐像素一致 |
+| 合成互认检查 | `BC 3A 12` 打包样例及全部 256 个灰度级映射通过 |
+
+先将原空 `6-cam2000_bin` 移入 `5-cam2000/bin` 并创建 `png`，在 `.generation.partial` 内生成，完成回读和清单后发布，最后写入 `VERIFIED`。没有变更此前选图、图像、标签、模型、net1280 或推理结果；历史编号验收 JSON 保留原状，新的目录变更记录保存在相机 `verification.json` 的 `layout_change` 字段。
+
+生成脚本：[prepare_pose21_cam2000.py](../../../../tools/prepare_pose21_cam2000.py)；独立验收脚本：[verify_pose21_cam2000.py](../../../../tools/verify_pose21_cam2000.py)。相机目录保存生成脚本及协议配置快照，并拥有自己的 `SHA256SUMS` 和 `VERIFIED`，不修改此前阶段的校验文件。
+
+本地仅同步小型审计附件，完整 PNG/BIN 保留在 H200：
+
+- [源图到 PNG/BIN 的映射及哈希](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/cam2000/manifest.json)
+- [生成验收和运行参数](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/cam2000/verification.json)
+- [相机校验清单](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/cam2000/SHA256SUMS)、[发布标记](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/cam2000/VERIFIED)
+- [实际相机配置](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/cam2000/cam2000.yaml)、[协议快照](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/cam2000/CAMERA_BIN_ABI.md)
+
+2026-10-13 增加 [sample_index.csv](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/cam2000/sample_index.csv)，便于从文件名查正负样本。`sample_type` 为 `positive` 或 `negative`，`is_empty=true` 表示负样本；`origin_class` 只说明图片来源，`gt_classes` 才是标注目标类别，负样本的 `gt_classes` 为空。每行还记录 `png`、同 stem 的 `bin` 路径和 `group_id`。索引 500 行，正样本 420、负样本 80，全部与当前 selection、相机 manifest 及实际 PNG/BIN 文件一一对应；SHA-256 为 `75a94791c7ed514d960f32fb32ba54d7d292c2f7bea8db713dee8503b03c6fbd`。生成脚本：[build_pose21_cam2000_index.py](../../../../tools/build_pose21_cam2000_index.py)。
+
+该索引是原相机发布后的补充文件，原图和 BIN 文件名未改，`selection.json`、相机 `manifest.json` 及原 `SHA256SUMS`/`VERIFIED` 的哈希均未改；原校验清单覆盖最初发布的 1005 个文件，**不覆盖新增的索引**。此前 2026-10-13 09:41:55 发布的 NAS 备份保留当时快照，不包含这份随后新增的 CSV。
+
+独立验收为 **PASS**，见 [独立回读记录](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/cam2000/independent-verification.json)：只读重算 1005 个相机产物文件哈希、500 张源图哈希，用 Pillow 读取全部 PNG 并核对直接缩放像素，将 BIN 三字节作为 24-bit 小端字再拆成两个 12-bit 像素，500 对全部一致。确认旧 `6-cam2000_bin` 与 `.partial` 不存在、无相机 labels；此前 4024 个校验项也重新通过，模型与选图身份未变。H200 独立验收记录位于 `1-metadata/cam2000_independent_verification.json`。
+
+相机 `manifest.json` SHA-256 为 `67c4f1b56643e5db8d78c413348136a05229645a3b13c49126d8e5bdc18ecc97`；相机 `SHA256SUMS` SHA-256 为 `301ae19de383f5bad40fa3d4dabe06efa9649230bdbbf3b1cd1ab7f12123e6b6`。
+
+实际板端的 2000 到 1000 降采样与 padding 路径还需单独对齐。直接原图 resize 到 1000 与先 resize 到 2000 再 2×2 均值并非自动逐像素相等，应按实际硬件路径比较后再解释精度变化。本阶段未生成或验证相机标签坐标，也未执行相机路径的模型精度测试或 FPGA 上板测试。
+
+## NAS 完整备份
+
+2026-10-13 已按用户指定路径备份本批 H200 根目录的全部内容，直接放入以下目标，不额外嵌套批次目录：
+
+```text
+\\10.2.26.26\902_data\0-项目\13-专项\2-数据集\LEO模型量化测试数据\20261013_21类目标FPGA上板测试数据
+```
+
+验收 **PASS**：6077 个源文件、25 个子目录，共 16,766,791,565 bytes（约 15.62 GiB）。包含 1 至 7 全部编号目录、PT/ONNX 模型、原图/灰度图/net1280、cam2000 PNG/BIN、PT/ONNX 推理结果及历史审计记录。
+
+先核对实际 CIFS 挂载来源为 `//10.2.26.26/902_data`，确认指定目标为空，再写入同级 `.partial` 目录。源文件预先计算 SHA-256，复制后逐文件读取 NAS 并重新计算源文件哈希，6077 项全部一致，目录集合和文件大小也一致；校验后原子发布，临时目录已不存在。记录完成时间为北京时间 2026-10-13 09:41:55，生成验收记录前累计耗时 592.019 秒。H200 源数据完整保留，未清理或删除源文件，未使用 GPU。
+
+目标额外保存三个备份审计文件，不覆盖数据集原有 `SHA256SUMS`/`VERIFIED`：
+
+- [BACKUP_MANIFEST.json](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/nas-backup-20261013/BACKUP_MANIFEST.json)：全部源文件相对路径、大小、哈希和目录列表。
+- [BACKUP_SHA256SUMS](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/nas-backup-20261013/BACKUP_SHA256SUMS)：覆盖全部 6077 个源文件。
+- [BACKUP_VERIFIED.json](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/nas-backup-20261013/BACKUP_VERIFIED.json)：备份验收、清单身份和源数据保留记录。
+
+备份清单 SHA-256 为 `e3d8e938903944a4ffae86c3f6e880916a87bd508233630e3e77c3ef020a17cf`，manifest SHA-256 为 `b67d1f4cc55155b9d8ca8a9199b27280a7eaf4dbdcb67dee2cbeda1ea5d122c4`。本地审计附件已核对这两个哈希。执行脚本：[backup_pose21_test500_nas.py](../../../../tools/backup_pose21_test500_nas.py)。
+
+## 步骤 1 至 3 验收结果
+
+内置验收为 **PASS**。生成结果时间为 2026-10-12 17:39:26（北京时间），从排除审计、复制到灰度转换及内置校验共 660.477 秒，约 11 分钟；此耗时不含后续独立回读验收。
+
+| 验收项 | 结果 |
+|---|---|
+| raw 图片和标签 | 500 / 500 |
+| gray 图片和标签 | 500 / 500 |
+| 正样本 | 21 类各 20 张，共 420 张 |
+| 负样本 | 20 个地球来源各 4 张，共 80 张 |
+| 本批次 group | 500 个互不重复 |
+| 与 M 集 group 重叠 | 480 个地球来源 group；20 个 moon group 无交集 |
+| 已用名称和已知文件哈希重叠 | 均为 0 |
+| 同批次灰度像素完全重复 | 0 |
+| 灰度图与原图 R 像素比较 | 500 张全部一致 |
+| raw/gray 标签内容校验 | 1,000 个副本全部通过 |
+| 原图总字节数 | 6,410,015,220 bytes |
+| 步骤 1 至 3 发布时总字节数（不含新增步骤 4） | 10,693,312,285 bytes，约 9.96 GiB |
+| 文件校验清单 | 2,007 个文件，不包含清单自身和 `VERIFIED` |
+| 本地元数据副本 | 与 H200 `SHA256SUMS` 一致 |
+
+关键身份：
+
+| 对象 | SHA-256 |
+|---|---|
+| `metadata/selection.json` | `0e50a78880c7c52be9e87cbfe25620ecea4d3f053e4414343b3e1bfba91f75a1` |
+| `metadata/selection.csv` | `18fd84e8cdc41f2f7b207ced66313af766ea892efdea16bc943ed409765f39a8` |
+| `metadata/usage_inventory.csv` | `5450bc191eb4c51afbd55d7a76894fb56d2fee1d9586b8a9426b2f914022d073` |
+| `metadata/exclusion_evidence.json` | `258b4785547fccc91d008a99064c21f1bafdceb4c44c91611b093dd88cccdc36` |
+| `SHA256SUMS` | `a1c98038c09a00233ad9f455f5f35b7927f8ac0aa3f02c16d03e303c0a113eea` |
+
+筛选逻辑另外通过了内存合成样本验证，覆盖固定 seed 可复现、输入顺序无关、排除规则、配额、group 唯一性和候选不足时拒绝发布。
+
+独立回读验收为 **PASS**，见 [独立验收结果](../../../../outputs/class-21/pose21-raw-gray-test500-20261012-v1/independent-verification.json)。重新读取并核验了 2,007 个文件哈希，使用 OpenCV 对全部 500 张图片确认原图 B/G 通道为零、灰度逐像素等于 R、500 个灰度像素面互不重复，并核对标签、四个目录各 500 个文件和 66,006 条使用清单。已确认同级 `.partial` 目录不存在。
+
+上述步骤 1 至 3 未使用 GPU。后续授权的步骤 4 已完成 net1280 转换和 Docker GPU PT 推理，步骤 5 已用 CPU 生成相机 PNG/BIN，源数据和生产服务未修改。下一阶段是核对板端协议并执行上板验证；继续使用冻结的 `selection.json`，不能重新抽样后沿用同一个批次身份。
+
+## 2026-10-19：GT→PT→ONNX→FPGA 分阶段像素偏差统计
+
+本节按 GT→PT、PT→ONNX、ONNX→FPGA 三段分别比较，不再把所有阶段都与 GT 对比。依据为 [summary_with_mapping.xlsx](FPGA_logs/summary_with_mapping.xlsx) 的四类标签和 `Precision Loss` 横向列组；仅做本地 CPU 离线统计，未重新推理、使用 GPU 或修改工作表及日志。前文历史评估与后面的 PL／PS 时长统计保留。
+
+工作表 SHA-256：`df432d0d281ebcb5ba1204c4124a79edd5b9c2c99387753198e21e6b3a313686`。
+
+### 统计口径
+
+- 四类标签统一为 `content1000_px`：GT、PT、ONNX 已减去 140px padding，FPGA 使用原始内容坐标；不缩放、不裁剪越界预测。
+- bbox 指框中心 `((x1+x2)/2, (y1+y2)/2)`。中心、关键点 1、关键点 2 分别计算后阶段相对前阶段的欧氏距离 `sqrt(dx²+dy²)`，单位 pixel。两个关键点不合并统计，且不统计框四个边界的偏差。
+- 每一段在同一张图内独立做一对一位置关联，使框中心距离总和最小；忽略类别，不设距离或 IoU 门槛，不新增置信度筛选。保留异类关联。没有对应目标的偏差留空，不计 0；未关联目标单独计数。
+- N 是有效目标关联数，不是图片数；多目标图片可以贡献多条记录。后两段也包含没有 GT 的负样本上的预测，因而三段的统计对象和 N 不同。这些数值描述已关联目标的几何差异，不等同于检测准确率或纯硬件数值误差。
+- 每个阶段、每个指标分别按偏差升序排序。最小 50%／75%／95% 均值分别取前 `ceil(N×p)` 条求算术平均；最大约 5% 均值取最小 95% 之外的剩余记录，与前 95% 不重叠。最大值为单条最大偏差。各指标入选的记录可能不同；这些均值不是分位点。
+
+### 关联覆盖与类别一致性
+
+| 比较阶段 | 前阶段目标数 | 后阶段目标数 | 有效关联 | 前阶段未关联 | 后阶段额外预测 | 关联中同类 | 关联中异类 |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| GT→PT | 420 | 419 | 403 | 17 | 16 | 395 | 8 |
+| PT→ONNX | 419 | 421 | 419 | 0 | 2 | 417 | 2 |
+| ONNX→FPGA | 421 | 417 | 417 | 4 | 0 | 416 | 1 |
+
+有效关联表示两端已配对，不代表识别正确；配对后 `class_id` 相同计同类，否则计异类。前阶段未关联表示找不到可分配的后阶段目标；后阶段额外预测表示没有被配给前阶段目标。两端都没有目标的图片不贡献目标记录。计数满足：`前阶段目标数=有效关联+前阶段未关联`，`后阶段目标数=有效关联+后阶段额外预测`，`有效关联=同类+异类`，不能将这些列直接相加。
+
+### 偏差由小到大：最小比例均值、尾部均值与最大值
+
+| 比较阶段 | 指标 | N | 最小50%均值 | 最小75%均值 | 最小95%均值 | 最大约5%均值 | 最大值 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| GT→PT | bbox 中心 | 403 | 0.8921 | 1.4404 | 2.8606 | 89.4182 | 1089.3750 |
+| GT→PT | 关键点 1 | 403 | 1.2992 | 1.9952 | 3.7111 | 90.8652 | 1088.9852 |
+| GT→PT | 关键点 2 | 403 | 1.2880 | 1.9928 | 3.7135 | 90.9193 | 1089.0812 |
+| PT→ONNX | bbox 中心 | 419 | 0.2226 | 0.3142 | 0.4304 | 3.6803 | 27.1023 |
+| PT→ONNX | 关键点 1 | 419 | 0.1425 | 0.1932 | 0.3007 | 5.2864 | 25.8797 |
+| PT→ONNX | 关键点 2 | 419 | 0.1602 | 0.2755 | 0.3934 | 5.2336 | 25.7273 |
+| ONNX→FPGA | bbox 中心 | 417 | 0.2843 | 0.3908 | 0.5488 | 19.9704 | 326.6577 |
+| ONNX→FPGA | 关键点 1 | 417 | 0.3080 | 0.4447 | 0.6558 | 22.2294 | 326.3358 |
+| ONNX→FPGA | 关键点 2 | 417 | 0.3009 | 0.4349 | 0.6535 | 22.6853 | 325.9836 |
+
+所有偏差单位均为 pixel；不列全量均值。每行最大约 5% 均值都由该行最差的 20 条记录计算。实际取样数如下：
+
+| 比较阶段 | N | 最小50%条数 | 最小75%条数 | 最小95%条数 | 最大约5%条数 | 尾部实际占比 |
+|---|---:|---:|---:|---:|---:|---:|
+| GT→PT | 403 | 202 | 303 | 383 | 20 | 4.9628% |
+| PT→ONNX | 419 | 210 | 315 | 399 | 20 | 4.7733% |
+| ONNX→FPGA | 417 | 209 | 313 | 397 | 20 | 4.7962% |
+
+### 结论与最大偏差样本
+
+1. 典型关联目标的阶段间漂移较小：PT→ONNX 最小 95% 的中心、关键点 1、关键点 2 平均偏差为 **0.4304／0.3007／0.3934px**；ONNX→FPGA 为 **0.5488／0.6558／0.6535px**。GT→PT 对应为 **2.8606／3.7111／3.7135px**。这些是各自子集的均值，不意味着 95% 的单条偏差都小于上述数值。
+2. 尾部差异明显：PT→ONNX 的最大约 5% 中心均值为 **3.6803px**，ONNX→FPGA 为 **19.9704px**；应结合下表的类别变化、额外预测及未关联目标排查，不能将所有差异归因于量化或 FPGA 计算。
+
+| 比较阶段 | 三个指标的最大值所在图片 | 前／后类别 | 中心最大偏差 | 关键点1最大偏差 | 关键点2最大偏差 |
+|---|---|---|---:|---:|---:|
+| GT→PT | `032.bin / aipuha_243_view_37.bin` | 1→2 | 1089.3750 | 1088.9852 | 1089.0812 |
+| PT→ONNX | `387.bin / taihu_129_view_36.bin` | 15→15 | 27.1023 | 25.8797 | 25.7273 |
+| ONNX→FPGA | `306.bin / rineiwa_842_view_23.bin` | 11→15 | 326.6577 | 326.3358 | 325.9836 |
+
+`032.bin` 和 `306.bin` 的大偏差伴随类别错误；当前关联没有距离门槛，远处错误预测仍可被配对。`387.bin` 虽然前后类别一致，也存在明显位置变化，需要单独检查候选框及后处理。
+
+三段误差分别基于各自独立匹配，样本集合及预测候选可能不同，欧氏距离也不能直接相加，因此不能把上述数字累加为 GT→FPGA 的总误差。当前模型并非最终版，本节只用于工程对照，不替代同类 IoU 匹配的检测指标或最终模型验收。
+
+验证：从四张标签表重新计算三个阶段的中心、关键点 Δx／Δy 及欧氏距离，与 `Precision Loss` 一致；核对 500 张图片的坐标口径、目标一对一使用及关联计数，并复核各排序子集的取样数和均值。原工作表、日志及 PL／PS 时长统计未修改。
+## 2026-10-18：PL／PS 运行时长统计
+
+统计来源为 [output.dat](FPGA_logs/output.dat) 中逐图记录的 `PL run time` 和 `PS total time`，与 [summary_with_mapping.xlsx](FPGA_logs/summary_with_mapping.xlsx) 的 FPGA 耗时列对应。本节仅做本地 CPU 离线统计，未重新运行 FPGA、使用 GPU 或修改原始日志及工作表。
+
+### 统计口径与均值、方差
+
+按 `001.bin` 至 `500.bin` 的图片编号各取一次计时，共 500 个样本；多目标图片不因检测结果占多行而重复计入，不把 `TOTAL` 汇总行算作样本。原日志单位为 μs，统一除以 1000 转为 ms；方差的单位为 ms²，不能与时长直接比较。
+
+主表将本批 500 张图片视为完整观察总体，采用总体方差 `σ²=Σ(tᵢ−μ)²/N`、总体标准差 `σ=√σ²`；变异系数 `CV=σ/μ×100%` 用于比较 PL、PS 的相对波动。均值为 `μ=Σtᵢ/N`，本节不剔除极值。
+
+| 计时项 | N | 平均时长（ms） | 总体方差（ms²） | 总体标准差（ms） | 最小时长（ms） | 最大时长（ms） | CV（%） |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| PL run time | 500 | 6749.915776 | 0.000156433824 | 0.012507351 | 6749.878 | 6749.954 | 0.000185296 |
+| PS total time | 500 | 604.493938 | 0.903180730156 | 0.950358211 | 603.200 | 607.897 | 0.157215507 |
+
+如果将这 500 张看作对后续运行的抽样，使用分母 `N−1` 的样本方差，则 PL 为 **0.000156747319 ms²**，PS 为 **0.904990711579 ms²**；不要将这组样本方差与主表总体方差混用。
+
+### 运行时长结论
+
+1. PL 耗时高度稳定：每图平均约 **6749.916ms**，总体标准差约 **0.0125ms**，极差仅 **0.076ms**。最短为 `242.bin`，最长为 `241.bin`；该结论仅描述本次日志，不能推广为不同模型、硬件负载下的保证值。
+2. PS 每图平均约 **604.494ms**，总体标准差约 **0.9504ms**，极差 **4.697ms**。最短为 `209.bin`，最长为 `418.bin`。PS 的绝对和相对波动均高于 PL，但 CV 仍约为 **0.1572%**，本批总体波动较小。
+3. 按前文 `PL+PS` 的求和口径，每图平均计时时长为 **7354.409714ms**；500 张合计 PL **3374957.888ms**、PS **302246.969ms**，两者合计 **3677204.857ms**。PL 占合计时长 **91.7805%**，PS 占 **8.2195%**，PL 是本批计时中的主要耗时部分。
+4. 上述合计是日志中两个计时段的算术和，不等同于完整测试流程的端到端墙钟耗时；日志未提供足以覆盖所有初始化、数据加载及其他开销的统一总计时。本节不据此声称整个测试只耗时上述数值，也不将稳定的 PL 耗时解读为所有图片识别精度一致。
+
+验证：PL、PS 均恰有 500 条计时且图片编号唯一、集合一致；以整数 μs 重算均值和方差后换算到 ms、ms²，与上述结果一致。日志 SHA-256 为 `74cc09eac340b21e5add5126612a5fd44057a34942944dffe87437fa9ebf5ec4`，与像素偏差分析时的源日志身份一致。

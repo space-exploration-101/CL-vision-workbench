@@ -1,0 +1,1151 @@
+{
+  "packages": [
+    {
+      "archive": "docs/archive/2026-10-documentation-consolidation/original-documents.zip",
+      "status": "PASS",
+      "members_checked": 71,
+      "excluded_members_not_expanded": []
+    },
+    {
+      "archive": "docs/archive/2026-10-documentation-baseline-20261019-185246/original-documents.zip",
+      "status": "PASS",
+      "members_checked": 111,
+      "excluded_members_not_expanded": []
+    },
+    {
+      "archive": "docs/archive/2026-10-artifact-relocation/before-relocation-documents.zip",
+      "status": "PASS",
+      "members_checked": 106,
+      "excluded_members_not_expanded": [
+        ".tmp/AGENTS.md",
+        ".tmp/README.md"
+      ]
+    },
+    {
+      "archive": "docs/archive/2026-10-platform-docs/before.zip",
+      "status": "PASS",
+      "members_checked": 209,
+      "excluded_members_not_expanded": []
+    },
+    {
+      "archive": "docs/archive/2026-10-current-docs/before.zip",
+      "status": "PASS",
+      "members_checked": 221,
+      "excluded_members_not_expanded": []
+    },
+    {
+      "archive": "docs/archive/2026-10-tools-templates/before.zip",
+      "status": "PASS",
+      "members_checked": 51,
+      "excluded_members_not_expanded": []
+    },
+    {
+      "archive": "docs/archive/2026-10-operations-history/before.zip",
+      "status": "PASS",
+      "members_checked": 19,
+      "excluded_members_not_expanded": []
+    },
+    {
+      "archive": "docs/archive/2026-10-attachment-closeout/before.zip",
+      "status": "PASS",
+      "members_checked": 8,
+      "excluded_members_not_expanded": []
+    },
+    {
+      "archive": "docs/archive/2026-10-final-handoff/before.zip",
+      "status": "PASS",
+      "members_checked": 7,
+      "excluded_members_not_expanded": []
+    },
+    {
+      "archive": "docs/archive/2026-10-operations-history/closeout-before.zip",
+      "status": "PASS",
+      "members_checked": 2
+    }
+  ],
+  "checksums": [
+    {
+      "manifest": "docs/archive/2026-10-documentation-consolidation/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-consolidation/change-audit.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-consolidation/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-consolidation/original-documents.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-consolidation/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-consolidation/original-documents.zip",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-consolidation/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-consolidation/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-consolidation/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-consolidation/validation.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-artifact-relocation/SHA256SUMS",
+      "target": "docs/archive/2026-10-artifact-relocation/AGENTS.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-artifact-relocation/SHA256SUMS",
+      "target": "docs/archive/2026-10-artifact-relocation/before-move-manifest.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-artifact-relocation/SHA256SUMS",
+      "target": "docs/archive/2026-10-artifact-relocation/before-relocation-documents.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-artifact-relocation/SHA256SUMS",
+      "target": "docs/archive/2026-10-artifact-relocation/before-relocation-documents.zip",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-artifact-relocation/SHA256SUMS",
+      "target": "docs/archive/2026-10-artifact-relocation/document-change-audit.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-artifact-relocation/SHA256SUMS",
+      "target": "docs/archive/2026-10-artifact-relocation/integrity-verification.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-artifact-relocation/SHA256SUMS",
+      "target": "docs/archive/2026-10-artifact-relocation/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-artifact-relocation/SHA256SUMS",
+      "target": "docs/archive/2026-10-artifact-relocation/validation.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-platform-docs/SHA256SUMS",
+      "target": "docs/archive/2026-10-platform-docs/after.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-platform-docs/SHA256SUMS",
+      "target": "docs/archive/2026-10-platform-docs/audit_stage2.py",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-platform-docs/SHA256SUMS",
+      "target": "docs/archive/2026-10-platform-docs/before.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-platform-docs/SHA256SUMS",
+      "target": "docs/archive/2026-10-platform-docs/before.zip",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-platform-docs/SHA256SUMS",
+      "target": "docs/archive/2026-10-platform-docs/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-platform-docs/SHA256SUMS",
+      "target": "docs/archive/2026-10-platform-docs/validation.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-baseline-20261019-185246/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-baseline-20261019-185246/AGENTS.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-baseline-20261019-185246/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-baseline-20261019-185246/backup-metadata-SHA256SUMS",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-baseline-20261019-185246/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-baseline-20261019-185246/backup-summary.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-baseline-20261019-185246/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-baseline-20261019-185246/backup-VERIFIED.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-baseline-20261019-185246/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-baseline-20261019-185246/baseline-directories.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-baseline-20261019-185246/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-baseline-20261019-185246/baseline-files.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-baseline-20261019-185246/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-baseline-20261019-185246/baseline-links.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-baseline-20261019-185246/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-baseline-20261019-185246/disposition-and-boundaries.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-baseline-20261019-185246/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-baseline-20261019-185246/documentation-validation.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-baseline-20261019-185246/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-baseline-20261019-185246/original-documents.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-baseline-20261019-185246/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-baseline-20261019-185246/original-documents.zip",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-baseline-20261019-185246/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-baseline-20261019-185246/previous-backup-verification.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-baseline-20261019-185246/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-baseline-20261019-185246/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-documentation-baseline-20261019-185246/SHA256SUMS",
+      "target": "docs/archive/2026-10-documentation-baseline-20261019-185246/stage2-validation.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-current-docs/SHA256SUMS",
+      "target": "docs/archive/2026-10-current-docs/after.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-current-docs/SHA256SUMS",
+      "target": "docs/archive/2026-10-current-docs/audit_stage3.py",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-current-docs/SHA256SUMS",
+      "target": "docs/archive/2026-10-current-docs/before.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-current-docs/SHA256SUMS",
+      "target": "docs/archive/2026-10-current-docs/before.zip",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-current-docs/SHA256SUMS",
+      "target": "docs/archive/2026-10-current-docs/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-current-docs/SHA256SUMS",
+      "target": "docs/archive/2026-10-current-docs/validation.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-tools-templates/SHA256SUMS",
+      "target": "docs/archive/2026-10-tools-templates/after.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-tools-templates/SHA256SUMS",
+      "target": "docs/archive/2026-10-tools-templates/audit_stage4.py",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-tools-templates/SHA256SUMS",
+      "target": "docs/archive/2026-10-tools-templates/before.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-tools-templates/SHA256SUMS",
+      "target": "docs/archive/2026-10-tools-templates/before.zip",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-tools-templates/SHA256SUMS",
+      "target": "docs/archive/2026-10-tools-templates/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-tools-templates/SHA256SUMS",
+      "target": "docs/archive/2026-10-tools-templates/validation.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-operations-history/SHA256SUMS",
+      "target": "docs/archive/2026-10-operations-history/after.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-operations-history/SHA256SUMS",
+      "target": "docs/archive/2026-10-operations-history/audit_stage5.py",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-operations-history/SHA256SUMS",
+      "target": "docs/archive/2026-10-operations-history/before.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-operations-history/SHA256SUMS",
+      "target": "docs/archive/2026-10-operations-history/before.zip",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-operations-history/SHA256SUMS",
+      "target": "docs/archive/2026-10-operations-history/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-operations-history/SHA256SUMS",
+      "target": "docs/archive/2026-10-operations-history/validation.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-operations-history/SHA256SUMS.closeout",
+      "target": "docs/archive/2026-10-operations-history/CLOSEOUT.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-operations-history/SHA256SUMS.closeout",
+      "target": "docs/archive/2026-10-operations-history/closeout-before.zip",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-operations-history/SHA256SUMS.closeout",
+      "target": "docs/archive/2026-10-operations-history/closeout-validation.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-operations-history/SHA256SUMS.closeout",
+      "target": "docs/archive/README.md",
+      "status": "HISTORICAL_VERSION_IN_ARCHIVE",
+      "version_source": [
+        "docs/archive/2026-10-final-handoff/before.zip"
+      ]
+    },
+    {
+      "manifest": "docs/archive/2026-10-operations-history/SHA256SUMS.closeout",
+      "target": "docs/class-21/operations/runs/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-attachment-closeout/SHA256SUMS",
+      "target": "docs/archive/2026-10-attachment-closeout/after.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-attachment-closeout/SHA256SUMS",
+      "target": "docs/archive/2026-10-attachment-closeout/attachment-identities.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-attachment-closeout/SHA256SUMS",
+      "target": "docs/archive/2026-10-attachment-closeout/audit_stage6.py",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-attachment-closeout/SHA256SUMS",
+      "target": "docs/archive/2026-10-attachment-closeout/before.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-attachment-closeout/SHA256SUMS",
+      "target": "docs/archive/2026-10-attachment-closeout/before.zip",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-attachment-closeout/SHA256SUMS",
+      "target": "docs/archive/2026-10-attachment-closeout/material-inventory.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-attachment-closeout/SHA256SUMS",
+      "target": "docs/archive/2026-10-attachment-closeout/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "docs/archive/2026-10-attachment-closeout/SHA256SUMS",
+      "target": "docs/archive/2026-10-attachment-closeout/validation.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/AGENTS.md",
+      "status": "HISTORICAL_VERSION_IN_ARCHIVE",
+      "version_source": [
+        "docs/archive/2026-10-artifact-relocation/before-relocation-documents.zip",
+        "docs/archive/2026-10-platform-docs/before.zip"
+      ]
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/CURRENT_STATE.md",
+      "status": "HISTORICAL_VERSION_IN_ARCHIVE",
+      "version_source": [
+        "docs/archive/2026-10-artifact-relocation/before-relocation-documents.zip",
+        "docs/archive/2026-10-platform-docs/before.zip"
+      ]
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/AGENTS.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/gray1-20260918/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/gray1-20260918/verify_host.sh",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/gray1-20260918/verify_runtime.py",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/api-image-apt-manual.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/api-image-dpkg.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/conda-explicit-linux-64.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/environment-from-history.yml",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/environment-full-linux-64.yml",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/pip-freeze-raw-linux-amd64.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/pip-list-linux-amd64.lock.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/pipeline-patches-sha256.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/requirements.api.lock.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/requirements.web.lock.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/runtime-import-versions.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/source-runtime.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/web-image-dpkg.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/web-image-pip.lock.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/rebuild-manifest.yml",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/REBUILD_GUIDE.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/docker-compose.yml",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/Dockerfile.api",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/Dockerfile.api.pinned-amd64",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/Dockerfile.web",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/Dockerfile.web.pinned-amd64",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/requirements.api.original.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/requirements.web.original.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/verify_host.sh",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/pre-gray1-20260902/verify_runtime.py",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/legacy/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/README.md",
+      "status": "HISTORICAL_VERSION_IN_ARCHIVE",
+      "version_source": [
+        "docs/archive/2026-10-artifact-relocation/before-relocation-documents.zip",
+        "docs/archive/2026-10-platform-docs/before.zip"
+      ]
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/rebuild-manifest.yml",
+      "status": "HISTORICAL_VERSION_IN_ARCHIVE",
+      "version_source": [
+        "docs/archive/2026-10-platform-docs/before.zip"
+      ]
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS",
+      "target": "rebuild/REBUILD_GUIDE.md",
+      "status": "HISTORICAL_VERSION_IN_ARCHIVE",
+      "version_source": [
+        "docs/archive/2026-10-artifact-relocation/before-relocation-documents.zip",
+        "docs/archive/2026-10-platform-docs/before.zip"
+      ]
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/AGENTS.md",
+      "status": "HISTORICAL_VERSION_IN_ARCHIVE",
+      "version_source": [
+        "docs/archive/2026-10-documentation-baseline-20261019-185246/original-documents.zip",
+        "docs/archive/2026-10-current-docs/before.zip"
+      ]
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/CURRENT_STATE.md",
+      "status": "HISTORICAL_VERSION_IN_ARCHIVE",
+      "version_source": [
+        "docs/archive/2026-10-documentation-baseline-20261019-185246/original-documents.zip",
+        "docs/archive/2026-10-current-docs/before.zip"
+      ]
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/README.md",
+      "status": "HISTORICAL_VERSION_IN_ARCHIVE",
+      "version_source": [
+        "docs/archive/2026-10-documentation-baseline-20261019-185246/original-documents.zip",
+        "docs/archive/2026-10-current-docs/before.zip"
+      ]
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/REBUILD_GUIDE.md",
+      "status": "HISTORICAL_VERSION_IN_ARCHIVE",
+      "version_source": [
+        "docs/archive/2026-10-documentation-baseline-20261019-185246/original-documents.zip",
+        "docs/archive/2026-10-current-docs/before.zip"
+      ]
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/SHA256SUMS",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/AGENTS.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/gray1-20260918/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/gray1-20260918/verify_host.sh",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/gray1-20260918/verify_runtime.py",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/REBUILD_GUIDE.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/api-image-apt-manual.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/api-image-dpkg.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/conda-explicit-linux-64.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/environment-from-history.yml",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/environment-full-linux-64.yml",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/pip-freeze-raw-linux-amd64.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/pip-list-linux-amd64.lock.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/pipeline-patches-sha256.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/requirements.api.lock.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/requirements.web.lock.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/runtime-import-versions.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/source-runtime.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/web-image-dpkg.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/web-image-pip.lock.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/rebuild-manifest.yml",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/Dockerfile.api",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/Dockerfile.api.pinned-amd64",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/Dockerfile.web",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/Dockerfile.web.pinned-amd64",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/docker-compose.yml",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/requirements.api.original.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/requirements.web.original.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/verify_host.sh",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/verify_runtime.py",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "target": "rebuild/rebuild-manifest.yml",
+      "status": "HISTORICAL_VERSION_IN_ARCHIVE",
+      "version_source": [
+        "docs/archive/2026-10-documentation-baseline-20261019-185246/original-documents.zip",
+        "docs/archive/2026-10-current-docs/before.zip"
+      ]
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/AGENTS.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/CURRENT_STATE.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/REBUILD_GUIDE.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/SHA256SUMS",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/SHA256SUMS.20261019-platform-docs",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/AGENTS.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/gray1-20260918/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/gray1-20260918/verify_host.sh",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/gray1-20260918/verify_runtime.py",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/README.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/REBUILD_GUIDE.md",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/api-image-apt-manual.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/api-image-dpkg.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/conda-explicit-linux-64.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/environment-from-history.yml",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/environment-full-linux-64.yml",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/pip-freeze-raw-linux-amd64.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/pip-list-linux-amd64.lock.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/pipeline-patches-sha256.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/requirements.api.lock.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/requirements.web.lock.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/runtime-import-versions.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/source-runtime.json",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/web-image-dpkg.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/manifests/web-image-pip.lock.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/rebuild-manifest.yml",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/Dockerfile.api",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/Dockerfile.api.pinned-amd64",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/Dockerfile.web",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/Dockerfile.web.pinned-amd64",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/docker-compose.yml",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/requirements.api.original.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/snapshots/requirements.web.original.txt",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/verify_host.sh",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/legacy/pre-gray1-20260902/verify_runtime.py",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    },
+    {
+      "manifest": "rebuild/SHA256SUMS.20261019-current-docs",
+      "target": "rebuild/rebuild-manifest.yml",
+      "status": "CURRENT_MATCH",
+      "version_source": "current bytes"
+    }
+  ],
+  "status": "PASS",
+  "external_full_backup_copy_rehashed": false
+}

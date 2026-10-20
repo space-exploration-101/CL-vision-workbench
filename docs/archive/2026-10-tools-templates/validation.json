@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "baseline_files": 51,
+  "modified_files": 12,
+  "scripts_unchanged": 27,
+  "unique_script_hashes": 27,
+  "links": {
+    "status": "PASS",
+    "documents": 13,
+    "local_links": 178,
+    "external_links_not_checked": 0,
+    "work_links_not_accessed": 0,
+    "scope": "12 explicitly edited Markdown files and stage-4 README; literal paths and anchors, no legacy mapping or network access.",
+    "failures": []
+  },
+  "scope": "Only listed documents and tool trees; no business script imported or executed; no remote validation."
+}

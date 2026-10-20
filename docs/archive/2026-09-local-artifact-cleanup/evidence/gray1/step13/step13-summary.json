@@ -1,0 +1,104 @@
+{
+  "step": 13,
+  "status": "PASS",
+  "experiment_id": "20260909_133719_gray1_smoke96",
+  "started_at": "2026-09-09T16:57:35+08:00",
+  "finished_at": "2026-09-09T17:27:09+08:00",
+  "container": {
+    "image": "ywang/yolo-gray1-train:ultralytics-8.3.98-v5",
+    "image_id": "sha256:8f3808c04433deb5179b23943b28ed2613bd961785ff00cc477a9a2d9f400336",
+    "image_size_bytes": 11334066998,
+    "ultralytics": "8.3.98",
+    "python": "3.12.12",
+    "torch": "2.8.0+cu128",
+    "onnx": "1.17.0",
+    "onnxruntime": "1.24.3",
+    "ml_dtypes": "0.3.2"
+  },
+  "execution": {
+    "pt_eval_device": "physical GPU 1 / GPU-84d797dc-af48-f191-5d3a-9c34549cc61a",
+    "onnx_export_device": "physical GPU 1 / GPU-84d797dc-af48-f191-5d3a-9c34549cc61a",
+    "onnx_eval_device": "CPUExecutionProvider",
+    "network": "none",
+    "container_root_filesystem": "read-only",
+    "container_user": "1012:1012",
+    "test_images": 24
+  },
+  "abi": {
+    "task": "pose",
+    "input_name": "images",
+    "input_shape": [1, 1, 1280, 1280],
+    "input_dtype": "float32",
+    "input_semantics": "gray1",
+    "first_conv_shape": [80, 1, 3, 3],
+    "output_name": "output0",
+    "output_shape": [1, 31, 34000],
+    "nc": 21,
+    "kpt_shape": [2, 3],
+    "opset": 17,
+    "dynamic": false
+  },
+  "raw_output_comparison": {
+    "image": "agaier_570_view_33.png",
+    "max_absolute_difference": 0.000244140625,
+    "mean_absolute_difference": 0.00000136295409
+  },
+  "metric_comparison": {
+    "official_absolute_tolerance": 0.0001,
+    "official_max_absolute_delta": 0.0000817093433651382,
+    "custom_metrics_exact_match": true,
+    "pt": {
+      "box_precision": 0.0,
+      "box_recall": 0.0,
+      "box_map50": 0.0,
+      "box_map50_95": 0.0,
+      "pose_precision": 0.0002568074197585428,
+      "pose_recall": 0.23809523809523808,
+      "pose_map50": 0.0007448994875977964,
+      "pose_map50_95": 0.0005116860607376721
+    },
+    "onnx": {
+      "box_precision": 0.0,
+      "box_recall": 0.0,
+      "box_map50": 0.0,
+      "box_map50_95": 0.0,
+      "pose_precision": 0.00022310911134310204,
+      "pose_recall": 0.23809523809523808,
+      "pose_map50": 0.0007638158093677784,
+      "pose_map50_95": 0.0005933954041028103
+    }
+  },
+  "artifacts": {
+    "step13_root": "/data3/ywang/yolo-pose-experiments/20260909_133719_gray1_smoke96/step13",
+    "step13_size_bytes": 397939266,
+    "onnx": "/data3/ywang/yolo-pose-experiments/20260909_133719_gray1_smoke96/step13/onnx/best.onnx",
+    "onnx_bytes": 397805382,
+    "onnx_sha256": "76d245582289b38084bc915b6da913a4b2ccdb0c487d50e758b87f515f1f015c",
+    "pt_metrics_sha256": "b2ef6a283fb337bff87553d378ec8ce50b37b712663fbc6861b8006f71e36e2f",
+    "onnx_metrics_sha256": "4e89e2db2ad2547c5cbea493d615344aecd5f2ebcfa0a1f3c16b7aeb777f4bdc",
+    "comparison_sha256": "692ed3868ebea0042f59a711d9a5d0157a75c2d20249e2d2f4b5c9e8ab6c6b14",
+    "pt_log_sha256": "de32865f55ece9531922cd9aa9c2f2eaacbf1f7c07743433047c7bfdfa97abe7",
+    "export_log_sha256": "5242ed4f8a93a822f7fa573876f7c38d30a77c67e42ce393817e2f860c123a80",
+    "onnx_eval_log_sha256": "b5cfc122a5c64a55d245ce45aeaa243f4e8e8ed94442d3ee05f0641dae83ec2a",
+    "onnx_verify_log_sha256": "016e8412e6c4ac5efb830c10401f7126fca8bb472f08800ddd3381731a31b1f5"
+  },
+  "source": {
+    "ultralytics_source_tree_sha256": "7953c7d1c2193ebcdd91bdcc437935437a019024e4e5bb9846ece1edccabc158",
+    "predictor_py_sha256": "0409b04142b287eb0d7b619dca24c1bdcb5778f3c3f194ce3d1cfa852254b869",
+    "exporter_py_sha256": "2d8da09df8392fbe7956e96e6d31723b3191cd24227870185cd92c0b6f370240",
+    "validator_py_sha256": "ca52e3c5e345146c37927165f93d8eca97e1c221fc75ac9f0733c55b975861fe",
+    "test_script_sha256": "071417077bd0b09ebc5afc7429b1bf79f7a2fb2919ea42a1836898e896ac9311",
+    "onnx_wheel_sha256": "4f3fb5cc4e2898ac5312a7dc03a65133dd2abf9a5e520e69afb880a7251ec97a"
+  },
+  "discarded_attempts": [
+    {
+      "path": "step13/onnx_eval_invalid_detect_task",
+      "status": "INVALID_RETAINED",
+      "reason": "ONNX filename task inference selected detect before metadata loading; pose metrics were absent"
+    }
+  ],
+  "backup": {
+    "completed": false,
+    "policy": "deferred until the complete workflow finishes by user direction"
+  }
+}

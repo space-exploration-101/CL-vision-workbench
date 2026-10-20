@@ -1,0 +1,7 @@
+{
+  "task_id": "20260920_063903_Pose21_Gray1_weight-only_accuracy_valida",
+  "source": "/data3/ywang/quantitize-platform/data/output_data/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/input/model.pt",
+  "destination": "model.pt",
+  "sha256": "622cff54db472b61c85db03648b36c119f030eacbd4cd87cf5d2dda67e69d6a7",
+  "bytes": 199108106
+}

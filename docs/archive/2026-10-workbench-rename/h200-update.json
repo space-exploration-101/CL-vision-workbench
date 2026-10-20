@@ -1,0 +1,12 @@
+﻿{
+  "status": "VERIFIED",
+  "source": "/data3/ywang/quantitize-platform/docs/agent/CONTEXT.md",
+  "backup": "/data3/ywang/documentation-backups/20261020-CL-vision-workbench/CONTEXT.md",
+  "before_sha256": "21357b59ad279dadb4f285c928d329817b81e4514adae96bb1620fa01d67a842",
+  "after_sha256": "afdd1157ab875ca83b5208914c2a0c1c553942c8f8f0e6263f97d524b5b010b7",
+  "bytes": 5469,
+  "verified_at": "2026-10-20T02:07:35.141522+00:00",
+  "head": "b1ac5ea84e0374d9bfa2be2c9214e07e950a0a79",
+  "git_status": " M docs/agent/CONTEXT.md\n",
+  "scope": "Windows controller path and dated note only; no services, deployments, commits, remote changes, NAS or GPU"
+}

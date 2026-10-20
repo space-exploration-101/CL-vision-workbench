@@ -1,0 +1,40 @@
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+Sending build context to Docker daemon  5.551GB
+Step 1/10 : FROM ubuntu:22.04 AS env-unpack
+ ---> 714d1a2f39e9
+Step 2/10 : COPY docker/yolo-runtime.tar.gz /tmp/yolo-runtime.tar.gz
+ ---> Using cache
+ ---> 8f459f245905
+Step 3/10 : RUN mkdir -p /opt/runtime     && tar -xzf /tmp/yolo-runtime.tar.gz -C /opt/runtime     && rm -f /tmp/yolo-runtime.tar.gz
+ ---> Using cache
+ ---> 7915712770ee
+Step 4/10 : FROM ubuntu:22.04
+ ---> 714d1a2f39e9
+Step 5/10 : COPY --from=env-unpack /opt/runtime /opt/ywang/yolo-runtime
+ ---> Using cache
+ ---> 748ce1281e11
+Step 6/10 : COPY src/Yolo_fine /workspace/src/Yolo_fine
+ ---> 3f3db9848b95
+Step 7/10 : ENV LANG=C.UTF-8     PYTHONUNBUFFERED=1     PYTHONDONTWRITEBYTECODE=1     PYTHONNOUSERSITE=1     CONDA_PREFIX=/opt/ywang/yolo-runtime     PATH=/opt/ywang/yolo-runtime/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin     PYTHONPATH=/workspace/src/Yolo_fine/ultralytics     YOLO_CONFIG_DIR=/tmp/ultralytics     MPLCONFIGDIR=/tmp/matplotlib     YOLO_INPUT_CHANNELS=1     YOLO_INPUT_SEMANTICS=gray1     YOLO_IMGSZ=1280
+ ---> Running in d3df83c0b32d
+ ---> Removed intermediate container d3df83c0b32d
+ ---> 68da825cd004
+Step 8/10 : WORKDIR /workspace/src/Yolo_fine
+ ---> Running in 46d01cf1e369
+ ---> Removed intermediate container 46d01cf1e369
+ ---> dad9e4defa59
+Step 9/10 : RUN python -c "import sys, torch, torchvision, cv2, numpy, albumentations, PIL, yaml, tqdm; assert sys.version.split()[0] == '3.12.12'; assert torch.__version__ == '2.8.0+cu128'; assert torchvision.__version__ == '0.23.0+cu128'; assert cv2.__version__ == '4.11.0'; assert numpy.__version__ == '1.26.4'; assert albumentations.__version__ == '2.0.8'; assert PIL.__version__ == '12.2.0'; assert yaml.__version__ == '6.0.3'; assert tqdm.__version__ == '4.67.3'"
+ ---> Running in a184eae273c3
+[91m/opt/ywang/yolo-runtime/lib/python3.12/site-packages/albumentations/check_version.py:147: UserWarning: Error fetching version info <urlopen error [Errno -3] Temporary failure in name resolution>
+  data = fetch_version_info()
+[0m ---> Removed intermediate container a184eae273c3
+ ---> 899560dff841
+Step 10/10 : CMD ["/bin/bash"]
+ ---> Running in 59c7e5aa6bbf
+ ---> Removed intermediate container 59c7e5aa6bbf
+ ---> 79b0086e39b8
+Successfully built 79b0086e39b8
+Successfully tagged yolo-gray1:1280-train-predict-20261016

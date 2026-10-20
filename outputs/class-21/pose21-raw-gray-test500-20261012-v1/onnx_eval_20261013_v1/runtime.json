@@ -1,0 +1,40 @@
+{
+  "backend": "ONNX Runtime",
+  "onnxruntime": "1.24.3",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "gpu_used": false,
+  "python": "3.12.12",
+  "torch": "2.8.0+cu128",
+  "ultralytics": "8.3.98",
+  "opencv": "4.11.0",
+  "numpy": "1.26.4",
+  "input_shapes": [
+    [
+      1,
+      1,
+      1280,
+      1280
+    ]
+  ],
+  "input_dtype": "float16",
+  "output_requested": "output0",
+  "normalization": "uint8 -> float32 /255 -> float16; no resize or padding",
+  "ort_intra_op_threads": 8,
+  "ort_inter_op_threads": 1,
+  "image_id": "sha256:f633b01c2f85d1fd39bf01e9b9f556056d03c805529781c8879e3172412e8ed2",
+  "model_sha256": "031def2070a1c2183e62ce5713831bc69cd50dee3a22c10d0ffaff6580d91a02",
+  "model_filename": "pose21_gray1_weight_only_accuracy_output.onnx",
+  "quantization_task": "20260920_063903_Pose21_Gray1_weight-only_accuracy_valida",
+  "postprocess": "Ultralytics 8.3.98 NMS nc=21 max_det=300; clip boxes/keypoints to 1280; Results pose semantics",
+  "image_tag": "quantitize-platform-api:weight-only-20260920",
+  "docker_cpu_limit": 8,
+  "docker_memory_limit_gib": 12,
+  "scripts_sha256": {
+    "eval_pose21_onnx500.py": "0f537b12233755c48c029b8cf96291cd9f78550fbe856fb6b13909e0e85c725c",
+    "eval_pose21_reference.py": "ab28992d5ffaeef4ff6c30dab40b3f56b1e105e69b3efc1bc606a14d287aa025",
+    "eval_pose21_stage4.py": "992f565e22115e1754588481e3b1818dab6f6c79780e37491e58bccc146fb533",
+    "verify_pose21_onnx500.py": "821aadd8505e980b10cb24e679d5a0781979ad7af48311d0e2748c659321a750"
+  }
+}

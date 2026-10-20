@@ -1,0 +1,88 @@
+{
+  "steps": {
+    "pt_eval": {
+      "status": "completed",
+      "updated_at": "2026-09-20T06:39:38.016497+00:00",
+      "started_at": "2026-09-20T06:39:19.853375+00:00",
+      "duration_seconds": 18.163
+    },
+    "quantize": {
+      "status": "completed",
+      "updated_at": "2026-09-20T06:55:38.595158+00:00",
+      "started_at": "2026-09-20T06:39:38.017264+00:00",
+      "duration_seconds": 960.578,
+      "output_onnx": "/scratch/quantitize/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/workspace/pose21_gray1_weight_only_accuracy_output.onnx"
+    },
+    "onnx_eval": {
+      "status": "completed",
+      "updated_at": "2026-09-20T07:03:52.066024+00:00",
+      "started_at": "2026-09-20T06:55:38.595558+00:00",
+      "duration_seconds": 493.47
+    },
+    "fpga_test_pack": {
+      "status": "completed",
+      "updated_at": "2026-09-20T07:04:02.460807+00:00",
+      "started_at": "2026-09-20T07:03:52.066683+00:00",
+      "duration_seconds": 10.394
+    },
+    "fpga_input_roundtrip_eval": {
+      "status": "completed",
+      "updated_at": "2026-09-20T07:12:49.735196+00:00",
+      "started_at": "2026-09-20T07:04:02.461590+00:00",
+      "duration_seconds": 527.274
+    },
+    "generate_bin": {
+      "status": "completed",
+      "updated_at": "2026-09-20T07:13:12.908363+00:00",
+      "started_at": "2026-09-20T07:12:49.735980+00:00",
+      "duration_seconds": 23.172
+    },
+    "merge_bin": {
+      "status": "completed",
+      "updated_at": "2026-09-20T07:13:15.808465+00:00",
+      "started_at": "2026-09-20T07:13:12.908782+00:00",
+      "duration_seconds": 2.9
+    },
+    "bundle": {
+      "status": "completed",
+      "updated_at": "2026-09-20T07:13:27.924847+00:00",
+      "started_at": "2026-09-20T07:13:15.808998+00:00",
+      "duration_seconds": 12.116,
+      "zip": "/home/rs/wrs/onnxviewe/quantitize-platform/data/output_data/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida_quantized_bundle.zip"
+    }
+  },
+  "updated_at": "2026-09-20T07:13:31.924625+00:00",
+  "job_id": "20260920_063903_Pose21_Gray1_weight-only_accuracy_valida",
+  "job_root": "/home/rs/wrs/onnxviewe/quantitize-platform/data/output_data/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida",
+  "status": "completed",
+  "gpu_readiness": {
+    "ready": true,
+    "reason": "GPU is ready",
+    "required": true,
+    "min_free_mib": 32768,
+    "max_utilization_percent": 100,
+    "index": 0,
+    "uuid": "GPU-1610284d-3afe-6e14-b8cb-bbbe40a1f28b",
+    "name": "NVIDIA H200 NVL",
+    "memory_total_mib": 143771,
+    "memory_free_mib": 143139,
+    "utilization_percent": 0,
+    "error": null
+  },
+  "display_name": "Pose21 Gray1 weight-only accuracy validation",
+  "scratch": {
+    "enabled": true,
+    "task_id": "20260920_063903_Pose21_Gray1_weight-only_accuracy_valida",
+    "status": "allocated",
+    "root": "/scratch/quantitize/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida",
+    "free_bytes_at_start": 393241931776,
+    "min_free_bytes": 161061273600,
+    "updated_at_epoch": 1789886359.3751261
+  },
+  "scratch_cleanup": {
+    "status": "cleaned",
+    "source": "/scratch/quantitize/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida",
+    "bundle": "/home/rs/wrs/onnxviewe/quantitize-platform/data/output_data/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida_quantized_bundle.zip",
+    "verified_at_epoch": 1789888411.9242647
+  }
+}
