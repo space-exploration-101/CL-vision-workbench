@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-10",
+  "files": [
+    {
+      "path": "rebuild/README.md",
+      "bytes": 2032,
+      "sha256": "0d7d613ec40962dc3752065757c784ff3a51d147b49173bf7db2a9b8daf6da0e"
+    },
+    {
+      "path": "rebuild/data-backup/README.md",
+      "bytes": 3451,
+      "sha256": "ffd7bea0a35b37b236c66a013d445805b843859843ec65fe0ccfe6ddcc62010f"
+    },
+    {
+      "path": "rebuild/data-backup/HISTORY.md",
+      "bytes": 7748,
+      "sha256": "5f5367d079dc780e740841d13fb8111803a207168e3a3585d0586ecc2a431058"
+    },
+    {
+      "path": "docs/platform/01_NAS备份与环境恢复.md",
+      "bytes": 33471,
+      "sha256": "58df6cd03b08ac0e688c3209e6fee2f44b89cb869eb1269073c05f3889268a9c"
+    },
+    {
+      "path": "docs/platform/SOURCES.md",
+      "bytes": 3819,
+      "sha256": "505214005d10cca006b6dcfbfad0acfa0ed8f7163b2ca5d2b76ed63f2ace213e"
+    },
+    {
+      "path": "docs/platform/OPEN_QUESTIONS.md",
+      "bytes": 3368,
+      "sha256": "9abbc2f44c0f85d7279f7da827b9c681a6c152aa9a6dac1edf3151c688997f63"
+    }
+  ],
+  "zip_sha256": "993d6cf22f6339be5ab61deda8710e1443f3fe739bde7d6272af1ff532218c42",
+  "previous_manifest_sha256": "7b12b1da3204739f651fc0167afa1cbc940747af7c7c75428d98ba84afae4d00",
+  "scope": "Local navigation and path-observation documentation; no NAS contents read"
+}

@@ -1,0 +1,96 @@
+{
+  "source": "ubuntu22:/home/ubuntu22/CL01_02/records",
+  "status": "COPIED_AND_SHA256_VERIFIED",
+  "files": [
+    {
+      "file": "restore-completion.json",
+      "bytes": 15743,
+      "sha256": "711956634f3fca1d52373e53355c431a76585aaf73a70cdaf88b6d8876aed80a"
+    },
+    {
+      "file": "transfer-plan.json",
+      "bytes": 25990,
+      "sha256": "aa01049629d2d1a5c17c657d69f2b0b1f4a01cd83297c5098e29e1d43dd6e8e0"
+    },
+    {
+      "file": "models-restored.json",
+      "bytes": 441,
+      "sha256": "aff190af1571f7a14411a3b0172fca9c70c5052e2124c60b1238166e7833c4c3"
+    },
+    {
+      "file": "source-comparison.json",
+      "bytes": 64950,
+      "sha256": "ae5bb1d8bb678832999d898864a3d8d40e555577d4befd253b198f149bdc1edc"
+    },
+    {
+      "file": "h200-runtime-mounts.json",
+      "bytes": 1501,
+      "sha256": "6f17388d9f881cdb3d80c56bab6ac8fe962e89e715da04b9b69699ed644bb97e"
+    },
+    {
+      "file": "supplements.json",
+      "bytes": 1380,
+      "sha256": "e667ed96b854f36e5397930e0010d8d6856124f0da00d03a39a30ccc61483e32"
+    },
+    {
+      "file": "train.tar-extracted.json",
+      "bytes": 335,
+      "sha256": "8cb5ef9fb4a9d0939a82b40ea28c61b85746450ab9192e4376984167a58acf6c"
+    },
+    {
+      "file": "cal462.tar-extracted.json",
+      "bytes": 314,
+      "sha256": "de63bf550109959898c307fbe995ae86ef6f64b947330f4a73746323486e8b13"
+    },
+    {
+      "file": "eval462.tar-extracted.json",
+      "bytes": 338,
+      "sha256": "50f7552e3e4f43b5cec4d45a217aa2d8ddf573d4127baabf5500ab1a10f07127"
+    },
+    {
+      "file": "yolo_gray1_data_pipeline-image-verified.json",
+      "bytes": 1347,
+      "sha256": "ed5610fcf9e6e5bf4b64a585e1bd56e137f0fffe84f86e56af38b85e60b2824c"
+    },
+    {
+      "file": "quantitize_platform_web-image-verified.json",
+      "bytes": 1183,
+      "sha256": "cb42e968fee978de0a8f86b2593c2d76b034c97db2457f5ce01417ec7f059884"
+    },
+    {
+      "file": "yolo_gray1_1280_train_predict-image-verified.json",
+      "bytes": 952,
+      "sha256": "c53846d4c715fc38b0857ca0f1490f5a7b3f5e661984144f886a36a33b28e79b"
+    },
+    {
+      "file": "quantitize_platform_api-image-verified.json",
+      "bytes": 2451,
+      "sha256": "7533ebff6461669a2c006ca9f7212c62ff09b90202c47812b1ac81a4a9539aab"
+    },
+    {
+      "file": "preprocess-check-v2.json",
+      "bytes": 712,
+      "sha256": "d084d7bd373a21e8ca23ff8f5c808780aefbdf4b891e5a86cfb961777f3315b9"
+    },
+    {
+      "file": "web-check-v2.json",
+      "bytes": 498,
+      "sha256": "fc0371623c6a744b43cc45b302908eecec9235e0b12bef649392d0aed42158b7"
+    },
+    {
+      "file": "train-check.json",
+      "bytes": 1423,
+      "sha256": "d3c27d7514b83dccea54e8c2d665c7f0f5c6a3723efb852f6dce585a6b4f15b9"
+    },
+    {
+      "file": "api-check.json",
+      "bytes": 3437,
+      "sha256": "48719ab7feb80f99341e3382fbd61b94d77a33375082381a077daeaa2ebfa759"
+    },
+    {
+      "file": "dataset-path-config.json",
+      "bytes": 204,
+      "sha256": "f37522631c34fa63a5621fd9c4f3f8741b48957f4a2d40ec2ac813d1209fb810"
+    }
+  ]
+}

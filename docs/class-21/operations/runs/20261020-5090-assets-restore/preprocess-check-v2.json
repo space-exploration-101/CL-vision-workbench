@@ -1,0 +1,30 @@
+{
+  "role": "preprocess",
+  "python": "3.12.13 (main, Apr  7 2026, 02:23:40) [GCC 14.2.0]",
+  "executable": "/usr/local/bin/python",
+  "gpu_exposed": [],
+  "modules": {
+    "grayprep": {
+      "version": "0.2.1",
+      "file": "/app/src/grayprep/__init__.py"
+    },
+    "numpy": {
+      "version": "1.26.4",
+      "file": "/usr/local/lib/python3.12/site-packages/numpy/__init__.py"
+    },
+    "cv2": {
+      "version": "4.11.0",
+      "file": "/usr/local/lib/python3.12/site-packages/cv2/__init__.py"
+    }
+  },
+  "sample": {
+    "name": "aipuha_000_view_31.png",
+    "shape": [
+      1280,
+      1280
+    ],
+    "dtype": "uint8"
+  },
+  "import_messages": [],
+  "status": "CPU_IMPORT_AND_MODEL_STRUCTURE_PASS"
+}

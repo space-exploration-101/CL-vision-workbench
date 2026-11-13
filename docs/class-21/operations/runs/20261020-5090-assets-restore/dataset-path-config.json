@@ -1,0 +1,11 @@
+{
+  "status": "DATASET_PATH_CONFIG_VERIFIED",
+  "only_changed_key": "path",
+  "dataset_root": "/datasets/pose21-gray1-1280-m-v1",
+  "classes": 21,
+  "channels": 1,
+  "keypoint_shape": [
+    2,
+    3
+  ]
+}

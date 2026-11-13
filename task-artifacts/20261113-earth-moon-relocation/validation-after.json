@@ -1,0 +1,1033 @@
+{
+  "status": "FAIL",
+  "documents": 142,
+  "document_paths": [
+    "AGENTS.md",
+    "docs/agent/AGENTS.md",
+    "docs/agent/CONTEXT.md",
+    "docs/agent/README.md",
+    "docs/agent/RUNBOOK.md",
+    "docs/agent/tasks/BACKUP.md",
+    "docs/agent/tasks/DIAGNOSTICS.md",
+    "docs/agent/tasks/DOCUMENTATION.md",
+    "docs/agent/tasks/EVALUATION.md",
+    "docs/agent/tasks/README.md",
+    "docs/agent/tasks/SERVICE.md",
+    "docs/agent/topics/BACKUPS.md",
+    "docs/agent/topics/HOSTS.md",
+    "docs/agent/topics/MODEL_BASELINE.md",
+    "docs/agent/topics/README.md",
+    "docs/agent/topics/REPOSITORIES.md",
+    "docs/AGENT_GUIDE.md",
+    "docs/AGENTS.md",
+    "docs/archive/2026-04-cam2000-prototype/README.md",
+    "docs/archive/2026-09-class21-migration-source-docs/README.md",
+    "docs/archive/2026-09-class21-transition/AGENTS.md",
+    "docs/archive/2026-09-class21-transition/HISTORICAL_TRANSITION_EXPERIMENTS.md",
+    "docs/archive/2026-09-class21-transition/README.md",
+    "docs/archive/2026-09-gray1-blocked-backup-run/README.md",
+    "docs/archive/2026-09-gray1-predictor-test-eval/README.md",
+    "docs/archive/2026-09-gray1-quant-env/README.md",
+    "docs/archive/2026-09-gray1-step15-checkpoint/README.md",
+    "docs/archive/2026-09-gray1-training-workflow-history/README.md",
+    "docs/archive/2026-09-gray1-workflow-smoke/README.md",
+    "docs/archive/2026-09-grayprep-performance-step5-14/README.md",
+    "docs/archive/2026-09-h200-worktree-retirement/README.md",
+    "docs/archive/2026-09-local-artifact-cleanup/README.md",
+    "docs/archive/2026-09-migration/README.md",
+    "docs/archive/2026-09-performance/README.md",
+    "docs/archive/2026-09-sim-train-fpga-doc/README.md",
+    "docs/archive/2026-09-standardization-work-packages/README.md",
+    "docs/archive/2026-10-artifact-relocation/AGENTS.md",
+    "docs/archive/2026-10-artifact-relocation/README.md",
+    "docs/archive/2026-10-attachment-closeout/README.md",
+    "docs/archive/2026-10-current-docs/README.md",
+    "docs/archive/2026-10-documentation-baseline-20261019-185246/AGENTS.md",
+    "docs/archive/2026-10-documentation-baseline-20261019-185246/README.md",
+    "docs/archive/2026-10-documentation-consolidation/README.md",
+    "docs/archive/2026-10-final-handoff/README.md",
+    "docs/archive/2026-10-operations-history/CLOSEOUT.md",
+    "docs/archive/2026-10-operations-history/README.md",
+    "docs/archive/2026-10-platform-docs/README.md",
+    "docs/archive/2026-10-platform-renumber/README.md",
+    "docs/archive/2026-10-tools-templates/README.md",
+    "docs/archive/2026-10-workbench-rename/README.md",
+    "docs/archive/AGENTS.md",
+    "docs/archive/OCTOBER_CONTEXT.md",
+    "docs/archive/README.md",
+    "docs/archive/SEPTEMBER_CONTEXT.md",
+    "docs/class-21/AGENTS.md",
+    "docs/class-21/architecture/AGENTS.md",
+    "docs/class-21/architecture/Pose21_Gray1网络结构与FPGA适配说明.md",
+    "docs/class-21/architecture/README.md",
+    "docs/class-21/knowledge/01_YOLO_Gray1与量化基础.md",
+    "docs/class-21/knowledge/02_21类目标数据与输入预处理.md",
+    "docs/class-21/knowledge/03_训练评估量化与FPGA流程.md",
+    "docs/class-21/knowledge/20261028_地理特征点KPTS量化平台升级计划.md",
+    "docs/class-21/knowledge/AGENTS.md",
+    "docs/class-21/knowledge/README.md",
+    "docs/class-21/operations/AGENTS.md",
+    "docs/class-21/operations/prompts/21类Gray1_NAS归档与恢复资料精简_AGENT提示词.md",
+    "docs/class-21/operations/prompts/README.md",
+    "docs/class-21/operations/README.md",
+    "docs/class-21/operations/runs/20261017-h200-gray1-main-integration.md",
+    "docs/class-21/operations/runs/20261018-h200-main-only.md",
+    "docs/class-21/operations/runs/20261020-5090-assets-restore.md",
+    "docs/class-21/operations/runs/20261020-5090-cl01-02-bootstrap.md",
+    "docs/class-21/operations/runs/20261020-5090-smoke-connectivity-blocked.md",
+    "docs/class-21/operations/runs/20261021-5090-eval462-quantization.md",
+    "docs/class-21/operations/runs/20261021-5090-preprocess-gpu-training.md",
+    "docs/class-21/operations/runs/AGENTS.md",
+    "docs/class-21/operations/runs/backup/AGENTS.md",
+    "docs/class-21/operations/runs/backup/docker-images/20261016/completion-report.md",
+    "docs/class-21/operations/runs/backup/historical-r-only/20260925-local-data-cleanup/completion-report.md",
+    "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/completion-report.md",
+    "docs/class-21/operations/runs/backup/README.md",
+    "docs/class-21/operations/runs/image-cleanup/20261015-h200-intermediate-images/清理完成报告.md",
+    "docs/class-21/operations/runs/README.md",
+    "docs/class-21/operations/tools/README.md",
+    "docs/class-21/README.md",
+    "docs/class-21/reports/AGENTS.md",
+    "docs/class-21/reports/current/20260920_Pose21_Gray1_训练测试标定与量化完整报告.md",
+    "docs/class-21/reports/current/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+    "docs/class-21/reports/current/20261012_Pose21_500张原始测试集生成与测试记录.md",
+    "docs/class-21/reports/current/AGENTS.md",
+    "docs/class-21/reports/current/README.md",
+    "docs/class-21/reports/README.md",
+    "docs/Earth_Moon/AGENTS.md",
+    "docs/Earth_Moon/README.md",
+    "docs/Earth_Moon/reports/20261028_地月两类_dataset3-8_数据集与实验过程记录.md",
+    "docs/Earth_Moon/reports/README.md",
+    "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+    "docs/Earth_Moon/sources/README.md",
+    "docs/HANDOFF.md",
+    "docs/operations/AGENTS.md",
+    "docs/operations/README.md",
+    "docs/platform/01_NAS备份与环境恢复.md",
+    "docs/platform/02_H200训练测试推理与量化运行环境.md",
+    "docs/platform/03_5090训练测试推理与量化运行环境.md",
+    "docs/platform/AGENTS.md",
+    "docs/platform/OPEN_QUESTIONS.md",
+    "docs/platform/README.md",
+    "docs/platform/SOURCES.md",
+    "docs/README.md",
+    "docs/reference/AGENTS.md",
+    "docs/reference/backup/README.md",
+    "docs/reference/PERFORMANCE.md",
+    "docs/reference/README.md",
+    "docs/reference/RECOVERY.md",
+    "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+    "docs/VERSION_CONTROL.md",
+    "outputs/AGENTS.md",
+    "outputs/class-21/AGENTS.md",
+    "outputs/class-21/FPGA_logs/README.md",
+    "outputs/class-21/README.md",
+    "outputs/README.md",
+    "README.md",
+    "rebuild/AGENTS.md",
+    "rebuild/CURRENT_STATE.md",
+    "rebuild/data-backup/audit/20261110/README.md",
+    "rebuild/data-backup/audit/20261110-nas-paths/README.md",
+    "rebuild/data-backup/evidence/nas-paths-20261110/README.md",
+    "rebuild/data-backup/HISTORY.md",
+    "rebuild/data-backup/PROMPTS.md",
+    "rebuild/data-backup/README.md",
+    "rebuild/data-backup/RESTORE.md",
+    "rebuild/data-backup/scripts/README.md",
+    "rebuild/legacy/AGENTS.md",
+    "rebuild/legacy/gray1-20260918/README.md",
+    "rebuild/legacy/pre-gray1-20260902/README.md",
+    "rebuild/legacy/README.md",
+    "rebuild/README.md",
+    "rebuild/REBUILD_GUIDE.md",
+    "task-artifacts/AGENTS.md",
+    "task-artifacts/README.md",
+    "tools/AGENTS.md",
+    "tools/README.md"
+  ],
+  "direct_links": {
+    "active": 914,
+    "frozen": 234
+  },
+  "frozen_mapped_links": [
+    {
+      "document": "docs/archive/2026-09-gray1-blocked-backup-run/README.md",
+      "line": 37,
+      "original_reference": "../../class-21/knowledge/04_NAS备份与环境恢复.md",
+      "literal_target": "docs/class-21/knowledge/04_NAS备份与环境恢复.md",
+      "mapped_target": "docs/platform/01_NAS备份与环境恢复.md",
+      "basis": [
+        "docs/archive/2026-10-platform-docs/validation.json",
+        "docs/archive/2026-10-platform-renumber/README.md"
+      ],
+      "original_link_repaired": false
+    },
+    {
+      "document": "docs/archive/2026-10-final-handoff/README.md",
+      "line": 10,
+      "original_reference": "../../platform/04_NAS备份与环境恢复.md",
+      "literal_target": "docs/platform/04_NAS备份与环境恢复.md",
+      "mapped_target": "docs/platform/01_NAS备份与环境恢复.md",
+      "basis": "docs/archive/2026-10-platform-renumber/README.md",
+      "original_link_repaired": false
+    },
+    {
+      "document": "docs/archive/2026-10-operations-history/README.md",
+      "line": 42,
+      "original_reference": "../../platform/05_H200训练测试推理与量化运行环境.md",
+      "literal_target": "docs/platform/05_H200训练测试推理与量化运行环境.md",
+      "mapped_target": "docs/platform/02_H200训练测试推理与量化运行环境.md",
+      "basis": "docs/archive/2026-10-platform-renumber/README.md",
+      "original_link_repaired": false
+    },
+    {
+      "document": "docs/archive/2026-10-operations-history/README.md",
+      "line": 45,
+      "original_reference": "../../platform/04_NAS备份与环境恢复.md",
+      "literal_target": "docs/platform/04_NAS备份与环境恢复.md",
+      "mapped_target": "docs/platform/01_NAS备份与环境恢复.md",
+      "basis": "docs/archive/2026-10-platform-renumber/README.md",
+      "original_link_repaired": false
+    },
+    {
+      "document": "docs/archive/2026-10-operations-history/README.md",
+      "line": 53,
+      "original_reference": "../../platform/04_NAS备份与环境恢复.md",
+      "literal_target": "docs/platform/04_NAS备份与环境恢复.md",
+      "mapped_target": "docs/platform/01_NAS备份与环境恢复.md",
+      "basis": "docs/archive/2026-10-platform-renumber/README.md",
+      "original_link_repaired": false
+    },
+    {
+      "document": "docs/archive/OCTOBER_CONTEXT.md",
+      "line": 10,
+      "original_reference": "../platform/05_H200训练测试推理与量化运行环境.md",
+      "literal_target": "docs/platform/05_H200训练测试推理与量化运行环境.md",
+      "mapped_target": "docs/platform/02_H200训练测试推理与量化运行环境.md",
+      "basis": "docs/archive/2026-10-platform-renumber/README.md",
+      "original_link_repaired": false
+    },
+    {
+      "document": "docs/archive/OCTOBER_CONTEXT.md",
+      "line": 11,
+      "original_reference": "../platform/04_NAS备份与环境恢复.md",
+      "literal_target": "docs/platform/04_NAS备份与环境恢复.md",
+      "mapped_target": "docs/platform/01_NAS备份与环境恢复.md",
+      "basis": "docs/archive/2026-10-platform-renumber/README.md",
+      "original_link_repaired": false
+    },
+    {
+      "document": "docs/class-21/operations/runs/backup/docker-images/20261016/completion-report.md",
+      "line": 29,
+      "original_reference": "../../../../../knowledge/04_NAS备份与环境恢复.md#34-2026-10-16-预处理apiweb-镜像与总索引",
+      "literal_target": "docs/class-21/knowledge/04_NAS备份与环境恢复.md",
+      "mapped_target": "docs/platform/01_NAS备份与环境恢复.md",
+      "basis": [
+        "docs/archive/2026-10-platform-docs/validation.json",
+        "docs/archive/2026-10-platform-renumber/README.md"
+      ],
+      "original_link_repaired": false
+    },
+    {
+      "document": "outputs/class-21/FPGA_logs/README.md",
+      "line": 3,
+      "original_reference": "../20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+      "literal_target": "outputs/class-21/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+      "mapped_target": "docs/class-21/reports/current/20260925_Pose21_Gray1_单图逐层输入输出导出试验.md",
+      "basis": "docs/archive/2026-10-platform-docs/validation.json",
+      "original_link_repaired": false
+    }
+  ],
+  "external_links_not_checked": [
+    {
+      "document": "docs/class-21/knowledge/20261028_地理特征点KPTS量化平台升级计划.md",
+      "line": 640,
+      "target": "http://10.2.29.180:8088/"
+    },
+    {
+      "document": "docs/class-21/reports/current/20261012_Pose21_500张原始测试集生成与测试记录.md",
+      "line": 177,
+      "target": "http://10.2.29.180:8088/tasks/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 744,
+      "target": "https://www.3blue1brown.com/topics/neural-networks"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 745,
+      "target": "https://cs231n.github.io/convolutional-networks/"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 746,
+      "target": "https://poloclub.github.io/cnn-explainer/"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 747,
+      "target": "https://distill.pub/2017/feature-visualization/"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 751,
+      "target": "https://doi.org/10.1007/BF00344251"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 752,
+      "target": "https://doi.org/10.1109/5.726791"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 753,
+      "target": "https://arxiv.org/abs/1207.0580"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 754,
+      "target": "https://arxiv.org/abs/1512.03385"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 758,
+      "target": "https://arxiv.org/abs/1506.02640"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 759,
+      "target": "https://arxiv.org/abs/1512.02325"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 760,
+      "target": "https://arxiv.org/abs/1505.04597"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 761,
+      "target": "https://arxiv.org/abs/1612.03144"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 762,
+      "target": "https://arxiv.org/abs/1803.01534"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 763,
+      "target": "https://arxiv.org/abs/2006.04388"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 764,
+      "target": "https://docs.ultralytics.com/models/yolov8/"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 768,
+      "target": "https://arxiv.org/abs/1712.05877"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 769,
+      "target": "https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 770,
+      "target": "https://onnx.ai/onnx/operators/onnx__QuantizeLinear.html"
+    },
+    {
+      "document": "docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md",
+      "line": 770,
+      "target": "https://onnx.ai/onnx/operators/onnx__DequantizeLinear.html"
+    }
+  ],
+  "excluded_scan_entries": [
+    {
+      "path": ".git",
+      "reason": "Excluded name; not inspected"
+    },
+    {
+      "path": ".tmp",
+      "reason": "Excluded name; not inspected"
+    },
+    {
+      "path": "work",
+      "reason": "Excluded name; not inspected"
+    },
+    {
+      "path": "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/nas-docs",
+      "reason": "Frozen source copies; no recursive reading"
+    },
+    {
+      "path": "rebuild/data-backup/nas-docs",
+      "reason": "Frozen source copies; no recursive reading"
+    }
+  ],
+  "failures": [
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 35,
+      "target": "dataset3_false_earth_diagnosis/background_ablation_summary.json",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 35,
+      "target": "dataset3_false_earth_diagnosis/background_ablation_counts.csv",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 87,
+      "target": "../dataset3/local_validation.json",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 87,
+      "target": "../dataset3/leakage_report.json",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 87,
+      "target": "../dataset4/preparation.json",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 87,
+      "target": "dataset5_8_experiments/dataset_plan.json",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 122,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset3_pretrained_gpu23_b64_200epochs/args.yaml",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 122,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset3_pretrained_gpu23_b64_200epochs/results.csv",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 123,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset4_finetune_gpu01_b64_20epochs/args.yaml",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 123,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset4_finetune_gpu01_b64_20epochs/results.csv",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 124,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset5_neg5_gpu01_b64_20epochs/args.yaml",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 124,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset5_neg5_gpu01_b64_20epochs/results.csv",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 125,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset6_neg20_gpu01_b64_20epochs/args.yaml",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 125,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset6_neg20_gpu01_b64_20epochs/results.csv",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 126,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset7_neg30_gpu01_b64_20epochs/args.yaml",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 126,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset7_neg30_gpu01_b64_20epochs/results.csv",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 127,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset8_large_earth80_neg10_gpu01_b64_20epochs/args.yaml",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 127,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset8_large_earth80_neg10_gpu01_b64_20epochs/results.csv",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 227,
+      "target": "../test/results/dataset3_real_checkpoint_comparison/ranking.csv",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 468,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset3_pretrained_gpu23_b64_200epochs/weights/best.pt",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 469,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset3_pretrained_gpu23_b64_200epochs/weights/last.pt",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 470,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset4_finetune_gpu01_b64_20epochs/weights/best.pt",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 471,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset4_finetune_gpu01_b64_20epochs/weights/last.pt",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 472,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset5_neg5_gpu01_b64_20epochs/weights/best.pt",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 473,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset5_neg5_gpu01_b64_20epochs/weights/last.pt",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 474,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset6_neg20_gpu01_b64_20epochs/weights/best.pt",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 475,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset6_neg20_gpu01_b64_20epochs/weights/last.pt",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 476,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset7_neg30_gpu01_b64_20epochs/weights/best.pt",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 477,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset7_neg30_gpu01_b64_20epochs/weights/last.pt",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 478,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset8_large_earth80_neg10_gpu01_b64_20epochs/weights/best.pt",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 479,
+      "target": "../runs/earth_moon_yolov8x_pose_p6_gray_dataset8_large_earth80_neg10_gpu01_b64_20epochs/weights/last.pt",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 485,
+      "target": "../test/results/dataset3_best_585af1dc_on_dataset2_excluding_galileo/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 485,
+      "target": "../test/results/dataset3_best_585af1dc_on_dataset2_excluding_galileo/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 486,
+      "target": "../test/results/dataset3_last_epoch200_on_dataset2_all/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 486,
+      "target": "../test/results/dataset3_last_epoch200_on_dataset2_all/keypoint_coordinate_discrepancies",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 486,
+      "target": "../test/results/dataset3_last_8b67c698_on_dataset2_excluding_galileo/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 486,
+      "target": "../test/results/dataset3_last_8b67c698_on_dataset2_excluding_galileo/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 486,
+      "target": "../test/results/dataset4_parent_epoch200_on_dataset4_test/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 487,
+      "target": "../test/results/dataset4_finetune_best_on_dataset2_all/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 487,
+      "target": "../test/results/dataset4_finetune_best_on_dataset2_all/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 487,
+      "target": "../test/results/dataset4_finetune_best_on_dataset2_excluding_galileo/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 487,
+      "target": "../test/results/dataset4_finetune_best_on_dataset2_excluding_galileo/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 487,
+      "target": "../test/results/dataset4_finetune_best_on_dataset4_test/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 488,
+      "target": "../test/results/dataset4_finetune_last_on_dataset2_all/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 488,
+      "target": "../test/results/dataset4_finetune_last_on_dataset2_all/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 488,
+      "target": "../test/results/dataset4_last_0b1b16d6_on_dataset2_excluding_galileo/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 488,
+      "target": "../test/results/dataset4_last_0b1b16d6_on_dataset2_excluding_galileo/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 488,
+      "target": "../test/results/dataset4_finetune_last_on_dataset4_test/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 489,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset5_neg5_gpu01_b64_20epochs_best_378bf39e_real_all/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 489,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset5_neg5_gpu01_b64_20epochs_best_378bf39e_real_all/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 489,
+      "target": "../test/results/dataset5_best_378bf39e_on_dataset2_excluding_galileo/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 489,
+      "target": "../test/results/dataset5_best_378bf39e_on_dataset2_excluding_galileo/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 489,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset5_neg5_gpu01_b64_20epochs_best_378bf39e_common_test/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 490,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset5_neg5_gpu01_b64_20epochs_last_f511b692_real_all/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 490,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset5_neg5_gpu01_b64_20epochs_last_f511b692_real_all/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 490,
+      "target": "../test/results/dataset5_last_f511b692_on_dataset2_excluding_galileo/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 490,
+      "target": "../test/results/dataset5_last_f511b692_on_dataset2_excluding_galileo/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 490,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset5_neg5_gpu01_b64_20epochs_last_f511b692_common_test/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 491,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset6_neg20_gpu01_b64_20epochs_best_c1da337e_real_all/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 491,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset6_neg20_gpu01_b64_20epochs_best_c1da337e_real_all/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 491,
+      "target": "../test/results/dataset6_best_c1da337e_on_dataset2_excluding_galileo/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 491,
+      "target": "../test/results/dataset6_best_c1da337e_on_dataset2_excluding_galileo/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 491,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset6_neg20_gpu01_b64_20epochs_best_c1da337e_common_test/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 492,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset6_neg20_gpu01_b64_20epochs_last_05e29f18_real_all/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 492,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset6_neg20_gpu01_b64_20epochs_last_05e29f18_real_all/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 492,
+      "target": "../test/results/dataset6_last_05e29f18_on_dataset2_excluding_galileo/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 492,
+      "target": "../test/results/dataset6_last_05e29f18_on_dataset2_excluding_galileo/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 492,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset6_neg20_gpu01_b64_20epochs_last_05e29f18_common_test/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 493,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset7_neg30_gpu01_b64_20epochs_best_cad49374_real_all/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 493,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset7_neg30_gpu01_b64_20epochs_best_cad49374_real_all/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 493,
+      "target": "../test/results/dataset7_best_cad49374_on_dataset2_excluding_galileo/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 493,
+      "target": "../test/results/dataset7_best_cad49374_on_dataset2_excluding_galileo/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 493,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset7_neg30_gpu01_b64_20epochs_best_cad49374_common_test/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 494,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset7_neg30_gpu01_b64_20epochs_last_2bef80c1_real_all/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 494,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset7_neg30_gpu01_b64_20epochs_last_2bef80c1_real_all/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 494,
+      "target": "../test/results/dataset7_last_2bef80c1_on_dataset2_excluding_galileo/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 494,
+      "target": "../test/results/dataset7_last_2bef80c1_on_dataset2_excluding_galileo/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 494,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset7_neg30_gpu01_b64_20epochs_last_2bef80c1_common_test/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 495,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset8_large_earth80_neg10_gpu01_b64_20epochs_best_6c2af6a9_real_all/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 495,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset8_large_earth80_neg10_gpu01_b64_20epochs_best_6c2af6a9_real_all/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 495,
+      "target": "../test/results/dataset8_best_6c2af6a9_on_dataset2_excluding_galileo/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 495,
+      "target": "../test/results/dataset8_best_6c2af6a9_on_dataset2_excluding_galileo/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 495,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset8_large_earth80_neg10_gpu01_b64_20epochs_best_6c2af6a9_common_test/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 496,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset8_large_earth80_neg10_gpu01_b64_20epochs_last_f905da48_real_all/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 496,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset8_large_earth80_neg10_gpu01_b64_20epochs_last_f905da48_real_all/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 496,
+      "target": "../test/results/dataset8_last_f905da48_on_dataset2_excluding_galileo/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 496,
+      "target": "../test/results/dataset8_last_f905da48_on_dataset2_excluding_galileo/keypoint_analysis",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 496,
+      "target": "../test/results/earth_moon_yolov8x_pose_p6_gray_dataset8_large_earth80_neg10_gpu01_b64_20epochs_last_f905da48_common_test/annotated",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 500,
+      "target": "dataset5_8_experiments/results.md",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 502,
+      "target": "dataset5_8_experiments/results_summary.json",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 504,
+      "target": "../test/results/dataset4_finetune_comparison/README.md",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 506,
+      "target": "../test/results/dataset3_8_excluding_galileo_comparison/README.md",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 508,
+      "target": "../test/results/dataset3_8_excluding_galileo_comparison/summary.json",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 510,
+      "target": "../test/results/dataset3_8_excluding_galileo_comparison/comparison.csv",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 512,
+      "target": "../test/results/dataset3_8_excluding_galileo_comparison/common_matched_points.json",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 514,
+      "target": "../test/results/dataset3_8_excluding_galileo_comparison/test_images.txt",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 516,
+      "target": "../test/results/dataset3_8_excluding_galileo_comparison/excluded_images.txt",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 518,
+      "target": "../dataset2/split_manifest.json",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 520,
+      "target": "../dataset2/excluded_test_samples.json",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 522,
+      "target": "data4_negative_audit/summary.json",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 524,
+      "target": "../dataset4/validation.json",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 526,
+      "target": "dataset5_8_experiments/loader_validation.json",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 528,
+      "target": "../logs/train_dataset3_gpu23_b64_200epochs.log",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 530,
+      "target": "../logs/dataset5_8_queue.log",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 532,
+      "target": "../logs/dataset5_8_queue",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 534,
+      "target": "../logs/dataset3_8_excluding_galileo",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 538,
+      "target": "../test/results/dataset3_8_excluding_galileo_comparison/comparison.png",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 540,
+      "target": "../test/results/dataset3_8_excluding_galileo_comparison/comparison.png",
+      "reason": "Missing target"
+    },
+    {
+      "document": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md",
+      "line": 540,
+      "target": "../test/results/dataset3_8_excluding_galileo_comparison/comparison.pdf",
+      "reason": "Missing target"
+    },
+    {
+      "document": "rebuild/data-backup/HISTORY.md",
+      "line": 32,
+      "target": "../../docs/class-21/reports/current/20261028_地月两类_dataset3-8_数据集与实验过程记录.md",
+      "reason": "Missing target"
+    }
+  ],
+  "scope": "Curated local Markdown only; no recursive artifact/archive/raw/dependency reading; mappings are exact document+target exceptions, not repaired links."
+}

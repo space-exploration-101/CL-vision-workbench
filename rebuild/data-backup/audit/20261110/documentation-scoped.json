@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "documents": 8,
+  "document_paths": [
+    "docs/class-21/operations/runs/backup/README.md",
+    "rebuild/data-backup/audit/20261110/README.md",
+    "rebuild/data-backup/HISTORY.md",
+    "rebuild/data-backup/PROMPTS.md",
+    "rebuild/data-backup/README.md",
+    "rebuild/data-backup/RESTORE.md",
+    "rebuild/data-backup/scripts/README.md",
+    "rebuild/README.md"
+  ],
+  "direct_links": {
+    "active": 86,
+    "frozen": 0
+  },
+  "frozen_mapped_links": [],
+  "external_links_not_checked": [],
+  "excluded_scan_entries": [],
+  "failures": [],
+  "scope": "Curated local Markdown only; no recursive artifact/archive/raw/dependency reading; mappings are exact document+target exceptions, not repaired links."
+}

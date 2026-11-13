@@ -1,0 +1,30 @@
+[
+  {
+    "source": "/data3/ywang/quantitize-platform/tools/prepare_pose21_quant_set.py",
+    "target": "/home/ubuntu22/CL01_02/assets/h200-supplements/quantitize-platform/tools/prepare_pose21_quant_set.py",
+    "bytes": 55620,
+    "sha256": "551d8ea137d927df021a08f437f0582cba621ae4f3ef5304d72af3aad4a7d638",
+    "activated": false
+  },
+  {
+    "source": "/data3/ywang/quantitize-platform/tools/tests/test_prepare_pose21_quant_set.py",
+    "target": "/home/ubuntu22/CL01_02/assets/h200-supplements/quantitize-platform/tools/tests/test_prepare_pose21_quant_set.py",
+    "bytes": 14605,
+    "sha256": "b7f0cce957d3eb5bd75e977278da3a29a9189789355b884019d6576cb978d55d",
+    "activated": false
+  },
+  {
+    "source": "/data3/ywang/yolo-gray1-train/docker/Dockerfile.predictor-chfix",
+    "target": "/home/ubuntu22/CL01_02/assets/h200-supplements/yolo-gray1-train/docker/Dockerfile.predictor-chfix",
+    "bytes": 568,
+    "sha256": "a8db76a78bfeab6594672c8750d07cdee4e4d486d5f9c3e21c4061b9b71bb418",
+    "activated": false
+  },
+  {
+    "source": "/data3/ywang/yolo-gray1-train/docker/smoke_predictor_warmup.py",
+    "target": "/home/ubuntu22/CL01_02/assets/h200-supplements/yolo-gray1-train/docker/smoke_predictor_warmup.py",
+    "bytes": 2835,
+    "sha256": "7c37392b3ff7a90f982ea0d48cf7acbe88827b77abbc54e82a9b845c71adaf58",
+    "activated": false
+  }
+]

@@ -1,0 +1,195 @@
+{
+  "source": "/home/ubuntu22/CL01_02/records/20261021-smoke",
+  "files": [
+    {
+      "file": "attempt2/resume-result.json",
+      "bytes": 1539,
+      "sha256": "efe64427f5f266e2d08c36061b7031b122f2699d4ac10514213a839e78a8e687"
+    },
+    {
+      "file": "attempt2/smoke-dataset/dataset.yaml",
+      "bytes": 362,
+      "sha256": "e0cffae06b51518b8ebaf2dda5b397812c0bc30774d1a5417fc32beb9c3fa7d6"
+    },
+    {
+      "file": "attempt2/train-result.json",
+      "bytes": 1314,
+      "sha256": "fc90bc85ff76e6e191c9051c32625291341b04fe17069b110b1f187e948df4f6"
+    },
+    {
+      "file": "attempt2/training/smoke/args.yaml",
+      "bytes": 1671,
+      "sha256": "060c1c7c194b15a6e9fcc58b5b13301a913b2dffd365c716e2797a3492f2f00f"
+    },
+    {
+      "file": "attempt2/training/smoke/results.csv",
+      "bytes": 591,
+      "sha256": "f2f69701c7bbd8e66003d7b9b8472187183f1ff6862ace14c6e8b411304a9477"
+    },
+    {
+      "file": "attempt2/training-samples.json",
+      "bytes": 6006,
+      "sha256": "6039de57cebbbbe2bd123fe473e59e3b53d8fc3d207dffb8af2ff95a4a72c456"
+    },
+    {
+      "file": "completion.json",
+      "bytes": 7275,
+      "sha256": "09223133d7a4fb0459bf3ddadc5a70f00ee3f6adcb499f8e3ca4cb504e8d5607"
+    },
+    {
+      "file": "fixed-samples/sample-plan.json",
+      "bytes": 11130,
+      "sha256": "bf492092b21ca298b79f1849a7d60475350676ce3131c9af5ad73bf188aeb95a"
+    },
+    {
+      "file": "gpu-command.json",
+      "bytes": 1180,
+      "sha256": "9ca2ea7f175c1d1a7e36dd941d02acc48caf6f2678c802802fe69d30a55d42d7"
+    },
+    {
+      "file": "gpu-exit.json",
+      "bytes": 77,
+      "sha256": "1e5f31a9eb93dd97de9b3afc4c8ed8549c1d648e6317952df3553fa8d5fb930e"
+    },
+    {
+      "file": "gpu-monitor.jsonl",
+      "bytes": 1138,
+      "sha256": "99f1d79e341e6c8f60660c4f06a5d740f3097f46c5a5c78724e207d1cd9956d1"
+    },
+    {
+      "file": "gpu-preflight.json",
+      "bytes": 3622,
+      "sha256": "70c7521b458e238cda60a7576205452817459090d1b4298415f204a949f789e9"
+    },
+    {
+      "file": "gpu-result.json",
+      "bytes": 1242,
+      "sha256": "9dc62faa21c026bc27bc0db6329cec5745912a34ba5538ec5fcab5f7f887b4a4"
+    },
+    {
+      "file": "gpu-v2-command.json",
+      "bytes": 1186,
+      "sha256": "3ca96f3b510c0b79fb3e965e7bcae165adad8d976eea81ec8aa0b223ef3a1da9"
+    },
+    {
+      "file": "gpu-v2-exit.json",
+      "bytes": 76,
+      "sha256": "c0b1c3e9a9bee6886be797a87cce7bb7973f81fcb537de8d9bb347bef4768493"
+    },
+    {
+      "file": "gpu-v2-monitor.jsonl",
+      "bytes": 1316,
+      "sha256": "5efda8ffdfc5482fcd084f428e8d72771f9bfe3316d487804e03a0242bc6a40a"
+    },
+    {
+      "file": "gpu-v2-preflight.json",
+      "bytes": 3622,
+      "sha256": "bbdc07fa7e1220fd622a742096a93a523367fede52cbcda3202c0dcc30cb8139"
+    },
+    {
+      "file": "gpu-v2.log",
+      "bytes": 1387,
+      "sha256": "65b9ba02e720a7b22c709b6dd02f7238398b82378be86560055072f9f1276089"
+    },
+    {
+      "file": "gpu.log",
+      "bytes": 3390,
+      "sha256": "13ed83f457ff2128d89d6c6d6d65c8f32309993d966ec87b5ecc33559c8ec1f1"
+    },
+    {
+      "file": "preprocess-command.json",
+      "bytes": 830,
+      "sha256": "a5dfdc14407199e0142809b455be0e3541de4db36f8d1803cd412fc098b58f54"
+    },
+    {
+      "file": "preprocess-result.json",
+      "bytes": 2970,
+      "sha256": "071e85d8c2fc14f451390709eecab891417173872bb84f12811ed5c40b2780a6"
+    },
+    {
+      "file": "preprocess.log",
+      "bytes": 2513,
+      "sha256": "563da7563723ed96c4362458f90c53a12f493eba2b32683fe3cf766d82706806"
+    },
+    {
+      "file": "resume-v2-command.json",
+      "bytes": 1206,
+      "sha256": "5e8ae8e84758cff840c7a6ff0637b0bd21de733b25df32c587228848a476ca09"
+    },
+    {
+      "file": "resume-v2-exit.json",
+      "bytes": 78,
+      "sha256": "ee188de863081f4a2da6db7758fc1272be820ab3858c881932d65faefeaae832"
+    },
+    {
+      "file": "resume-v2-monitor.jsonl",
+      "bytes": 5465,
+      "sha256": "ffb858badc62c5b32aa3e592306cd746ec9c0d2ab45f6870bcf71a46124b8f35"
+    },
+    {
+      "file": "resume-v2-preflight.json",
+      "bytes": 3622,
+      "sha256": "71ba94056ac369f77adae5ece7c5411ce78069238c86ab38b04d1cd81dcc5d4d"
+    },
+    {
+      "file": "resume-v2.log",
+      "bytes": 13706,
+      "sha256": "e41838aac0822baeeb32be04b1dbb52c5daaa1ff30ff8da372e75cc5d0bcf71f"
+    },
+    {
+      "file": "train-command.json",
+      "bytes": 1198,
+      "sha256": "077dc20e43dd0811318c906accfb4fdb4e9b2701289f8d8ad80d9ee70e883a43"
+    },
+    {
+      "file": "train-exit.json",
+      "bytes": 77,
+      "sha256": "fb5d6e7812234d25fca75594cca1b09781247090a8420666a114c6020ef0562d"
+    },
+    {
+      "file": "train-monitor.jsonl",
+      "bytes": 2630,
+      "sha256": "1be51aac75d3ca8b764830efe692081996bab359148e015010901b0bb9b676aa"
+    },
+    {
+      "file": "train-preflight.json",
+      "bytes": 3622,
+      "sha256": "0c1e5063ab552ec915a73315ef8ac44d5056f7a59be6d79c4b33a82a59f984c5"
+    },
+    {
+      "file": "train-v2-command.json",
+      "bytes": 1204,
+      "sha256": "b01c8fa04ae0746a198e92766a8fe6915367965efe8311b5a62a90d50c7a55a7"
+    },
+    {
+      "file": "train-v2-exit.json",
+      "bytes": 78,
+      "sha256": "0f0424169779f35c1ca8a59f25c767b4155b6eaddecefc6cc33a27b6e4691817"
+    },
+    {
+      "file": "train-v2-monitor.jsonl",
+      "bytes": 4123,
+      "sha256": "4cbfc80b28a9d60595c5d24c3be6ba507fe458218aaf310374f0f0430ba78970"
+    },
+    {
+      "file": "train-v2-preflight.json",
+      "bytes": 3622,
+      "sha256": "c63dc97c0d0910a055a1fa41dead05289665bebdc775d9562fb850e3fa8ba9bb"
+    },
+    {
+      "file": "train-v2.log",
+      "bytes": 13096,
+      "sha256": "f232f424ffddb8e1ceb4b51fc8fbca7ec0271e3aadd7610e2cd8e1134494dc91"
+    },
+    {
+      "file": "train.log",
+      "bytes": 10450,
+      "sha256": "904d73c80edeaaccae96253dad3f8834eafd1451912499bf5dc7095cbd8e9074"
+    },
+    {
+      "file": "training-samples.json",
+      "bytes": 5790,
+      "sha256": "85fbc094f29800e7d2e0c5aa3ccd01538ce5962982329f2db8a5858259358b0b"
+    }
+  ]
+}

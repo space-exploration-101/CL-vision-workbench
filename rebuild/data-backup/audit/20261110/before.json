@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-10",
+  "scope": "Local documentation only",
+  "files": [
+    {
+      "path": "rebuild/README.md",
+      "bytes": 1767,
+      "sha256": "e2b8fed768ee2951172584ddf8d112cde49a91091a7f267fd275e7d7f6415baf"
+    },
+    {
+      "path": "docs/class-21/operations/runs/backup/README.md",
+      "bytes": 1825,
+      "sha256": "7f7c6eae6f9195bb35400c9f1eed6e5750684264009ea3a2e499e21db379b369"
+    }
+  ],
+  "zip_sha256": "acbd9b6b29e9bacfcc7b05e0325aa919184736d8f00096186c0916468fe9ba38"
+}

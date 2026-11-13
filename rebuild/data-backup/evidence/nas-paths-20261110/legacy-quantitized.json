@@ -1,0 +1,44 @@
+{
+    "ObservedAt":  "2026-11-10T16:29:58.6659660+08:00",
+    "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\历史遗留\\quantitized",
+    "Status":  "EXISTS",
+    "Entries":  [
+                    {
+                        "Name":  ".DS_Store",
+                        "Kind":  "file"
+                    },
+                    {
+                        "Name":  "best.pt",
+                        "Kind":  "file"
+                    },
+                    {
+                        "Name":  "best_fp16.onnx",
+                        "Kind":  "file"
+                    },
+                    {
+                        "Name":  "bin_test1",
+                        "Kind":  "directory"
+                    },
+                    {
+                        "Name":  "bin_test2",
+                        "Kind":  "directory"
+                    },
+                    {
+                        "Name":  "code",
+                        "Kind":  "directory"
+                    },
+                    {
+                        "Name":  "fp16_final3_output.onnx",
+                        "Kind":  "file"
+                    },
+                    {
+                        "Name":  "readme.md",
+                        "Kind":  "file"
+                    },
+                    {
+                        "Name":  "wrs_fp16_total.onnx",
+                        "Kind":  "file"
+                    }
+                ],
+    "FileContentsRead":  false
+}

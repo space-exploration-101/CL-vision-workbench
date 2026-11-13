@@ -1,0 +1,224 @@
+{
+  "status": "PREPROCESS_GPU_TRAIN_RESUME_SMOKE_PASS_WITH_DOCUMENTED_PROFILE",
+  "completed_at": "2026-10-21T00:44:50.551974+00:00",
+  "results": {
+    "preprocess-result.json": "FIXED_ORIGINAL_PREPROCESS_PASS",
+    "gpu-result.json": "GPU_RUNTIME_PASS",
+    "attempt2/train-result.json": "TRAIN_ONE_EPOCH_PASS",
+    "attempt2/resume-result.json": "RESUME_ONE_EPOCH_PASS"
+  },
+  "repositories": {
+    "quantitize-platform": "b1ac5ea84e0374d9bfa2be2c9214e07e950a0a79",
+    "yolo-gray1-train": "c981f5b8a7a4f3c8a111c63812d0c74f5fe8b5f2",
+    "yolo-gray1-data-pipeline": "f147cee93c83876348205ca268eb930010192116"
+  },
+  "frozen_models_unchanged": {
+    "best.pt": "622cff54db472b61c85db03648b36c119f030eacbd4cd87cf5d2dda67e69d6a7",
+    "pose21_gray1_weight_only.onnx": "031def2070a1c2183e62ce5713831bc69cd50dee3a22c10d0ffaff6580d91a02"
+  },
+  "containers": [
+    {
+      "name": "/cl0102-preprocess-20261021",
+      "image": "sha256:17651daceb518e6ebd8220f8bbaa0ddddbfde841d73e7631a1cf66a95d7e8889",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T00:37:56.449383528Z",
+        "FinishedAt": "2026-10-21T00:37:59.374621117Z"
+      }
+    },
+    {
+      "name": "/cl0102-gpu-20261021",
+      "image": "sha256:bb5672351a92c50e24a212b6e7405df9a0df214770b18cdfd1d9f70c13c22b53",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 1,
+        "Error": "",
+        "StartedAt": "2026-10-21T00:39:07.993498393Z",
+        "FinishedAt": "2026-10-21T00:39:12.375781933Z"
+      }
+    },
+    {
+      "name": "/cl0102-gpu-v2-20261021",
+      "image": "sha256:bb5672351a92c50e24a212b6e7405df9a0df214770b18cdfd1d9f70c13c22b53",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T00:40:12.25351055Z",
+        "FinishedAt": "2026-10-21T00:40:15.161888756Z"
+      }
+    },
+    {
+      "name": "/cl0102-train-20261021",
+      "image": "sha256:bb5672351a92c50e24a212b6e7405df9a0df214770b18cdfd1d9f70c13c22b53",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 1,
+        "Error": "",
+        "StartedAt": "2026-10-21T00:41:25.578356037Z",
+        "FinishedAt": "2026-10-21T00:41:33.227074437Z"
+      }
+    },
+    {
+      "name": "/cl0102-train-v2-20261021",
+      "image": "sha256:bb5672351a92c50e24a212b6e7405df9a0df214770b18cdfd1d9f70c13c22b53",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T00:42:38.593631923Z",
+        "FinishedAt": "2026-10-21T00:42:51.025203586Z"
+      }
+    },
+    {
+      "name": "/cl0102-resume-v2-20261021",
+      "image": "sha256:bb5672351a92c50e24a212b6e7405df9a0df214770b18cdfd1d9f70c13c22b53",
+      "state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T00:43:29.151010113Z",
+        "FinishedAt": "2026-10-21T00:43:44.511772514Z"
+      }
+    }
+  ],
+  "sampled_memory": {
+    "gpu": {
+      "sampled_max_used_mib": 209,
+      "sampled_min_free_mib": 31878,
+      "samples": 2
+    },
+    "gpu-v2": {
+      "sampled_max_used_mib": 1329,
+      "sampled_min_free_mib": 30759,
+      "samples": 2
+    },
+    "train": {
+      "sampled_max_used_mib": 7723,
+      "sampled_min_free_mib": 24365,
+      "samples": 4
+    },
+    "train-v2": {
+      "sampled_max_used_mib": 9919,
+      "sampled_min_free_mib": 22169,
+      "samples": 6
+    },
+    "resume-v2": {
+      "sampled_max_used_mib": 10045,
+      "sampled_min_free_mib": 22043,
+      "samples": 8
+    }
+  },
+  "checkpoints": [
+    {
+      "path": "attempt2/training/smoke/weights/best.pt",
+      "bytes": 199098378,
+      "sha256": "a00676c931701b86aa4bd75f93ce66debbc2f3ad80fda537c35f44486c078342"
+    },
+    {
+      "path": "attempt2/training/smoke/weights/epoch0.pt",
+      "bytes": 596285766,
+      "sha256": "56fa5a1407fe6611ff3254a187114058d9749ea7f8500c197fc8046d70675b67"
+    },
+    {
+      "path": "attempt2/training/smoke/weights/epoch1.pt",
+      "bytes": 596285958,
+      "sha256": "d0c3bd0f4cff9352ac3be3121ee297569e1d4b00da6186b2859704e0feebfa96"
+    },
+    {
+      "path": "attempt2/training/smoke/weights/last.pt",
+      "bytes": 199098378,
+      "sha256": "ce3dd8ba8796360430b0ca743466e19b3f0ec2df06a887d3b4a18ade33970273"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "finalize.py",
+      "sha256": "1f8deef260225dcb34533a07d0099221341b0b08cc7a96dd52d789142215c940"
+    },
+    {
+      "path": "finalize_v2.py",
+      "sha256": "9f69d6b48e4893d56d60817ec2dad380d97249410d40bcf7669260d4d572534e"
+    },
+    {
+      "path": "gpu_check.py",
+      "sha256": "a25bdf1f4036984a5779c24a354d99956b7022fec0588ce63ae24c8f780d5286"
+    },
+    {
+      "path": "gpu_check_v2.py",
+      "sha256": "4c9a4f30544a4ca65acd89df301f933af2d601a271823c455199a63739703000"
+    },
+    {
+      "path": "launch_gpu.py",
+      "sha256": "2fcf30af6cac22fddc84f4feb3b33ffcba13da3c37a492cf3fe1a75aa60e8e45"
+    },
+    {
+      "path": "launch_gpu_v2.py",
+      "sha256": "87e5e4af8d5873b88a3c4797b75b17e399cc439457581e76516b19058c2808ff"
+    },
+    {
+      "path": "launch_gpu_v3.py",
+      "sha256": "ba7b2715070dfebe057fee6a55bbb13467f10766bf9e845533baa3f0efba1253"
+    },
+    {
+      "path": "preprocess_check.py",
+      "sha256": "7747b5f3718702dcd35984ad65a72e814462ddab5f937a40d2e070c133b9ef1e"
+    },
+    {
+      "path": "training_check.py",
+      "sha256": "e20f0b3e11e6d22f66042eb88e1b50960bbd0306183201712d1e830096b20a12"
+    },
+    {
+      "path": "training_check_v2.py",
+      "sha256": "6bb37843e10a5923bedb3a626af24f08d9822258b42ceda49782291052b49d81"
+    }
+  ],
+  "disk_free_bytes": 601762111488,
+  "gpu_current": "uuid, name, driver_version, memory.total [MiB], memory.used [MiB], memory.free [MiB], utilization.gpu [%]\nGPU-90ad73b0-4d19-c3ee-e27f-b4adc6c62f43, NVIDIA GeForce RTX 5090, 580.178.04, 32607 MiB, 209 MiB, 31878 MiB, 0 %\n",
+  "profile_difference": "AMP initial loss scale 1 instead of 65536, configured in validation wrapper; no source/dependency changes",
+  "limitations": [
+    "fixed three-image preprocessing regression, not full500",
+    "default high-scale gradient attempt failed and retained",
+    "PT image file path loader is not Gray1-safe; explicit one-channel arrays required",
+    "ORT CUDA and quantization not tested",
+    "no formal accuracy, no services, no new NAS release"
+  ]
+}

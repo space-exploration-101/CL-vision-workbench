@@ -1,0 +1,119 @@
+{
+  "role": "api",
+  "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+  "executable": "/opt/ywang/yolo-runtime/bin/python",
+  "gpu_exposed": [],
+  "modules": {
+    "torch": {
+      "version": "2.8.0+cu128",
+      "file": "/opt/ywang/yolo-runtime/lib/python3.12/site-packages/torch/__init__.py"
+    },
+    "torchvision": {
+      "version": "0.23.0+cu128",
+      "file": "/opt/ywang/yolo-runtime/lib/python3.12/site-packages/torchvision/__init__.py"
+    },
+    "ultralytics": {
+      "version": "8.3.98",
+      "file": "/workspace/src/Yolo_fine/ultralytics/ultralytics/__init__.py"
+    },
+    "numpy": {
+      "version": "1.26.4",
+      "file": "/opt/ywang/yolo-runtime/lib/python3.12/site-packages/numpy/__init__.py"
+    },
+    "cv2": {
+      "version": "4.11.0",
+      "file": "/opt/ywang/yolo-runtime/lib/python3.12/site-packages/cv2/__init__.py"
+    },
+    "onnx": {
+      "version": "1.17.0",
+      "file": "/opt/ywang/yolo-runtime/lib/python3.12/site-packages/onnx/__init__.py"
+    },
+    "onnxruntime": {
+      "version": "1.24.3",
+      "file": "/opt/ywang/yolo-runtime/lib/python3.12/site-packages/onnxruntime/__init__.py"
+    }
+  },
+  "pt_model": {
+    "input_channels": 1,
+    "classes": 21,
+    "keypoint_shape": [
+      2,
+      3
+    ]
+  },
+  "ort_patches": [
+    {
+      "path": "/home/rs/wrs/onnxviewe/quantitize-platform/patches/onnxruntime/quantization/quant_utils.py",
+      "sha256": "6afb6b8f1f1dd16a78e46cbed59f389f360c460e5f32c5645dd167cb86bedbe3"
+    },
+    {
+      "path": "/home/rs/wrs/onnxviewe/quantitize-platform/patches/onnxruntime/quantization/operators/conv.py",
+      "sha256": "25898173bffad01e980a5148f3da1718e73a6801f2d391a3081375aaf921b7a6"
+    }
+  ],
+  "onnx_input": [
+    {
+      "name": "images",
+      "dtype": 10,
+      "shape": [
+        1,
+        1,
+        1280,
+        1280
+      ]
+    }
+  ],
+  "onnx_operations": {
+    "DequantizeLinear": 148,
+    "Conv": 148,
+    "Sigmoid": 137,
+    "Mul": 138,
+    "Split": 6,
+    "Add": 24,
+    "Concat": 27,
+    "MaxPool": 3,
+    "Resize": 3,
+    "Slice": 16,
+    "Reshape": 12,
+    "Transpose": 1,
+    "Softmax": 1,
+    "Sub": 2,
+    "Div": 1
+  },
+  "cpu_single_image": {
+    "sample": "agaier_047_view_18.png",
+    "input_shape": [
+      1,
+      1,
+      1280,
+      1280
+    ],
+    "pt_output_shape": [
+      1,
+      31,
+      34000
+    ],
+    "onnx_output_shape": [
+      1,
+      31,
+      34000
+    ],
+    "providers": [
+      "CPUExecutionProvider"
+    ],
+    "pt_seconds": 2.9200406370218843,
+    "onnx_seconds": 2.6768540370394476,
+    "finite_outputs": true,
+    "accuracy_acceptance": "NOT_EVALUATED"
+  },
+  "import_messages": [
+    "Creating new Ultralytics Settings v0.0.6 file ✅ ",
+    "View Ultralytics Settings with 'yolo settings' or at '/tmp/ultralytics/settings.json'",
+    "Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/quickstart/#ultralytics-settings.",
+    "✓ 已加载本地 quant_utils.py: /home/rs/wrs/onnxviewe/quantitize-platform/patches/onnxruntime/quantization/quant_utils.py",
+    "✓ 已加载本地 conv.py: /home/rs/wrs/onnxviewe/quantitize-platform/patches/onnxruntime/quantization/operators/conv.py",
+    "✓ QDQ Conv registry 已绑定本地 weight-only 实现",
+    "✓ QDQ small-scale 计算已绑定本地实现"
+  ],
+  "status": "CPU_IMPORT_AND_MODEL_STRUCTURE_PASS"
+}

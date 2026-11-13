@@ -1,0 +1,28 @@
+{
+    "ObservedAt":  "2026-11-10T16:33:34.9699023+08:00",
+    "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\历史遗留\\quantitized\\code",
+    "Status":  "EXISTS",
+    "Entries":  [
+                    {
+                        "Name":  "batch_process.py",
+                        "Kind":  "file"
+                    },
+                    {
+                        "Name":  "check_certain_layer.py",
+                        "Kind":  "file"
+                    },
+                    {
+                        "Name":  "creat_bin.py",
+                        "Kind":  "file"
+                    },
+                    {
+                        "Name":  "export_pt_to_onnx.py",
+                        "Kind":  "file"
+                    },
+                    {
+                        "Name":  "get_conv_name.py",
+                        "Kind":  "file"
+                    }
+                ],
+    "FileContentsRead":  false
+}

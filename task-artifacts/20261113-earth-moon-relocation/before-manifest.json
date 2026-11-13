@@ -1,0 +1,62 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "b6af8e3b16d7d15cb54635809add3a9f75b4e8ff9f52504ac6847f15fb76435d"
+  },
+  {
+    "path": "AGENTS.md",
+    "sha256": "051a4e60a476c6165e27256d320f41bf83c9ed17982898ae7f1b21386a939783"
+  },
+  {
+    "path": "docs/README.md",
+    "sha256": "b99cc76033afa0e6a2024d9735a3ec9d66b33af9c020b2d1ddfeaf1ae5434915"
+  },
+  {
+    "path": "docs/AGENTS.md",
+    "sha256": "fbede927e71252a49c1cbba2ce0c054cf0eaaa72e08608a60469c4ac6c1ab106"
+  },
+  {
+    "path": "docs/HANDOFF.md",
+    "sha256": "5b5461c95d9d78d043b389637e4fa4e700227a3767c30293453f2f46bba49777"
+  },
+  {
+    "path": "docs/agent/CONTEXT.md",
+    "sha256": "a877309a6ae4a5479b3bcd2b1565f6fb106a4039b3b8a424631cc5aa2d8eae93"
+  },
+  {
+    "path": "docs/class-21/reports/README.md",
+    "sha256": "37d43f76eb8077c31c86711c57f9ca1bf91d908573084006ed3bb5fe88bb8ade"
+  },
+  {
+    "path": "docs/class-21/reports/current/README.md",
+    "sha256": "8cbf5836233475cb96a7ac257e8c065d217e5d4af44bd080ebe262265b4cd1c1"
+  },
+  {
+    "path": "docs/class-21/reports/current/20261028_地月两类_dataset3-8_数据集与实验过程记录.md",
+    "sha256": "4da4dec7c9c1c1b73b38fb6ecfc2edcaaa39eacc7cf1820a47f5494aba58868f"
+  },
+  {
+    "path": "docs/dataset/csw/dataset3_8_experiment_notes.md",
+    "sha256": "6b059ef78ffda43d91b74dc85d51226160dd2d7aa1bff3b75c8fa4a40b5180e7"
+  },
+  {
+    "path": "docs/class-21/knowledge/20261028_地理特征点KPTS量化平台升级计划.md",
+    "sha256": "04910b63dca9634fb84bf15dcfdc7cd229d4220fc3997b3181920986d13847a1"
+  },
+  {
+    "path": "rebuild/README.md",
+    "sha256": "8323d860d46f6bd67032b6d28a7399a14fc17fec461ab0ff2b994ac58d0398c6"
+  },
+  {
+    "path": "rebuild/data-backup/README.md",
+    "sha256": "5b7f5a5e5bb773c53d52c50e2d96403ed3f96906f0845795a4a56767a5fc5830"
+  },
+  {
+    "path": "rebuild/data-backup/HISTORY.md",
+    "sha256": "a1d460442edfd7ead40d038d1f717ce74266a652290f134ec84aee25c61bc016"
+  },
+  {
+    "path": "rebuild/SHA256SUMS.20261110-nas-paths",
+    "sha256": "8e3a7f837ca4d31fb2ba9fb60ac0fb9baa0c80edfae6e8ed63140561860c7e83"
+  }
+]

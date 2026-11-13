@@ -1,0 +1,15 @@
+{
+  "status": "PASS_WITH_EXISTING_REMOTE_ATTACHMENT_LINKS",
+  "new_link_failures": 0,
+  "existing_missing_attachment_references": 109,
+  "original_source_byte_identity": "PASS",
+  "report_only_expected_editorial_changes": "PASS",
+  "backup_files_verified": 15,
+  "earth_moon_checksum_entries_verified": 2,
+  "rebuild_checksum_entries_verified": 79,
+  "git_diff_check": "PASS",
+  "old_material_paths_removed": true,
+  "class21_report_indexes_clean": true,
+  "remote_actions": false,
+  "git_commit_or_push": false
+}

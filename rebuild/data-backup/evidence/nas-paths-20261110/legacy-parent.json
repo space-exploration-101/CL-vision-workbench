@@ -1,0 +1,20 @@
+{
+    "ObservedAt":  "2026-11-10T16:29:39.7392963+08:00",
+    "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\历史遗留",
+    "Status":  "EXISTS",
+    "Entries":  [
+                    {
+                        "Name":  "image_convert",
+                        "Kind":  "directory"
+                    },
+                    {
+                        "Name":  "quantitized",
+                        "Kind":  "directory"
+                    },
+                    {
+                        "Name":  "ultralytics",
+                        "Kind":  "directory"
+                    }
+                ],
+    "FileContentsRead":  false
+}

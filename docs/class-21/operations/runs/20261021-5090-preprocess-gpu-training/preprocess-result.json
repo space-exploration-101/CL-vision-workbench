@@ -1,0 +1,75 @@
+{
+  "status": "FIXED_ORIGINAL_PREPROCESS_PASS",
+  "sample_plan_sha256": "bf492092b21ca298b79f1849a7d60475350676ce3131c9af5ad73bf188aeb95a",
+  "modules": {
+    "grayprep": "/app/src/grayprep/__init__.py",
+    "cv2": "4.11.0",
+    "numpy": "1.26.4"
+  },
+  "profiles": {
+    "net1280": "c71395417c3e3fb6d86abe89ae52ba0336c8767bbd4f6a99551e04cec4588f33",
+    "cam2000": "a79b1aee1a72c7e418f7ec7abb2881adf9c4e4b80bfd549c6a188a7fd97da757"
+  },
+  "samples": [
+    {
+      "stem": "agaier_000_view_32",
+      "raw_shape": [
+        4096,
+        4096,
+        3
+      ],
+      "empty_label": false,
+      "all_pixels_exact": true,
+      "labels_exact": true,
+      "bin_exact": true,
+      "independent_decode_pass": true,
+      "files": {
+        "agaier_000_view_32.gray.png": "d0e1bd85527bb2b5e1f8740bbaa334f57090648f494c3cae98f3cf3ac4a9559d",
+        "agaier_000_view_32.net1280.png": "2f3af9e4e5520d7a78a0d826b20c6be797b74526437d3cea2d4a0221d6681370",
+        "agaier_000_view_32.cam2000.png": "69552efaf18f53e84cd6f4ecf581ae9a2bc885b58efe79fc0c43423d6eadb85c",
+        "agaier_000_view_32.net1280.txt": "a99e1cf1679bacf21b5b27c95040bcabc5bd3db91e7cea7b4035f697d97e0eb9",
+        "agaier_000_view_32.cam2000.bin": "ac55984e0e4f8d811860ce29c12644a049c5e43ef3b911a1c907cb6f23327621"
+      }
+    },
+    {
+      "stem": "moon_train_000061",
+      "raw_shape": [
+        2048,
+        2048,
+        3
+      ],
+      "empty_label": false,
+      "all_pixels_exact": true,
+      "labels_exact": true,
+      "bin_exact": true,
+      "independent_decode_pass": true,
+      "files": {
+        "moon_train_000061.gray.png": "bbd7cbb9d1aa126d1acc82a48950b4c198644d9fb636b4fc9e37f045d3eeaebf",
+        "moon_train_000061.net1280.png": "b776f7447a2a6e04cc67cd1d13af2a938d0de42962b99a169f5fb968a10b7a73",
+        "moon_train_000061.cam2000.png": "53a0279a92e9e891a0a05329aa9193403cd7a3fe87375ba0e32d7c3a06f668d2",
+        "moon_train_000061.net1280.txt": "803a84b30f05c6c3d8ca3a0748c6a7b26b94d57e23c057029358e1a25368b8bc",
+        "moon_train_000061.cam2000.bin": "bd832b3b8f765729efe48fca274102c70f3cfe443652a21933794666c804f32b"
+      }
+    },
+    {
+      "stem": "agaier_495_view_02",
+      "raw_shape": [
+        4096,
+        4096,
+        3
+      ],
+      "empty_label": true,
+      "all_pixels_exact": true,
+      "labels_exact": true,
+      "bin_exact": true,
+      "independent_decode_pass": true,
+      "files": {
+        "agaier_495_view_02.gray.png": "c1074df3fdad5859a64a75bc98e8c96f4d388c111742131a63f38c7e47f800d9",
+        "agaier_495_view_02.net1280.png": "913c28ae821fb7ed085695bcfbaa5a2c86c1bc13a70c46af914de2bf8578d4cc",
+        "agaier_495_view_02.cam2000.png": "cd168db4d341943909fba8365169bb77f07d3b3acf7bdf2c18573df0911bcfd0",
+        "agaier_495_view_02.net1280.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "agaier_495_view_02.cam2000.bin": "c941273b8c7eefe0df1a76f4cb35b89230a345ba779870f942d799a747f6cdb4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "moved": [
+    {
+      "old": "docs/class-21/reports/current/20261028_地月两类_dataset3-8_数据集与实验过程记录.md",
+      "new": "docs/Earth_Moon/reports/20261028_地月两类_dataset3-8_数据集与实验过程记录.md"
+    },
+    {
+      "old": "docs/dataset/csw/dataset3_8_experiment_notes.md",
+      "new": "docs/Earth_Moon/sources/csw/dataset3_8_experiment_notes.md"
+    }
+  ],
+  "modified_or_created": [
+    "docs/Earth_Moon/reports/20261028_地月两类_dataset3-8_数据集与实验过程记录.md",
+    "docs/class-21/reports/README.md",
+    "docs/class-21/reports/current/README.md",
+    "README.md",
+    "docs/README.md",
+    "docs/HANDOFF.md",
+    "AGENTS.md",
+    "docs/AGENTS.md",
+    "docs/agent/CONTEXT.md",
+    "docs/class-21/knowledge/20261028_地理特征点KPTS量化平台升级计划.md",
+    "docs/Earth_Moon/README.md",
+    "docs/Earth_Moon/reports/README.md",
+    "docs/Earth_Moon/sources/README.md",
+    "docs/Earth_Moon/AGENTS.md",
+    "docs/Earth_Moon/SHA256SUMS.20261113",
+    "rebuild/README.md",
+    "rebuild/data-backup/README.md",
+    "rebuild/data-backup/HISTORY.md",
+    "rebuild/SHA256SUMS.20261113-earth-moon-links"
+  ]
+}

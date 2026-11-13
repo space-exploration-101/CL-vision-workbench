@@ -8,5 +8,5 @@
 - 动态事实按[来源表](platform/SOURCES.md)只维护一处详细说明；冲突按[文档任务卡](agent/tasks/DOCUMENTATION.md)登记，不合并猜测值。reference、operations、rebuild 分别承担通用方法、日常运维和完整恢复材料路线。
 - 被替代的设计和运行过程移入归档；仍用于当前模型的证据留在 reports/current 或 operations/runs，并明确证据时点。
 - 原始报告附件、哈希清单、模型和数据不因文档整理被重写。改动受校验保护的文档时保留原清单和副本，再更新对应清单。
-- 当前报告在 `class-21/reports/current/`；正式附件见 [outputs/class-21](../outputs/class-21/README.md)，过渡实验见 [历史归档](archive/2026-09-class21-transition/README.md)。
+- 21类当前报告在 `class-21/reports/current/`；地球、月球两类材料独立放在 [Earth_Moon](Earth_Moon/README.md)。21类正式附件见 [outputs/class-21](../outputs/class-21/README.md)，过渡实验见 [历史归档](archive/2026-09-class21-transition/README.md)。
 - 不遍历 work；默认不展开 archive/raw、outputs/class-21 和其他大附件。历史授权不是当前任务授权。

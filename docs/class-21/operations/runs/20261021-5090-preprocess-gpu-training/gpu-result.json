@@ -1,0 +1,74 @@
+{
+  "torch": "2.8.0+cu128",
+  "torchvision": "0.23.0+cu128",
+  "ultralytics": "8.3.98",
+  "module": "/workspace/src/Yolo_fine/ultralytics/ultralytics/__init__.py",
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "capability": [
+    12,
+    0
+  ],
+  "architectures": [
+    "sm_70",
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ],
+  "name": "NVIDIA GeForce RTX 5090",
+  "operations": [
+    {
+      "dtype": "torch.float32",
+      "shape": [
+        2,
+        1,
+        1280,
+        1280
+      ],
+      "loss": 0.3425961136817932,
+      "forward_backward_finite": true
+    },
+    {
+      "dtype": "torch.float16",
+      "shape": [
+        2,
+        1,
+        1280,
+        1280
+      ],
+      "loss": 0.31588810682296753,
+      "forward_backward_finite": true
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2,
+        1,
+        1280,
+        1280
+      ],
+      "loss": 0.3989032208919525,
+      "forward_backward_finite": true
+    }
+  ],
+  "warmup_and_predict_shapes": [
+    [
+      1,
+      1,
+      1280,
+      1280
+    ],
+    [
+      1,
+      1,
+      1280,
+      1280
+    ]
+  ],
+  "max_allocated_bytes": 1159989248,
+  "max_reserved_bytes": 1499463680,
+  "status": "GPU_RUNTIME_PASS"
+}

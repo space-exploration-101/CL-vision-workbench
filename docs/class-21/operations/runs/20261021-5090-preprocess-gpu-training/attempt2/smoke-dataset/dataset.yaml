@@ -1,0 +1,33 @@
+channels: 1
+flip_idx:
+- 0
+- 1
+input_semantics: gray1
+kpt_shape:
+- 2
+- 3
+names:
+- agaier
+- aipuha
+- aituosha
+- ansainusa
+- aoerhong
+- chapala
+- dibulong
+- didikaka
+- kanjialu
+- lupate
+- qinghai
+- rineiwa
+- sading
+- saersaer
+- saleikamei
+- taihu
+- taiwan
+- tana
+- tekesi
+- wennibeige
+- moon
+path: /output/attempt2/smoke-dataset
+train: images/train
+val: images/val

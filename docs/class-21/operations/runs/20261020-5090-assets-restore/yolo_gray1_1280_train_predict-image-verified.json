@@ -1,0 +1,20 @@
+{
+  "status": "IMAGE_CONTENT_VERIFIED",
+  "tag": "yolo-gray1:1280-train-predict-20261016",
+  "archive_sha256": "ae6a9919c3204990af34f06918739d3ea97454560d43962365c1c14243d0ccb1",
+  "h200_config_digest": "sha256:79b0086e39b83c8a3bbb76bfe2df1d8683bd443a6bef19ee7d2e69f096033635",
+  "archive_manifest_digest": "sha256:bb5672351a92c50e24a212b6e7405df9a0df214770b18cdfd1d9f70c13c22b53",
+  "target_image_id": "sha256:bb5672351a92c50e24a212b6e7405df9a0df214770b18cdfd1d9f70c13c22b53",
+  "layer_diff_ids": [
+    "sha256:39fbf5f8fe523b2ea819cd8eb2bf68807d8eaee383549f7ab80a44503ed6860b",
+    "sha256:03e0df7a8a01c1f09c3eae82ac49da81a06ad75fe7ffb722169d906e5d345c3a",
+    "sha256:fa508d4e0cde1f0cc76db81777fe6461bcc4ba1f0aa96792ba6b2d51a0776a1b",
+    "sha256:a0b4881d1763efa4d2f48bf4e6b693ec8af294fbbbb4733e2b0510d360d3c330"
+  ],
+  "config_fields_equal": true,
+  "default_user_serialization": {
+    "archive": "",
+    "target": null
+  },
+  "gpu_tested": false
+}

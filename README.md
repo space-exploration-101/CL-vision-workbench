@@ -14,7 +14,8 @@
 |---|---|
 | 第一次接手、没有算法背景 | [交接手册](docs/HANDOFF.md)，再按问题查[文档导航](docs/README.md) |
 | 理解图像、神经网络与量化 | [项目基础知识](docs/class-21/knowledge/01_YOLO_Gray1与量化基础.md)、[详细入门](docs/reference/VISION_MODEL_QUANTIZATION_FPGA_PRIMER.md) |
-| 查看模型、数据与实验结论 | [21 类项目](docs/class-21/README.md) |
+| 查看21类地标模型、数据与实验结论 | [21 类项目](docs/class-21/README.md) |
+| 查看地球、月球两类数据与实验 | [Earth_Moon 专题](docs/Earth_Moon/README.md) |
 | 使用 Agent 协助工作 | [人类任务指南](docs/AGENT_GUIDE.md) |
 | 日常诊断、服务和备份 | [平台运维入口](docs/operations/README.md)，只展开所需任务卡 |
 | 自动化 Agent | [AGENTS.md](AGENTS.md) → [简要上下文](docs/agent/CONTEXT.md) → [任务索引](docs/agent/RUNBOOK.md) |

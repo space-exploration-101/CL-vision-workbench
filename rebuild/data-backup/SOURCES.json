@@ -1,0 +1,61 @@
+{
+  "collected_at": "2026-11-10",
+  "mode": "byte-identical local snapshots; originals remain canonical",
+  "remote_verified": false,
+  "files": [
+    {
+      "source": "docs/class-21/operations/tools/archive_dataset_to_nas.py",
+      "copy": "scripts/archive_dataset_to_nas.py",
+      "bytes": 20222,
+      "sha256": "3398dab437280dee9c0bc8c8a8826456edda90c818466ecf742d8246e39e5aa6"
+    },
+    {
+      "source": "docs/class-21/operations/tools/verify_dataset_snapshot.py",
+      "copy": "scripts/verify_dataset_snapshot.py",
+      "bytes": 5341,
+      "sha256": "b9c59ecf1baf4b875e1bd965655988a6e7f8b37fe47a62a4588f132b6d17847b"
+    },
+    {
+      "source": "tools/backup_pose21_test500_nas.py",
+      "copy": "scripts/backup_pose21_test500_nas.py",
+      "bytes": 5023,
+      "sha256": "481b6f4fff1975e2d4f6a27dd4ab135f0daee268e1b97ac6cc335b0f5bada7f8"
+    },
+    {
+      "source": "tools/backup_h200_images_20261016.py",
+      "copy": "scripts/backup_h200_images_20261016.py",
+      "bytes": 14246,
+      "sha256": "2456fcbc236189c50addc42bd7ef69b365360f22f9e758eb86535ad7d7ef6190"
+    },
+    {
+      "source": "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/nas-docs/00_恢复说明_README.md",
+      "copy": "nas-docs/00_恢复说明_README.md",
+      "bytes": 5901,
+      "sha256": "ee85ce4550ff148f12864dd7d38e07f75d13fbb7e68561bfdf86bedcd0366dcf"
+    },
+    {
+      "source": "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/nas-docs/01_恢复_AGENT提示词.md",
+      "copy": "nas-docs/01_恢复_AGENT提示词.md",
+      "bytes": 5559,
+      "sha256": "eea924613f183b6e208c967715f0bf8d1e1197322c6567ab0f63cc490c35dfef"
+    },
+    {
+      "source": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/nas-backup-20261013/BACKUP_MANIFEST.json",
+      "copy": "evidence/test500-20261013/BACKUP_MANIFEST.json",
+      "bytes": 1121655,
+      "sha256": "b67d1f4cc55155b9d8ca8a9199b27280a7eaf4dbdcb67dee2cbeda1ea5d122c4"
+    },
+    {
+      "source": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/nas-backup-20261013/BACKUP_SHA256SUMS",
+      "copy": "evidence/test500-20261013/BACKUP_SHA256SUMS",
+      "bytes": 702557,
+      "sha256": "e3d8e938903944a4ffae86c3f6e880916a87bd508233630e3e77c3ef020a17cf"
+    },
+    {
+      "source": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/nas-backup-20261013/BACKUP_VERIFIED.json",
+      "copy": "evidence/test500-20261013/BACKUP_VERIFIED.json",
+      "bytes": 784,
+      "sha256": "9a12ac9f4bc626d8bd840a410911a6bfee2a702237e0f82adaba4356c73332b5"
+    }
+  ]
+}

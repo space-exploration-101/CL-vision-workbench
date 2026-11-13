@@ -1,0 +1,9 @@
+{
+  "status": "EXTRACTED_AND_REREAD_VERIFIED",
+  "archive": "/home/ubuntu22/CL01_02/assets/data-20260922/cal462.tar",
+  "archive_sha256": "25de513bc763d13d7f72ba311e988fcffa6919d25adf41405802ce3e0269ffee",
+  "target": "/home/ubuntu22/CL01_02/datasets/cali",
+  "files": 462,
+  "bytes": 268566127,
+  "symlinks": 0
+}

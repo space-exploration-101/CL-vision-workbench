@@ -1,0 +1,314 @@
+{
+  "date": "2026-11-10",
+  "status": "PASS_FOR_TASK_SCOPE",
+  "remote_verified": false,
+  "gpu_used": false,
+  "business_scripts_executed": false,
+  "copies": [
+    {
+      "source": "docs/class-21/operations/tools/archive_dataset_to_nas.py",
+      "copy": "scripts/archive_dataset_to_nas.py",
+      "status": "PASS",
+      "sha256": "3398dab437280dee9c0bc8c8a8826456edda90c818466ecf742d8246e39e5aa6"
+    },
+    {
+      "source": "docs/class-21/operations/tools/verify_dataset_snapshot.py",
+      "copy": "scripts/verify_dataset_snapshot.py",
+      "status": "PASS",
+      "sha256": "b9c59ecf1baf4b875e1bd965655988a6e7f8b37fe47a62a4588f132b6d17847b"
+    },
+    {
+      "source": "tools/backup_pose21_test500_nas.py",
+      "copy": "scripts/backup_pose21_test500_nas.py",
+      "status": "PASS",
+      "sha256": "481b6f4fff1975e2d4f6a27dd4ab135f0daee268e1b97ac6cc335b0f5bada7f8"
+    },
+    {
+      "source": "tools/backup_h200_images_20261016.py",
+      "copy": "scripts/backup_h200_images_20261016.py",
+      "status": "PASS",
+      "sha256": "2456fcbc236189c50addc42bd7ef69b365360f22f9e758eb86535ad7d7ef6190"
+    },
+    {
+      "source": "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/nas-docs/00_恢复说明_README.md",
+      "copy": "nas-docs/00_恢复说明_README.md",
+      "status": "PASS",
+      "sha256": "ee85ce4550ff148f12864dd7d38e07f75d13fbb7e68561bfdf86bedcd0366dcf"
+    },
+    {
+      "source": "docs/class-21/operations/runs/backup/raw-dataset/auto-landmark-Dataset-20260922-161828/nas-docs/01_恢复_AGENT提示词.md",
+      "copy": "nas-docs/01_恢复_AGENT提示词.md",
+      "status": "PASS",
+      "sha256": "eea924613f183b6e208c967715f0bf8d1e1197322c6567ab0f63cc490c35dfef"
+    },
+    {
+      "source": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/nas-backup-20261013/BACKUP_MANIFEST.json",
+      "copy": "evidence/test500-20261013/BACKUP_MANIFEST.json",
+      "status": "PASS",
+      "sha256": "b67d1f4cc55155b9d8ca8a9199b27280a7eaf4dbdcb67dee2cbeda1ea5d122c4"
+    },
+    {
+      "source": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/nas-backup-20261013/BACKUP_SHA256SUMS",
+      "copy": "evidence/test500-20261013/BACKUP_SHA256SUMS",
+      "status": "PASS",
+      "sha256": "e3d8e938903944a4ffae86c3f6e880916a87bd508233630e3e77c3ef020a17cf"
+    },
+    {
+      "source": "outputs/class-21/pose21-raw-gray-test500-20261012-v1/nas-backup-20261013/BACKUP_VERIFIED.json",
+      "copy": "evidence/test500-20261013/BACKUP_VERIFIED.json",
+      "status": "PASS",
+      "sha256": "9a12ac9f4bc626d8bd840a410911a6bfee2a702237e0f82adaba4356c73332b5"
+    }
+  ],
+  "known_report_hashes": {
+    "status": "PASS",
+    "files": [
+      "scripts/verify_dataset_snapshot.py",
+      "nas-docs/00_恢复说明_README.md",
+      "nas-docs/01_恢复_AGENT提示词.md",
+      "evidence/test500-20261013/BACKUP_MANIFEST.json",
+      "evidence/test500-20261013/BACKUP_SHA256SUMS"
+    ]
+  },
+  "test500_metadata_consistency": {
+    "status": "PASS",
+    "files": 6077,
+    "bytes": 16766791565,
+    "directories": 25,
+    "actual_dataset_files_rehashed": false
+  },
+  "restore5090_local_evidence": {
+    "status": "PASS",
+    "files": 18
+  },
+  "navigation_before_zip": "PASS",
+  "modified_documents": [
+    {
+      "path": "rebuild/README.md",
+      "bytes": 2032,
+      "sha256": "0d7d613ec40962dc3752065757c784ff3a51d147b49173bf7db2a9b8daf6da0e"
+    },
+    {
+      "path": "docs/class-21/operations/runs/backup/README.md",
+      "bytes": 2096,
+      "sha256": "6d5804e7e9e057ef0c859cdbf66e6e3a19c60f248f13a8a28c1476a5835653a2"
+    }
+  ],
+  "previous_rebuild_manifest": {
+    "path": "rebuild\\SHA256SUMS.20261020-platform-renumber",
+    "sha256": "7d3950a2d1d3dfcfa3afb373fa75d5b2fcbf26a2e187f7642b4bad6f4c57c4de",
+    "entries": [
+      {
+        "path": "AGENTS.md",
+        "status": "UNCHANGED",
+        "sha256": "c6804c6c6a237337ce6afcf0db2d25762a81570dedcd736f0b39ff0d0365089f"
+      },
+      {
+        "path": "CURRENT_STATE.md",
+        "status": "UNCHANGED",
+        "sha256": "643259e5450e2bae44bacdb6e5c3818ab87ccb539325a845d0dc31880f8a9ed8"
+      },
+      {
+        "path": "README.md",
+        "status": "AUTHORIZED_NAVIGATION_CHANGE",
+        "before_sha256": "e2b8fed768ee2951172584ddf8d112cde49a91091a7f267fd275e7d7f6415baf",
+        "after_sha256": "0d7d613ec40962dc3752065757c784ff3a51d147b49173bf7db2a9b8daf6da0e"
+      },
+      {
+        "path": "REBUILD_GUIDE.md",
+        "status": "UNCHANGED",
+        "sha256": "37f6c19b244191e7120c24bdeeeee3e1f1ff59e308921c19fe8703c8f395ced3"
+      },
+      {
+        "path": "SHA256SUMS",
+        "status": "UNCHANGED",
+        "sha256": "1dd85dac90de5082dd9565b1c74b1f0ee7053077c4aa13fbdc005244e8776e64"
+      },
+      {
+        "path": "SHA256SUMS.20261019-platform-docs",
+        "status": "UNCHANGED",
+        "sha256": "de523d0c3c13cd91f370a4de693a5f9e999a335c0d5b1467fe0d729b26700bf4"
+      },
+      {
+        "path": "legacy/AGENTS.md",
+        "status": "UNCHANGED",
+        "sha256": "9906e7c15e2a6ed46faabba63bd5d272a7ed092fb37d29310a81d6888dc5400a"
+      },
+      {
+        "path": "legacy/README.md",
+        "status": "UNCHANGED",
+        "sha256": "8d758b6b7e527adcb7057d90aa640586e3f5ce0906bd0da601a4b8763c96b0b5"
+      },
+      {
+        "path": "legacy/gray1-20260918/README.md",
+        "status": "UNCHANGED",
+        "sha256": "324a3cfb67520b4e73c77b9791ca3fe6fa06ba519092af7e4ee0ce3988cf477b"
+      },
+      {
+        "path": "legacy/gray1-20260918/verify_host.sh",
+        "status": "UNCHANGED",
+        "sha256": "146729d69ff5b92ae52110cc65e236694e8a9ad5b2572c03b106667050e61252"
+      },
+      {
+        "path": "legacy/gray1-20260918/verify_runtime.py",
+        "status": "UNCHANGED",
+        "sha256": "6e29baabb0e88f7d87c3a7d0e7b56638e80c704931b8236da12768bc87f64a38"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/README.md",
+        "status": "UNCHANGED",
+        "sha256": "40d6b324c176d2d4779bb2e720b07700d8ce4c9f0aff6accbdb9bfb34100d963"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/REBUILD_GUIDE.md",
+        "status": "UNCHANGED",
+        "sha256": "e76a58afcee22051faf3872071bb200a7b7c1dc1daf72bb207b8f9e32bab3411"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/manifests/api-image-apt-manual.txt",
+        "status": "UNCHANGED",
+        "sha256": "5ea9c34c63755fadee7651a5a5eb7714fe830d1117b799ca6d572ef0575a9ae5"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/manifests/api-image-dpkg.txt",
+        "status": "UNCHANGED",
+        "sha256": "6f27f965664aab9f8e3213a028a5f7f97ad526f3595b4bcf51064e2241c38d1e"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/manifests/conda-explicit-linux-64.txt",
+        "status": "UNCHANGED",
+        "sha256": "58438cc9c8c3ce86cce860a5e0b26c45371d61e92094d3a78ff1e92ac6d796bd"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/manifests/environment-from-history.yml",
+        "status": "UNCHANGED",
+        "sha256": "e3825acacbf6cc01e2c572a7417473d4e7fc8e95da28a78e4be89958baf72be2"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/manifests/environment-full-linux-64.yml",
+        "status": "UNCHANGED",
+        "sha256": "478be955a05dba834c9a5c13ebc057d6bb07ef9fceb77b8e2c9a4667bbd76a49"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/manifests/pip-freeze-raw-linux-amd64.txt",
+        "status": "UNCHANGED",
+        "sha256": "73efe771683ca79aaa11f196e78856d78d4d592dde5382bfe4499eda3a9245a5"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/manifests/pip-list-linux-amd64.lock.txt",
+        "status": "UNCHANGED",
+        "sha256": "ae5fc009d2a93cb915e650abf7924aa13432277d884171fc135ce34ac1e5b633"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/manifests/pipeline-patches-sha256.txt",
+        "status": "UNCHANGED",
+        "sha256": "b5a532dc58a00f1706428ee8d7f313b19718796f23d593aca4452b672c06be0c"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/manifests/requirements.api.lock.txt",
+        "status": "UNCHANGED",
+        "sha256": "dbb3ea9d718415efbd1d7e4e1ca3f06ba562f08290b438c8904ec6ce82db9d1d"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/manifests/requirements.web.lock.txt",
+        "status": "UNCHANGED",
+        "sha256": "f438031d091fb141ea803da04edf1a3bad6f3ef35624d1b7aa13bb38ee35bdd2"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/manifests/runtime-import-versions.json",
+        "status": "UNCHANGED",
+        "sha256": "a91d42ab9f4a9644414cb1474c10dd0f2f24e897e436646883bfc4cd8bf07b60"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/manifests/source-runtime.json",
+        "status": "UNCHANGED",
+        "sha256": "84f41515afee42017f6c053fc192635d0d1c5d2db4fae970eb725165ab7febe6"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/manifests/web-image-dpkg.txt",
+        "status": "UNCHANGED",
+        "sha256": "0dc393c797e142be7d7aafcb14a7060497aa52a7a4aca26a258059a1a1c1cb3a"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/manifests/web-image-pip.lock.txt",
+        "status": "UNCHANGED",
+        "sha256": "fcf6d3912861a869082b4a2c518aa72d16756a7358c1960f695a1e5a69bc4c75"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/rebuild-manifest.yml",
+        "status": "UNCHANGED",
+        "sha256": "5fa9acd6cb58d4aa1ffe64bbee7f5a38f255322129147d3357b97d74a23373a1"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/snapshots/Dockerfile.api",
+        "status": "UNCHANGED",
+        "sha256": "403dd21093c5ca265199afb714596e365ebccc37e58d2d239d09948f90dbaf03"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/snapshots/Dockerfile.api.pinned-amd64",
+        "status": "UNCHANGED",
+        "sha256": "923ddb76a2e1437ee2621df4669e6a2759f0a33f8fbd4a573051b79b53d7b280"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/snapshots/Dockerfile.web",
+        "status": "UNCHANGED",
+        "sha256": "8aab901e99fb5c47a0afdf664b5a8ca6dfd3d8b2c359a14a0c18586da7b6f6a6"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/snapshots/Dockerfile.web.pinned-amd64",
+        "status": "UNCHANGED",
+        "sha256": "0943801c935827e2458de8def8f656a96cafca069226c9769c7a50d785475a71"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/snapshots/docker-compose.yml",
+        "status": "UNCHANGED",
+        "sha256": "6a5528dece5ea61afdc937acd24035b2021921bbedce2635c390ce7deb843671"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/snapshots/requirements.api.original.txt",
+        "status": "UNCHANGED",
+        "sha256": "d29740f26898485e815ee2b98bec619d9b726ece24aff2101575e323a45d12c3"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/snapshots/requirements.web.original.txt",
+        "status": "UNCHANGED",
+        "sha256": "cf939aa1de494ad1935ad69f9a90bd8c5f7c81fc7b3d6b7bdf5353a5c81e0b7a"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/verify_host.sh",
+        "status": "UNCHANGED",
+        "sha256": "c2de94047e46bcedbae3e7c1c1c098ab94652274f1e20e416d683a433e037c6d"
+      },
+      {
+        "path": "legacy/pre-gray1-20260902/verify_runtime.py",
+        "status": "UNCHANGED",
+        "sha256": "a4871f16fb175e5a2b251c6cfc2d10f4af8f03dcc834aafac03bce519a92998a"
+      },
+      {
+        "path": "rebuild-manifest.yml",
+        "status": "UNCHANGED",
+        "sha256": "b81ddf1ba58573fc2090c5332703ac230fc44510cce8acb8ccf1f86ee490a013"
+      },
+      {
+        "path": "SHA256SUMS.20261019-current-docs",
+        "status": "UNCHANGED",
+        "sha256": "e0b425ab0127a2fe84290aeb3370a64a6b70242474677d8e3cdfe2fadad3dbe6"
+      }
+    ]
+  },
+  "documentation": {
+    "scoped_status": "PASS",
+    "scoped_documents": 8,
+    "global_status": "FAIL",
+    "global_failures": 109,
+    "global_failure_documents": [
+      "docs/dataset/csw/dataset3_8_experiment_notes.md"
+    ]
+  },
+  "limitations": [
+    "No remote metadata collected",
+    "No backup/extraction/business execution",
+    "Python snapshots and before.zip are ignored by Git",
+    "Global missing links in pre-existing dataset3_8 notes are outside this task"
+  ]
+}

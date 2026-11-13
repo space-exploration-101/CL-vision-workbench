@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "documents": 8,
+  "document_paths": [
+    "docs/platform/01_NAS备份与环境恢复.md",
+    "docs/platform/OPEN_QUESTIONS.md",
+    "docs/platform/SOURCES.md",
+    "rebuild/data-backup/audit/20261110-nas-paths/README.md",
+    "rebuild/data-backup/evidence/nas-paths-20261110/README.md",
+    "rebuild/data-backup/HISTORY.md",
+    "rebuild/data-backup/README.md",
+    "rebuild/README.md"
+  ],
+  "direct_links": {
+    "active": 105,
+    "frozen": 0
+  },
+  "frozen_mapped_links": [],
+  "external_links_not_checked": [],
+  "excluded_scan_entries": [],
+  "failures": [],
+  "scope": "Curated local Markdown only; no recursive artifact/archive/raw/dependency reading; mappings are exact document+target exceptions, not repaired links."
+}

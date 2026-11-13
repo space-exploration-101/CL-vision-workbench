@@ -1,0 +1,18 @@
+{
+  "role": "web",
+  "python": "3.11.16 (main, Sep  1 2026, 00:14:22) [GCC 12.2.0]",
+  "executable": "/usr/local/bin/python",
+  "gpu_exposed": [],
+  "modules": {
+    "fastapi": {
+      "version": "0.128.8",
+      "file": "/usr/local/lib/python3.11/site-packages/fastapi/__init__.py"
+    },
+    "uvicorn": {
+      "version": "0.39.0",
+      "file": "/usr/local/lib/python3.11/site-packages/uvicorn/__init__.py"
+    }
+  },
+  "import_messages": [],
+  "status": "CPU_IMPORT_AND_MODEL_STRUCTURE_PASS"
+}

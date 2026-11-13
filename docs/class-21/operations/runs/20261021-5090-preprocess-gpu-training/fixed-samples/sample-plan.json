@@ -1,0 +1,285 @@
+{
+  "source_root": "/data1/ywang/pose21-raw-gray-test500-20261012-v1",
+  "selection_policy": "lexicographic first non-moon positive, moon positive, empty label; frozen before execution",
+  "items": [
+    {
+      "class_ids": [
+        0
+      ],
+      "group_id": "agaier_000",
+      "is_empty": false,
+      "row_count": 1,
+      "source_image": "images/train/agaier_000_view_32.png",
+      "source_image_mtime_ns": 1787438172163504636,
+      "source_image_size": 10223234,
+      "source_label": "labels/train/agaier_000_view_32.txt",
+      "source_label_mtime_ns": 1787438172163504636,
+      "source_label_sha256": "ac4a72adea7a218f6ff5a65f69f8adfb2ccc1570e019948597e53f5fb848749a",
+      "source_label_size": 78,
+      "split": "train",
+      "source_image_absolute": "/data2/ai-i-chenshiwen/auto_landmark/Dataset/yolo_full/images/train/agaier_000_view_32.png",
+      "source_label_absolute": "/data2/ai-i-chenshiwen/auto_landmark/Dataset/yolo_full/labels/train/agaier_000_view_32.txt",
+      "source_image_sha256": "82ab3cd427f937bf0bbcece227a671826cc7ec494ef6a9a9311932a321809606",
+      "raw_image": "2-raw/images/agaier_000_view_32.png",
+      "raw_label": "2-raw/labels/agaier_000_view_32.txt",
+      "gray_image": "3-gray/images/agaier_000_view_32.png",
+      "gray_label": "3-gray/labels/agaier_000_view_32.txt",
+      "gray_image_sha256": "f19f8ab8471b0e90dcf28c04041c197104b04bf161ddaca05f10038b42a8f360",
+      "gray_pixels_sha256": "fa4426f95d039d263f38313f69f070276112ca1324fdccab2aa455e8b5ad46f3",
+      "width": 4096,
+      "height": 4096,
+      "source_mode": "RGB",
+      "gray_mode": "L",
+      "origin_class": "agaier",
+      "group_seen_in_medium": true
+    },
+    {
+      "class_ids": [
+        20
+      ],
+      "group_id": "moon_train_000061",
+      "is_empty": false,
+      "row_count": 1,
+      "source_image": "images/train/moon_train_000061.png",
+      "source_image_mtime_ns": 1787445026536743312,
+      "source_image_size": 27803,
+      "source_label": "labels/train/moon_train_000061.txt",
+      "source_label_mtime_ns": 1787444851894572121,
+      "source_label_sha256": "1300d2eedfde04edd585f8a3c84111ee15d2772590f9ba862d1ddc49602a2e8e",
+      "source_label_size": 137,
+      "split": "train",
+      "source_image_absolute": "/data2/ai-i-chenshiwen/auto_landmark/Dataset/yolo_full/images/train/moon_train_000061.png",
+      "source_label_absolute": "/data2/ai-i-chenshiwen/auto_landmark/Dataset/yolo_full/labels/train/moon_train_000061.txt",
+      "source_image_sha256": "590cf76b4fcb8011802c9cd18c8b1e9241d16197901421bcdac4df903ce85826",
+      "raw_image": "2-raw/images/moon_train_000061.png",
+      "raw_label": "2-raw/labels/moon_train_000061.txt",
+      "gray_image": "3-gray/images/moon_train_000061.png",
+      "gray_label": "3-gray/labels/moon_train_000061.txt",
+      "gray_image_sha256": "4305b040fec5a57ac7b977e0930d7d4f4d9b5d515c00f04a047bfa72d3cfb8ba",
+      "gray_pixels_sha256": "f02cf0f0517961cf9f7cf695a829b9f9deeccea88683be7def2bee4a3c1d5d4f",
+      "width": 2048,
+      "height": 2048,
+      "source_mode": "RGB",
+      "gray_mode": "L",
+      "origin_class": "moon",
+      "group_seen_in_medium": false
+    },
+    {
+      "class_ids": [],
+      "group_id": "agaier_495",
+      "is_empty": true,
+      "row_count": 0,
+      "source_image": "images/train/agaier_495_view_02.png",
+      "source_image_mtime_ns": 1787438328483702006,
+      "source_image_size": 10561194,
+      "source_label": "labels/train/agaier_495_view_02.txt",
+      "source_label_mtime_ns": 1787438328483702006,
+      "source_label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_label_size": 0,
+      "split": "train",
+      "source_image_absolute": "/data2/ai-i-chenshiwen/auto_landmark/Dataset/yolo_full/images/train/agaier_495_view_02.png",
+      "source_label_absolute": "/data2/ai-i-chenshiwen/auto_landmark/Dataset/yolo_full/labels/train/agaier_495_view_02.txt",
+      "source_image_sha256": "502b48014252a39269b0f4cc63074efb1934b6551cf7b507eb76ec0fd36c5cde",
+      "raw_image": "2-raw/images/agaier_495_view_02.png",
+      "raw_label": "2-raw/labels/agaier_495_view_02.txt",
+      "gray_image": "3-gray/images/agaier_495_view_02.png",
+      "gray_label": "3-gray/labels/agaier_495_view_02.txt",
+      "gray_image_sha256": "1b7b91d0e95dc6489f7f49e607b2217433df96495b69821b347a7d5adc5bea14",
+      "gray_pixels_sha256": "b5aa76f1c996b4d2c6bc783d68b92bcc8ff3f751a9661b047b74498b99a3246e",
+      "width": 4096,
+      "height": 4096,
+      "source_mode": "RGB",
+      "gray_mode": "L",
+      "origin_class": "agaier",
+      "group_seen_in_medium": true
+    }
+  ],
+  "files": [
+    {
+      "path": "1-metadata/selection.json",
+      "bytes": 748387,
+      "sha256": "a2535bc76a52d5a62a6dfe93a42f9d4d3770498ccc09e5fb16350404ecd5fce7",
+      "published_manifest_match": true
+    },
+    {
+      "path": "SHA256SUMS",
+      "bytes": 207802,
+      "sha256": "4ff7236114ee9357d851db3149ff13aa871ad66ea1eaed25900d032def1d452f",
+      "published_manifest_match": false
+    },
+    {
+      "path": "4-net1280/SHA256SUMS",
+      "bytes": 97386,
+      "sha256": "d37cfb39e80f0ca6a70ce3cacc808cee41a6615a0ab7d398edd1c0aa4bd29ad6",
+      "published_manifest_match": false
+    },
+    {
+      "path": "5-cam2000/SHA256SUMS",
+      "bytes": 94483,
+      "sha256": "301ae19de383f5bad40fa3d4dabe06efa9649230bdbbf3b1cd1ab7f12123e6b6",
+      "published_manifest_match": false
+    },
+    {
+      "path": "4-net1280/net1280.yaml",
+      "bytes": 549,
+      "sha256": "c71395417c3e3fb6d86abe89ae52ba0336c8767bbd4f6a99551e04cec4588f33",
+      "published_manifest_match": true
+    },
+    {
+      "path": "5-cam2000/cam2000.yaml",
+      "bytes": 631,
+      "sha256": "a79b1aee1a72c7e418f7ec7abb2881adf9c4e4b80bfd549c6a188a7fd97da757",
+      "published_manifest_match": true
+    },
+    {
+      "path": "2-raw/images/agaier_000_view_32.png",
+      "bytes": 10223234,
+      "sha256": "82ab3cd427f937bf0bbcece227a671826cc7ec494ef6a9a9311932a321809606",
+      "published_manifest_match": true
+    },
+    {
+      "path": "2-raw/labels/agaier_000_view_32.txt",
+      "bytes": 78,
+      "sha256": "ac4a72adea7a218f6ff5a65f69f8adfb2ccc1570e019948597e53f5fb848749a",
+      "published_manifest_match": true
+    },
+    {
+      "path": "3-gray/images/agaier_000_view_32.png",
+      "bytes": 5835949,
+      "sha256": "f19f8ab8471b0e90dcf28c04041c197104b04bf161ddaca05f10038b42a8f360",
+      "published_manifest_match": true
+    },
+    {
+      "path": "3-gray/labels/agaier_000_view_32.txt",
+      "bytes": 78,
+      "sha256": "ac4a72adea7a218f6ff5a65f69f8adfb2ccc1570e019948597e53f5fb848749a",
+      "published_manifest_match": true
+    },
+    {
+      "path": "4-net1280/images/agaier_000_view_32.png",
+      "bytes": 536377,
+      "sha256": "2f3af9e4e5520d7a78a0d826b20c6be797b74526437d3cea2d4a0221d6681370",
+      "published_manifest_match": true
+    },
+    {
+      "path": "4-net1280/labels/agaier_000_view_32.txt",
+      "bytes": 94,
+      "sha256": "a99e1cf1679bacf21b5b27c95040bcabc5bd3db91e7cea7b4035f697d97e0eb9",
+      "published_manifest_match": true
+    },
+    {
+      "path": "5-cam2000/png/agaier_000_view_32.png",
+      "bytes": 1803897,
+      "sha256": "69552efaf18f53e84cd6f4ecf581ae9a2bc885b58efe79fc0c43423d6eadb85c",
+      "published_manifest_match": true
+    },
+    {
+      "path": "5-cam2000/bin/agaier_000_view_32.bin",
+      "bytes": 8192000,
+      "sha256": "ac55984e0e4f8d811860ce29c12644a049c5e43ef3b911a1c907cb6f23327621",
+      "published_manifest_match": true
+    },
+    {
+      "path": "2-raw/images/moon_train_000061.png",
+      "bytes": 27803,
+      "sha256": "590cf76b4fcb8011802c9cd18c8b1e9241d16197901421bcdac4df903ce85826",
+      "published_manifest_match": true
+    },
+    {
+      "path": "2-raw/labels/moon_train_000061.txt",
+      "bytes": 137,
+      "sha256": "1300d2eedfde04edd585f8a3c84111ee15d2772590f9ba862d1ddc49602a2e8e",
+      "published_manifest_match": true
+    },
+    {
+      "path": "3-gray/images/moon_train_000061.png",
+      "bytes": 27749,
+      "sha256": "4305b040fec5a57ac7b977e0930d7d4f4d9b5d515c00f04a047bfa72d3cfb8ba",
+      "published_manifest_match": true
+    },
+    {
+      "path": "3-gray/labels/moon_train_000061.txt",
+      "bytes": 137,
+      "sha256": "1300d2eedfde04edd585f8a3c84111ee15d2772590f9ba862d1ddc49602a2e8e",
+      "published_manifest_match": true
+    },
+    {
+      "path": "4-net1280/images/moon_train_000061.png",
+      "bytes": 10956,
+      "sha256": "b776f7447a2a6e04cc67cd1d13af2a938d0de42962b99a169f5fb968a10b7a73",
+      "published_manifest_match": true
+    },
+    {
+      "path": "4-net1280/labels/moon_train_000061.txt",
+      "bytes": 95,
+      "sha256": "803a84b30f05c6c3d8ca3a0748c6a7b26b94d57e23c057029358e1a25368b8bc",
+      "published_manifest_match": true
+    },
+    {
+      "path": "5-cam2000/png/moon_train_000061.png",
+      "bytes": 27484,
+      "sha256": "53a0279a92e9e891a0a05329aa9193403cd7a3fe87375ba0e32d7c3a06f668d2",
+      "published_manifest_match": true
+    },
+    {
+      "path": "5-cam2000/bin/moon_train_000061.bin",
+      "bytes": 8192000,
+      "sha256": "bd832b3b8f765729efe48fca274102c70f3cfe443652a21933794666c804f32b",
+      "published_manifest_match": true
+    },
+    {
+      "path": "2-raw/images/agaier_495_view_02.png",
+      "bytes": 10561194,
+      "sha256": "502b48014252a39269b0f4cc63074efb1934b6551cf7b507eb76ec0fd36c5cde",
+      "published_manifest_match": true
+    },
+    {
+      "path": "2-raw/labels/agaier_495_view_02.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_manifest_match": true
+    },
+    {
+      "path": "3-gray/images/agaier_495_view_02.png",
+      "bytes": 6178892,
+      "sha256": "1b7b91d0e95dc6489f7f49e607b2217433df96495b69821b347a7d5adc5bea14",
+      "published_manifest_match": true
+    },
+    {
+      "path": "3-gray/labels/agaier_495_view_02.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_manifest_match": true
+    },
+    {
+      "path": "4-net1280/images/agaier_495_view_02.png",
+      "bytes": 555328,
+      "sha256": "913c28ae821fb7ed085695bcfbaa5a2c86c1bc13a70c46af914de2bf8578d4cc",
+      "published_manifest_match": true
+    },
+    {
+      "path": "4-net1280/labels/agaier_495_view_02.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_manifest_match": true
+    },
+    {
+      "path": "5-cam2000/png/agaier_495_view_02.png",
+      "bytes": 1890082,
+      "sha256": "cd168db4d341943909fba8365169bb77f07d3b3acf7bdf2c18573df0911bcfd0",
+      "published_manifest_match": true
+    },
+    {
+      "path": "5-cam2000/bin/agaier_495_view_02.bin",
+      "bytes": 8192000,
+      "sha256": "c941273b8c7eefe0df1a76f4cb35b89230a345ba779870f942d799a747f6cdb4",
+      "published_manifest_match": true
+    }
+  ],
+  "criteria": {
+    "pixels": "exact",
+    "labels": "exact formatted text and independent geometry atol 5.1e-9",
+    "camera_bin": "exact SHA256 and independently decoded pixels/zero row tails"
+  },
+  "full500": false
+}

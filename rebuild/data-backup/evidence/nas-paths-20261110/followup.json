@@ -1,0 +1,48 @@
+{
+    "ObservedAt":  "2026-11-10T16:29:19.3886234+08:00",
+    "Method":  "Immediate directory names only; no file contents",
+    "Items":  [
+                  {
+                      "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\量化平台\\H200",
+                      "Status":  "NOT_FOUND",
+                      "ErrorId":  "PathNotFound,Microsoft.PowerShell.Commands.GetItemCommand"
+                  },
+                  {
+                      "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\量化平台",
+                      "Status":  "NOT_FOUND",
+                      "ErrorId":  "PathNotFound,Microsoft.PowerShell.Commands.GetItemCommand"
+                  },
+                  {
+                      "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码",
+                      "Status":  "EXISTS",
+                      "Entries":  [
+                                      {
+                                          "Name":  ".DS_Store",
+                                          "Kind":  "file"
+                                      },
+                                      {
+                                          "Name":  "20261016_H200_docker_images",
+                                          "Kind":  "directory"
+                                      },
+                                      {
+                                          "Name":  "历史遗留",
+                                          "Kind":  "directory"
+                                      }
+                                  ]
+                  },
+                  {
+                      "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\历史实验\\20260903-04_21类R-only过渡实验\\model",
+                      "Status":  "EXISTS",
+                      "Entries":  [
+                                      {
+                                          "Name":  "best.pt",
+                                          "Kind":  "file"
+                                      },
+                                      {
+                                          "Name":  "best.pt.zip-test.txt",
+                                          "Kind":  "file"
+                                      }
+                                  ]
+                  }
+              ]
+}

@@ -1,0 +1,426 @@
+{
+  "source_mount": "//10.2.26.26/902_data",
+  "assets": [
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/INDEX.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/INDEX.json",
+      "bytes": 2368,
+      "sha256": "c1eec9510d0bf72eeb094ec45fe6eb860811a7b80d93aed14558efdb46cb1767"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/README.md",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/README.md",
+      "bytes": 1222,
+      "sha256": "c656403fa4305e6859ee978b086591ffcb739afd80e7f77a82b0ac1bd022e0d1"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_api/SHA256SUMS",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_api/SHA256SUMS",
+      "bytes": 792,
+      "sha256": "ba4df230649986e6986814e732131f1bea17f80981730065dd916d9b2b30542b"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_api/VERIFIED",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_api/VERIFIED",
+      "bytes": 317,
+      "sha256": "49c468e3ebb53fe66707d95735d9bab5c8610430755b155849e5234903d86433"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_web/SHA256SUMS",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_web/SHA256SUMS",
+      "bytes": 792,
+      "sha256": "6ea1598673c5b7673b57e603468071be2c73dc02eff6353b9a02bf787b2b82db"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_web/VERIFIED",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_web/VERIFIED",
+      "bytes": 317,
+      "sha256": "5d0875ec7106c5697ccd3c9e7f53ae3bd6fd96462b3cb75c94c00241ceacbe06"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/records/backup-20261016.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/records/backup-20261016.json",
+      "bytes": 1749,
+      "sha256": "c784ba5127b8644d2ac4e69e21a42837eba5d1d62b848c84a9aa492285588489"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/SHA256SUMS",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/SHA256SUMS",
+      "bytes": 2012,
+      "sha256": "fd427713a21f534adfbc63b6f7a1b59370b591f3a242b8d0dffa23f60a4234de"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/VERIFIED",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/VERIFIED",
+      "bytes": 395,
+      "sha256": "fa550fdb8cb245f2841c24ea4387e4010ce719a1e75b0b6509bbc72257c305fb"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_data_pipeline/SHA256SUMS",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_data_pipeline/SHA256SUMS",
+      "bytes": 793,
+      "sha256": "902bfe887d974a54f6967e5efdec0d22f08b18e3404ab5428f33a2b85a6e6e3d"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_data_pipeline/VERIFIED",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_data_pipeline/VERIFIED",
+      "bytes": 317,
+      "sha256": "2d2bc51a41ec85ae18c90629f63302a6176ee34791f66f6220c18071df385144"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/SHA256SUMS",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/SHA256SUMS",
+      "bytes": 1062,
+      "sha256": "c04dd5242f49c392a732786f079c37cd17e46e0b9482ef35a2bd71d9de17e367"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/VERIFIED",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/VERIFIED",
+      "bytes": 254,
+      "sha256": "b44835f2d1596002255c489e7c0369964b7b0328eebec9bb597e90735ffd8a28"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_data_pipeline/Dockerfile",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_data_pipeline/Dockerfile",
+      "bytes": 966,
+      "sha256": "d97316a3622dfaf9ad78be7131ba7483bf9439fdb72d34e2460f38857b32db5e"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_data_pipeline/README.md",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_data_pipeline/README.md",
+      "bytes": 2448,
+      "sha256": "7f08707fdbf772e3532c99476e3a558e403ca5d38394fa9f6dfafb3fc94f4d36"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_data_pipeline/records/archive-verification.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_data_pipeline/records/archive-verification.json",
+      "bytes": 580,
+      "sha256": "30253beb24965f7625e9a71fbf1a586fd30ee547f7c85e360ef6d6b2d3a03bce"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_data_pipeline/records/image-inspect.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_data_pipeline/records/image-inspect.json",
+      "bytes": 1155,
+      "sha256": "0972725d03eb23e7ed1829ba46180a2f0f6368e43ff51517bfc544bb09e49e42"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_data_pipeline/records/runtime-dependencies.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_data_pipeline/records/runtime-dependencies.json",
+      "bytes": 3033,
+      "sha256": "bd928979ca11c913fba0c6fa0f6bd9ae1b37ecd8f451c61426112e90b7fcf6b9"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_data_pipeline/records/source-state.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_data_pipeline/records/source-state.json",
+      "bytes": 395,
+      "sha256": "60510b79ea7c3aa755c712acfbf2c33c1046b8e7f43f77c3e76b3c9e60c8ed75"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_data_pipeline/source.bundle",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_data_pipeline/source.bundle",
+      "bytes": 87283,
+      "sha256": "25e836d0a99539a254c5e2cad65dbd4f6035d1869b5571d9a0816c946d3d2145"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_data_pipeline/source.tar.gz",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_data_pipeline/source.tar.gz",
+      "bytes": 41597,
+      "sha256": "88d8cc5f3681687daa64abccedffa47c1946c29bbbcb45200430d4c731edf7c5"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_data_pipeline/yolo_gray1_data_pipeline.tar",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_data_pipeline/yolo_gray1_data_pipeline.tar",
+      "bytes": 361152512,
+      "sha256": "7baa5c1050ee25768b182383453da581194f4f2ffdbc830aff56f0d23a69c011"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_web/Dockerfile",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_web/Dockerfile",
+      "bytes": 679,
+      "sha256": "8aab901e99fb5c47a0afdf664b5a8ca6dfd3d8b2c359a14a0c18586da7b6f6a6"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_web/README.md",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_web/README.md",
+      "bytes": 2433,
+      "sha256": "58cb50a7f9e8d4cd508a3d78e7ad65c5b954429d8297da73bd7b0568de741a9e"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_web/quantitize_platform_web.tar",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_web/quantitize_platform_web.tar",
+      "bytes": 191891968,
+      "sha256": "74c7a66c2f255668e22f676f5e101f55f07d3c5f2dbf9741adab51d3e0fc167e"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_web/records/archive-verification.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_web/records/archive-verification.json",
+      "bytes": 573,
+      "sha256": "e04347947b577f74270bdac46e83b7838525755bdd07ef029f4af23be3522c4c"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_web/records/image-inspect.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_web/records/image-inspect.json",
+      "bytes": 992,
+      "sha256": "2adc4739072d9461daaf8ec2a3fd904be31385439bbd0129bedd0a1c39a9602f"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_web/records/runtime-dependencies.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_web/records/runtime-dependencies.json",
+      "bytes": 4826,
+      "sha256": "a8a196ac21aa56eef14b4463fd3860f78b31879936d43c8faef4fa071a4ff41c"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_web/records/source-state.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_web/records/source-state.json",
+      "bytes": 394,
+      "sha256": "9d13e850025ab678d95ec0371028c3fbbc5766be1fda176d35c2329f99e3de12"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_web/source.bundle",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_web/source.bundle",
+      "bytes": 443174,
+      "sha256": "14752403df6ccaf8a2f419ff9683196c9dfe3f5e8884eef46a9bde78b46de798"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_web/source.tar.gz",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_web/source.tar.gz",
+      "bytes": 240489,
+      "sha256": "d87f9a3e8d5a59c097d180c686ec03d18b45fbcc0b7f2d8d495a3013f091759e"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/BUILD_IMAGE.md",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/BUILD_IMAGE.md",
+      "bytes": 4327,
+      "sha256": "9fa34b12c0b5594ffc22c04c1891e1ba516faa2eee1b6b04d6fd1cb7baeda972"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/Dockerfile",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/Dockerfile",
+      "bytes": 1335,
+      "sha256": "b7e7a9824fd63d41831df8801047d1db897634a628b8090593f669ff1f9b5776"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/README.md",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/README.md",
+      "bytes": 6824,
+      "sha256": "eee677a1105d2f5ed78824e55da7a245ab22048e2a460a881daf3c070feb58ec"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/archive-verification.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/archive-verification.json",
+      "bytes": 660,
+      "sha256": "47e6e56d8112dcdbfb8463aa29e7ef9ca55a69315cd45d2d99c8983d1aead0c8"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/cleanup.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/cleanup.json",
+      "bytes": 2354,
+      "sha256": "7fdae2f76cff9c67935ad3b601284e4bcd14a9a1022b2740dec171a0194c3079"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/image-inspect.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/image-inspect.json",
+      "bytes": 2350,
+      "sha256": "655422e3562321f0e4cbb916b9c187de4445d25e6d52cc2d45302d03e9e01f19"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/obsolete-images-before.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/obsolete-images-before.json",
+      "bytes": 8022,
+      "sha256": "b3c9d435f4c67d56ad92f302f4ed6bf37bbc31daef6c183bf5cce7e108233ce6"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/smoke/build.log",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/smoke/build.log",
+      "bytes": 2538,
+      "sha256": "3840125bf2b4e399c76b733a6168dda2c21fc0d5e371dc09f1899190f5c2ef05"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/smoke/nas-load.log",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/smoke/nas-load.log",
+      "bytes": 53,
+      "sha256": "683040893e070d0b2d04e9fda60efa9f6e660b8ba538ae87284af4dc924b6f0c"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/smoke/nas-predict-cpu.log",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/smoke/nas-predict-cpu.log",
+      "bytes": 693,
+      "sha256": "aa9d4b736405d6f888a496c1575634ff107249c0da31f2e34084830d7c3489f7"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/smoke/predict-cpu.log",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/smoke/predict-cpu.log",
+      "bytes": 693,
+      "sha256": "293dc3a287b0f1dc1f7a76dd7c2d7c5338f9e31c4e771002b1b00515ce1877c4"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/smoke/predict-gpu.log",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/smoke/predict-gpu.log",
+      "bytes": 689,
+      "sha256": "e7471e8acdeb29b71614611ccf97c215f91db3ae4efee94da1f6117ddd8a2a99"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/smoke/preflight.log",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/smoke/preflight.log",
+      "bytes": 1689,
+      "sha256": "5faa59e613dacdd5ee742a37132b96d8409ee6a17a006beefb7a2c8cd63866f3"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/smoke/result.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/smoke/result.json",
+      "bytes": 2267,
+      "sha256": "97228b8cbfb017b555e87a96304611a82182839d4b584b4d149ef0143c1d1fc6"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/smoke/service-checks.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/smoke/service-checks.json",
+      "bytes": 1000,
+      "sha256": "0d8025741d5d640a135cfcb1f36b21cc451cd0e0f5a6f5df147bd47a3ef364cb"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/smoke/train.log",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/smoke/train.log",
+      "bytes": 11883,
+      "sha256": "ebf242ed28539e1a7ad15b94d1d50532b875249d44a1c0798a1ced2f3516af7a"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/smoke/validate_image.py",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/smoke/validate_image.py",
+      "bytes": 4971,
+      "sha256": "cc0cabbe27177ab4df1270c8e3292e379f75a40e3334844f784790105f5cde81"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/records/source-state.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/records/source-state.json",
+      "bytes": 596,
+      "sha256": "9cb78084f3657c89a94979391631a16880b2b14fd8ffb62546b426cc56b08b14"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/source.bundle",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/source.bundle",
+      "bytes": 2002666,
+      "sha256": "2b5811f221b57b847e523036058898ce035474b98d16491041c5fed532b75b71"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/source.tar.gz",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/source.tar.gz",
+      "bytes": 1567485,
+      "sha256": "8680c3ab6d4baac50279f63b5fa6f7a995190b4dc2c9026d48ffe52106c0251d"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/yolo-gray1_1280-train-predict-20261016.tar",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/yolo-gray1_1280-train-predict-20261016.tar",
+      "bytes": 11364463104,
+      "sha256": "ae6a9919c3204990af34f06918739d3ea97454560d43962365c1c14243d0ccb1"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/yolo_gray1_1280_train_predict/yolo-runtime.tar.gz",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/yolo_gray1_1280_train_predict/yolo-runtime.tar.gz",
+      "bytes": 5344887926,
+      "sha256": "e1e2f5eb38d40ab81c8075ef45624da04d24420e42807f78c5e9f8903e8af683"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_api/Dockerfile",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_api/Dockerfile",
+      "bytes": 2124,
+      "sha256": "08023031b8978097c629b30d4806bd7a44355b2a33fc07cd149779ef007386d8"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_api/README.md",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_api/README.md",
+      "bytes": 2479,
+      "sha256": "b4ab6f44dee4a7957d2fd598bb066dd20812518da600111e98495c429c2d0dfa"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_api/quantitize_platform_api.tar",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_api/quantitize_platform_api.tar",
+      "bytes": 11658015232,
+      "sha256": "76ce1e923dc8ff12584472cfab47dd8174438c98081d6091cecaad6d550b13ed"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_api/records/archive-verification.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_api/records/archive-verification.json",
+      "bytes": 576,
+      "sha256": "9a9b361c030b6af80b8dd0e0b9a4b45ac9bbc14bccb65ccc2f4fbc29d1a99d2b"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_api/records/image-inspect.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_api/records/image-inspect.json",
+      "bytes": 2204,
+      "sha256": "3a4d10ce786a83670c0335648fe5895adfc593fcfd94c1f640210cb27acac3bb"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_api/records/runtime-dependencies.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_api/records/runtime-dependencies.json",
+      "bytes": 16390,
+      "sha256": "ddcf4d91c05aac278ff8c5f39425b676096f4376fe573a53557b22505d26b0fe"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_api/records/source-state.json",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_api/records/source-state.json",
+      "bytes": 394,
+      "sha256": "9d13e850025ab678d95ec0371028c3fbbc5766be1fda176d35c2329f99e3de12"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_api/source.bundle",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_api/source.bundle",
+      "bytes": 443174,
+      "sha256": "14752403df6ccaf8a2f419ff9683196c9dfe3f5e8884eef46a9bde78b46de798"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/4-代码/20261016_H200_docker_images/quantitize_platform_api/source.tar.gz",
+      "target": "/home/ubuntu22/CL01_02/assets/images-20261016/quantitize_platform_api/source.tar.gz",
+      "bytes": 240489,
+      "sha256": "d87f9a3e8d5a59c097d180c686ec03d18b45fbcc0b7f2d8d495a3013f091759e"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/2-数据集/LEO模型量化测试数据/20260922_21目标灰度量化数据/datasets/train.tar.sha256",
+      "target": "/home/ubuntu22/CL01_02/assets/data-20260922/train.tar.sha256",
+      "bytes": 76,
+      "sha256": "4b65d8b96fbc847d15b5f56c05bc8911c41ea841b75df9cc7ba37009c4ce3d5e"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/2-数据集/LEO模型量化测试数据/20260922_21目标灰度量化数据/datasets/train.tar",
+      "target": "/home/ubuntu22/CL01_02/assets/data-20260922/train.tar",
+      "bytes": 15507005440,
+      "sha256": "ce3e93d15311ff75fc46e28eaf2a551de055f459cf01ba2c8638ca21979088d5"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/2-数据集/LEO模型量化测试数据/20260922_21目标灰度量化数据/datasets/cal462.tar.sha256",
+      "target": "/home/ubuntu22/CL01_02/assets/data-20260922/cal462.tar.sha256",
+      "bytes": 77,
+      "sha256": "b74a68ea995965e1eff557e35cedef9aa69ff4ae27da168f35d98722719bcf1a"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/2-数据集/LEO模型量化测试数据/20260922_21目标灰度量化数据/datasets/cal462.tar",
+      "target": "/home/ubuntu22/CL01_02/assets/data-20260922/cal462.tar",
+      "bytes": 268922880,
+      "sha256": "25de513bc763d13d7f72ba311e988fcffa6919d25adf41405802ce3e0269ffee"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/2-数据集/LEO模型量化测试数据/20260922_21目标灰度量化数据/datasets/eval462.tar.sha256",
+      "target": "/home/ubuntu22/CL01_02/assets/data-20260922/eval462.tar.sha256",
+      "bytes": 78,
+      "sha256": "62d9ac25e92a8faf9f4c981b3efb1f6f72eeb7b2cffe40bfc89f7e5b47db3594"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/2-数据集/LEO模型量化测试数据/20260922_21目标灰度量化数据/datasets/eval462.tar",
+      "target": "/home/ubuntu22/CL01_02/assets/data-20260922/eval462.tar",
+      "bytes": 266229760,
+      "sha256": "dd31eded2b20878aaeb7cbdab7892fe28efd93fc483e668e4d860916be5b97cd"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/2-数据集/LEO模型量化测试数据/20260922_21目标灰度量化数据/results/quantization/input/model.pt",
+      "target": "/home/ubuntu22/CL01_02/assets/models/best.pt",
+      "bytes": 199108106,
+      "sha256": "622cff54db472b61c85db03648b36c119f030eacbd4cd87cf5d2dda67e69d6a7"
+    },
+    {
+      "source": "/mnt/ywang-nas/0-项目/13-专项/2-数据集/LEO模型量化测试数据/20260922_21目标灰度量化数据/results/quantization/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida_quantized_bundle.zip",
+      "target": "/home/ubuntu22/CL01_02/assets/models/20260920_063903_Pose21_Gray1_weight-only_accuracy_valida_quantized_bundle.zip",
+      "bytes": 318542628,
+      "sha256": "4d858c72cf5a81509fe2fa10e500cce8aefb7c7ccd69094859d87e98908fde22"
+    }
+  ],
+  "total_bytes": 45485394119
+}

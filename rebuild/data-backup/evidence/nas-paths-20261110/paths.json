@@ -1,0 +1,1379 @@
+{
+    "StartedAt":  "2026-11-10T16:28:34.2946237+08:00",
+    "CompletedAt":  "2026-11-10T16:28:36.1839972+08:00",
+    "Method":  "Windows SMB directory-entry queries only",
+    "FileContentsRead":  false,
+    "HashValidation":  false,
+    "Extraction":  false,
+    "NasWrites":  false,
+    "RecursiveEnumeration":  false,
+    "Share":  {
+                  "Path":  "\\\\10.2.26.26\\902_data",
+                  "Status":  "EXISTS",
+                  "Kind":  "directory",
+                  "ReparsePoint":  false
+              },
+    "Groups":  [
+                   {
+                       "Id":  "migration-20260901",
+                       "Root":  {
+                                    "Path":  "\\\\10.2.26.26\\902_data\\3-个人\\16-王宇航\\3-Project\\2-DRO\\模型量化\\quantitize-platform-backup-20260901",
+                                    "Status":  "EXISTS",
+                                    "Kind":  "directory",
+                                    "ReparsePoint":  false
+                                },
+                       "ExplicitPaths":  [
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\3-个人\\16-王宇航\\3-Project\\2-DRO\\模型量化\\quantitize-platform-backup-20260901\\docker-images.tar.zst",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\3-个人\\16-王宇航\\3-Project\\2-DRO\\模型量化\\quantitize-platform-backup-20260901\\quantitize-platform-code.tar.zst",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\3-个人\\16-王宇航\\3-Project\\2-DRO\\模型量化\\quantitize-platform-backup-20260901\\shared-data.tar.zst",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\3-个人\\16-王宇航\\3-Project\\2-DRO\\模型量化\\quantitize-platform-backup-20260901\\output-data.tar.zst",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\3-个人\\16-王宇航\\3-Project\\2-DRO\\模型量化\\quantitize-platform-backup-20260901\\yolov8_env.tar.gz",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             }
+                                         ],
+                       "ImmediateListings":  [
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\3-个人\\16-王宇航\\3-Project\\2-DRO\\模型量化\\quantitize-platform-backup-20260901",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  ".stream-test.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "docker-images.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "output-data.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "quantitize-platform-code.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "server-migration.md",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "SHA256SUMS",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "shared-data.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolov8_env.tar.gz",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 }
+                                             ]
+                   },
+                   {
+                       "Id":  "system-20260902",
+                       "Root":  {
+                                    "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\量化平台\\H200\\snapshot-20260902-182606",
+                                    "Status":  "NOT_FOUND",
+                                    "ErrorCategory":  "ObjectNotFound",
+                                    "ErrorId":  "PathNotFound,Microsoft.PowerShell.Commands.GetItemCommand"
+                                },
+                       "ExplicitPaths":  [
+
+                                         ],
+                       "ImmediateListings":  [
+
+                                             ]
+                   },
+                   {
+                       "Id":  "gray1-20260922",
+                       "Root":  {
+                                    "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据",
+                                    "Status":  "EXISTS",
+                                    "Kind":  "directory",
+                                    "ReparsePoint":  false
+                                },
+                       "ExplicitPaths":  [
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\datasets\\train.tar",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\datasets\\cal462.tar",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\datasets\\eval462.tar",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\datasets\\yolo-medium-index-20260917.json",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\results\\inference_6600.tar",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\results\\training",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "directory",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\results\\training\\experiments\\pose21_gray1_m_50e_20260917_113127\\weights\\best.pt",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\results\\quantization",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "directory",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\results\\quantization\\20260920_063903_Pose21_Gray1_weight-only_accuracy_valida_quantized_bundle.zip",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\results\\quantization\\input_symlinks.tar",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\README_BACKUP_AND_RESTORE.md",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             }
+                                         ],
+                       "ImmediateListings":  [
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "20260928_FPGA逐层适配",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "20260928_FPGA逐层适配.zip",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "datasets",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "docs",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "layers_test",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "README_BACKUP_AND_RESTORE.md",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "results",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo_ppt",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\datasets",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "cal462.tar",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "cal462.tar.sha256",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "eval462.tar",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "eval462.tar.sha256",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "train.tar",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "train.tar.sha256",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-medium-index-20260917.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-medium-index-20260917.json.sha256",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\results",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "inference_6600.tar",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "inference_6600.tar.sha256",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "quantization",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "training",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\results\\training",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "dataset.container.yaml",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "experiments",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度量化数据\\results\\quantization",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "20260920_063903_Pose21_Gray1_weight-only_accuracy_valida_quantized_bundle.zip",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "input",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "input_cali_files.txt",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "input_manifest.md",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "input_symlinks.tar",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "input_symlinks.tar.sha256",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "input_test_files.txt",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "input_validation.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "job_config.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "logs",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "manifest.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "README_bundle.md",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "results",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 }
+                                             ]
+                   },
+                   {
+                       "Id":  "raw-dataset-20260922",
+                       "Root":  {
+                                    "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\snapshots\\auto-landmark-Dataset-20260922-161828",
+                                    "Status":  "EXISTS",
+                                    "Kind":  "directory",
+                                    "ReparsePoint":  false
+                                },
+                       "ExplicitPaths":  [
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\snapshots\\auto-landmark-Dataset-20260922-161828\\archives",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "directory",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\snapshots\\auto-landmark-Dataset-20260922-161828\\snapshot.json",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\snapshots\\auto-landmark-Dataset-20260922-161828\\source-files.jsonl",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\snapshots\\auto-landmark-Dataset-20260922-161828\\shards.jsonl",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\snapshots\\auto-landmark-Dataset-20260922-161828\\shard-plan.json",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\snapshots\\auto-landmark-Dataset-20260922-161828\\filelists",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "directory",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\snapshots\\auto-landmark-Dataset-20260922-161828\\SHA256SUMS",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\snapshots\\auto-landmark-Dataset-20260922-161828\\verification-report.md",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\snapshots\\auto-landmark-Dataset-20260922-161828\\VERIFIED",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             }
+                                         ],
+                       "ImmediateListings":  [
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\snapshots\\auto-landmark-Dataset-20260922-161828",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "archives",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "filelists",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "README.md",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "SHA256SUMS",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "shard-plan.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "shards.jsonl",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "snapshot.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "source-files.jsonl",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "verification-report.md",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "VERIFIED",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\snapshots\\auto-landmark-Dataset-20260922-161828\\archives",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "aituosha.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "full.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "metadata.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "moon.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "onboard.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-test-0001.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-test-0002.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-test-0003.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0001.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0002.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0003.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0004.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0005.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0006.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0007.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0008.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0009.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0010.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0011.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0012.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0013.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0014.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0015.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0016.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0017.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0018.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0019.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0020.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-train-0021.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-val-0001.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-val-0002.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-val-0003.tar.zst",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 }
+                                             ]
+                   },
+                   {
+                       "Id":  "r-only-20260925",
+                       "Root":  {
+                                    "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\历史实验\\20260903-04_21类R-only过渡实验",
+                                    "Status":  "EXISTS",
+                                    "Kind":  "directory",
+                                    "ReparsePoint":  false
+                                },
+                       "ExplicitPaths":  [
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\历史实验\\20260903-04_21类R-only过渡实验\\metadata\\selection-manifest.jsonl",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\历史实验\\20260903-04_21类R-only过渡实验\\SHA256SUMS",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\历史实验\\20260903-04_21类R-only过渡实验\\VERIFIED",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             }
+                                         ],
+                       "ImmediateListings":  [
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\历史实验\\20260903-04_21类R-only过渡实验",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "archive-manifest.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "metadata",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "model",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "README.md",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "SHA256SUMS",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "VERIFIED",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\历史实验\\20260903-04_21类R-only过渡实验\\metadata",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "20260903_class21_r_only_job_config.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "selection-manifest.jsonl",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "source-snapshot.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "verification-summary.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 }
+                                             ]
+                   },
+                   {
+                       "Id":  "test500-20261013",
+                       "Root":  {
+                                    "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20261013_21类目标FPGA上板测试数据",
+                                    "Status":  "EXISTS",
+                                    "Kind":  "directory",
+                                    "ReparsePoint":  false
+                                },
+                       "ExplicitPaths":  [
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20261013_21类目标FPGA上板测试数据\\BACKUP_MANIFEST.json",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20261013_21类目标FPGA上板测试数据\\BACKUP_SHA256SUMS",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20261013_21类目标FPGA上板测试数据\\BACKUP_VERIFIED.json",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             }
+                                         ],
+                       "ImmediateListings":  [
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20261013_21类目标FPGA上板测试数据",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "1-metadata",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "2-raw",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "3-gray",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "4-net1280",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "5-cam2000",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "6-results",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "7-scripts",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "BACKUP_MANIFEST.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "BACKUP_SHA256SUMS",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "BACKUP_VERIFIED.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "model.pt",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "pose21_gray1_weight_only_accuracy_output.onnx",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "SHA256SUMS",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "VERIFIED",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 }
+                                             ]
+                   },
+                   {
+                       "Id":  "images-20261016",
+                       "Root":  {
+                                    "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images",
+                                    "Status":  "EXISTS",
+                                    "Kind":  "directory",
+                                    "ReparsePoint":  false
+                                },
+                       "ExplicitPaths":  [
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\README.md",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\INDEX.json",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\SHA256SUMS",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\VERIFIED",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\records\\backup-20261016.json",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\yolo_gray1_1280_train_predict\\yolo-gray1_1280-train-predict-20261016.tar",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\yolo_gray1_1280_train_predict\\yolo-runtime.tar.gz",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\yolo_gray1_1280_train_predict\\source.bundle",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\yolo_gray1_1280_train_predict\\source.tar.gz",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\yolo_gray1_data_pipeline\\yolo_gray1_data_pipeline.tar",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\yolo_gray1_data_pipeline\\source.bundle",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\yolo_gray1_data_pipeline\\source.tar.gz",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\quantitize_platform_api\\quantitize_platform_api.tar",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\quantitize_platform_api\\source.bundle",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\quantitize_platform_api\\source.tar.gz",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\quantitize_platform_web\\quantitize_platform_web.tar",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\quantitize_platform_web\\source.bundle",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\quantitize_platform_web\\source.tar.gz",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             }
+                                         ],
+                       "ImmediateListings":  [
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "INDEX.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "quantitize_platform_api",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "quantitize_platform_web",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "README.md",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "records",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "SHA256SUMS",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "VERIFIED",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo_gray1_1280_train_predict",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo_gray1_data_pipeline",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\yolo_gray1_1280_train_predict",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "BUILD_IMAGE.md",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "Dockerfile",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "README.md",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "records",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "SHA256SUMS",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "source.bundle",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "source.tar.gz",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "VERIFIED",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-gray1_1280-train-predict-20261016.tar",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo-runtime.tar.gz",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\yolo_gray1_data_pipeline",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "Dockerfile",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "README.md",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "records",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "SHA256SUMS",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "source.bundle",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "source.tar.gz",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "VERIFIED",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "yolo_gray1_data_pipeline.tar",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\quantitize_platform_api",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "Dockerfile",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "quantitize_platform_api.tar",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "README.md",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "records",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "SHA256SUMS",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "source.bundle",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "source.tar.gz",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "VERIFIED",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 },
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\4-代码\\20261016_H200_docker_images\\quantitize_platform_web",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "Dockerfile",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "quantitize_platform_web.tar",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "README.md",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "records",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "SHA256SUMS",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "source.bundle",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "source.tar.gz",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "VERIFIED",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 }
+                                             ]
+                   },
+                   {
+                       "Id":  "pt-20261020",
+                       "Root":  {
+                                    "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\pt文件备份(临时)\\CL-vision-workbench-20261020",
+                                    "Status":  "EXISTS",
+                                    "Kind":  "directory",
+                                    "ReparsePoint":  false
+                                },
+                       "ExplicitPaths":  [
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\pt文件备份(临时)\\CL-vision-workbench-20261020\\MANIFEST.json",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\pt文件备份(临时)\\CL-vision-workbench-20261020\\SHA256SUMS",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\pt文件备份(临时)\\CL-vision-workbench-20261020\\VERIFIED.json",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\pt文件备份(临时)\\CL-vision-workbench-20261020\\docs\\archive\\2026-09-gray1-step15-checkpoint\\best.pt",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\pt文件备份(临时)\\CL-vision-workbench-20261020\\docs\\archive\\2026-09-local-artifact-cleanup\\model\\yolov8x-pose-p6_2class-r-only_baseline_df30b9fb.pt",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             },
+                                             {
+                                                 "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\pt文件备份(临时)\\CL-vision-workbench-20261020\\outputs\\class-21\\20260920_063903_Pose21_Gray1_weight-only_accuracy_valida\\input\\model.pt",
+                                                 "Status":  "EXISTS",
+                                                 "Kind":  "file",
+                                                 "ReparsePoint":  false
+                                             }
+                                         ],
+                       "ImmediateListings":  [
+                                                 {
+                                                     "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\pt文件备份(临时)\\CL-vision-workbench-20261020",
+                                                     "Status":  "LISTED",
+                                                     "Entries":  [
+                                                                     {
+                                                                         "Name":  "docs",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "MANIFEST.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "outputs",
+                                                                         "Kind":  "directory",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "SHA256SUMS",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     },
+                                                                     {
+                                                                         "Name":  "VERIFIED.json",
+                                                                         "Kind":  "file",
+                                                                         "ReparsePoint":  false
+                                                                     }
+                                                                 ]
+                                                 }
+                                             ]
+                   }
+               ],
+    "AdditionalPaths":  [
+                            {
+                                "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\yolo-full-index-20260917.json",
+                                "Status":  "EXISTS",
+                                "Kind":  "file",
+                                "ReparsePoint":  false
+                            },
+                            {
+                                "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\00_恢复说明_README.md",
+                                "Status":  "EXISTS",
+                                "Kind":  "file",
+                                "ReparsePoint":  false
+                            },
+                            {
+                                "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\01_恢复_AGENT提示词.md",
+                                "Status":  "EXISTS",
+                                "Kind":  "file",
+                                "ReparsePoint":  false
+                            },
+                            {
+                                "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\RESTORE_DOCS_SHA256SUMS",
+                                "Status":  "EXISTS",
+                                "Kind":  "file",
+                                "ReparsePoint":  false
+                            },
+                            {
+                                "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\21类目标R通道图像归档\\catalog\\snapshots.jsonl",
+                                "Status":  "EXISTS",
+                                "Kind":  "file",
+                                "ReparsePoint":  false
+                            },
+                            {
+                                "Path":  "\\\\10.2.26.26\\902_data\\0-项目\\13-专项\\2-数据集\\LEO模型量化测试数据\\20260922_21目标灰度",
+                                "Status":  "NOT_FOUND",
+                                "ErrorCategory":  "ObjectNotFound",
+                                "ErrorId":  "PathNotFound,Microsoft.PowerShell.Commands.GetItemCommand"
+                            }
+                        ]
+}

@@ -1,6 +1,6 @@
 # Pose21 Gray1 NAS 备份与环境恢复
 
-> 文档整理日期：2026-10-18；环境备份证据截至 2026-10-16，本机 PT 临时副本证据截至 2026-10-20
+> 文档更新日期：2026-11-10；本次仅复查 NAS 路径存在性，见第 3.7 节，未校验备份内容、解压或新增 NAS 发布。环境备份基线仍为 2026-10-16。本机 PT 临时副本及 5090 资产/CPU 恢复见第 3.6、6.5 节；整套恢复缺口见第 8 节。
 > 当前顶层状态：`PARTIAL`
 > 当前环境备份基线：`20261016_H200_docker_images`，四类镜像及受跟踪源码为 `ASSET_VERIFIED`；数据与结果沿用各自独立归档。
 
@@ -8,7 +8,7 @@
 
 > 10.16 版于 14:03 完成统一归档：训练目录 22 项文件、预处理/API/Web 各 9 项文件全部通过校验。训练原备份曾完成现有 H200 daemon 导入与 CPU 复测；新增三个归档完成配置/层哈希和 NAS 回读验证，未执行导入。统一目录见第 4 节，镜像恢复入口见第 6.4 节。
 
-> 除第 3.6 节的本机 PT 副本外，本文沿用已有备份记录，未重新验收 H200、旧数据集与结果。
+> 10.20 已核对 H200 运行依赖/挂载，并在 5090 恢复四类镜像、完整 Gray1 train/val/test、cal462/eval462 与冻结模型，通过独立哈希和 CPU 检查；见[执行记录](../class-21/operations/runs/20261020-5090-assets-restore.md)。未重新验收 GPU、服务、历史结果或完整预处理流程；第 2–4 节旧归档身份仍保留原证据日期。
 
 NAS 是网络存储；镜像保存软件环境，源码保存程序，模型与数据需要分别恢复。SHA-256 是内容指纹，隔离恢复是在不依赖现用系统的独立环境验证能否重新运行。
 
@@ -203,6 +203,29 @@ test "$(docker image inspect "$IMAGE" --format '{{.Id}}')" = "$EXPECTED"
 
 快照内三份 PT 共 597,222,110 字节，独立回读大小与 SHA-256 全部一致。`MANIFEST.json`、`SHA256SUMS` 和 `VERIFIED.json` 记录范围与结果；manifest SHA-256 为 `2696bea88298c26663131e8ed1cd81c51a43352b3a9057316bdaec936b3e9a33`。本机原件仍保留，临时 NAS 目录不等于独立异地备份；尚未做隔离恢复，不升级整套恢复状态。
 
+### 3.7 2026-11-10 NAS 路径存在性复查
+
+检查时间：2026-11-10 16:28:34～16:33:34（北京时间，含旧路径补查）。通过本机 Windows SMB 直接访问 `\\10.2.26.26\902_data`，仅查询路径类型和指定目录的直属名称。没有读取 NAS 文件内容、计算哈希、执行格式测试或解压，没有写入 NAS、挂载或连接 H200。下面的“存在”只说明目录项可见，不提高原有完整性或恢复状态。
+
+8 组记录中的 7 组根目录存在，本轮明确查询的 55 个关键路径全部存在；另列目录项确认原始 Dataset 的 32 个压缩分片。09-02 系统快照旧根路径未找到，其新位置未确认。完整逐项结果见[首次检查 JSON](../../rebuild/data-backup/evidence/nas-paths-20261110/paths.json)及[补查记录](../../rebuild/data-backup/evidence/nas-paths-20261110/README.md)。
+
+| 历史备份 | NAS 完整目录 | 2026-11-10 观察与检查范围 |
+|---|---|---|
+| 09-01 源端迁移备份 | `\\10.2.26.26\902_data\3-个人\16-王宇航\3-Project\2-DRO\模型量化\quantitize-platform-backup-20260901` | 存在；`docker-images.tar.zst`、`quantitize-platform-code.tar.zst`、`shared-data.tar.zst`、`output-data.tar.zst`、`yolov8_env.tar.gz` 五个文件均存在 |
+| 09-02 H200 系统快照 | `\\10.2.26.26\902_data\0-项目\13-专项\4-代码\量化平台\H200\snapshot-20260902-182606` | **旧路径未找到**；父目录 `量化平台`、`H200` 也未找到；不能沿此地址访问原记录中的三个归档文件，新位置尚未确认 |
+| 09-22 Gray1 数据与结果 | `\\10.2.26.26\902_data\0-项目\13-专项\2-数据集\LEO模型量化测试数据\20260922_21目标灰度量化数据` | 存在；三个 dataset TAR、M 选择索引、`inference_6600.tar`、training/quantization 目录、冻结 `best.pt`、量化交付 ZIP、input_symlinks.tar 与恢复 README 均存在；未逐项遍历全部训练/量化结果 |
+| 09-22～23 原始 Dataset | `\\10.2.26.26\902_data\0-项目\13-专项\2-数据集\21类目标R通道图像归档\snapshots\auto-landmark-Dataset-20260922-161828` | 存在；`archives` 直属 32 个 tar.zst 名称可见：21 train、3 val、3 test、5 附属分片；snapshot/source-files/shards/shard-plan、filelists 目录、SHA256SUMS、verification-report、VERIFIED 均存在 |
+| 09-25 旧 R-only 实验 | `\\10.2.26.26\902_data\0-项目\13-专项\2-数据集\21类目标R通道图像归档\历史实验\20260903-04_21类R-only过渡实验` | 存在；`model/best.pt`、`metadata/selection-manifest.jsonl`、SHA256SUMS、VERIFIED 等目录项可见；图片/标签仍按历史设计引用原始快照 |
+| 10-13 工程测试批次 | `\\10.2.26.26\902_data\0-项目\13-专项\2-数据集\LEO模型量化测试数据\20261013_21类目标FPGA上板测试数据` | 存在；1～7 编号目录、PT/ONNX、三个 BACKUP 审计文件、SHA256SUMS、VERIFIED 可见；**没有逐个检查 6,077 个数据文件** |
+| 10-16 镜像与源码 | `\\10.2.26.26\902_data\0-项目\13-专项\4-代码\20261016_H200_docker_images` | 存在；四个镜像 TAR、训练离线运行时、四组 source.bundle/source.tar.gz、集合记录与顶层清单/标记存在；四个资产目录的 records 目录可见，未展开内部全部记录 |
+| 10-20 三份 PT 临时副本 | `\\10.2.26.26\902_data\0-项目\13-专项\2-数据集\pt文件备份(临时)\CL-vision-workbench-20261020` | 存在；第 3.6 节三份 PT 的完整相对路径及 MANIFEST.json、SHA256SUMS、VERIFIED.json 均存在 |
+
+原始 Dataset 上级归档根的 `yolo-full-index-20260917.json`、两份恢复说明、`RESTORE_DOCS_SHA256SUMS` 与 `catalog/snapshots.jsonl` 也均存在。Gray1 的旧名 `20260922_21目标灰度` 未找到，当前应使用表中的 `20260922_21目标灰度量化数据`；此次未做更名或移动。
+
+关于 09-02：只补查了原父目录以及已观察到的 `4-代码/历史遗留`、其 `quantitized` 和 `quantitized/code` 子目录的直属名称，没有发现同名快照；未递归搜索其他项目或整块共享盘。因此记录为“旧路径不存在、新位置未确认”，不推断删除、损坏或内容已被其他快照替代。缺口另见[待核对项](OPEN_QUESTIONS.md)。
+
+09-19 停止任务没有生成 NAS 资产；H200 分支 bundle、本机 quantitize-backups 和 5090 恢复目录不属于这次 NAS 路径检查。dataset3～8 没有已记录的 NAS 备份地址，本轮未对其作存在性结论。
+
 ## 4. NAS 结构与清单
 
 当前环境恢复优先使用 10.16 统一目录；早期系统快照、旧 v1 环境仅作历史追溯。目录中的大文件不重复合并：
@@ -347,7 +370,7 @@ python3 -m json.tool "$run/artifacts/summary.json" | head -80
 
 ### 6.4 按 10.16 版恢复 Docker 镜像
 
-以下命令用于已授权的新建或隔离 Linux Docker 环境，仅导入指定镜像，不启动服务或申请 GPU。将 `ASSET` 设为第 4 节四个资产目录名之一；镜像配置、数据、模型及宿主驱动需另行恢复。
+以下命令用于已授权的新建或隔离 Linux Docker 环境，仅导入指定镜像，不启动服务或申请 GPU。将 `ASSET` 设为第 4 节四个资产目录名之一；镜像配置、数据、模型及宿主驱动需另行恢复。代码中的 `.Id == EXPECTED` 适用于返回配置 digest 的 H200 既有后端；10.20 的 5090 containerd 返回 manifest digest，必须改按第 6.5 节核对，不能忽略不匹配后继续。
 
 ```bash
 set -euo pipefail
@@ -389,6 +412,20 @@ test "$(docker image inspect "$IMAGE" --format '{{.Id}}')" = "$EXPECTED"
 
 恢复验收按镜像身份、源码/模块路径、CPU 固定样本、API/Web health 和 API ready 依次进行。10.16 备份时 API ready 已为 503，应单独排查；镜像导入成功不表示该异常已经修复。GPU 训练或量化测试须另按 RUNBOOK 检查资源与任务授权，不能将归档校验直接视为业务精度或 FPGA 验收。
 
+### 6.5 跨存储后端的镜像身份核验
+
+2026-10-20 在 5090 导入原归档时发现：目标 `docker image inspect .Id` 与 H200 不同，但它恰好是原 TAR 的 `index.json` 所引用的 OCI manifest digest。该 manifest 的 config digest 与第 2 节原 H200 镜像 ID 一致。配置内容与全部层 diff IDs 均一致，精确四组对应及证据见[恢复记录](../class-21/operations/runs/20261020-5090-assets-restore.md#4-两类-docker-身份的对应)。
+
+遇到这种情况，不修改旧归档清单、不把新 ID 冒充旧配置哈希，也不更换全局 Docker 存储后端。按以下证据链验收：
+
+1. 原 TAR SHA-256、资产清单与完成标记必须通过。
+2. 读取 TAR `manifest.json` 指定的配置 blob，计算内容 SHA-256，必须等于已冻结的 H200 配置 ID。
+3. 读取 TAR `index.json` 指向的 manifest，验证其内容 digest，并核对它引用同一配置 digest。
+4. 目标 `.Id` 必须匹配这个经验证的 manifest digest（或原配置 digest）；目标全部 RootFS diff IDs 必须等于原配置的 `rootfs.diff_ids`。
+5. 运行配置字段继续核对；本次只接受缺省 `User`/`WorkingDir` 的空字符串与 null 表示差异，不接受不同用户、命令或环境值。
+
+导入前若目标标签已存在但不能通过身份链，停止，不覆盖它。导入后按目标实际不可变 digest 固定验证容器，并同时保留源配置 ID 与目标 manifest ID。镜像内容验收不替代 CPU/GPU 和服务验收。
+
 ## 7. H200 清理边界
 
 以下资产已有已验证 NAS 副本，可作为后续清理候选，但删除必须是独立任务，并在抽样解包或隔离恢复后执行：
@@ -410,10 +447,10 @@ test "$(docker image inspect "$IMAGE" --format '{{.Id}}')" = "$EXPECTED"
 - `snapshot-20260902-182606` 是 pre-Gray1 快照。
 - `ywang-yolo-gray1-env-20260909_124030` 是较早训练环境快照，不能代表当前全部环境。
 - 2026-10-15 确认的 `4-代码/训练平台/yolo-gray1-train/` 属于历史 v1 备份；2026-10-16 当前完整训练/PT 镜像、离线运行时和受跟踪源码已补充到第 3.3 节的新目录。旧目录仍保留，不把其标签标记当作当前镜像身份。
-- 当前四类镜像与受跟踪源码已归档，见第 3.3、3.4 节。未知诊断文件、平台未跟踪工具、部署凭据、独立离线构建依赖及 FPGA 发布身份仍需按范围补齐；还需完成 6,600 张量化 ONNX 回归与真实 FPGA 数值闭环。
-- 尚未执行从 NAS 到隔离目录的完整恢复、模型加载和固定样本复测，因此不能升级为 `RECOVERY_VERIFIED`。
+- 当前四类镜像与受跟踪源码已归档，见第 3.3、3.4 节。10.20 已将四份未跟踪工具/诊断材料独立保存到 5090，但未启用或新增 NAS 发布；其余诊断文件、部署凭据、独立离线构建依赖及 FPGA 发布身份仍需按范围补齐。还需完成 6,600 张量化 ONNX 回归与真实 FPGA 数值闭环。
+- 10.20 已完成 5090 资产/CPU [恢复](../class-21/operations/runs/20261020-5090-assets-restore.md)；10.21 新增三张固定原图、PyTorch GPU 及适配配置的训练/续训[烟测](../class-21/operations/runs/20261021-5090-preprocess-gpu-training.md)。量化/ORT CUDA、正式服务与完整恢复验收仍缺失，整套保持 `PARTIAL`，不能升级为 `RECOVERY_VERIFIED`；新脚本、checkpoint 与证据尚未新增 NAS 发布。
 - 后增资产覆盖见第 3.5 节：工程批次后加索引、逐层 trace 与 10.18 新 main/bundle 均需独立核对；不得把 H200 本地归档当成异机副本。
 - 5090 部署与双向接管仍属[03 TODO 计划](03_5090训练测试推理与量化运行环境.md)。模型全量回归和 FPGA 精度是业务验收，不作为灾备资产校验的替代条件。
 - 历史任务 [`gray1-partial-20260919-010348`](../archive/2026-09-gray1-blocked-backup-run/README.md) 曾因 `shared_data` 持续变化而在写 NAS 前停止；它不是当前这批已验证备份的状态。
 
-下一步优先在隔离环境导入 10.16 四类镜像，恢复对应源码/部署配置并做固定样本验证，再补齐独立离线构建材料和 API 基础镜像入口。后续按 FP16、量化、软件回环和 FPGA 实机发布追加身份与验收证据。计划资产齐全且引用可解析时才可标记 `COMPLETE`；完成隔离恢复与验收后才可标记 `RECOVERY_VERIFIED`。
+下一步按平台 03 冻结正式对照与数值容差，验证 PT/ONNX、量化及正式服务；独立离线构建材料与 API 基础镜像入口仍需补齐。后续按 FP16、量化、软件回环和 FPGA 实机发布追加身份与验收证据。计划资产齐全且引用可解析时才可标记 `COMPLETE`；完成整套隔离恢复与验收后才可标记 `RECOVERY_VERIFIED`。

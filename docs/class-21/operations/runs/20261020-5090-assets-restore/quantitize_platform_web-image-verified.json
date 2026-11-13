@@ -1,0 +1,20 @@
+{
+  "status": "IMAGE_CONTENT_VERIFIED",
+  "tag": "quantitize-platform-web:latest",
+  "archive_sha256": "74c7a66c2f255668e22f676f5e101f55f07d3c5f2dbf9741adab51d3e0fc167e",
+  "h200_config_digest": "sha256:7aef48747d3fc4270f85133382ffbcf83ea0c53e831f06978ac777b48743d9e9",
+  "archive_manifest_digest": "sha256:0b38dfdbac14613c262ef5277af69ccbc2107782dcd186eca52e9c1b686c1599",
+  "target_image_id": "sha256:0b38dfdbac14613c262ef5277af69ccbc2107782dcd186eca52e9c1b686c1599",
+  "layer_diff_ids": [
+    "sha256:1d69a5fd31932841d7825ef4780c06f008eea65aaa9f3110fe09d5832ed5c7d8",
+    "sha256:52b622427b589c285e2050412206455922433042980dd60692cd1916a3b36216",
+    "sha256:abe239c61612f687cb1ff7d384961b0f141a8234a2147ea59d99adebe1362103",
+    "sha256:c5a2bd506e3a6934bb02bee775fe8e842e884ff3780597e11b9a8b83cdecc9af",
+    "sha256:75ff0308e5044c06b1ba628123eb96aa005c33d0b4b7cdb6f09960fad3f2de36",
+    "sha256:b0b1f16461eedc6d7aa284710b11c97e304ade8ebfccbbb1e2cd5b67f7b193d1",
+    "sha256:c6f762415e32c2a6482ddd83f28b76fd8c1672258278500028c2a5920a280f3a",
+    "sha256:50118b8a5850106a85df31103de0fcb40db5311c9f157858250168f7748bec11"
+  ],
+  "config_fields_equal": true,
+  "gpu_tested": false
+}

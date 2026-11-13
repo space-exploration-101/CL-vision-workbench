@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "completed_at_utc": "2026-10-13T01:41:55.858165+00:00",
+  "source": "/data1/ywang/pose21-raw-gray-test500-20261012-v1",
+  "destination": "/mnt/ywang-nas/0-\u9879\u76ee/13-\u4e13\u9879/2-\u6570\u636e\u96c6/LEO\u6a21\u578b\u91cf\u5316\u6d4b\u8bd5\u6570\u636e/20261013_21\u7c7b\u76ee\u6807FPGA\u4e0a\u677f\u6d4b\u8bd5\u6570\u636e",
+  "source_files": 6077,
+  "source_directories": 25,
+  "source_bytes": 16766791565,
+  "source_rehashed_after_copy": true,
+  "nas_readback_sha256_all_match": true,
+  "source_retained": true,
+  "symlinks": 0,
+  "backup_manifest_sha256": "b67d1f4cc55155b9d8ca8a9199b27280a7eaf4dbdcb67dee2cbeda1ea5d122c4",
+  "backup_sha256sums_sha256": "e3d8e938903944a4ffae86c3f6e880916a87bd508233630e3e77c3ef020a17cf",
+  "elapsed_seconds": 592.019
+}

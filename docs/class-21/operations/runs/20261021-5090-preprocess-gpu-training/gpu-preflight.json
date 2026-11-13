@@ -1,0 +1,127 @@
+[
+  {
+    "time": "2026-10-21T00:38:58.963299+00:00",
+    "uuid": "GPU-90ad73b0-4d19-c3ee-e27f-b4adc6c62f43",
+    "used_mib": 209,
+    "free_mib": 31878,
+    "utilization": 0,
+    "compute_apps": "",
+    "processes": [
+      {
+        "pid": "2017",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    2017    09:32:27 Sl+  Xorg"
+      },
+      {
+        "pid": "2177",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    2177    09:32:26 Ssl  gnome-shell"
+      },
+      {
+        "pid": "4899",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    4899    09:32:01 Sl   rustdesk"
+      }
+    ]
+  },
+  {
+    "time": "2026-10-21T00:39:01.200870+00:00",
+    "uuid": "GPU-90ad73b0-4d19-c3ee-e27f-b4adc6c62f43",
+    "used_mib": 209,
+    "free_mib": 31878,
+    "utilization": 0,
+    "compute_apps": "",
+    "processes": [
+      {
+        "pid": "2017",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    2017    09:32:29 Sl+  Xorg"
+      },
+      {
+        "pid": "2177",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    2177    09:32:28 Ssl  gnome-shell"
+      },
+      {
+        "pid": "4899",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    4899    09:32:03 Sl   rustdesk"
+      }
+    ]
+  },
+  {
+    "time": "2026-10-21T00:39:03.428019+00:00",
+    "uuid": "GPU-90ad73b0-4d19-c3ee-e27f-b4adc6c62f43",
+    "used_mib": 209,
+    "free_mib": 31878,
+    "utilization": 0,
+    "compute_apps": "",
+    "processes": [
+      {
+        "pid": "2017",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    2017    09:32:31 Sl+  Xorg"
+      },
+      {
+        "pid": "2177",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    2177    09:32:30 Ssl  gnome-shell"
+      },
+      {
+        "pid": "4899",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    4899    09:32:05 Sl   rustdesk"
+      }
+    ]
+  },
+  {
+    "time": "2026-10-21T00:39:05.670437+00:00",
+    "uuid": "GPU-90ad73b0-4d19-c3ee-e27f-b4adc6c62f43",
+    "used_mib": 209,
+    "free_mib": 31878,
+    "utilization": 0,
+    "compute_apps": "",
+    "processes": [
+      {
+        "pid": "2017",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    2017    09:32:34 Sl+  Xorg"
+      },
+      {
+        "pid": "2177",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    2177    09:32:33 Ssl  gnome-shell"
+      },
+      {
+        "pid": "4899",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    4899    09:32:08 Sl   rustdesk"
+      }
+    ]
+  },
+  {
+    "time": "2026-10-21T00:39:07.924748+00:00",
+    "uuid": "GPU-90ad73b0-4d19-c3ee-e27f-b4adc6c62f43",
+    "used_mib": 209,
+    "free_mib": 31878,
+    "utilization": 0,
+    "compute_apps": "",
+    "processes": [
+      {
+        "pid": "2017",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    2017    09:32:36 Sl+  Xorg"
+      },
+      {
+        "pid": "2177",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    2177    09:32:35 Ssl  gnome-shell"
+      },
+      {
+        "pid": "4899",
+        "type": "G",
+        "owner": "USER         PID     ELAPSED STAT COMMAND\nubuntu22    4899    09:32:10 Sl   rustdesk"
+      }
+    ]
+  }
+]

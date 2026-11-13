@@ -1,0 +1,9 @@
+{
+  "status": "EXTRACTED_AND_REREAD_VERIFIED",
+  "archive": "/home/ubuntu22/CL01_02/assets/data-20260922/train.tar",
+  "archive_sha256": "ce3e93d15311ff75fc46e28eaf2a551de055f459cf01ba2c8638ca21979088d5",
+  "target": "/home/ubuntu22/CL01_02/datasets/pose21-gray1-1280-m-v1",
+  "files": 53597,
+  "bytes": 15463039349,
+  "symlinks": 0
+}

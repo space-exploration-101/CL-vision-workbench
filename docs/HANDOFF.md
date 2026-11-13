@@ -31,7 +31,8 @@
 
 | 问题 | 阅读顺序 |
 |---|---|
-| 模型、数据或接口是什么 | [class-21](class-21/README.md) → 对应知识或架构 → 原始报告与精确附件 |
+| 21类地标模型、数据或接口是什么 | [class-21](class-21/README.md) → 对应知识或架构 → 原始报告与精确附件 |
+| 地球、月球两类数据与实验是什么 | [Earth_Moon](Earth_Moon/README.md) → 实验过程报告 → 原始笔记；与21类模型分别阅读 |
 | 服务异常或日常运维 | [operations](operations/README.md) → 对应诊断/服务任务卡 → 必需的事实来源 |
 | 主机损坏或从源码重建 | [恢复方法](reference/RECOVERY.md) → [rebuild](../rebuild/README.md) → 匹配的资产与构建材料 |
 | 要了解算法、评估或性能方法 | [reference](reference/README.md)，不把示例当作当前结果 |

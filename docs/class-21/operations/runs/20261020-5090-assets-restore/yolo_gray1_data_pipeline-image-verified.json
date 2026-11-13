@@ -1,0 +1,22 @@
+{
+  "status": "IMAGE_CONTENT_VERIFIED",
+  "tag": "ywang/yolo-gray1-data-pipeline:0.2.1",
+  "archive_sha256": "7baa5c1050ee25768b182383453da581194f4f2ffdbc830aff56f0d23a69c011",
+  "h200_config_digest": "sha256:ae238a8a9099ef31a6c06ef788d964ec9dcc4875f80958cd765c1614b90892db",
+  "archive_manifest_digest": "sha256:17651daceb518e6ebd8220f8bbaa0ddddbfde841d73e7631a1cf66a95d7e8889",
+  "target_image_id": "sha256:17651daceb518e6ebd8220f8bbaa0ddddbfde841d73e7631a1cf66a95d7e8889",
+  "layer_diff_ids": [
+    "sha256:60e70dddd9ea3b1c77c62fe78be1d9f485706b6fe6052c3d88612bd8f56acd67",
+    "sha256:1b9ade8c8459674182c2680f6a5bb9397cce174c81375ea69850dac147b70be9",
+    "sha256:55ae106bd30cf5dba810b1c376cb4f7ea254f683d53617a2dbf6d92765452c60",
+    "sha256:23648ecf9819b23465acb4cadd96f5d205eb71a4644daff240dbcedcad0c38d9",
+    "sha256:46e4c559d78cc2f9313953daa2fe6d83c893d5a8f222957a075ca8d60a3cbe00",
+    "sha256:85eb68fb6bc46d797bf604e97bdbd2828638eeb787525f62380d9657b76e70b3",
+    "sha256:3a352a9d056ddae411088de6274e176b7a4808e068989f5991a60f63ce9ce7d2",
+    "sha256:6358f843270a397355a21f3d3ad8d6afde20199919d5b02dfc8228d30c5c7dd7",
+    "sha256:bed22240f6835db2fbd6e6357f78864fe6485ee8193abe5b4347946fb0e56362",
+    "sha256:ce3cc4a3c1f65e26c834e843f96a30d64881e342daf0f14f16f5b3a17083cc48"
+  ],
+  "config_fields_equal": true,
+  "gpu_tested": false
+}

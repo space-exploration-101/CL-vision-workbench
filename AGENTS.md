@@ -40,7 +40,7 @@
 - 人类从 [docs/HANDOFF.md](docs/HANDOFF.md) 开始；Agent 不必把整套人类教程载入上下文。
 - 文档维护先读 [任务卡](docs/agent/tasks/DOCUMENTATION.md)。当前状态保留一处详细来源，其他入口用摘要和链接，不追加多轮运行日志。
 - `docs/archive/`、`rebuild/legacy/`、`.tmp/`、`task-artifacts/` 是历史或临时材料，只在具体任务需要时读取。
-- 当前报告在 `docs/class-21/reports/current/`，正式附件在 [outputs/class-21/](outputs/class-21/README.md)，过渡实验在 [历史实验归档](docs/archive/2026-09-class21-transition/README.md)。按报告中的精确路径访问附件，不批量展开；outputs 中的其他预览不作为验收依据。
+- 21类当前报告在 `docs/class-21/reports/current/`；地球、月球两类材料独立放在 [docs/Earth_Moon/](docs/Earth_Moon/README.md)。21类正式附件在 [outputs/class-21/](outputs/class-21/README.md)，过渡实验在 [历史实验归档](docs/archive/2026-09-class21-transition/README.md)。按报告中的精确路径访问附件，不批量展开；outputs 中的其他预览不作为验收依据。
 - 本机根 Git 仓库只管理允许纳入的文档、原始数据和日志；`*.bin`、`*.zip` 暂不跟踪，work、临时脚本及依赖也不跟踪，不能用 `git add -f` 绕过规则。详见[版本管理](docs/VERSION_CONTROL.md)。未明确授权不提交、不设置远程或推送。
 - 不用全局字符串替换更改 `quantitize-platform`、镜像、NAS、备份根目录或冻结历史路径。本机根目录现为 `E:\codex\CL-vision-workbench`；旧根路径只按历史证据解释。更名核验见[完成记录](docs/archive/2026-10-workbench-rename/RENAME_COMPLETION.md)。
 - Git 不是完整环境备份。原始证据仍需独立副本与哈希；H200 最新源码目录和旧运行目录以[源码身份](docs/agent/topics/REPOSITORIES.md)区分。

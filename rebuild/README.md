@@ -7,7 +7,8 @@
 1. 先读 [CURRENT_STATE](CURRENT_STATE.md)，确认已覆盖资产和剩余缺口。
 2. 按 [REBUILD_GUIDE](REBUILD_GUIDE.md) 选择导入镜像或重新构建。
 3. [rebuild-manifest.yml](rebuild-manifest.yml) 是当前恢复摘要索引，不是自动安装清单。
-4. 当前本地清单为 [SHA256SUMS.20261020-platform-renumber](SHA256SUMS.20261020-platform-renumber)。原 SHA256SUMS 与此前版本均原样保留；旧清单按对应阶段副本验证，不能用来判断本轮文档仍与旧版相同。校验只证明本地文件身份，不证明 NAS 或恢复成功；本轮副本见[重新编号记录](../docs/archive/2026-10-platform-renumber/README.md)。
+4. 数据备份的历史、背景、解包使用说明、预存提示词和常用脚本快照统一从 [data-backup](data-backup/README.md) 进入；原始报告与维护脚本仍保持原位。
+5. 当前本地清单为 [SHA256SUMS.20261113-earth-moon-links](SHA256SUMS.20261113-earth-moon-links)。2026-11-13 仅更新地月报告的导航及本地清单，见[迁移审计](../task-artifacts/20261113-earth-moon-relocation/README.md)；11-10 版本 [SHA256SUMS.20261110-nas-paths](SHA256SUMS.20261110-nas-paths) 保持原样。原 SHA256SUMS 与此前版本均原样保留；旧清单按对应阶段副本验证，不能用来判断本轮文档仍与旧版相同。校验只证明本地文件身份，不证明 NAS 内容或恢复成功；本轮见[NAS 路径复查与文档记录](data-backup/audit/20261110-nas-paths/README.md)，上一轮见[资料整理记录](data-backup/audit/20261110/README.md)。
 
 过期的环境清单、Dockerfile 和验证脚本已归入 [legacy](legacy/README.md)，不可直接用于当前环境。原始完整目录及旧清单保存在[整理前文档包](../docs/archive/2026-10-documentation-consolidation/README.md)。日常服务故障先看[恢复手册](../docs/reference/RECOVERY.md)。
 

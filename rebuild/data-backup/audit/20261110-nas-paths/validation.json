@@ -1,0 +1,61 @@
+{
+  "status": "PASS_LOCAL_DOCUMENT_SCOPE",
+  "date": "2026-11-10",
+  "nas_operation": "Path existence and immediate directory names only; no file contents, hashes, extraction or writes",
+  "observed_root_groups": 8,
+  "existing_roots": 7,
+  "missing_historical_root": "system-20260902",
+  "existing_explicit_paths": 55,
+  "visible_raw_tar_zst_entries": 32,
+  "documentation_status": "PASS",
+  "documents": 8,
+  "modified_files": [
+    {
+      "path": "rebuild/README.md",
+      "before_sha256": "0d7d613ec40962dc3752065757c784ff3a51d147b49173bf7db2a9b8daf6da0e",
+      "after_sha256": "8323d860d46f6bd67032b6d28a7399a14fc17fec461ab0ff2b994ac58d0398c6"
+    },
+    {
+      "path": "rebuild/data-backup/README.md",
+      "before_sha256": "ffd7bea0a35b37b236c66a013d445805b843859843ec65fe0ccfe6ddcc62010f",
+      "after_sha256": "5b7f5a5e5bb773c53d52c50e2d96403ed3f96906f0845795a4a56767a5fc5830"
+    },
+    {
+      "path": "rebuild/data-backup/HISTORY.md",
+      "before_sha256": "5f5367d079dc780e740841d13fb8111803a207168e3a3585d0586ecc2a431058",
+      "after_sha256": "a1d460442edfd7ead40d038d1f717ce74266a652290f134ec84aee25c61bc016"
+    },
+    {
+      "path": "docs/platform/01_NAS备份与环境恢复.md",
+      "before_sha256": "58df6cd03b08ac0e688c3209e6fee2f44b89cb869eb1269073c05f3889268a9c",
+      "after_sha256": "2ff2fcb6c2e1fdda9d2ae6cb58b2f29e4540e3954692357d8f697a95d9f419ac"
+    },
+    {
+      "path": "docs/platform/SOURCES.md",
+      "before_sha256": "505214005d10cca006b6dcfbfad0acfa0ed8f7163b2ca5d2b76ed63f2ace213e",
+      "after_sha256": "d3367a3a7e34e78ec258886898a517ff05bfbc61363ab7c2302f7270f60d29c0"
+    },
+    {
+      "path": "docs/platform/OPEN_QUESTIONS.md",
+      "before_sha256": "9abbc2f44c0f85d7279f7da827b9c681a6c152aa9a6dac1edf3151c688997f63",
+      "after_sha256": "5fc9d5ac76e2aa68a87bce8a162dd2d1c6cc36e10fbfa73781657038e6e788b9"
+    }
+  ],
+  "prior_manifest": {
+    "path": "SHA256SUMS.20261110-data-backup",
+    "unchanged": true,
+    "unchanged_covered_entries": 59,
+    "authorized_changed_entries": [
+      "rebuild/README.md",
+      "rebuild/data-backup/HISTORY.md",
+      "rebuild/data-backup/README.md"
+    ]
+  },
+  "before_zip_members": "PASS",
+  "limitations": [
+    "Old system snapshot new location unconfirmed",
+    "No complete inner file enumeration for engineering/training/quantization datasets",
+    "No NAS content verification or recovery",
+    "No Git commit or push"
+  ]
+}

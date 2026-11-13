@@ -1,0 +1,126 @@
+{
+  "source": "/dataset",
+  "selection": "same H200 smoke rule: first 8 train / first 4 val by sorted PNG filename",
+  "files": [
+    {
+      "source": "/dataset/images/train/agaier_000_view_01.png",
+      "output": "/output/attempt2/smoke-dataset/images/train/agaier_000_view_01.png",
+      "sha256": "81f5717c1440585646b514d416a1597917df54b1b270867ec510047100dddab8"
+    },
+    {
+      "source": "/dataset/labels/train/agaier_000_view_01.txt",
+      "output": "/output/attempt2/smoke-dataset/labels/train/agaier_000_view_01.txt",
+      "sha256": "21628dab8ffd21f43a2d2a6790102729100d4aef63ca4c01fd60556309bd4d7d"
+    },
+    {
+      "source": "/dataset/images/train/agaier_000_view_04.png",
+      "output": "/output/attempt2/smoke-dataset/images/train/agaier_000_view_04.png",
+      "sha256": "a13b6df4e21b357909f54f079241298b6fd8f592ebc00b626131dd6f63150029"
+    },
+    {
+      "source": "/dataset/labels/train/agaier_000_view_04.txt",
+      "output": "/output/attempt2/smoke-dataset/labels/train/agaier_000_view_04.txt",
+      "sha256": "f1c92b35c4e35ccdd205aa8824d54936923d7bd547cad2ee3ec9761ea81b7011"
+    },
+    {
+      "source": "/dataset/images/train/agaier_000_view_11.png",
+      "output": "/output/attempt2/smoke-dataset/images/train/agaier_000_view_11.png",
+      "sha256": "92ce6d1108c98037e186d2f277ea14898a18414d6c8c7779564c85981ccead54"
+    },
+    {
+      "source": "/dataset/labels/train/agaier_000_view_11.txt",
+      "output": "/output/attempt2/smoke-dataset/labels/train/agaier_000_view_11.txt",
+      "sha256": "f9ef84912ad00dda2f380c9a9e8e346e493320fa1c5258445b5992312105780d"
+    },
+    {
+      "source": "/dataset/images/train/agaier_000_view_15.png",
+      "output": "/output/attempt2/smoke-dataset/images/train/agaier_000_view_15.png",
+      "sha256": "9fe4b88570ec8f68a810b34f4a18b267b804f64c0036dab4b6743fba518a9308"
+    },
+    {
+      "source": "/dataset/labels/train/agaier_000_view_15.txt",
+      "output": "/output/attempt2/smoke-dataset/labels/train/agaier_000_view_15.txt",
+      "sha256": "79d9149a687d124f6156f0dc363c1d5761f0f3ff73ef4863da1862ab51d3ba0c"
+    },
+    {
+      "source": "/dataset/images/train/agaier_000_view_16.png",
+      "output": "/output/attempt2/smoke-dataset/images/train/agaier_000_view_16.png",
+      "sha256": "aef9595fbd1d7b34e34743698f9881eae28804facb1ae868e5f222a2e95bafe3"
+    },
+    {
+      "source": "/dataset/labels/train/agaier_000_view_16.txt",
+      "output": "/output/attempt2/smoke-dataset/labels/train/agaier_000_view_16.txt",
+      "sha256": "1df9fbbfb7590c318a55979286cd14e143f2eff2d60f33fd0ac977a4ed6e9670"
+    },
+    {
+      "source": "/dataset/images/train/agaier_000_view_20.png",
+      "output": "/output/attempt2/smoke-dataset/images/train/agaier_000_view_20.png",
+      "sha256": "cea3ce19ada5edc6b8e1b4da04e9846dc2722060368241bc2d70655d8ba171ad"
+    },
+    {
+      "source": "/dataset/labels/train/agaier_000_view_20.txt",
+      "output": "/output/attempt2/smoke-dataset/labels/train/agaier_000_view_20.txt",
+      "sha256": "fea31f7c5c8200daf95dc44bbd135cd194a1f47636ff93441859afa0e18fed1c"
+    },
+    {
+      "source": "/dataset/images/train/agaier_000_view_25.png",
+      "output": "/output/attempt2/smoke-dataset/images/train/agaier_000_view_25.png",
+      "sha256": "02cae62036c47cd655a02c0761edc3f83fbb76a6893e383b38b2509a6edabaf8"
+    },
+    {
+      "source": "/dataset/labels/train/agaier_000_view_25.txt",
+      "output": "/output/attempt2/smoke-dataset/labels/train/agaier_000_view_25.txt",
+      "sha256": "822db3ab69f6744b30bb1a6cfcd3ffe1e4dc798d7301d8923f02b2f0cdc35109"
+    },
+    {
+      "source": "/dataset/images/train/agaier_000_view_28.png",
+      "output": "/output/attempt2/smoke-dataset/images/train/agaier_000_view_28.png",
+      "sha256": "990f38403f8dc0720e2b60e2a1dbd1a7ad883d5dfbb0b8dfdc6869a2e44c777b"
+    },
+    {
+      "source": "/dataset/labels/train/agaier_000_view_28.txt",
+      "output": "/output/attempt2/smoke-dataset/labels/train/agaier_000_view_28.txt",
+      "sha256": "230466d39fc962b844c74219aaf226b6edfe2a8a4a994ac2375ce37810b34597"
+    },
+    {
+      "source": "/dataset/images/val/agaier_011_view_01.png",
+      "output": "/output/attempt2/smoke-dataset/images/val/agaier_011_view_01.png",
+      "sha256": "d576ed395ca1bdc0a9987a404073684aabb74eff796fa72f29bc628672db702a"
+    },
+    {
+      "source": "/dataset/labels/val/agaier_011_view_01.txt",
+      "output": "/output/attempt2/smoke-dataset/labels/val/agaier_011_view_01.txt",
+      "sha256": "fc3ab136b7a23ec2f58d47758e87fb446bc836dd80623b936e06597d66d2cc15"
+    },
+    {
+      "source": "/dataset/images/val/agaier_011_view_02.png",
+      "output": "/output/attempt2/smoke-dataset/images/val/agaier_011_view_02.png",
+      "sha256": "aa64fff17eb779719996368015176d4c2f0fbdbcca2a78e0b929efdf0da51286"
+    },
+    {
+      "source": "/dataset/labels/val/agaier_011_view_02.txt",
+      "output": "/output/attempt2/smoke-dataset/labels/val/agaier_011_view_02.txt",
+      "sha256": "b5e16f2abf305ca02885177964df8000ac6d9bb5cda90ae819c70c62a064c050"
+    },
+    {
+      "source": "/dataset/images/val/agaier_011_view_03.png",
+      "output": "/output/attempt2/smoke-dataset/images/val/agaier_011_view_03.png",
+      "sha256": "28501edba43d2caa77520476760d244560a40f0ddf77f4d073a87723df7e7b07"
+    },
+    {
+      "source": "/dataset/labels/val/agaier_011_view_03.txt",
+      "output": "/output/attempt2/smoke-dataset/labels/val/agaier_011_view_03.txt",
+      "sha256": "826775f016173ab7e26baa25d91b6468c6bbe285dbc50f1561cb99e89fa498f7"
+    },
+    {
+      "source": "/dataset/images/val/agaier_011_view_04.png",
+      "output": "/output/attempt2/smoke-dataset/images/val/agaier_011_view_04.png",
+      "sha256": "7750133c04b4ee4696e6e049eba547cad90783de668e78fc4ba4c16ebbf901d6"
+    },
+    {
+      "source": "/dataset/labels/val/agaier_011_view_04.txt",
+      "output": "/output/attempt2/smoke-dataset/labels/val/agaier_011_view_04.txt",
+      "sha256": "b74a7cc1cbb261a1383a33c2964834b3d2d8891d0b725dee9403b8799e8be194"
+    }
+  ]
+}

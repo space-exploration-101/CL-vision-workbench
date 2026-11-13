@@ -1,0 +1,14 @@
+{
+  "status": "FROZEN_MODELS_VERIFIED",
+  "pt": {
+    "path": "/home/ubuntu22/CL01_02/models/best.pt",
+    "sha256": "622cff54db472b61c85db03648b36c119f030eacbd4cd87cf5d2dda67e69d6a7",
+    "bytes": 199108106
+  },
+  "onnx": {
+    "path": "/home/ubuntu22/CL01_02/models/pose21_gray1_weight_only.onnx",
+    "sha256": "031def2070a1c2183e62ce5713831bc69cd50dee3a22c10d0ffaff6580d91a02",
+    "bytes": 100121851
+  },
+  "bundle_crc_check": "PASS"
+}
